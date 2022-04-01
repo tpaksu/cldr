@@ -1,0 +1,1125 @@
+{
+    "af": [
+        "ZAR"
+    ],
+    "ak": [
+        "GHS"
+    ],
+    "am": [
+        "ETB"
+    ],
+    "ar-AE": [
+        "AED"
+    ],
+    "ar-BH": [
+        "BHD"
+    ],
+    "ar-DJ": [
+        "DJF"
+    ],
+    "ar-DZ": [
+        "DZD"
+    ],
+    "ar-EG": [
+        "EGP"
+    ],
+    "ar-EH": [
+        "MAD"
+    ],
+    "ar-ER": [
+        "ERN"
+    ],
+    "ar-IL": [
+        "ILS"
+    ],
+    "ar-IQ": [
+        "IQD"
+    ],
+    "ar-JO": [
+        "JOD"
+    ],
+    "ar-KM": [
+        "KMF"
+    ],
+    "ar-KW": [
+        "KWD"
+    ],
+    "ar-LB": [
+        "LBP"
+    ],
+    "ar-LY": [
+        "LYD"
+    ],
+    "ar-MA": [
+        "MAD"
+    ],
+    "ar-MR": [
+        "MRU"
+    ],
+    "ar-OM": [
+        "OMR"
+    ],
+    "ar-PS": [
+        "ILS",
+        "JOD"
+    ],
+    "ar-QA": [
+        "QAR"
+    ],
+    "ar-SA": [
+        "SAR"
+    ],
+    "ar-SD": [
+        "SDG"
+    ],
+    "ar-SO": [
+        "SOS"
+    ],
+    "ar-SY": [
+        "SYP"
+    ],
+    "ar-TD": [
+        "XAF"
+    ],
+    "ar-TN": [
+        "TND"
+    ],
+    "ar-YE": [
+        "YER"
+    ],
+    "as": [
+        "INR"
+    ],
+    "ast": [
+        "EUR"
+    ],
+    "az": [
+        "AZN"
+    ],
+    "be": [
+        "BYN"
+    ],
+    "bg": [
+        "BGN"
+    ],
+    "bn": [
+        "BDT"
+    ],
+    "bn-IN": [
+        "INR"
+    ],
+    "bo": [
+        "CNY",
+        "CNH"
+    ],
+    "bs": [
+        "BAM"
+    ],
+    "ca": [
+        "EUR"
+    ],
+    "ca-AD": [
+        "EUR"
+    ],
+    "ce": [
+        "RUB"
+    ],
+    "ceb": [
+        "PHP"
+    ],
+    "ckb": [
+        "IQD"
+    ],
+    "cs": [
+        "CZK"
+    ],
+    "cy": [
+        "GBP"
+    ],
+    "da": [
+        "DKK"
+    ],
+    "de": [
+        "EUR"
+    ],
+    "de-AT": [
+        "EUR"
+    ],
+    "de-BE": [
+        "EUR"
+    ],
+    "de-CH": [
+        "CHE",
+        "CHW",
+        "CHF"
+    ],
+    "de-LI": [
+        "CHF"
+    ],
+    "de-LU": [
+        "EUR"
+    ],
+    "dv": [
+        "MVR"
+    ],
+    "dyo": [
+        "XOF"
+    ],
+    "dz": [
+        "INR",
+        "BTN"
+    ],
+    "ee": [
+        "GHS"
+    ],
+    "el": [
+        "EUR"
+    ],
+    "el-CY": [
+        "EUR"
+    ],
+    "en": [
+        "USN",
+        "USD"
+    ],
+    "en-AG": [
+        "XCD"
+    ],
+    "en-AI": [
+        "XCD"
+    ],
+    "en-AS": [
+        "USD"
+    ],
+    "en-AU": [
+        "AUD"
+    ],
+    "en-BB": [
+        "BBD"
+    ],
+    "en-BI": [
+        "BIF"
+    ],
+    "en-BM": [
+        "BMD"
+    ],
+    "en-BS": [
+        "BSD"
+    ],
+    "en-BW": [
+        "BWP"
+    ],
+    "en-BZ": [
+        "BZD"
+    ],
+    "en-CA": [
+        "CAD"
+    ],
+    "en-CC": [
+        "AUD"
+    ],
+    "en-CK": [
+        "NZD"
+    ],
+    "en-CM": [
+        "XAF"
+    ],
+    "en-CX": [
+        "AUD"
+    ],
+    "en-DG": [
+        "USD"
+    ],
+    "en-DM": [
+        "XCD"
+    ],
+    "en-ER": [
+        "ERN"
+    ],
+    "en-FJ": [
+        "FJD"
+    ],
+    "en-FK": [
+        "FKP"
+    ],
+    "en-FM": [
+        "USD"
+    ],
+    "en-GB": [
+        "GBP"
+    ],
+    "en-GD": [
+        "XCD"
+    ],
+    "en-GG": [
+        "GBP"
+    ],
+    "en-GH": [
+        "GHS"
+    ],
+    "en-GI": [
+        "GIP"
+    ],
+    "en-GM": [
+        "GMD"
+    ],
+    "en-GU": [
+        "USD"
+    ],
+    "en-GY": [
+        "GYD"
+    ],
+    "en-HK": [
+        "HKD"
+    ],
+    "en-IE": [
+        "EUR"
+    ],
+    "en-IM": [
+        "GBP"
+    ],
+    "en-IN": [
+        "INR"
+    ],
+    "en-IO": [
+        "USD"
+    ],
+    "en-JE": [
+        "GBP"
+    ],
+    "en-JM": [
+        "JMD"
+    ],
+    "en-KE": [
+        "KES"
+    ],
+    "en-KI": [
+        "AUD"
+    ],
+    "en-KN": [
+        "XCD"
+    ],
+    "en-KY": [
+        "KYD"
+    ],
+    "en-LC": [
+        "XCD"
+    ],
+    "en-LR": [
+        "LRD"
+    ],
+    "en-LS": [
+        "ZAR",
+        "LSL"
+    ],
+    "en-MG": [
+        "MGA"
+    ],
+    "en-MH": [
+        "USD"
+    ],
+    "en-MP": [
+        "USD"
+    ],
+    "en-MS": [
+        "XCD"
+    ],
+    "en-MT": [
+        "EUR"
+    ],
+    "en-MU": [
+        "MUR"
+    ],
+    "en-MW": [
+        "MWK"
+    ],
+    "en-NA": [
+        "ZAR",
+        "NAD"
+    ],
+    "en-NF": [
+        "AUD"
+    ],
+    "en-NG": [
+        "NGN"
+    ],
+    "en-NR": [
+        "AUD"
+    ],
+    "en-NU": [
+        "NZD"
+    ],
+    "en-NZ": [
+        "NZD"
+    ],
+    "en-PG": [
+        "PGK"
+    ],
+    "en-PH": [
+        "PHP"
+    ],
+    "en-PK": [
+        "PKR"
+    ],
+    "en-PN": [
+        "NZD"
+    ],
+    "en-PR": [
+        "USD"
+    ],
+    "en-PW": [
+        "USD"
+    ],
+    "en-RW": [
+        "RWF"
+    ],
+    "en-SB": [
+        "SBD"
+    ],
+    "en-SC": [
+        "SCR"
+    ],
+    "en-SD": [
+        "SDG"
+    ],
+    "en-SG": [
+        "SGD"
+    ],
+    "en-SH": [
+        "SHP"
+    ],
+    "en-SL": [
+        "SLL"
+    ],
+    "en-SS": [
+        "SSP"
+    ],
+    "en-SX": [
+        "ANG"
+    ],
+    "en-SZ": [
+        "SZL"
+    ],
+    "en-TC": [
+        "USD"
+    ],
+    "en-TK": [
+        "NZD"
+    ],
+    "en-TO": [
+        "TOP"
+    ],
+    "en-TT": [
+        "TTD"
+    ],
+    "en-TV": [
+        "AUD"
+    ],
+    "en-TZ": [
+        "TZS"
+    ],
+    "en-UG": [
+        "UGX"
+    ],
+    "en-UM": [
+        "USD"
+    ],
+    "en-VC": [
+        "XCD"
+    ],
+    "en-VG": [
+        "USD"
+    ],
+    "en-VI": [
+        "USD"
+    ],
+    "en-VU": [
+        "VUV"
+    ],
+    "en-WS": [
+        "WST"
+    ],
+    "en-ZA": [
+        "ZAR"
+    ],
+    "en-ZM": [
+        "ZMW"
+    ],
+    "en-ZW": [
+        "USD"
+    ],
+    "es": [
+        "EUR"
+    ],
+    "es-AR": [
+        "ARS"
+    ],
+    "es-BO": [
+        "BOV",
+        "BOB"
+    ],
+    "es-CL": [
+        "CLF",
+        "CLP"
+    ],
+    "es-CO": [
+        "COU",
+        "COP"
+    ],
+    "es-CR": [
+        "CRC"
+    ],
+    "es-CU": [
+        "CUP",
+        "CUC"
+    ],
+    "es-DO": [
+        "DOP"
+    ],
+    "es-EA": [
+        "EUR"
+    ],
+    "es-EC": [
+        "USD"
+    ],
+    "es-GQ": [
+        "XAF"
+    ],
+    "es-GT": [
+        "GTQ"
+    ],
+    "es-HN": [
+        "HNL"
+    ],
+    "es-IC": [
+        "EUR"
+    ],
+    "es-MX": [
+        "MXV",
+        "MXN"
+    ],
+    "es-NI": [
+        "NIO"
+    ],
+    "es-PA": [
+        "PAB",
+        "USD"
+    ],
+    "es-PE": [
+        "PEN"
+    ],
+    "es-PR": [
+        "USD"
+    ],
+    "es-PY": [
+        "PYG"
+    ],
+    "es-SV": [
+        "USD"
+    ],
+    "es-US": [
+        "USN",
+        "USD"
+    ],
+    "es-UY": [
+        "UYI",
+        "UYW",
+        "UYU"
+    ],
+    "es-VE": [
+        "VES",
+        "VEF"
+    ],
+    "et": [
+        "EUR"
+    ],
+    "eu": [
+        "EUR"
+    ],
+    "fa": [
+        "IRR"
+    ],
+    "fa-AF": [
+        "AFN"
+    ],
+    "fi": [
+        "EUR"
+    ],
+    "fil": [
+        "PHP"
+    ],
+    "fo": [
+        "DKK"
+    ],
+    "fr": [
+        "EUR"
+    ],
+    "fr-BE": [
+        "EUR"
+    ],
+    "fr-BF": [
+        "XOF"
+    ],
+    "fr-BI": [
+        "BIF"
+    ],
+    "fr-BJ": [
+        "XOF"
+    ],
+    "fr-BL": [
+        "EUR"
+    ],
+    "fr-CA": [
+        "CAD"
+    ],
+    "fr-CD": [
+        "CDF"
+    ],
+    "fr-CF": [
+        "XAF"
+    ],
+    "fr-CG": [
+        "XAF"
+    ],
+    "fr-CH": [
+        "CHE",
+        "CHW",
+        "CHF"
+    ],
+    "fr-CI": [
+        "XOF"
+    ],
+    "fr-CM": [
+        "XAF"
+    ],
+    "fr-DJ": [
+        "DJF"
+    ],
+    "fr-DZ": [
+        "DZD"
+    ],
+    "fr-GA": [
+        "XAF"
+    ],
+    "fr-GF": [
+        "EUR"
+    ],
+    "fr-GN": [
+        "GNF"
+    ],
+    "fr-GP": [
+        "EUR"
+    ],
+    "fr-GQ": [
+        "XAF"
+    ],
+    "fr-HT": [
+        "HTG",
+        "USD"
+    ],
+    "fr-KM": [
+        "KMF"
+    ],
+    "fr-LU": [
+        "EUR"
+    ],
+    "fr-MA": [
+        "MAD"
+    ],
+    "fr-MC": [
+        "EUR"
+    ],
+    "fr-MF": [
+        "EUR"
+    ],
+    "fr-MG": [
+        "MGA"
+    ],
+    "fr-ML": [
+        "XOF"
+    ],
+    "fr-MQ": [
+        "EUR"
+    ],
+    "fr-MU": [
+        "MUR"
+    ],
+    "fr-NC": [
+        "XPF"
+    ],
+    "fr-NE": [
+        "XOF"
+    ],
+    "fr-PF": [
+        "XPF"
+    ],
+    "fr-PM": [
+        "EUR"
+    ],
+    "fr-RE": [
+        "EUR"
+    ],
+    "fr-RW": [
+        "RWF"
+    ],
+    "fr-SC": [
+        "SCR"
+    ],
+    "fr-SN": [
+        "XOF"
+    ],
+    "fr-SY": [
+        "SYP"
+    ],
+    "fr-TD": [
+        "XAF"
+    ],
+    "fr-TG": [
+        "XOF"
+    ],
+    "fr-TN": [
+        "TND"
+    ],
+    "fr-VU": [
+        "VUV"
+    ],
+    "fr-WF": [
+        "XPF"
+    ],
+    "fr-YT": [
+        "EUR"
+    ],
+    "fy": [
+        "EUR"
+    ],
+    "ga": [
+        "EUR"
+    ],
+    "ga-GB": [
+        "GBP"
+    ],
+    "gd": [
+        "GBP"
+    ],
+    "gl": [
+        "EUR"
+    ],
+    "gsw": [
+        "CHE",
+        "CHW",
+        "CHF"
+    ],
+    "gsw-LI": [
+        "CHF"
+    ],
+    "gu": [
+        "INR"
+    ],
+    "gv": [
+        "GBP"
+    ],
+    "haw": [
+        "USN",
+        "USD"
+    ],
+    "he": [
+        "ILS"
+    ],
+    "hi": [
+        "INR"
+    ],
+    "hr": [
+        "HRK"
+    ],
+    "hr-BA": [
+        "BAM"
+    ],
+    "hu": [
+        "HUF"
+    ],
+    "hy": [
+        "AMD"
+    ],
+    "id": [
+        "IDR"
+    ],
+    "is": [
+        "ISK"
+    ],
+    "it": [
+        "EUR"
+    ],
+    "it-CH": [
+        "CHE",
+        "CHW",
+        "CHF"
+    ],
+    "it-SM": [
+        "EUR"
+    ],
+    "it-VA": [
+        "EUR"
+    ],
+    "ja": [
+        "JPY"
+    ],
+    "ka": [
+        "GEL"
+    ],
+    "kk": [
+        "KZT"
+    ],
+    "kl": [
+        "DKK"
+    ],
+    "km": [
+        "KHR"
+    ],
+    "kn": [
+        "INR"
+    ],
+    "ko": [
+        "KRW"
+    ],
+    "ko-KP": [
+        "KPW"
+    ],
+    "kok": [
+        "INR"
+    ],
+    "ky": [
+        "KGS"
+    ],
+    "lb": [
+        "EUR"
+    ],
+    "ln": [
+        "CDF"
+    ],
+    "lo": [
+        "LAK"
+    ],
+    "lt": [
+        "EUR"
+    ],
+    "lv": [
+        "EUR"
+    ],
+    "mai": [
+        "INR"
+    ],
+    "mg": [
+        "MGA"
+    ],
+    "mi": [
+        "NZD"
+    ],
+    "mk": [
+        "MKD"
+    ],
+    "ml": [
+        "INR"
+    ],
+    "mn": [
+        "MNT"
+    ],
+    "mr": [
+        "INR"
+    ],
+    "ms": [
+        "MYR"
+    ],
+    "ms-BN": [
+        "BND"
+    ],
+    "ms-SG": [
+        "SGD"
+    ],
+    "mt": [
+        "EUR"
+    ],
+    "my": [
+        "MMK"
+    ],
+    "nb": [
+        "NOK"
+    ],
+    "nb-SJ": [
+        "NOK"
+    ],
+    "nd": [
+        "USD"
+    ],
+    "ne": [
+        "NPR"
+    ],
+    "ne-IN": [
+        "INR"
+    ],
+    "nl": [
+        "EUR"
+    ],
+    "nl-AW": [
+        "AWG"
+    ],
+    "nl-BE": [
+        "EUR"
+    ],
+    "nl-BQ": [
+        "USD"
+    ],
+    "nl-CW": [
+        "ANG"
+    ],
+    "nl-SR": [
+        "SRD"
+    ],
+    "nl-SX": [
+        "ANG"
+    ],
+    "nn": [
+        "NOK"
+    ],
+    "or": [
+        "INR"
+    ],
+    "os": [
+        "GEL"
+    ],
+    "pl": [
+        "PLN"
+    ],
+    "ps": [
+        "AFN"
+    ],
+    "pt": [
+        "BRL"
+    ],
+    "pt-AO": [
+        "AOA"
+    ],
+    "pt-CV": [
+        "CVE"
+    ],
+    "pt-GQ": [
+        "XAF"
+    ],
+    "pt-GW": [
+        "XOF"
+    ],
+    "pt-MO": [
+        "MOP"
+    ],
+    "pt-MZ": [
+        "MZN"
+    ],
+    "pt-PT": [
+        "EUR"
+    ],
+    "pt-ST": [
+        "STN"
+    ],
+    "pt-TL": [
+        "USD"
+    ],
+    "qu": [
+        "PEN"
+    ],
+    "qu-BO": [
+        "BOV",
+        "BOB"
+    ],
+    "qu-EC": [
+        "USD"
+    ],
+    "rm": [
+        "CHE",
+        "CHW",
+        "CHF"
+    ],
+    "rn": [
+        "BIF"
+    ],
+    "ro": [
+        "RON"
+    ],
+    "ro-MD": [
+        "MDL"
+    ],
+    "ru": [
+        "RUB"
+    ],
+    "ru-BY": [
+        "BYN"
+    ],
+    "ru-KG": [
+        "KGS"
+    ],
+    "ru-KZ": [
+        "KZT"
+    ],
+    "ru-UA": [
+        "UAH"
+    ],
+    "rw": [
+        "RWF"
+    ],
+    "sa": [
+        "INR"
+    ],
+    "sah": [
+        "RUB"
+    ],
+    "sd": [
+        "INR"
+    ],
+    "se": [
+        "NOK"
+    ],
+    "sg": [
+        "XAF"
+    ],
+    "si": [
+        "LKR"
+    ],
+    "sk": [
+        "EUR"
+    ],
+    "sl": [
+        "EUR"
+    ],
+    "sn": [
+        "USD"
+    ],
+    "so": [
+        "SOS"
+    ],
+    "sq": [
+        "ALL"
+    ],
+    "sq-MK": [
+        "MKD"
+    ],
+    "sq-XK": [
+        "EUR"
+    ],
+    "sr": [
+        "RSD"
+    ],
+    "sr-Latn-BA": [
+        "BAM"
+    ],
+    "sr-Latn-ME": [
+        "EUR"
+    ],
+    "sr-Latn-XK": [
+        "EUR"
+    ],
+    "sv": [
+        "SEK"
+    ],
+    "sv-AX": [
+        "EUR"
+    ],
+    "sv-FI": [
+        "EUR"
+    ],
+    "sw": [
+        "TZS"
+    ],
+    "sw-CD": [
+        "CDF"
+    ],
+    "sw-KE": [
+        "KES"
+    ],
+    "sw-UG": [
+        "UGX"
+    ],
+    "ta": [
+        "INR"
+    ],
+    "ta-LK": [
+        "LKR"
+    ],
+    "ta-SG": [
+        "SGD"
+    ],
+    "te": [
+        "INR"
+    ],
+    "tg": [
+        "TJS"
+    ],
+    "th": [
+        "THB"
+    ],
+    "ti-ER": [
+        "ERN"
+    ],
+    "tk": [
+        "TMT"
+    ],
+    "to": [
+        "TOP"
+    ],
+    "tr": [
+        "TRY"
+    ],
+    "tr-CY": [
+        "EUR"
+    ],
+    "tt": [
+        "RUB"
+    ],
+    "tzm": [
+        "MAD"
+    ],
+    "ug": [
+        "CNY",
+        "CNH"
+    ],
+    "uk": [
+        "UAH"
+    ],
+    "ur": [
+        "PKR"
+    ],
+    "ur-IN": [
+        "INR"
+    ],
+    "uz": [
+        "AFN",
+        "UZS"
+    ],
+    "vi": [
+        "VND"
+    ],
+    "wo": [
+        "XOF"
+    ],
+    "xh": [
+        "ZAR"
+    ],
+    "yo": [
+        "NGN"
+    ],
+    "zh": [
+        "CNY"
+    ],
+    "zh-CN": [
+        "CNY"
+    ],
+    "zh-Hant": [
+        "TWD"
+    ],
+    "zh-Hant-HK": [
+        "HKD"
+    ],
+    "zh-Hant-MO": [
+        "MOP"
+    ],
+    "zu": [
+        "ZAR"
+    ]
+}
