@@ -88,7 +88,7 @@ foreach ( $country_currency_data as $country => $currencies ) {
 						$locale_info[ $country ]['default_locale'] = $localed;
 						$locale_info[ $country ]['thousand_sep']   = fix_formats( $format_data['group'] );
 						$locale_info[ $country ]['decimal_sep']    = fix_formats( $format_data['decimal'] );
-						$locale_info[ $country ]['num_decimals']   = $format_container['rounding']['_cashDigits'] ?? $format_container['rounding']['_digits'];
+						$locale_info[ $country ]['num_decimals']   = get_decimals( $formats );
 					}
 
 					foreach ( $locale_info[ $country ]['codes'] as $key => &$value ) {
@@ -185,7 +185,7 @@ foreach ( $locales as $currency => &$localed ) {
 		$k                              = str_replace( '-', '_', $key );
 		$new_locales[ $currency ][ $k ] = $value;
 	}
-	$new_locales[ $currency ]['default']      = select_default_locale_for_currency( $localed );
+	$new_locales[ $currency ]['default'] = select_default_locale_for_currency( $localed );
 }
 
 foreach ( $new_locales as $currency => &$localed ) {

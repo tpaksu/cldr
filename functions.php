@@ -393,6 +393,17 @@ function fix_formats( $formats ) {
 	return $formats;
 }
 
+
+function get_decimals($currency_format){
+	if(strpos($currency_format, '0.0'))	{
+		$match = preg_match('/0\.([0]*)/', $currency_format, $matches);
+		if($match > 0){
+			return strlen($matches[1]);
+		}
+	}
+	return 0;
+}
+
 /**
  * Completes locales without country suffixes from defaultContent data
  *
