@@ -13,7 +13,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "AE": {
         "currency_code": "AED",
@@ -29,14 +29,14 @@
         "singular": "UAE dirham",
         "plural": "UAE dirhams",
         "short_symbol": null,
-        "locales": "%%$locales[\"AED\"]%%"
+        "locales": "%%$locales[`AED`]%%"
     },
     "AF": {
         "currency_code": "AFN",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -45,7 +45,7 @@
         "singular": "Afghan Afghani",
         "plural": "Afghan Afghanis",
         "short_symbol": "؋",
-        "locales": "%%$locales[\"AFN\"]%%"
+        "locales": "%%$locales[`AFN`]%%"
     },
     "AG": {
         "currency_code": "XCD",
@@ -61,7 +61,7 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "AI": {
         "currency_code": "XCD",
@@ -77,14 +77,14 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "AL": {
         "currency_code": "ALL",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -93,14 +93,14 @@
         "singular": "Albanian lek",
         "plural": "Albanian lekë",
         "short_symbol": null,
-        "locales": "%%$locales[\"ALL\"]%%"
+        "locales": "%%$locales[`ALL`]%%"
     },
     "AM": {
         "currency_code": "AMD",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -109,7 +109,7 @@
         "singular": "Armenian dram",
         "plural": "Armenian drams",
         "short_symbol": "֏",
-        "locales": "%%$locales[\"AMD\"]%%"
+        "locales": "%%$locales[`AMD`]%%"
     },
     "AO": {
         "currency_code": "AOA",
@@ -125,7 +125,7 @@
         "singular": "Angolan kwanza",
         "plural": "Angolan kwanzas",
         "short_symbol": "Kz",
-        "locales": "%%$locales[\"AOA\"]%%"
+        "locales": "%%$locales[`AOA`]%%"
     },
     "AR": {
         "currency_code": "ARS",
@@ -141,7 +141,7 @@
         "singular": "Argentine peso",
         "plural": "Argentine pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"ARS\"]%%"
+        "locales": "%%$locales[`ARS`]%%"
     },
     "AS": {
         "currency_code": "USD",
@@ -157,7 +157,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "AT": {
         "currency_code": "EUR",
@@ -173,7 +173,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "AU": {
         "currency_code": "AUD",
@@ -189,7 +189,7 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "AW": {
         "currency_code": "AWG",
@@ -205,7 +205,7 @@
         "singular": "Aruban florin",
         "plural": "Aruban florin",
         "short_symbol": null,
-        "locales": "%%$locales[\"AWG\"]%%"
+        "locales": "%%$locales[`AWG`]%%"
     },
     "AX": {
         "currency_code": "EUR",
@@ -221,7 +221,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "AZ": {
         "currency_code": "AZN",
@@ -237,7 +237,7 @@
         "singular": "Azerbaijani manat",
         "plural": "Azerbaijani manats",
         "short_symbol": "₼",
-        "locales": "%%$locales[\"AZN\"]%%"
+        "locales": "%%$locales[`AZN`]%%"
     },
     "BA": {
         "currency_code": "BAM",
@@ -253,7 +253,7 @@
         "singular": "Bosnia-Herzegovina convertible mark",
         "plural": "Bosnia-Herzegovina convertible marks",
         "short_symbol": "KM",
-        "locales": "%%$locales[\"BAM\"]%%"
+        "locales": "%%$locales[`BAM`]%%"
     },
     "BB": {
         "currency_code": "BBD",
@@ -269,7 +269,7 @@
         "singular": "Barbadian dollar",
         "plural": "Barbadian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"BBD\"]%%"
+        "locales": "%%$locales[`BBD`]%%"
     },
     "BD": {
         "currency_code": "BDT",
@@ -285,7 +285,7 @@
         "singular": "Bangladeshi taka",
         "plural": "Bangladeshi takas",
         "short_symbol": "৳",
-        "locales": "%%$locales[\"BDT\"]%%"
+        "locales": "%%$locales[`BDT`]%%"
     },
     "BE": {
         "currency_code": "EUR",
@@ -301,14 +301,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "BF": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -317,14 +317,14 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "BG": {
         "currency_code": "BGN",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 0,
+        "num_decimals": 2,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -333,14 +333,14 @@
         "singular": "Bulgarian lev",
         "plural": "Bulgarian leva",
         "short_symbol": null,
-        "locales": "%%$locales[\"BGN\"]%%"
+        "locales": "%%$locales[`BGN`]%%"
     },
     "BH": {
         "currency_code": "BHD",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -349,14 +349,14 @@
         "singular": "Bahraini dinar",
         "plural": "Bahraini dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"BHD\"]%%"
+        "locales": "%%$locales[`BHD`]%%"
     },
     "BI": {
         "currency_code": "BIF",
         "currency_pos": "right",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -365,14 +365,14 @@
         "singular": "Burundian franc",
         "plural": "Burundian francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"BIF\"]%%"
+        "locales": "%%$locales[`BIF`]%%"
     },
     "BJ": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -381,7 +381,7 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "BL": {
         "currency_code": "EUR",
@@ -397,7 +397,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "BM": {
         "currency_code": "BMD",
@@ -413,7 +413,7 @@
         "singular": "Bermudan dollar",
         "plural": "Bermudan dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"BMD\"]%%"
+        "locales": "%%$locales[`BMD`]%%"
     },
     "BN": {
         "currency_code": "BND",
@@ -429,7 +429,7 @@
         "singular": "Brunei dollar",
         "plural": "Brunei dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"BND\"]%%"
+        "locales": "%%$locales[`BND`]%%"
     },
     "BO": {
         "currency_code": "BOB",
@@ -445,7 +445,7 @@
         "singular": "Bolivian boliviano",
         "plural": "Bolivian bolivianos",
         "short_symbol": "Bs",
-        "locales": "%%$locales[\"BOB\"]%%"
+        "locales": "%%$locales[`BOB`]%%"
     },
     "BQ": {
         "currency_code": "USD",
@@ -461,7 +461,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "BR": {
         "currency_code": "BRL",
@@ -477,7 +477,7 @@
         "singular": "Brazilian real",
         "plural": "Brazilian reals",
         "short_symbol": "R$",
-        "locales": "%%$locales[\"BRL\"]%%"
+        "locales": "%%$locales[`BRL`]%%"
     },
     "BS": {
         "currency_code": "BSD",
@@ -493,7 +493,7 @@
         "singular": "Bahamian dollar",
         "plural": "Bahamian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"BSD\"]%%"
+        "locales": "%%$locales[`BSD`]%%"
     },
     "BT": {
         "currency_code": "BTN",
@@ -509,7 +509,7 @@
         "singular": "Bhutanese ngultrum",
         "plural": "Bhutanese ngultrums",
         "short_symbol": null,
-        "locales": "%%$locales[\"BTN\"]%%"
+        "locales": "%%$locales[`BTN`]%%"
     },
     "BW": {
         "currency_code": "BWP",
@@ -525,7 +525,7 @@
         "singular": "Botswanan pula",
         "plural": "Botswanan pulas",
         "short_symbol": "P",
-        "locales": "%%$locales[\"BWP\"]%%"
+        "locales": "%%$locales[`BWP`]%%"
     },
     "BY": {
         "currency_code": "BYN",
@@ -541,7 +541,7 @@
         "singular": "Belarusian ruble",
         "plural": "Belarusian rubles",
         "short_symbol": "р.",
-        "locales": "%%$locales[\"BYN\"]%%"
+        "locales": "%%$locales[`BYN`]%%"
     },
     "BZ": {
         "currency_code": "BZD",
@@ -557,7 +557,7 @@
         "singular": "Belize dollar",
         "plural": "Belize dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"BZD\"]%%"
+        "locales": "%%$locales[`BZD`]%%"
     },
     "CA": {
         "currency_code": "CAD",
@@ -573,7 +573,7 @@
         "singular": "Canadian dollar",
         "plural": "Canadian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"CAD\"]%%"
+        "locales": "%%$locales[`CAD`]%%"
     },
     "CC": {
         "currency_code": "AUD",
@@ -589,7 +589,7 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "CD": {
         "currency_code": "CDF",
@@ -605,14 +605,14 @@
         "singular": "Congolese franc",
         "plural": "Congolese francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"CDF\"]%%"
+        "locales": "%%$locales[`CDF`]%%"
     },
     "CF": {
         "currency_code": "XAF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -621,14 +621,14 @@
         "singular": "Central African CFA franc",
         "plural": "Central African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XAF\"]%%"
+        "locales": "%%$locales[`XAF`]%%"
     },
     "CG": {
         "currency_code": "XAF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -637,7 +637,7 @@
         "singular": "Central African CFA franc",
         "plural": "Central African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XAF\"]%%"
+        "locales": "%%$locales[`XAF`]%%"
     },
     "CH": {
         "currency_code": "CHF",
@@ -653,14 +653,14 @@
         "singular": "Swiss franc",
         "plural": "Swiss francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"CHF\"]%%"
+        "locales": "%%$locales[`CHF`]%%"
     },
     "CI": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -669,7 +669,7 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "CK": {
         "currency_code": "NZD",
@@ -685,14 +685,14 @@
         "singular": "New Zealand dollar",
         "plural": "New Zealand dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"NZD\"]%%"
+        "locales": "%%$locales[`NZD`]%%"
     },
     "CL": {
         "currency_code": "CLP",
         "currency_pos": "left",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -701,14 +701,14 @@
         "singular": "Chilean peso",
         "plural": "Chilean pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"CLP\"]%%"
+        "locales": "%%$locales[`CLP`]%%"
     },
     "CM": {
         "currency_code": "XAF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -717,7 +717,7 @@
         "singular": "Central African CFA franc",
         "plural": "Central African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XAF\"]%%"
+        "locales": "%%$locales[`XAF`]%%"
     },
     "CN": {
         "currency_code": "CNY",
@@ -733,14 +733,14 @@
         "singular": "Chinese yuan",
         "plural": "Chinese yuan",
         "short_symbol": "¥",
-        "locales": "%%$locales[\"CNY\"]%%"
+        "locales": "%%$locales[`CNY`]%%"
     },
     "CO": {
         "currency_code": "COP",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -749,14 +749,14 @@
         "singular": "Colombian peso",
         "plural": "Colombian pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"COP\"]%%"
+        "locales": "%%$locales[`COP`]%%"
     },
     "CR": {
         "currency_code": "CRC",
         "currency_pos": "left",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -765,7 +765,7 @@
         "singular": "Costa Rican colón",
         "plural": "Costa Rican colóns",
         "short_symbol": "₡",
-        "locales": "%%$locales[\"CRC\"]%%"
+        "locales": "%%$locales[`CRC`]%%"
     },
     "CU": {
         "currency_code": "CUC",
@@ -781,7 +781,7 @@
         "singular": "Cuban convertible peso",
         "plural": "Cuban convertible pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"CUC\"]%%"
+        "locales": "%%$locales[`CUC`]%%"
     },
     "CV": {
         "currency_code": "CVE",
@@ -797,7 +797,7 @@
         "singular": "Cape Verdean escudo",
         "plural": "Cape Verdean escudos",
         "short_symbol": null,
-        "locales": "%%$locales[\"CVE\"]%%"
+        "locales": "%%$locales[`CVE`]%%"
     },
     "CW": {
         "currency_code": "ANG",
@@ -813,7 +813,7 @@
         "singular": "Netherlands Antillean guilder",
         "plural": "Netherlands Antillean guilders",
         "short_symbol": null,
-        "locales": "%%$locales[\"ANG\"]%%"
+        "locales": "%%$locales[`ANG`]%%"
     },
     "CX": {
         "currency_code": "AUD",
@@ -829,7 +829,7 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "CY": {
         "currency_code": "EUR",
@@ -845,14 +845,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "CZ": {
         "currency_code": "CZK",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -861,7 +861,7 @@
         "singular": "Czech koruna",
         "plural": "Czech korunas",
         "short_symbol": "Kč",
-        "locales": "%%$locales[\"CZK\"]%%"
+        "locales": "%%$locales[`CZK`]%%"
     },
     "DE": {
         "currency_code": "EUR",
@@ -877,7 +877,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "DG": {
         "currency_code": "USD",
@@ -893,14 +893,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "DJ": {
         "currency_code": "DJF",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -909,7 +909,7 @@
         "singular": "Djiboutian franc",
         "plural": "Djiboutian francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"DJF\"]%%"
+        "locales": "%%$locales[`DJF`]%%"
     },
     "DK": {
         "currency_code": "DKK",
@@ -925,7 +925,7 @@
         "singular": "Danish krone",
         "plural": "Danish kroner",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"DKK\"]%%"
+        "locales": "%%$locales[`DKK`]%%"
     },
     "DM": {
         "currency_code": "XCD",
@@ -941,7 +941,7 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "DO": {
         "currency_code": "DOP",
@@ -957,7 +957,7 @@
         "singular": "Dominican peso",
         "plural": "Dominican pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"DOP\"]%%"
+        "locales": "%%$locales[`DOP`]%%"
     },
     "DZ": {
         "currency_code": "DZD",
@@ -973,7 +973,7 @@
         "singular": "Algerian dinar",
         "plural": "Algerian dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"DZD\"]%%"
+        "locales": "%%$locales[`DZD`]%%"
     },
     "EA": {
         "currency_code": "EUR",
@@ -989,7 +989,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "EC": {
         "currency_code": "USD",
@@ -1005,7 +1005,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "EE": {
         "currency_code": "EUR",
@@ -1021,7 +1021,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "EG": {
         "currency_code": "EGP",
@@ -1037,7 +1037,7 @@
         "singular": "Egyptian pound",
         "plural": "Egyptian pounds",
         "short_symbol": "E£",
-        "locales": "%%$locales[\"EGP\"]%%"
+        "locales": "%%$locales[`EGP`]%%"
     },
     "EH": {
         "currency_code": "MAD",
@@ -1053,7 +1053,7 @@
         "singular": "Moroccan dirham",
         "plural": "Moroccan dirhams",
         "short_symbol": null,
-        "locales": "%%$locales[\"MAD\"]%%"
+        "locales": "%%$locales[`MAD`]%%"
     },
     "ER": {
         "currency_code": "ERN",
@@ -1069,7 +1069,7 @@
         "singular": "Eritrean nakfa",
         "plural": "Eritrean nakfas",
         "short_symbol": null,
-        "locales": "%%$locales[\"ERN\"]%%"
+        "locales": "%%$locales[`ERN`]%%"
     },
     "ES": {
         "currency_code": "EUR",
@@ -1085,7 +1085,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "ET": {
         "currency_code": "ETB",
@@ -1101,7 +1101,7 @@
         "singular": "Ethiopian birr",
         "plural": "Ethiopian birrs",
         "short_symbol": null,
-        "locales": "%%$locales[\"ETB\"]%%"
+        "locales": "%%$locales[`ETB`]%%"
     },
     "FI": {
         "currency_code": "EUR",
@@ -1117,7 +1117,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "FJ": {
         "currency_code": "FJD",
@@ -1133,7 +1133,7 @@
         "singular": "Fijian dollar",
         "plural": "Fijian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"FJD\"]%%"
+        "locales": "%%$locales[`FJD`]%%"
     },
     "FK": {
         "currency_code": "FKP",
@@ -1149,7 +1149,7 @@
         "singular": "Falkland Islands pound",
         "plural": "Falkland Islands pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"FKP\"]%%"
+        "locales": "%%$locales[`FKP`]%%"
     },
     "FM": {
         "currency_code": "USD",
@@ -1165,7 +1165,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "FO": {
         "currency_code": "DKK",
@@ -1181,7 +1181,7 @@
         "singular": "Danish krone",
         "plural": "Danish kroner",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"DKK\"]%%"
+        "locales": "%%$locales[`DKK`]%%"
     },
     "FR": {
         "currency_code": "EUR",
@@ -1197,14 +1197,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "GA": {
         "currency_code": "XAF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1213,7 +1213,7 @@
         "singular": "Central African CFA franc",
         "plural": "Central African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XAF\"]%%"
+        "locales": "%%$locales[`XAF`]%%"
     },
     "GB": {
         "currency_code": "GBP",
@@ -1229,7 +1229,7 @@
         "singular": "British pound",
         "plural": "British pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"GBP\"]%%"
+        "locales": "%%$locales[`GBP`]%%"
     },
     "GD": {
         "currency_code": "XCD",
@@ -1245,7 +1245,7 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "GE": {
         "currency_code": "GEL",
@@ -1261,7 +1261,7 @@
         "singular": "Georgian lari",
         "plural": "Georgian laris",
         "short_symbol": "₾",
-        "locales": "%%$locales[\"GEL\"]%%"
+        "locales": "%%$locales[`GEL`]%%"
     },
     "GF": {
         "currency_code": "EUR",
@@ -1277,7 +1277,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "GG": {
         "currency_code": "GBP",
@@ -1293,7 +1293,7 @@
         "singular": "British pound",
         "plural": "British pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"GBP\"]%%"
+        "locales": "%%$locales[`GBP`]%%"
     },
     "GH": {
         "currency_code": "GHS",
@@ -1309,7 +1309,7 @@
         "singular": "Ghanaian cedi",
         "plural": "Ghanaian cedis",
         "short_symbol": "GH₵",
-        "locales": "%%$locales[\"GHS\"]%%"
+        "locales": "%%$locales[`GHS`]%%"
     },
     "GI": {
         "currency_code": "GIP",
@@ -1325,7 +1325,7 @@
         "singular": "Gibraltar pound",
         "plural": "Gibraltar pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"GIP\"]%%"
+        "locales": "%%$locales[`GIP`]%%"
     },
     "GL": {
         "currency_code": "DKK",
@@ -1341,7 +1341,7 @@
         "singular": "Danish krone",
         "plural": "Danish kroner",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"DKK\"]%%"
+        "locales": "%%$locales[`DKK`]%%"
     },
     "GM": {
         "currency_code": "GMD",
@@ -1357,14 +1357,14 @@
         "singular": "Gambian dalasi",
         "plural": "Gambian dalasis",
         "short_symbol": null,
-        "locales": "%%$locales[\"GMD\"]%%"
+        "locales": "%%$locales[`GMD`]%%"
     },
     "GN": {
         "currency_code": "GNF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1373,7 +1373,7 @@
         "singular": "Guinean franc",
         "plural": "Guinean francs",
         "short_symbol": "FG",
-        "locales": "%%$locales[\"GNF\"]%%"
+        "locales": "%%$locales[`GNF`]%%"
     },
     "GP": {
         "currency_code": "EUR",
@@ -1389,14 +1389,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "GQ": {
         "currency_code": "XAF",
         "currency_pos": "left",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1405,7 +1405,7 @@
         "singular": "Central African CFA franc",
         "plural": "Central African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XAF\"]%%"
+        "locales": "%%$locales[`XAF`]%%"
     },
     "GR": {
         "currency_code": "EUR",
@@ -1421,7 +1421,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "GT": {
         "currency_code": "GTQ",
@@ -1437,7 +1437,7 @@
         "singular": "Guatemalan quetzal",
         "plural": "Guatemalan quetzals",
         "short_symbol": "Q",
-        "locales": "%%$locales[\"GTQ\"]%%"
+        "locales": "%%$locales[`GTQ`]%%"
     },
     "GU": {
         "currency_code": "USD",
@@ -1453,14 +1453,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "GW": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1469,14 +1469,14 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "GY": {
         "currency_code": "GYD",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1485,7 +1485,7 @@
         "singular": "Guyanaese dollar",
         "plural": "Guyanaese dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"GYD\"]%%"
+        "locales": "%%$locales[`GYD`]%%"
     },
     "HK": {
         "currency_code": "HKD",
@@ -1501,7 +1501,7 @@
         "singular": "Hong Kong dollar",
         "plural": "Hong Kong dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"HKD\"]%%"
+        "locales": "%%$locales[`HKD`]%%"
     },
     "HN": {
         "currency_code": "HNL",
@@ -1517,7 +1517,7 @@
         "singular": "Honduran lempira",
         "plural": "Honduran lempiras",
         "short_symbol": "L",
-        "locales": "%%$locales[\"HNL\"]%%"
+        "locales": "%%$locales[`HNL`]%%"
     },
     "HR": {
         "currency_code": "HRK",
@@ -1533,7 +1533,7 @@
         "singular": "Croatian kuna",
         "plural": "Croatian kunas",
         "short_symbol": "kn",
-        "locales": "%%$locales[\"HRK\"]%%"
+        "locales": "%%$locales[`HRK`]%%"
     },
     "HT": {
         "currency_code": "USD",
@@ -1549,14 +1549,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "HU": {
         "currency_code": "HUF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1565,7 +1565,7 @@
         "singular": "Hungarian forint",
         "plural": "Hungarian forints",
         "short_symbol": "Ft",
-        "locales": "%%$locales[\"HUF\"]%%"
+        "locales": "%%$locales[`HUF`]%%"
     },
     "IC": {
         "currency_code": "EUR",
@@ -1581,14 +1581,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "ID": {
         "currency_code": "IDR",
         "currency_pos": "left",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1597,7 +1597,7 @@
         "singular": "Indonesian rupiah",
         "plural": "Indonesian rupiahs",
         "short_symbol": "Rp",
-        "locales": "%%$locales[\"IDR\"]%%"
+        "locales": "%%$locales[`IDR`]%%"
     },
     "IE": {
         "currency_code": "EUR",
@@ -1613,7 +1613,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "IL": {
         "currency_code": "ILS",
@@ -1629,7 +1629,7 @@
         "singular": "Israeli new shekel",
         "plural": "Israeli new shekels",
         "short_symbol": "₪",
-        "locales": "%%$locales[\"ILS\"]%%"
+        "locales": "%%$locales[`ILS`]%%"
     },
     "IM": {
         "currency_code": "GBP",
@@ -1645,7 +1645,7 @@
         "singular": "British pound",
         "plural": "British pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"GBP\"]%%"
+        "locales": "%%$locales[`GBP`]%%"
     },
     "IN": {
         "currency_code": "INR",
@@ -1661,7 +1661,7 @@
         "singular": "Indian rupee",
         "plural": "Indian rupees",
         "short_symbol": "₹",
-        "locales": "%%$locales[\"INR\"]%%"
+        "locales": "%%$locales[`INR`]%%"
     },
     "IO": {
         "currency_code": "USD",
@@ -1677,14 +1677,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "IQ": {
         "currency_code": "IQD",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -1693,14 +1693,14 @@
         "singular": "Iraqi dinar",
         "plural": "Iraqi dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"IQD\"]%%"
+        "locales": "%%$locales[`IQD`]%%"
     },
     "IR": {
         "currency_code": "IRR",
         "currency_pos": "left",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -1709,14 +1709,14 @@
         "singular": "Iranian rial",
         "plural": "Iranian rials",
         "short_symbol": null,
-        "locales": "%%$locales[\"IRR\"]%%"
+        "locales": "%%$locales[`IRR`]%%"
     },
     "IS": {
         "currency_code": "ISK",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1725,7 +1725,7 @@
         "singular": "Icelandic króna",
         "plural": "Icelandic krónur",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"ISK\"]%%"
+        "locales": "%%$locales[`ISK`]%%"
     },
     "IT": {
         "currency_code": "EUR",
@@ -1741,7 +1741,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "JE": {
         "currency_code": "GBP",
@@ -1757,7 +1757,7 @@
         "singular": "British pound",
         "plural": "British pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"GBP\"]%%"
+        "locales": "%%$locales[`GBP`]%%"
     },
     "JM": {
         "currency_code": "JMD",
@@ -1773,14 +1773,14 @@
         "singular": "Jamaican dollar",
         "plural": "Jamaican dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"JMD\"]%%"
+        "locales": "%%$locales[`JMD`]%%"
     },
     "JO": {
         "currency_code": "JOD",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -1789,14 +1789,14 @@
         "singular": "Jordanian dinar",
         "plural": "Jordanian dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"JOD\"]%%"
+        "locales": "%%$locales[`JOD`]%%"
     },
     "JP": {
         "currency_code": "JPY",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1805,7 +1805,7 @@
         "singular": "Japanese yen",
         "plural": "Japanese yen",
         "short_symbol": "¥",
-        "locales": "%%$locales[\"JPY\"]%%"
+        "locales": "%%$locales[`JPY`]%%"
     },
     "KE": {
         "currency_code": "KES",
@@ -1821,7 +1821,7 @@
         "singular": "Kenyan shilling",
         "plural": "Kenyan shillings",
         "short_symbol": null,
-        "locales": "%%$locales[\"KES\"]%%"
+        "locales": "%%$locales[`KES`]%%"
     },
     "KG": {
         "currency_code": "KGS",
@@ -1837,7 +1837,7 @@
         "singular": "Kyrgystani som",
         "plural": "Kyrgystani soms",
         "short_symbol": null,
-        "locales": "%%$locales[\"KGS\"]%%"
+        "locales": "%%$locales[`KGS`]%%"
     },
     "KH": {
         "currency_code": "KHR",
@@ -1853,7 +1853,7 @@
         "singular": "Cambodian riel",
         "plural": "Cambodian riels",
         "short_symbol": "៛",
-        "locales": "%%$locales[\"KHR\"]%%"
+        "locales": "%%$locales[`KHR`]%%"
     },
     "KI": {
         "currency_code": "AUD",
@@ -1869,14 +1869,14 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "KM": {
         "currency_code": "KMF",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -1885,7 +1885,7 @@
         "singular": "Comorian franc",
         "plural": "Comorian francs",
         "short_symbol": "CF",
-        "locales": "%%$locales[\"KMF\"]%%"
+        "locales": "%%$locales[`KMF`]%%"
     },
     "KN": {
         "currency_code": "XCD",
@@ -1901,14 +1901,14 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "KP": {
         "currency_code": "KPW",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1917,14 +1917,14 @@
         "singular": "North Korean won",
         "plural": "North Korean won",
         "short_symbol": "₩",
-        "locales": "%%$locales[\"KPW\"]%%"
+        "locales": "%%$locales[`KPW`]%%"
     },
     "KR": {
         "currency_code": "KRW",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1933,14 +1933,14 @@
         "singular": "South Korean won",
         "plural": "South Korean won",
         "short_symbol": "₩",
-        "locales": "%%$locales[\"KRW\"]%%"
+        "locales": "%%$locales[`KRW`]%%"
     },
     "KW": {
         "currency_code": "KWD",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -1949,7 +1949,7 @@
         "singular": "Kuwaiti dinar",
         "plural": "Kuwaiti dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"KWD\"]%%"
+        "locales": "%%$locales[`KWD`]%%"
     },
     "KY": {
         "currency_code": "KYD",
@@ -1965,7 +1965,7 @@
         "singular": "Cayman Islands dollar",
         "plural": "Cayman Islands dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"KYD\"]%%"
+        "locales": "%%$locales[`KYD`]%%"
     },
     "KZ": {
         "currency_code": "KZT",
@@ -1981,14 +1981,14 @@
         "singular": "Kazakhstani tenge",
         "plural": "Kazakhstani tenges",
         "short_symbol": "₸",
-        "locales": "%%$locales[\"KZT\"]%%"
+        "locales": "%%$locales[`KZT`]%%"
     },
     "LA": {
         "currency_code": "LAK",
         "currency_pos": "left",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -1997,14 +1997,14 @@
         "singular": "Laotian kip",
         "plural": "Laotian kips",
         "short_symbol": "₭",
-        "locales": "%%$locales[\"LAK\"]%%"
+        "locales": "%%$locales[`LAK`]%%"
     },
     "LB": {
         "currency_code": "LBP",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -2013,7 +2013,7 @@
         "singular": "Lebanese pound",
         "plural": "Lebanese pounds",
         "short_symbol": "L£",
-        "locales": "%%$locales[\"LBP\"]%%"
+        "locales": "%%$locales[`LBP`]%%"
     },
     "LC": {
         "currency_code": "XCD",
@@ -2029,7 +2029,7 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "LI": {
         "currency_code": "CHF",
@@ -2045,7 +2045,7 @@
         "singular": "Swiss franc",
         "plural": "Swiss francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"CHF\"]%%"
+        "locales": "%%$locales[`CHF`]%%"
     },
     "LK": {
         "currency_code": "LKR",
@@ -2061,7 +2061,7 @@
         "singular": "Sri Lankan rupee",
         "plural": "Sri Lankan rupees",
         "short_symbol": "Rs",
-        "locales": "%%$locales[\"LKR\"]%%"
+        "locales": "%%$locales[`LKR`]%%"
     },
     "LR": {
         "currency_code": "LRD",
@@ -2077,7 +2077,7 @@
         "singular": "Liberian dollar",
         "plural": "Liberian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"LRD\"]%%"
+        "locales": "%%$locales[`LRD`]%%"
     },
     "LS": {
         "currency_code": "LSL",
@@ -2093,7 +2093,7 @@
         "singular": "Lesotho loti",
         "plural": "Lesotho lotis",
         "short_symbol": null,
-        "locales": "%%$locales[\"LSL\"]%%"
+        "locales": "%%$locales[`LSL`]%%"
     },
     "LT": {
         "currency_code": "EUR",
@@ -2109,7 +2109,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "LU": {
         "currency_code": "EUR",
@@ -2125,7 +2125,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "LV": {
         "currency_code": "EUR",
@@ -2141,14 +2141,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "LY": {
         "currency_code": "LYD",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -2157,7 +2157,7 @@
         "singular": "Libyan dinar",
         "plural": "Libyan dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"LYD\"]%%"
+        "locales": "%%$locales[`LYD`]%%"
     },
     "MA": {
         "currency_code": "MAD",
@@ -2173,7 +2173,7 @@
         "singular": "Moroccan dirham",
         "plural": "Moroccan dirhams",
         "short_symbol": null,
-        "locales": "%%$locales[\"MAD\"]%%"
+        "locales": "%%$locales[`MAD`]%%"
     },
     "MC": {
         "currency_code": "EUR",
@@ -2189,7 +2189,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "MD": {
         "currency_code": "MDL",
@@ -2205,7 +2205,7 @@
         "singular": "Moldovan leu",
         "plural": "Moldovan lei",
         "short_symbol": null,
-        "locales": "%%$locales[\"MDL\"]%%"
+        "locales": "%%$locales[`MDL`]%%"
     },
     "ME": {
         "currency_code": "EUR",
@@ -2221,7 +2221,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "MF": {
         "currency_code": "EUR",
@@ -2237,14 +2237,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "MG": {
         "currency_code": "MGA",
         "currency_pos": "left_space",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2253,7 +2253,7 @@
         "singular": "Malagasy ariary",
         "plural": "Malagasy ariaries",
         "short_symbol": "Ar",
-        "locales": "%%$locales[\"MGA\"]%%"
+        "locales": "%%$locales[`MGA`]%%"
     },
     "MH": {
         "currency_code": "USD",
@@ -2269,7 +2269,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "MK": {
         "currency_code": "MKD",
@@ -2285,14 +2285,14 @@
         "singular": "Macedonian denar",
         "plural": "Macedonian denari",
         "short_symbol": null,
-        "locales": "%%$locales[\"MKD\"]%%"
+        "locales": "%%$locales[`MKD`]%%"
     },
     "ML": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2301,14 +2301,14 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "MM": {
         "currency_code": "MMK",
         "currency_pos": "right_space",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2317,14 +2317,14 @@
         "singular": "Myanmar kyat",
         "plural": "Myanmar kyats",
         "short_symbol": "K",
-        "locales": "%%$locales[\"MMK\"]%%"
+        "locales": "%%$locales[`MMK`]%%"
     },
     "MN": {
         "currency_code": "MNT",
         "currency_pos": "left_space",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2333,7 +2333,7 @@
         "singular": "Mongolian tugrik",
         "plural": "Mongolian tugriks",
         "short_symbol": "₮",
-        "locales": "%%$locales[\"MNT\"]%%"
+        "locales": "%%$locales[`MNT`]%%"
     },
     "MO": {
         "currency_code": "MOP",
@@ -2349,7 +2349,7 @@
         "singular": "Macanese pataca",
         "plural": "Macanese patacas",
         "short_symbol": null,
-        "locales": "%%$locales[\"MOP\"]%%"
+        "locales": "%%$locales[`MOP`]%%"
     },
     "MP": {
         "currency_code": "USD",
@@ -2365,7 +2365,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "MQ": {
         "currency_code": "EUR",
@@ -2381,7 +2381,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "MR": {
         "currency_code": "MRU",
@@ -2397,7 +2397,7 @@
         "singular": "Mauritanian ouguiya",
         "plural": "Mauritanian ouguiyas",
         "short_symbol": null,
-        "locales": "%%$locales[\"MRU\"]%%"
+        "locales": "%%$locales[`MRU`]%%"
     },
     "MS": {
         "currency_code": "XCD",
@@ -2413,7 +2413,7 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "MT": {
         "currency_code": "EUR",
@@ -2429,14 +2429,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "MU": {
         "currency_code": "MUR",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2445,7 +2445,7 @@
         "singular": "Mauritian rupee",
         "plural": "Mauritian rupees",
         "short_symbol": "Rs",
-        "locales": "%%$locales[\"MUR\"]%%"
+        "locales": "%%$locales[`MUR`]%%"
     },
     "MV": {
         "currency_code": "MVR",
@@ -2461,7 +2461,7 @@
         "singular": "Maldivian rufiyaa",
         "plural": "Maldivian rufiyaas",
         "short_symbol": null,
-        "locales": "%%$locales[\"MVR\"]%%"
+        "locales": "%%$locales[`MVR`]%%"
     },
     "MW": {
         "currency_code": "MWK",
@@ -2477,7 +2477,7 @@
         "singular": "Malawian kwacha",
         "plural": "Malawian kwachas",
         "short_symbol": null,
-        "locales": "%%$locales[\"MWK\"]%%"
+        "locales": "%%$locales[`MWK`]%%"
     },
     "MX": {
         "currency_code": "MXN",
@@ -2493,7 +2493,7 @@
         "singular": "Mexican peso",
         "plural": "Mexican pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"MXN\"]%%"
+        "locales": "%%$locales[`MXN`]%%"
     },
     "MY": {
         "currency_code": "MYR",
@@ -2509,7 +2509,7 @@
         "singular": "Malaysian ringgit",
         "plural": "Malaysian ringgits",
         "short_symbol": "RM",
-        "locales": "%%$locales[\"MYR\"]%%"
+        "locales": "%%$locales[`MYR`]%%"
     },
     "MZ": {
         "currency_code": "MZN",
@@ -2525,7 +2525,7 @@
         "singular": "Mozambican metical",
         "plural": "Mozambican meticals",
         "short_symbol": null,
-        "locales": "%%$locales[\"MZN\"]%%"
+        "locales": "%%$locales[`MZN`]%%"
     },
     "NA": {
         "currency_code": "NAD",
@@ -2541,14 +2541,14 @@
         "singular": "Namibian dollar",
         "plural": "Namibian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"NAD\"]%%"
+        "locales": "%%$locales[`NAD`]%%"
     },
     "NC": {
         "currency_code": "XPF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2557,14 +2557,14 @@
         "singular": "CFP franc",
         "plural": "CFP francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XPF\"]%%"
+        "locales": "%%$locales[`XPF`]%%"
     },
     "NE": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2573,7 +2573,7 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "NF": {
         "currency_code": "AUD",
@@ -2589,7 +2589,7 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "NG": {
         "currency_code": "NGN",
@@ -2605,7 +2605,7 @@
         "singular": "Nigerian naira",
         "plural": "Nigerian nairas",
         "short_symbol": "₦",
-        "locales": "%%$locales[\"NGN\"]%%"
+        "locales": "%%$locales[`NGN`]%%"
     },
     "NI": {
         "currency_code": "NIO",
@@ -2621,7 +2621,7 @@
         "singular": "Nicaraguan córdoba",
         "plural": "Nicaraguan córdobas",
         "short_symbol": "C$",
-        "locales": "%%$locales[\"NIO\"]%%"
+        "locales": "%%$locales[`NIO`]%%"
     },
     "NL": {
         "currency_code": "EUR",
@@ -2637,14 +2637,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "NO": {
         "currency_code": "NOK",
         "currency_pos": "left_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2653,7 +2653,7 @@
         "singular": "Norwegian krone",
         "plural": "Norwegian kroner",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"NOK\"]%%"
+        "locales": "%%$locales[`NOK`]%%"
     },
     "NP": {
         "currency_code": "NPR",
@@ -2669,7 +2669,7 @@
         "singular": "Nepalese rupee",
         "plural": "Nepalese rupees",
         "short_symbol": "Rs",
-        "locales": "%%$locales[\"NPR\"]%%"
+        "locales": "%%$locales[`NPR`]%%"
     },
     "NR": {
         "currency_code": "AUD",
@@ -2685,7 +2685,7 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "NU": {
         "currency_code": "NZD",
@@ -2701,7 +2701,7 @@
         "singular": "New Zealand dollar",
         "plural": "New Zealand dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"NZD\"]%%"
+        "locales": "%%$locales[`NZD`]%%"
     },
     "NZ": {
         "currency_code": "NZD",
@@ -2717,14 +2717,14 @@
         "singular": "New Zealand dollar",
         "plural": "New Zealand dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"NZD\"]%%"
+        "locales": "%%$locales[`NZD`]%%"
     },
     "OM": {
         "currency_code": "OMR",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -2733,7 +2733,7 @@
         "singular": "Omani rial",
         "plural": "Omani rials",
         "short_symbol": null,
-        "locales": "%%$locales[\"OMR\"]%%"
+        "locales": "%%$locales[`OMR`]%%"
     },
     "PA": {
         "currency_code": "USD",
@@ -2749,7 +2749,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "PE": {
         "currency_code": "PEN",
@@ -2765,14 +2765,14 @@
         "singular": "Peruvian sol",
         "plural": "Peruvian soles",
         "short_symbol": null,
-        "locales": "%%$locales[\"PEN\"]%%"
+        "locales": "%%$locales[`PEN`]%%"
     },
     "PF": {
         "currency_code": "XPF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2781,7 +2781,7 @@
         "singular": "CFP franc",
         "plural": "CFP francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XPF\"]%%"
+        "locales": "%%$locales[`XPF`]%%"
     },
     "PG": {
         "currency_code": "PGK",
@@ -2797,7 +2797,7 @@
         "singular": "Papua New Guinean kina",
         "plural": "Papua New Guinean kina",
         "short_symbol": null,
-        "locales": "%%$locales[\"PGK\"]%%"
+        "locales": "%%$locales[`PGK`]%%"
     },
     "PH": {
         "currency_code": "PHP",
@@ -2813,14 +2813,14 @@
         "singular": "Philippine piso",
         "plural": "Philippine pisos",
         "short_symbol": "₱",
-        "locales": "%%$locales[\"PHP\"]%%"
+        "locales": "%%$locales[`PHP`]%%"
     },
     "PK": {
         "currency_code": "PKR",
         "currency_pos": "left_space",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -2829,7 +2829,7 @@
         "singular": "Pakistani rupee",
         "plural": "Pakistani rupees",
         "short_symbol": "Rs",
-        "locales": "%%$locales[\"PKR\"]%%"
+        "locales": "%%$locales[`PKR`]%%"
     },
     "PL": {
         "currency_code": "PLN",
@@ -2845,7 +2845,7 @@
         "singular": "Polish zloty",
         "plural": "Polish zlotys",
         "short_symbol": "zł",
-        "locales": "%%$locales[\"PLN\"]%%"
+        "locales": "%%$locales[`PLN`]%%"
     },
     "PM": {
         "currency_code": "EUR",
@@ -2861,7 +2861,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "PN": {
         "currency_code": "NZD",
@@ -2877,7 +2877,7 @@
         "singular": "New Zealand dollar",
         "plural": "New Zealand dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"NZD\"]%%"
+        "locales": "%%$locales[`NZD`]%%"
     },
     "PR": {
         "currency_code": "USD",
@@ -2893,14 +2893,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "PS": {
         "currency_code": "JOD",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -2909,7 +2909,7 @@
         "singular": "Jordanian dinar",
         "plural": "Jordanian dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"JOD\"]%%"
+        "locales": "%%$locales[`JOD`]%%"
     },
     "PT": {
         "currency_code": "EUR",
@@ -2925,7 +2925,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "PW": {
         "currency_code": "USD",
@@ -2941,14 +2941,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "PY": {
         "currency_code": "PYG",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -2957,7 +2957,7 @@
         "singular": "Paraguayan guarani",
         "plural": "Paraguayan guaranis",
         "short_symbol": "₲",
-        "locales": "%%$locales[\"PYG\"]%%"
+        "locales": "%%$locales[`PYG`]%%"
     },
     "QA": {
         "currency_code": "QAR",
@@ -2973,7 +2973,7 @@
         "singular": "Qatari rial",
         "plural": "Qatari rials",
         "short_symbol": null,
-        "locales": "%%$locales[\"QAR\"]%%"
+        "locales": "%%$locales[`QAR`]%%"
     },
     "RE": {
         "currency_code": "EUR",
@@ -2989,7 +2989,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "RO": {
         "currency_code": "RON",
@@ -3005,14 +3005,14 @@
         "singular": "Romanian leu",
         "plural": "Romanian lei",
         "short_symbol": "lei",
-        "locales": "%%$locales[\"RON\"]%%"
+        "locales": "%%$locales[`RON`]%%"
     },
     "RS": {
         "currency_code": "RSD",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3021,7 +3021,7 @@
         "singular": "Serbian dinar",
         "plural": "Serbian dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"RSD\"]%%"
+        "locales": "%%$locales[`RSD`]%%"
     },
     "RU": {
         "currency_code": "RUB",
@@ -3037,14 +3037,14 @@
         "singular": "Russian ruble",
         "plural": "Russian rubles",
         "short_symbol": "₽",
-        "locales": "%%$locales[\"RUB\"]%%"
+        "locales": "%%$locales[`RUB`]%%"
     },
     "RW": {
         "currency_code": "RWF",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3053,7 +3053,7 @@
         "singular": "Rwandan franc",
         "plural": "Rwandan francs",
         "short_symbol": "RF",
-        "locales": "%%$locales[\"RWF\"]%%"
+        "locales": "%%$locales[`RWF`]%%"
     },
     "SA": {
         "currency_code": "SAR",
@@ -3069,7 +3069,7 @@
         "singular": "Saudi riyal",
         "plural": "Saudi riyals",
         "short_symbol": null,
-        "locales": "%%$locales[\"SAR\"]%%"
+        "locales": "%%$locales[`SAR`]%%"
     },
     "SB": {
         "currency_code": "SBD",
@@ -3085,7 +3085,7 @@
         "singular": "Solomon Islands dollar",
         "plural": "Solomon Islands dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"SBD\"]%%"
+        "locales": "%%$locales[`SBD`]%%"
     },
     "SC": {
         "currency_code": "SCR",
@@ -3101,7 +3101,7 @@
         "singular": "Seychellois rupee",
         "plural": "Seychellois rupees",
         "short_symbol": null,
-        "locales": "%%$locales[\"SCR\"]%%"
+        "locales": "%%$locales[`SCR`]%%"
     },
     "SD": {
         "currency_code": "SDG",
@@ -3117,14 +3117,14 @@
         "singular": "Sudanese pound",
         "plural": "Sudanese pounds",
         "short_symbol": null,
-        "locales": "%%$locales[\"SDG\"]%%"
+        "locales": "%%$locales[`SDG`]%%"
     },
     "SE": {
         "currency_code": "SEK",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3133,7 +3133,7 @@
         "singular": "Swedish krona",
         "plural": "Swedish kronor",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"SEK\"]%%"
+        "locales": "%%$locales[`SEK`]%%"
     },
     "SG": {
         "currency_code": "SGD",
@@ -3149,7 +3149,7 @@
         "singular": "Singapore dollar",
         "plural": "Singapore dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"SGD\"]%%"
+        "locales": "%%$locales[`SGD`]%%"
     },
     "SH": {
         "currency_code": "SHP",
@@ -3165,7 +3165,7 @@
         "singular": "St. Helena pound",
         "plural": "St. Helena pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"SHP\"]%%"
+        "locales": "%%$locales[`SHP`]%%"
     },
     "SI": {
         "currency_code": "EUR",
@@ -3181,14 +3181,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "SJ": {
         "currency_code": "NOK",
         "currency_pos": "left_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3197,7 +3197,7 @@
         "singular": "Norwegian krone",
         "plural": "Norwegian kroner",
         "short_symbol": "kr",
-        "locales": "%%$locales[\"NOK\"]%%"
+        "locales": "%%$locales[`NOK`]%%"
     },
     "SK": {
         "currency_code": "EUR",
@@ -3213,14 +3213,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "SL": {
         "currency_code": "SLL",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3229,7 +3229,7 @@
         "singular": "Sierra Leonean leone",
         "plural": "Sierra Leonean leones",
         "short_symbol": null,
-        "locales": "%%$locales[\"SLL\"]%%"
+        "locales": "%%$locales[`SLL`]%%"
     },
     "SM": {
         "currency_code": "EUR",
@@ -3245,14 +3245,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "SN": {
         "currency_code": "XOF",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3261,14 +3261,14 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "SO": {
         "currency_code": "SOS",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3277,7 +3277,7 @@
         "singular": "Somali shilling",
         "plural": "Somali shillings",
         "short_symbol": null,
-        "locales": "%%$locales[\"SOS\"]%%"
+        "locales": "%%$locales[`SOS`]%%"
     },
     "SR": {
         "currency_code": "SRD",
@@ -3293,7 +3293,7 @@
         "singular": "Surinamese dollar",
         "plural": "Surinamese dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"SRD\"]%%"
+        "locales": "%%$locales[`SRD`]%%"
     },
     "SS": {
         "currency_code": "SSP",
@@ -3309,7 +3309,7 @@
         "singular": "South Sudanese pound",
         "plural": "South Sudanese pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"SSP\"]%%"
+        "locales": "%%$locales[`SSP`]%%"
     },
     "ST": {
         "currency_code": "STN",
@@ -3325,7 +3325,7 @@
         "singular": "São Tomé & Príncipe dobra",
         "plural": "São Tomé & Príncipe dobras",
         "short_symbol": "Db",
-        "locales": "%%$locales[\"STN\"]%%"
+        "locales": "%%$locales[`STN`]%%"
     },
     "SV": {
         "currency_code": "USD",
@@ -3341,7 +3341,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "SX": {
         "currency_code": "ANG",
@@ -3357,14 +3357,14 @@
         "singular": "Netherlands Antillean guilder",
         "plural": "Netherlands Antillean guilders",
         "short_symbol": null,
-        "locales": "%%$locales[\"ANG\"]%%"
+        "locales": "%%$locales[`ANG`]%%"
     },
     "SY": {
         "currency_code": "SYP",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -3373,7 +3373,7 @@
         "singular": "Syrian pound",
         "plural": "Syrian pounds",
         "short_symbol": "£",
-        "locales": "%%$locales[\"SYP\"]%%"
+        "locales": "%%$locales[`SYP`]%%"
     },
     "SZ": {
         "currency_code": "SZL",
@@ -3389,7 +3389,7 @@
         "singular": "Swazi lilangeni",
         "plural": "Swazi emalangeni",
         "short_symbol": null,
-        "locales": "%%$locales[\"SZL\"]%%"
+        "locales": "%%$locales[`SZL`]%%"
     },
     "TC": {
         "currency_code": "USD",
@@ -3405,14 +3405,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "TD": {
         "currency_code": "XAF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3421,14 +3421,14 @@
         "singular": "Central African CFA franc",
         "plural": "Central African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XAF\"]%%"
+        "locales": "%%$locales[`XAF`]%%"
     },
     "TG": {
         "currency_code": "XOF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3437,7 +3437,7 @@
         "singular": "West African CFA franc",
         "plural": "West African CFA francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XOF\"]%%"
+        "locales": "%%$locales[`XOF`]%%"
     },
     "TH": {
         "currency_code": "THB",
@@ -3453,7 +3453,7 @@
         "singular": "Thai baht",
         "plural": "Thai baht",
         "short_symbol": "฿",
-        "locales": "%%$locales[\"THB\"]%%"
+        "locales": "%%$locales[`THB`]%%"
     },
     "TJ": {
         "currency_code": "TJS",
@@ -3469,7 +3469,7 @@
         "singular": "Tajikistani somoni",
         "plural": "Tajikistani somonis",
         "short_symbol": null,
-        "locales": "%%$locales[\"TJS\"]%%"
+        "locales": "%%$locales[`TJS`]%%"
     },
     "TK": {
         "currency_code": "NZD",
@@ -3485,7 +3485,7 @@
         "singular": "New Zealand dollar",
         "plural": "New Zealand dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"NZD\"]%%"
+        "locales": "%%$locales[`NZD`]%%"
     },
     "TL": {
         "currency_code": "USD",
@@ -3501,7 +3501,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "TM": {
         "currency_code": "TMT",
@@ -3517,14 +3517,14 @@
         "singular": "Turkmenistani manat",
         "plural": "Turkmenistani manat",
         "short_symbol": null,
-        "locales": "%%$locales[\"TMT\"]%%"
+        "locales": "%%$locales[`TMT`]%%"
     },
     "TN": {
         "currency_code": "TND",
         "currency_pos": "left_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 3,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -3533,7 +3533,7 @@
         "singular": "Tunisian dinar",
         "plural": "Tunisian dinars",
         "short_symbol": null,
-        "locales": "%%$locales[\"TND\"]%%"
+        "locales": "%%$locales[`TND`]%%"
     },
     "TO": {
         "currency_code": "TOP",
@@ -3549,7 +3549,7 @@
         "singular": "Tongan paʻanga",
         "plural": "Tongan paʻanga",
         "short_symbol": "T$",
-        "locales": "%%$locales[\"TOP\"]%%"
+        "locales": "%%$locales[`TOP`]%%"
     },
     "TR": {
         "currency_code": "TRY",
@@ -3565,7 +3565,7 @@
         "singular": "Turkish lira",
         "plural": "Turkish Lira",
         "short_symbol": "₺",
-        "locales": "%%$locales[\"TRY\"]%%"
+        "locales": "%%$locales[`TRY`]%%"
     },
     "TT": {
         "currency_code": "TTD",
@@ -3581,7 +3581,7 @@
         "singular": "Trinidad & Tobago dollar",
         "plural": "Trinidad & Tobago dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"TTD\"]%%"
+        "locales": "%%$locales[`TTD`]%%"
     },
     "TV": {
         "currency_code": "AUD",
@@ -3597,14 +3597,14 @@
         "singular": "Australian dollar",
         "plural": "Australian dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"AUD\"]%%"
+        "locales": "%%$locales[`AUD`]%%"
     },
     "TW": {
         "currency_code": "TWD",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3613,14 +3613,14 @@
         "singular": "New Taiwan dollar",
         "plural": "New Taiwan dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"TWD\"]%%"
+        "locales": "%%$locales[`TWD`]%%"
     },
     "TZ": {
         "currency_code": "TZS",
         "currency_pos": "left_space",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3629,7 +3629,7 @@
         "singular": "Tanzanian shilling",
         "plural": "Tanzanian shillings",
         "short_symbol": null,
-        "locales": "%%$locales[\"TZS\"]%%"
+        "locales": "%%$locales[`TZS`]%%"
     },
     "UA": {
         "currency_code": "UAH",
@@ -3645,14 +3645,14 @@
         "singular": "Ukrainian hryvnia",
         "plural": "Ukrainian hryvnias",
         "short_symbol": "₴",
-        "locales": "%%$locales[\"UAH\"]%%"
+        "locales": "%%$locales[`UAH`]%%"
     },
     "UG": {
         "currency_code": "UGX",
         "currency_pos": "left_space",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3661,7 +3661,7 @@
         "singular": "Ugandan shilling",
         "plural": "Ugandan shillings",
         "short_symbol": null,
-        "locales": "%%$locales[\"UGX\"]%%"
+        "locales": "%%$locales[`UGX`]%%"
     },
     "UM": {
         "currency_code": "USD",
@@ -3677,7 +3677,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "US": {
         "currency_code": "USD",
@@ -3693,7 +3693,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "UY": {
         "currency_code": "UYU",
@@ -3709,14 +3709,14 @@
         "singular": "Uruguayan peso",
         "plural": "Uruguayan pesos",
         "short_symbol": "$",
-        "locales": "%%$locales[\"UYU\"]%%"
+        "locales": "%%$locales[`UYU`]%%"
     },
     "UZ": {
         "currency_code": "UZS",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3725,7 +3725,7 @@
         "singular": "Uzbekistani som",
         "plural": "Uzbekistani som",
         "short_symbol": null,
-        "locales": "%%$locales[\"UZS\"]%%"
+        "locales": "%%$locales[`UZS`]%%"
     },
     "VA": {
         "currency_code": "EUR",
@@ -3741,7 +3741,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "VC": {
         "currency_code": "XCD",
@@ -3757,7 +3757,7 @@
         "singular": "East Caribbean dollar",
         "plural": "East Caribbean dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"XCD\"]%%"
+        "locales": "%%$locales[`XCD`]%%"
     },
     "VE": {
         "currency_code": "VES",
@@ -3773,7 +3773,7 @@
         "singular": "Venezuelan bolívar",
         "plural": "Venezuelan bolívars",
         "short_symbol": null,
-        "locales": "%%$locales[\"VES\"]%%"
+        "locales": "%%$locales[`VES`]%%"
     },
     "VG": {
         "currency_code": "USD",
@@ -3789,7 +3789,7 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "VI": {
         "currency_code": "USD",
@@ -3805,14 +3805,14 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     },
     "VN": {
         "currency_code": "VND",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3821,14 +3821,14 @@
         "singular": "Vietnamese dong",
         "plural": "Vietnamese dong",
         "short_symbol": "₫",
-        "locales": "%%$locales[\"VND\"]%%"
+        "locales": "%%$locales[`VND`]%%"
     },
     "VU": {
         "currency_code": "VUV",
         "currency_pos": "left",
         "thousand_sep": ",",
         "decimal_sep": ".",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3837,14 +3837,14 @@
         "singular": "Vanuatu vatu",
         "plural": "Vanuatu vatus",
         "short_symbol": null,
-        "locales": "%%$locales[\"VUV\"]%%"
+        "locales": "%%$locales[`VUV`]%%"
     },
     "WF": {
         "currency_code": "XPF",
         "currency_pos": "right_space",
         "thousand_sep": " ",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "ltr",
@@ -3853,7 +3853,7 @@
         "singular": "CFP franc",
         "plural": "CFP francs",
         "short_symbol": null,
-        "locales": "%%$locales[\"XPF\"]%%"
+        "locales": "%%$locales[`XPF`]%%"
     },
     "WS": {
         "currency_code": "WST",
@@ -3869,7 +3869,7 @@
         "singular": "Samoan tala",
         "plural": "Samoan tala",
         "short_symbol": null,
-        "locales": "%%$locales[\"WST\"]%%"
+        "locales": "%%$locales[`WST`]%%"
     },
     "XK": {
         "currency_code": "EUR",
@@ -3885,14 +3885,14 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "YE": {
         "currency_code": "YER",
         "currency_pos": "right_space",
         "thousand_sep": ".",
         "decimal_sep": ",",
-        "num_decimals": 2,
+        "num_decimals": 0,
         "weight_unit": "kg",
         "dimension_unit": "cm",
         "direction": "rtl",
@@ -3901,7 +3901,7 @@
         "singular": "Yemeni rial",
         "plural": "Yemeni rials",
         "short_symbol": null,
-        "locales": "%%$locales[\"YER\"]%%"
+        "locales": "%%$locales[`YER`]%%"
     },
     "YT": {
         "currency_code": "EUR",
@@ -3917,7 +3917,7 @@
         "singular": "euro",
         "plural": "euros",
         "short_symbol": "€",
-        "locales": "%%$locales[\"EUR\"]%%"
+        "locales": "%%$locales[`EUR`]%%"
     },
     "ZA": {
         "currency_code": "ZAR",
@@ -3933,7 +3933,7 @@
         "singular": "South African rand",
         "plural": "South African rand",
         "short_symbol": "R",
-        "locales": "%%$locales[\"ZAR\"]%%"
+        "locales": "%%$locales[`ZAR`]%%"
     },
     "ZM": {
         "currency_code": "ZMW",
@@ -3949,7 +3949,7 @@
         "singular": "Zambian kwacha",
         "plural": "Zambian kwachas",
         "short_symbol": "ZK",
-        "locales": "%%$locales[\"ZMW\"]%%"
+        "locales": "%%$locales[`ZMW`]%%"
     },
     "ZW": {
         "currency_code": "USD",
@@ -3965,6 +3965,6 @@
         "singular": "US dollar",
         "plural": "US dollars",
         "short_symbol": "$",
-        "locales": "%%$locales[\"USD\"]%%"
+        "locales": "%%$locales[`USD`]%%"
     }
 }

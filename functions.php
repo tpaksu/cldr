@@ -235,13 +235,17 @@ function dd( $item ) {
  *
  * @return  string             Exported object representation.
  */
-function varexport( $expression, $return = false ) {
+function var_export_override( $expression, $return = false ) {
 	$export = var_export( $expression, true );
 	$export = preg_replace( '/^([ ]*)(.*)/m', '$1$1$2', $export );
 	$array  = preg_split( "/\r\n|\n|\r/", $export );
 	$array  = preg_replace( [ '/\s*array\s\($/', '/\)(,)?$/', '/\s=>\s$/' ], [ null, ']$1', ' => [' ], $array );
+	$array  = preg_replace_callback("/('.+?') => (.+),/", function($m) {
+		return str_pad($m[1], 17, "*") . "=> " . $m[2] . ",";
+	}, $array);
 	$export = join( PHP_EOL, array_filter( [ '[' ] + $array ) );
 	$export = str_replace( '    ', "\t", $export );
+	$export = str_replace( '*', ' ', $export );
 	if ( (bool) $return ) {
 		return $export;
 	} else {
@@ -391,17 +395,6 @@ function fix_formats( $formats ) {
 	$formats = str_replace( "\xE2\x80\x8E", '', $formats );
 
 	return $formats;
-}
-
-
-function get_decimals($currency_format){
-	if(strpos($currency_format, '0.0'))	{
-		$match = preg_match('/0\.([0]*)/', $currency_format, $matches);
-		if($match > 0){
-			return strlen($matches[1]);
-		}
-	}
-	return 0;
 }
 
 /**

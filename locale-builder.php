@@ -1,9 +1,9 @@
 <?php
-
 /**
  * CLDR formatter builder
  *
  * @package Currencies
+ * @phpcs:disable WordPress.WP.GlobalVariablesOverride.Prohibited
  */
 
 if ( ! file_exists( './json' ) ) {
@@ -35,6 +35,15 @@ foreach ( $currencies as $code => $name ) {
 
 // Map currency info to countries.
 $locale_info = [];
+
+$defaults = [
+	'currency_pos'   => 'left_space',
+	'num_decimals'   => 2,
+	'thousand_sep'   => '.',
+	'decimal_sep'    => ',',
+	'dimension_unit' => 'cm',
+	'weight_unit'    => 'kg',
+];
 
 foreach ( $country_currency_data as $country => $currencies ) {
 	if ( ! array_key_exists( $country, (array) $default_locales ) ) {
@@ -71,8 +80,8 @@ foreach ( $country_currency_data as $country => $currencies ) {
 				if ( is_array( $locale_info[ $country ]['selected_code'] ) ) {
 					if ( count( $locale_info[ $country ]['selected_code'] ) > 0 ) {
 						$format_container = $locale_info[ $country ];
-						$localed          = array_keys( $format_container['selected_code'] )[0];
-						$format_data      = $format_container['codes'][ $localed ];
+						$locale_code      = array_keys( $format_container['selected_code'] )[0];
+						$format_data      = $format_container['codes'][ $locale_code ];
 						$formats          = $format_data['standard'];
 						$formats          = fix_formats( $formats );
 						if ( substr( $formats, 0, 2 ) === 'o ' ) {
@@ -85,10 +94,11 @@ foreach ( $country_currency_data as $country => $currencies ) {
 							$locale_info[ $country ]['currency_pos'] = 'right';
 						}
 						$locale_info[ $country ]['locales']        = array_keys( $locale_info[ $country ]['codes'] );
-						$locale_info[ $country ]['default_locale'] = $localed;
+						$locale_info[ $country ]['default_locale'] = $locale_code;
 						$locale_info[ $country ]['thousand_sep']   = fix_formats( $format_data['group'] );
 						$locale_info[ $country ]['decimal_sep']    = fix_formats( $format_data['decimal'] );
-						$locale_info[ $country ]['num_decimals']   = get_decimals( $formats );
+						$locale_info[ $country ]['num_decimals']   = $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_cashDigits'] ??
+						$currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_digits'] ?? null;
 					}
 
 					foreach ( $locale_info[ $country ]['codes'] as $key => &$value ) {
@@ -131,22 +141,13 @@ foreach ( $country_currency_data as $country => $currencies ) {
 
 // Reformat output.
 
-$defaults = [
-	'currency_pos'   => 'left_space',
-	'num_decimals'   => 2,
-	'thousand_sep'   => '.',
-	'decimal_sep'    => ',',
-	'dimension_unit' => 'cm',
-	'weight_unit'    => 'kg',
-];
-
 $output    = [];
 $locales   = [];
 $repeating = [];
 
-foreach ( $locale_info as $localed => $info ) {
+foreach ( $locale_info as $locale => $info ) {
 	$locales[ $info['currency_code'] ] = $info['codes'];
-	$output[ $localed ]                = [
+	$output[ $locale ]                 = [
 		'currency_code'  => $info['currency_code'],
 		'currency_pos'   => $info['currency_pos'] ?? $defaults['currency_pos'],
 		'thousand_sep'   => $info['thousand_sep'] ?? $defaults['thousand_sep'],
@@ -160,42 +161,37 @@ foreach ( $locale_info as $localed => $info ) {
 		'singular'       => $info['singular'] ?? null,
 		'plural'         => $info['plural'] ?? null,
 		'short_symbol'   => $info['short_symbol'] ?? null,
-		'locales'        => '%%$locales["' . $info['currency_code'] . '"]%%',
+		'locales'        => '%%$locales[`' . $info['currency_code'] . '`]%%',
 	];
 	if ( 0 === count( $info['codes'] ) ) {
-		dump( 'Missing Locales: ' . $localed . ': ' . $info['currency_code'] . PHP_EOL );
+		dump( 'Missing Locales: ' . $locale . ': ' . $info['currency_code'] . PHP_EOL );
 	}
-	if ( 1 < count( $output[ $localed ] ) ) {
+	if ( 1 < count( $output[ $locale ] ) ) {
 		$repeating[] = $info['currency_code'];
 	}
 }
 
-
-// $repeats = array_count_values( $repeating );
-// arsort( $repeats );
-// print_r( count( $output ) );
-// print_r( $repeats );
 ksort( $locales );
 ksort( $global_formats );
 
 $new_locales = [];
-foreach ( $locales as $currency => &$localed ) {
+foreach ( $locales as $currency => &$locale ) {
 	$new_locales[ $currency ] = [];
-	foreach ( $localed as $key => $value ) {
+	foreach ( $locale as $key => $value ) {
 		$k                              = str_replace( '-', '_', $key );
 		$new_locales[ $currency ][ $k ] = $value;
 	}
-	$new_locales[ $currency ]['default'] = select_default_locale_for_currency( $localed );
+	$new_locales[ $currency ]['default'] = select_default_locale_for_currency( $locale );
 }
 
-foreach ( $new_locales as $currency => &$localed ) {
-	foreach ( $localed as $key => &$value ) {
+foreach ( $new_locales as $currency => &$locale ) {
+	foreach ( $locale as $key => &$value ) {
 		if ( 'num_decimals' === $key ) {
 			continue;
 		}
 		if ( false === strpos( $key, '_' ) && 'default' !== $key ) {
-			$localed[ complete_country_for_locale( $key, $default_content['defaultContent'] ) ] = $localed[ $key ];
-			unset( $localed[ $key ] );
+			$locale[ complete_country_for_locale( $key, $default_content['defaultContent'] ) ] = $locale[ $key ];
+			unset( $locale[ $key ] );
 		}
 		if ( isset( $value['format'] ) ) {
 			$value = $value['format'];
@@ -211,8 +207,8 @@ foreach ( $output as $country => &$data ) {
 
 $locales = $new_locales;
 
-file_put_contents( './json/locale_data.json', json_encode( $locales, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) );
-file_put_contents( './json/currency_data.json', json_encode( $output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) );
+file_put_contents( './json/locale_data.json', json_encode( $locales, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
+file_put_contents( './json/currency_data.json', json_encode( $output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
 
 $currency_locale_data = '<?php
 /**
@@ -224,15 +220,15 @@ $currency_locale_data = '<?php
 
 defined( \'ABSPATH\' ) || exit;
 
-$global_formats = ' . varexport( $global_formats, true ) . ';
+$global_formats = ' . var_export_override( $global_formats, true ) . ';
 
-return ' . varexport( $locales, true ) . ';
+return ' . var_export_override( $locales, true ) . ';
 ';
 
 $currency_locale_data = str_replace( 'NULL', 'null', $currency_locale_data );
 $currency_locale_data = str_replace( "'%%", '', $currency_locale_data );
 $currency_locale_data = str_replace( "%%'", '', $currency_locale_data );
-
+/* phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents */
 file_put_contents( './output/currency-info.php', $currency_locale_data );
 
 $country_locale_data = '<?php
@@ -247,13 +243,14 @@ defined( \'ABSPATH\' ) || exit;
 
 $locales = include \'./currency-info.php\';
 
-return ' . varexport( $output, true ) . ';
+return ' . var_export_override( $output, true ) . ';
 ';
 
 $country_locale_data = str_replace( "'%%", '', $country_locale_data );
 $country_locale_data = str_replace( "%%'", '', $country_locale_data );
 $country_locale_data = str_replace( 'NULL', 'null', $country_locale_data );
-
+$country_locale_data = str_replace( '`', "'", $country_locale_data );
+/* phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents */
 file_put_contents( './output/locale-info.php', $country_locale_data );
 
 return $data;
