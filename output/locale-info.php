@@ -29,9 +29,9 @@ return [
 	],
 	'AE' => [
 		'currency_code'  => 'AED',
-		'currency_pos'   => 'right_space',
-		'thousand_sep'   => '.',
-		'decimal_sep'    => ',',
+		'currency_pos'   => 'left_space',
+		'thousand_sep'   => ',',
+		'decimal_sep'    => '.',
 		'num_decimals'   => 2,
 		'weight_unit'    => 'kg',
 		'dimension_unit' => 'cm',
@@ -552,7 +552,7 @@ return [
 		'name'           => 'Belarusian ruble',
 		'singular'       => 'Belarusian ruble',
 		'plural'         => 'Belarusian rubles',
-		'short_symbol'   => 'р.',
+		'short_symbol'   => null,
 		'locales'        => $locales['BYN'],
 	],
 	'BZ' => [

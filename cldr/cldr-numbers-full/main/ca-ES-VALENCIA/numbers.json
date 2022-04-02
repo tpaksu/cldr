@@ -1,9 +1,9 @@
 {
   "main": {
-    "ca-ES-VALENCIA": {
+    "ca-ES-valencia": {
       "identity": {
         "version": {
-          "_cldrVersion": "39"
+          "_cldrVersion": "40"
         },
         "language": "ca",
         "territory": "ES",
@@ -153,7 +153,9 @@
           "few": "Agafa el {0}t a la dreta.",
           "one": "Agafa el {0}r a la dreta.",
           "other": "Agafa el {0}è a la dreta.",
-          "two": "Agafa el {0}n a la dreta."
+          "two": "Agafa el {0}n a la dreta.",
+          "feminine": "La {0} és",
+          "masculine": "El {0} és"
         }
       }
     }

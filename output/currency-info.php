@@ -127,8 +127,8 @@ $global_formats = [
 
 return [
 	'AED' => [
-		'ar_AE'          => $global_formats["rs_comma_dot_rtl"],
-		'default'        => $global_formats["rs_comma_dot_rtl"],
+		'ar_AE'          => $global_formats["ls_dot_comma_rtl"],
+		'default'        => $global_formats["ls_dot_comma_rtl"],
 	],
 	'AFN' => [
 		'fa_AF'          => $global_formats["ls_comma_dot_rtl"],

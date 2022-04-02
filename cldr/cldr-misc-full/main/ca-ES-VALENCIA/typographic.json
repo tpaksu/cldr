@@ -1,9 +1,9 @@
 {
   "main": {
-    "ca-ES-VALENCIA": {
+    "ca-ES-valencia": {
       "identity": {
         "version": {
-          "_cldrVersion": "39"
+          "_cldrVersion": "40"
         },
         "language": "ca",
         "territory": "ES",
@@ -81,8 +81,7 @@
           "onum": "xifres a l’antiga",
           "ordn": "ordinals",
           "pnum": "nombres proporcionals",
-          "smcp": "majúscules petites",
-          "smcp-alt-short": "minúscules",
+          "smcp": "versaletes",
           "tnum": "números tabulars",
           "zero": "zero amb barra"
         }
