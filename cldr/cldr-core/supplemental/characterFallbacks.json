@@ -1,8 +1,8 @@
 {
   "supplemental": {
     "version": {
-      "_unicodeVersion": "14.0.0",
-      "_cldrVersion": "40"
+      "_unicodeVersion": "15.0.0",
+      "_cldrVersion": "43"
     },
     "characters": {
       "character-fallback": {
@@ -89,14 +89,19 @@
             "substitute": "'"
           }
         ],
+        "U+05F3": [
+          {
+            "substitute": "'"
+          }
+        ],
         "U+201C": [
           {
-            "substitute": "\\\""
+            "substitute": "\""
           }
         ],
         "U+201D": [
           {
-            "substitute": "\\\""
+            "substitute": "\""
           }
         ],
         "U+201E": [
@@ -106,7 +111,12 @@
         ],
         "U+201F": [
           {
-            "substitute": "\\\""
+            "substitute": "\""
+          }
+        ],
+        "U+05F4": [
+          {
+            "substitute": "\""
           }
         ],
         "U+00AB": [
@@ -145,16 +155,6 @@
           },
           {
             "substitute": "-"
-          }
-        ],
-        "U+05F3": [
-          {
-            "substitute": "'"
-          }
-        ],
-        "U+05F4": [
-          {
-            "substitute": "\\\""
           }
         ],
         "U+FFE3": [

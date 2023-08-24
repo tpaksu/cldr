@@ -1,8 +1,8 @@
 {
   "supplemental": {
     "version": {
-      "_unicodeVersion": "14.0.0",
-      "_cldrVersion": "40"
+      "_unicodeVersion": "15.0.0",
+      "_cldrVersion": "43"
     },
     "parentLocales": {
       "parentLocale": {
@@ -53,6 +53,7 @@
         "en-MS": "en-001",
         "en-MT": "en-001",
         "en-MU": "en-001",
+        "en-MV": "en-001",
         "en-MW": "en-001",
         "en-MY": "en-001",
         "en-NA": "en-001",
@@ -98,6 +99,7 @@
         "en-NL": "en-150",
         "en-SE": "en-150",
         "en-SI": "en-150",
+        "hi-Latn": "en-IN",
         "es-AR": "es-419",
         "es-BO": "es-419",
         "es-BR": "es-419",
@@ -120,8 +122,10 @@
         "es-US": "es-419",
         "es-UY": "es-419",
         "es-VE": "es-419",
+        "ht": "fr-HT",
         "nb": "no",
         "nn": "no",
+        "no-NO": "no",
         "pt-AO": "pt-PT",
         "pt-CH": "pt-PT",
         "pt-CV": "pt-PT",
@@ -148,7 +152,6 @@
         "ff-Adlm": "und",
         "ff-Arab": "und",
         "ha-Arab": "und",
-        "hi-Latn": "und",
         "iu-Latn": "und",
         "kk-Arab": "und",
         "ks-Deva": "und",
@@ -178,6 +181,20 @@
         "yue-Hans": "und",
         "zh-Hant": "und",
         "zh-Hant-MO": "zh-Hant-HK"
+      },
+      "collations": {
+        "bs-Cyrl": "bs",
+        "sr-Latn": "sr",
+        "sr-Cyrl-ME": "sr-ME",
+        "zh-Hant": "zh",
+        "yue-CN": "zh-Hans",
+        "yue-Hans": "zh-Hans",
+        "yue-Hans-CN": "zh-Hans",
+        "yue": "zh-Hant",
+        "yue-Hant": "zh-Hant"
+      },
+      "segmentations": {
+        "zh-Hant": "zh"
       }
     }
   }

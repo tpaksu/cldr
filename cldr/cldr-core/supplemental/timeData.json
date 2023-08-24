@@ -1,8 +1,8 @@
 {
   "supplemental": {
     "version": {
-      "_unicodeVersion": "14.0.0",
-      "_cldrVersion": "40"
+      "_unicodeVersion": "15.0.0",
+      "_cldrVersion": "43"
     },
     "timeData": {
       "AX": {
@@ -114,6 +114,74 @@
         "_preferred": "h"
       },
       "001": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "BI": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "BY": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "FO": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "GL": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "HU": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "MG": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "MT": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "MU": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "MV": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "NO": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "PL": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "RW": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "TH": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "TJ": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "TM": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "VN": {
+        "_allowed": "H h",
+        "_preferred": "H"
+      },
+      "ZW": {
         "_allowed": "H h",
         "_preferred": "H"
       },
@@ -437,10 +505,6 @@
         "_allowed": "H h hB hb",
         "_preferred": "H"
       },
-      "JP": {
-        "_allowed": "H h K",
-        "_preferred": "H"
-      },
       "AD": {
         "_allowed": "H hB",
         "_preferred": "H"
@@ -490,6 +554,10 @@
         "_preferred": "H"
       },
       "CV": {
+        "_allowed": "H hB",
+        "_preferred": "H"
+      },
+      "CW": {
         "_allowed": "H hB",
         "_preferred": "H"
       },
@@ -947,6 +1015,10 @@
       },
       "zu-ZA": {
         "_allowed": "H hB hb h",
+        "_preferred": "H"
+      },
+      "JP": {
+        "_allowed": "H K h",
         "_preferred": "H"
       },
       "CD": {

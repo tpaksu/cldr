@@ -3,7 +3,7 @@
     "sk": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "sk"
       },
@@ -155,7 +155,9 @@
             }
           },
           "standard": "#,##0.00 ¤",
+          "standard-noCurrency": "#,##0.00",
           "accounting": "#,##0.00 ¤;(#,##0.00 ¤)",
+          "accounting-noCurrency": "#,##0.00;(#,##0.00)",
           "short": {
             "standard": {
               "1000-count-one": "0 tis'.' ¤",
@@ -208,6 +210,7 @@
               "100000000000000-count-other": "000 bil'.' ¤"
             }
           },
+          "currencyPatternAppendISO": "{0} ¤¤",
           "unitPattern-count-one": "{0} {1}",
           "unitPattern-count-few": "{0} {1}",
           "unitPattern-count-many": "{0} {1}",
@@ -225,13 +228,15 @@
           "pluralMinimalPairs-count-many": "{0} dňa",
           "pluralMinimalPairs-count-other": "{0} dní",
           "other": "Na {0}. križovatke odbočte doprava.",
-          "accusative": "{0}=akuzatív",
-          "genitive": "{0}=genitív",
-          "instrumental": "{0}=inštrumentál",
-          "nominative": "{0}=nominatív",
-          "feminine": "{0}=ženský rod",
-          "inanimate": "{0}=mužský rod, neživotné",
-          "neuter": "{0}=stredný rod"
+          "accusative": "Namerali sme {0}",
+          "dative": "Vďaka {0} naviac to bol rekord",
+          "genitive": "Bez {0} sa obídeme.",
+          "instrumental": "Uspokojíme sa s {0}.",
+          "locative": "Po {0} sa zastavil.",
+          "nominative": "Chýba ešte {0}",
+          "feminine": "Jedna {0} stála 5 eur.",
+          "inanimate": "Jeden {0} stál 5 eur.",
+          "neuter": "Jedno {0} stálo 5 eur."
         }
       }
     }

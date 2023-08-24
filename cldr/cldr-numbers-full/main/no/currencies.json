@@ -3,7 +3,7 @@
     "no": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "no"
       },
@@ -643,8 +643,7 @@
             "displayName-count-one": "georgisk lari",
             "displayName-count-other": "georgiske lari",
             "symbol": "GEL",
-            "symbol-alt-narrow": "₾",
-            "symbol-alt-variant": "₾"
+            "symbol-alt-narrow": "₾"
           },
           "GHC": {
             "displayName": "ghanesisk cedi (1979–2007)",
@@ -817,8 +816,7 @@
           "ISJ": {
             "displayName": "islandske kroner (1918–1981)",
             "displayName-count-one": "islandsk krone (1918–1981)",
-            "displayName-count-other": "islandske kroner (1918–1981)",
-            "symbol": "ISJ"
+            "displayName-count-other": "islandske kroner (1918–1981)"
           },
           "ISK": {
             "displayName": "islandske kroner",
@@ -1049,8 +1047,7 @@
           "MGF": {
             "displayName": "madagassiske franc",
             "displayName-count-one": "madagassisk franc",
-            "displayName-count-other": "madagassiske franc",
-            "symbol": "MGF"
+            "displayName-count-other": "madagassiske franc"
           },
           "MKD": {
             "displayName": "makedonske denarer",
@@ -1099,8 +1096,7 @@
           "MRU": {
             "displayName": "mauritanske ouguiya",
             "displayName-count-one": "mauritansk ouguiya",
-            "displayName-count-other": "mauritanske ouguiya",
-            "symbol": "MRU"
+            "displayName-count-other": "mauritanske ouguiya"
           },
           "MTL": {
             "displayName": "maltesiske lira",
@@ -1651,10 +1647,6 @@
             "symbol": "UYU",
             "symbol-alt-narrow": "$"
           },
-          "UYW": {
-            "displayName": "UYW",
-            "symbol": "UYW"
-          },
           "UZS": {
             "displayName": "usbekiske som",
             "displayName-count-one": "usbekisk som",
@@ -1919,8 +1911,7 @@
           "ZWR": {
             "displayName": "zimbabwisk dollar (2008)",
             "displayName-count-one": "zimbabwisk dollar (2008)",
-            "displayName-count-other": "zimbabwiske dollar (2008)",
-            "symbol": "ZWR"
+            "displayName-count-other": "zimbabwiske dollar (2008)"
           }
         }
       }

@@ -3,7 +3,7 @@
     "ro-MD": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "ro",
         "territory": "MD"
@@ -132,7 +132,9 @@
             }
           },
           "standard": "#,##0.00 ¤",
+          "standard-noCurrency": "#,##0.00",
           "accounting": "#,##0.00 ¤;(#,##0.00 ¤)",
+          "accounting-noCurrency": "#,##0.00;(#,##0.00)",
           "short": {
             "standard": {
               "1000-count-one": "0 mie ¤",
@@ -173,6 +175,7 @@
               "100000000000000-count-other": "000 tril'.' ¤"
             }
           },
+          "currencyPatternAppendISO": "{0} ¤¤",
           "unitPattern-count-one": "{0} {1}",
           "unitPattern-count-few": "{0} {1}",
           "unitPattern-count-other": "{0} de {1}"
@@ -189,8 +192,8 @@
           "pluralMinimalPairs-count-other": "{0} de zile",
           "one": "Faceți virajul nr. {0} la dreapta.",
           "other": "Faceți virajul al {0}-lea la dreapta.",
-          "genitive": "... ale (celor) {0} ...",
-          "nominative": "{0} este ...",
+          "genitive": "… ale (celor) {0} …",
+          "nominative": "{0} este/sunt …",
           "feminine": "O {0} costă 5 €.",
           "masculine": "Un {0} costă 5 €, doi costă 9 €.",
           "neuter": "Un {0} costă 5 €, două costă 9 €."

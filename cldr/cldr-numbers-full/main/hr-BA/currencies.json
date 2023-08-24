@@ -3,7 +3,7 @@
     "hr-BA": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "hr",
         "territory": "BA"
@@ -360,7 +360,6 @@
             "symbol": "BRR"
           },
           "BRZ": {
-            "displayName": "BRZ",
             "symbol": "BRZ"
           },
           "BSD": {
@@ -692,7 +691,7 @@
             "displayName-count-one": "euro",
             "displayName-count-few": "eura",
             "displayName-count-other": "eura",
-            "symbol": "EUR",
+            "symbol": "€",
             "symbol-alt-narrow": "€"
           },
           "FIM": {
@@ -746,8 +745,7 @@
             "displayName-count-few": "gruzijska lara",
             "displayName-count-other": "gruzijskih lara",
             "symbol": "GEL",
-            "symbol-alt-narrow": "₾",
-            "symbol-alt-variant": "₾"
+            "symbol-alt-narrow": "₾"
           },
           "GHC": {
             "displayName": "ganski cedi (1979.–2007.)",
@@ -1183,7 +1181,6 @@
             "symbol": "MAF"
           },
           "MCF": {
-            "displayName": "MCF",
             "symbol": "MCF"
           },
           "MDC": {
@@ -1908,10 +1905,6 @@
             "displayName-count-other": "urugvajskih pezosa",
             "symbol": "UYU",
             "symbol-alt-narrow": "$"
-          },
-          "UYW": {
-            "displayName": "UYW",
-            "symbol": "UYW"
           },
           "UZS": {
             "displayName": "uzbekistanski som",

@@ -3,7 +3,7 @@
     "cs": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "cs"
       },
@@ -849,8 +849,7 @@
             "displayName-count-many": "gruzínského lari",
             "displayName-count-other": "gruzínských lari",
             "symbol": "GEL",
-            "symbol-alt-narrow": "₾",
-            "symbol-alt-variant": "₾"
+            "symbol-alt-narrow": "₾"
           },
           "GHC": {
             "displayName": "ghanský cedi (1979–2007)",
@@ -2172,10 +2171,6 @@
             "symbol": "UYU",
             "symbol-alt-narrow": "$"
           },
-          "UYW": {
-            "displayName": "UYW",
-            "symbol": "UYW"
-          },
           "UZS": {
             "displayName": "uzbecký sum",
             "displayName-count-one": "uzbecký sum",
@@ -2392,7 +2387,6 @@
             "symbol": "XTS"
           },
           "XUA": {
-            "displayName": "XUA",
             "symbol": "XUA"
           },
           "XXX": {

@@ -3,7 +3,7 @@
     "az-Latn": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "az",
         "script": "Latn"
@@ -108,7 +108,9 @@
             }
           },
           "standard": "#,##0.00 ¤",
+          "standard-noCurrency": "#,##0.00",
           "accounting": "#,##0.00 ¤",
+          "accounting-noCurrency": "#,##0.00;(#,##0.00)",
           "short": {
             "standard": {
               "1000-count-one": "0K ¤",
@@ -137,6 +139,7 @@
               "100000000000000-count-other": "000T ¤"
             }
           },
+          "currencyPatternAppendISO": "{0} ¤¤",
           "unitPattern-count-one": "{0} {1}",
           "unitPattern-count-other": "{0} {1}"
         },
@@ -147,8 +150,8 @@
           "range": "{0}–{1}"
         },
         "minimalPairs": {
-          "pluralMinimalPairs-count-one": "Alış-veriş katınızda {0} X var. Almaq istəyirsiniz?",
-          "pluralMinimalPairs-count-other": "Alış-veriş kartınızda {0} X var. Almaq istəyirsiniz?",
+          "pluralMinimalPairs-count-one": "Alış-veriş kartınızda {0} var. Alınsın?",
+          "pluralMinimalPairs-count-other": "Alış-veriş kartınızda {0} var. Alınsınlar?",
           "few": "{0}-cü sağ döngəni seçin.",
           "many": "{0}-cı sağ döngəni seçin.",
           "one": "{0}-ci sağ döngəni seçin.",

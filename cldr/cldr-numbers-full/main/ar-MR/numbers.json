@@ -3,7 +3,7 @@
     "ar-MR": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "ar",
         "territory": "MR"
@@ -380,8 +380,10 @@
               "insertBetween": " "
             }
           },
-          "standard": "#,##0.00 ¤",
-          "accounting": "#,##0.00 ¤",
+          "standard": "‏#,##0.00 ¤",
+          "standard-noCurrency": "#,##0.00",
+          "accounting": "‏#,##0.00 ¤",
+          "accounting-noCurrency": "#,##0.00",
           "unitPattern-count-zero": "{0} {1}",
           "unitPattern-count-one": "{0} {1}",
           "unitPattern-count-two": "{0} {1}",
@@ -402,8 +404,11 @@
               "insertBetween": " "
             }
           },
-          "standard": "¤ #,##0.00",
-          "accounting": "¤#,##0.00;(¤#,##0.00)",
+          "standard": "‏#,##0.00 ¤;‏-#,##0.00 ¤",
+          "standard-noCurrency": "#,##0.00",
+          "accounting": "؜#,##0.00¤;(؜#,##0.00¤)",
+          "accounting-alphaNextToNumber": "؜#,##0.00 ¤;(؜#,##0.00 ¤)",
+          "accounting-noCurrency": "#,##0.00;(#,##0.00)",
           "short": {
             "standard": {
               "1000-count-zero": "0 ألف ¤",
@@ -480,6 +485,7 @@
               "100000000000000-count-other": "000 ترليون ¤"
             }
           },
+          "currencyPatternAppendISO": "{0} ¤¤",
           "unitPattern-count-zero": "{0} {1}",
           "unitPattern-count-one": "{0} {1}",
           "unitPattern-count-two": "{0} {1}",
@@ -500,7 +506,7 @@
           "range": "{0}–{1}"
         },
         "minimalPairs": {
-          "pluralMinimalPairs-count-zero": "{0} كتاب",
+          "pluralMinimalPairs-count-zero": "{0} ولد حضر",
           "pluralMinimalPairs-count-one": "ولد واحد حضر",
           "pluralMinimalPairs-count-two": "ولدان حضرا",
           "pluralMinimalPairs-count-few": "{0} أولاد حضروا",

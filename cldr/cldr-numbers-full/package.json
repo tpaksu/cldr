@@ -1,10 +1,10 @@
 {
   "name": "cldr-numbers-full",
-  "version": "40.0.0",
+  "version": "43.1.0",
   "peerDependencies": {
-    "cldr-core": "40.0.0"
+    "cldr-core": "43.1.0"
   },
-  "description": "A CLDR package with no packageDesc description. (complete)",
+  "description": "Data for number formatting. (all locales)",
   "homepage": "https://cldr.unicode.org",
   "author": "The Unicode Consortium",
   "maintainers": [

@@ -1,8 +1,8 @@
 {
   "supplemental": {
     "version": {
-      "_unicodeVersion": "14.0.0",
-      "_cldrVersion": "40"
+      "_unicodeVersion": "15.0.0",
+      "_cldrVersion": "43"
     },
     "unitConstants": {
       "ft_to_m": {
@@ -40,9 +40,19 @@
       "lb_to_kg": {
         "_value": "0.45359237"
       },
+      "meters_per_AU": {
+        "_description": "https://www.iau.org/public/themes/measuring/",
+        "_value": "149597870700"
+      },
       "PI": {
         "_value": "411557987 / 131002976",
         "_status": "approximate"
+      },
+      "sec_per_julian_year": {
+        "_value": "31557600"
+      },
+      "speed_of_light_meters_per_second": {
+        "_value": "299792458"
       }
     },
     "unitQuantities": {
@@ -220,15 +230,21 @@
       },
       "arc-minute": {
         "_baseUnit": "revolution",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/360*60"
       },
       "arc-second": {
         "_baseUnit": "revolution",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/360*60*60"
       },
       "astronomical-unit": {
         "_baseUnit": "meter",
-        "_factor": "149597900000"
+        "_factor": "meters_per_AU"
       },
       "atmosphere": {
         "_baseUnit": "kilogram-per-meter-square-second",
@@ -249,7 +265,10 @@
         "_factor": "42*gal_to_m3"
       },
       "bit": {
-        "_baseUnit": "bit"
+        "_baseUnit": "bit",
+        "_systems": [
+          "metric"
+        ]
       },
       "british-thermal-unit": {
         "_baseUnit": "kilogram-square-meter-per-square-second",
@@ -268,6 +287,9 @@
       },
       "byte": {
         "_baseUnit": "bit",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "8"
       },
       "calorie": {
@@ -297,6 +319,9 @@
       },
       "century": {
         "_baseUnit": "year",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "100"
       },
       "cup": {
@@ -320,27 +345,26 @@
       "day": {
         "_baseUnit": "second",
         "_systems": [
-          "metric",
-          "ussystem",
-          "uksystem"
+          "metric"
         ],
         "_factor": "86400"
       },
       "day-person": {
         "_baseUnit": "second",
-        "_systems": [
-          "metric",
-          "ussystem",
-          "uksystem"
-        ],
         "_factor": "86400"
       },
       "decade": {
         "_baseUnit": "year",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "10"
       },
       "degree": {
         "_baseUnit": "revolution",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/360"
       },
       "dessert-spoon": {
@@ -391,7 +415,10 @@
         "_factor": "1.602177E-19"
       },
       "em": {
-        "_baseUnit": "em"
+        "_baseUnit": "em",
+        "_systems": [
+          "metric"
+        ]
       },
       "fahrenheit": {
         "_baseUnit": "kelvin",
@@ -507,9 +534,7 @@
       "hour": {
         "_baseUnit": "second",
         "_systems": [
-          "metric",
-          "ussystem",
-          "uksystem"
+          "metric"
         ],
         "_factor": "3600"
       },
@@ -522,7 +547,10 @@
         "_factor": "ft_to_m/12"
       },
       "item": {
-        "_baseUnit": "item"
+        "_baseUnit": "item",
+        "_systems": [
+          "metric"
+        ]
       },
       "jigger": {
         "_baseUnit": "cubic-meter",
@@ -566,7 +594,7 @@
       },
       "light-year": {
         "_baseUnit": "meter",
-        "_factor": "9460730000000000"
+        "_factor": "speed_of_light_meters_per_second*sec_per_julian_year"
       },
       "liter": {
         "_baseUnit": "cubic-meter",
@@ -596,13 +624,6 @@
           "si"
         ]
       },
-      "metric-ton": {
-        "_baseUnit": "kilogram",
-        "_systems": [
-          "metric"
-        ],
-        "_factor": "1000"
-      },
       "mile": {
         "_baseUnit": "meter",
         "_systems": [
@@ -621,9 +642,7 @@
       "minute": {
         "_baseUnit": "second",
         "_systems": [
-          "metric",
-          "ussystem",
-          "uksystem"
+          "metric"
         ],
         "_factor": "60"
       },
@@ -637,6 +656,9 @@
       },
       "month": {
         "_baseUnit": "year",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/12"
       },
       "month-person": {
@@ -691,7 +713,7 @@
       },
       "parsec": {
         "_baseUnit": "meter",
-        "_factor": "30856780000000000"
+        "_factor": "meters_per_AU*60*60*180/PI"
       },
       "pascal": {
         "_baseUnit": "kilogram-per-meter-square-second",
@@ -702,18 +724,30 @@
       },
       "percent": {
         "_baseUnit": "portion",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/100"
       },
       "permille": {
         "_baseUnit": "portion",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/1000"
       },
       "permillion": {
         "_baseUnit": "portion",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/1000000"
       },
       "permyriad": {
         "_baseUnit": "portion",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "1/10000"
       },
       "pinch": {
@@ -738,7 +772,10 @@
         "_factor": "0.0005"
       },
       "pixel": {
-        "_baseUnit": "pixel"
+        "_baseUnit": "pixel",
+        "_systems": [
+          "metric"
+        ]
       },
       "point": {
         "_baseUnit": "meter",
@@ -781,6 +818,13 @@
         ],
         "_factor": "gal_imp_to_m3/4"
       },
+      "quarter": {
+        "_baseUnit": "year",
+        "_systems": [
+          "metric"
+        ],
+        "_factor": "1/4"
+      },
       "radian": {
         "_baseUnit": "revolution",
         "_systems": [
@@ -790,15 +834,16 @@
         "_factor": "1/2*PI"
       },
       "revolution": {
-        "_baseUnit": "revolution"
+        "_baseUnit": "revolution",
+        "_systems": [
+          "metric"
+        ]
       },
       "second": {
         "_baseUnit": "second",
         "_systems": [
           "si",
-          "metric",
-          "ussystem",
-          "uksystem"
+          "metric"
         ]
       },
       "solar-luminosity": {
@@ -849,6 +894,13 @@
         ],
         "_factor": "lb_to_kg*2000"
       },
+      "tonne": {
+        "_baseUnit": "kilogram",
+        "_systems": [
+          "metric"
+        ],
+        "_factor": "1000"
+      },
       "volt": {
         "_baseUnit": "kilogram-square-meter-per-cubic-second-ampere",
         "_systems": [
@@ -865,6 +917,9 @@
       },
       "week": {
         "_baseUnit": "second",
+        "_systems": [
+          "metric"
+        ],
         "_factor": "604800"
       },
       "week-person": {
@@ -880,7 +935,10 @@
         "_factor": "ft_to_m*3"
       },
       "year": {
-        "_baseUnit": "year"
+        "_baseUnit": "year",
+        "_systems": [
+          "metric"
+        ]
       },
       "year-person": {
         "_baseUnit": "year"

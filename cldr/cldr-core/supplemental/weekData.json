@@ -1,8 +1,8 @@
 {
   "supplemental": {
     "version": {
-      "_unicodeVersion": "14.0.0",
-      "_cldrVersion": "40"
+      "_unicodeVersion": "15.0.0",
+      "_cldrVersion": "43"
     },
     "weekData": {
       "minDays": {
@@ -89,7 +89,7 @@
         "CH": "mon",
         "CL": "mon",
         "CM": "mon",
-        "CN": "sun",
+        "CN": "mon",
         "CO": "sun",
         "CR": "mon",
         "CY": "mon",
@@ -211,7 +211,6 @@
       },
       "weekendStart": {
         "001": "sat",
-        "AE": "fri",
         "AF": "thu",
         "BH": "fri",
         "DZ": "fri",
@@ -233,7 +232,6 @@
       },
       "weekendEnd": {
         "001": "sun",
-        "AE": "sat",
         "AF": "fri",
         "BH": "sat",
         "DZ": "sat",

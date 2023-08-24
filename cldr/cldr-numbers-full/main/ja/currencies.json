@@ -3,7 +3,7 @@
     "ja": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "ja"
       },
@@ -546,8 +546,7 @@
             "displayName": "ジョージア ラリ",
             "displayName-count-other": "ジョージア ラリ",
             "symbol": "GEL",
-            "symbol-alt-narrow": "₾",
-            "symbol-alt-variant": "₾"
+            "symbol-alt-narrow": "₾"
           },
           "GHC": {
             "displayName": "ガーナ セディ (1979–2007)",
@@ -1321,8 +1320,8 @@
             "symbol": "TRL"
           },
           "TRY": {
-            "displayName": "新トルコリラ",
-            "displayName-count-other": "新トルコリラ",
+            "displayName": "トルコリラ",
+            "displayName-count-other": "トルコリラ",
             "symbol": "TRY",
             "symbol-alt-narrow": "₺",
             "symbol-alt-variant": "TL"
@@ -1396,10 +1395,6 @@
             "displayName-count-other": "ウルグアイ ペソ",
             "symbol": "UYU",
             "symbol-alt-narrow": "$"
-          },
-          "UYW": {
-            "displayName": "UYW",
-            "symbol": "UYW"
           },
           "UZS": {
             "displayName": "ウズベキスタン スム",

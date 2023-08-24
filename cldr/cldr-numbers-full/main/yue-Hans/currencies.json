@@ -3,7 +3,7 @@
     "yue-Hans": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "yue",
         "script": "Hans"
@@ -360,7 +360,6 @@
             "symbol": "CNH"
           },
           "CNX": {
-            "displayName": "CNX",
             "symbol": "CNX"
           },
           "CNY": {
@@ -546,8 +545,7 @@
             "displayName": "乔治亚拉里",
             "displayName-count-other": "乔治亚拉里",
             "symbol": "GEL",
-            "symbol-alt-narrow": "₾",
-            "symbol-alt-variant": "₾"
+            "symbol-alt-narrow": "₾"
           },
           "GHC": {
             "displayName": "迦纳赛地 (1979–2007)",
@@ -931,8 +929,7 @@
           },
           "MRU": {
             "displayName": "茅利塔尼亚乌吉亚",
-            "displayName-count-other": "茅利塔尼亚乌吉亚",
-            "symbol": "MRU"
+            "displayName-count-other": "茅利塔尼亚乌吉亚"
           },
           "MTL": {
             "displayName": "马尔他里拉",
@@ -1250,7 +1247,6 @@
           "STN": {
             "displayName": "圣多美岛和普林西比岛多布拉",
             "displayName-count-other": "圣多美岛和普林西比岛多布拉",
-            "symbol": "STN",
             "symbol-alt-narrow": "Db"
           },
           "SUR": {
@@ -1397,10 +1393,6 @@
             "displayName-count-other": "乌拉圭披索",
             "symbol": "UYU",
             "symbol-alt-narrow": "$"
-          },
-          "UYW": {
-            "displayName": "UYW",
-            "symbol": "UYW"
           },
           "UZS": {
             "displayName": "乌兹别克索姆",

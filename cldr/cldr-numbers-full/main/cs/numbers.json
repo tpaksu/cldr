@@ -3,7 +3,7 @@
     "cs": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "cs"
       },
@@ -155,7 +155,9 @@
             }
           },
           "standard": "#,##0.00 ¤",
+          "standard-noCurrency": "#,##0.00",
           "accounting": "#,##0.00 ¤",
+          "accounting-noCurrency": "#,##0.00",
           "short": {
             "standard": {
               "1000-count-one": "0 tis'.' ¤",
@@ -208,6 +210,7 @@
               "100000000000000-count-other": "000 bil'.' ¤"
             }
           },
+          "currencyPatternAppendISO": "{0} ¤¤",
           "unitPattern-count-one": "{0} {1}",
           "unitPattern-count-few": "{0} {1}",
           "unitPattern-count-many": "{0} {1}",
@@ -226,8 +229,10 @@
           "pluralMinimalPairs-count-other": "{0} dní",
           "other": "Na {0}. křižovatce odbočte vpravo.",
           "accusative": "Naměřili jsme {0}.",
+          "dative": "Díky {0} navíc to mohl stihnout.",
           "genitive": "Bez {0} se obejdeme.",
           "instrumental": "Spokojíme se s {0}.",
+          "locative": "Po {0} se zastavil.",
           "nominative": "Chybí ještě {0}.",
           "feminine": "Jedna {0} stála 135 Kč.",
           "inanimate": "Jeden {0} stál 135 Kč.",

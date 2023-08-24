@@ -3,7 +3,7 @@
     "yue": {
       "identity": {
         "version": {
-          "_cldrVersion": "40"
+          "_cldrVersion": "43"
         },
         "language": "yue"
       },
@@ -359,7 +359,6 @@
             "symbol": "CNH"
           },
           "CNX": {
-            "displayName": "CNX",
             "symbol": "CNX"
           },
           "CNY": {
@@ -545,8 +544,7 @@
             "displayName": "喬治亞拉里",
             "displayName-count-other": "喬治亞拉里",
             "symbol": "GEL",
-            "symbol-alt-narrow": "₾",
-            "symbol-alt-variant": "₾"
+            "symbol-alt-narrow": "₾"
           },
           "GHC": {
             "displayName": "迦納賽地 (1979–2007)",
@@ -930,8 +928,7 @@
           },
           "MRU": {
             "displayName": "茅利塔尼亞烏吉亞",
-            "displayName-count-other": "茅利塔尼亞烏吉亞",
-            "symbol": "MRU"
+            "displayName-count-other": "茅利塔尼亞烏吉亞"
           },
           "MTL": {
             "displayName": "馬爾他里拉",
@@ -1249,7 +1246,6 @@
           "STN": {
             "displayName": "聖多美島和普林西比島多布拉",
             "displayName-count-other": "聖多美島和普林西比島多布拉",
-            "symbol": "STN",
             "symbol-alt-narrow": "Db"
           },
           "SUR": {
@@ -1396,10 +1392,6 @@
             "displayName-count-other": "烏拉圭披索",
             "symbol": "UYU",
             "symbol-alt-narrow": "$"
-          },
-          "UYW": {
-            "displayName": "UYW",
-            "symbol": "UYW"
           },
           "UZS": {
             "displayName": "烏茲別克索姆",
