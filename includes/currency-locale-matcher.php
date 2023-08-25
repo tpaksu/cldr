@@ -5,7 +5,7 @@
  * @package Currencies
  */
 
-$locale_currencies = include './locale-currency-matcher.php';
+$locale_currencies = require 'locale-currency-matcher.php';
 
 $locales = [];
 foreach ( $locale_currencies as $code => $currencies ) {

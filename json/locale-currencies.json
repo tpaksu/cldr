@@ -1,4 +1,7 @@
 {
+    "ab": [
+        "GEL"
+    ],
     "af": [
         "ZAR"
     ],
@@ -95,6 +98,12 @@
     ],
     "az": [
         "AZN"
+    ],
+    "az-Arab-IQ": [
+        "IQD"
+    ],
+    "ba": [
+        "RUB"
     ],
     "be": [
         "BYN"
@@ -389,7 +398,7 @@
         "SHP"
     ],
     "en-SL": [
-        "SLL"
+        "SLE"
     ],
     "en-SS": [
         "SSP"
@@ -689,6 +698,9 @@
     "fr-YT": [
         "EUR"
     ],
+    "frr": [
+        "EUR"
+    ],
     "fy": [
         "EUR"
     ],
@@ -698,11 +710,17 @@
     "ga-GB": [
         "GBP"
     ],
+    "gaa": [
+        "GHS"
+    ],
     "gd": [
         "GBP"
     ],
     "gl": [
         "EUR"
+    ],
+    "gn": [
+        "PYG"
     ],
     "gsw": [
         "CHE",
@@ -729,7 +747,7 @@
         "INR"
     ],
     "hr": [
-        "HRK"
+        "EUR"
     ],
     "hr-BA": [
         "BAM"
@@ -759,6 +777,10 @@
     ],
     "it-VA": [
         "EUR"
+    ],
+    "iu": [
+        "CAD",
+        "CAD"
     ],
     "ja": [
         "JPY"
@@ -808,6 +830,9 @@
     "mai": [
         "INR"
     ],
+    "mdf": [
+        "RUB"
+    ],
     "mg": [
         "MGA"
     ],
@@ -821,6 +846,8 @@
         "INR"
     ],
     "mn": [
+        "CNY",
+        "CNH",
         "MNT"
     ],
     "mr": [
@@ -828,6 +855,9 @@
     ],
     "ms": [
         "MYR"
+    ],
+    "ms-Arab-BN": [
+        "BND"
     ],
     "ms-BN": [
         "BND"
@@ -840,6 +870,9 @@
     ],
     "my": [
         "MMK"
+    ],
+    "myv": [
+        "RUB"
     ],
     "nb": [
         "NOK"
@@ -880,11 +913,29 @@
     "nn": [
         "NOK"
     ],
+    "nr": [
+        "ZAR"
+    ],
+    "nso": [
+        "ZAR"
+    ],
+    "ny": [
+        "MWK"
+    ],
+    "oc-ES": [
+        "EUR"
+    ],
     "or": [
         "INR"
     ],
     "os": [
         "GEL"
+    ],
+    "pap": [
+        "ANG"
+    ],
+    "pap-AW": [
+        "AWG"
     ],
     "pl": [
         "PLN"
@@ -931,6 +982,9 @@
     ],
     "qu-EC": [
         "USD"
+    ],
+    "quc": [
+        "GTQ"
     ],
     "rm": [
         "CHE",
@@ -988,6 +1042,9 @@
     "sl": [
         "EUR"
     ],
+    "sms": [
+        "EUR"
+    ],
     "sn": [
         "USD"
     ],
@@ -1014,6 +1071,19 @@
     ],
     "sr-Latn-XK": [
         "EUR"
+    ],
+    "ss": [
+        "ZAR"
+    ],
+    "ss-SZ": [
+        "SZL"
+    ],
+    "st": [
+        "ZAR"
+    ],
+    "st-LS": [
+        "ZAR",
+        "LSL"
     ],
     "sv": [
         "SEK"
@@ -1060,14 +1130,26 @@
     "tk": [
         "TMT"
     ],
+    "tn": [
+        "ZAR"
+    ],
+    "tn-BW": [
+        "BWP"
+    ],
     "to": [
         "TOP"
+    ],
+    "tpi": [
+        "PGK"
     ],
     "tr": [
         "TRY"
     ],
     "tr-CY": [
         "EUR"
+    ],
+    "ts": [
+        "ZAR"
     ],
     "tt": [
         "RUB"
@@ -1091,6 +1173,12 @@
     "uz": [
         "AFN",
         "UZS"
+    ],
+    "ve": [
+        "ZAR"
+    ],
+    "vec": [
+        "EUR"
     ],
     "vi": [
         "VND"

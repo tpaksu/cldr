@@ -48,7 +48,7 @@ function get_numbers_data( $locale ) {
 			$locale = strtolower( $parts[0] );
 		}
 	}
-	$path = __DIR__ . '/cldr/cldr-numbers-full/main/' . strtolower( $locale ) . '/numbers.json';
+	$path = __DIR__ . '/../cldr/cldr-numbers-full/main/' . strtolower( $locale ) . '/numbers.json';
 	if ( file_exists( $path ) ) {
 		return get_json( $path );
 	}
@@ -94,7 +94,7 @@ function get_currency_format( $data, $locale ) {
 
 
 /**
- * Returns the associated locals for currency
+ * Returns the associated locales for currency
  *
  * @param   string $currency              Currency to return codes for.
  * @param   array  $currency_locale_data  Locale data.
@@ -202,32 +202,6 @@ function select_default_locale_for_currency( $codes ) {
 }
 
 /**
- * Dump
- *
- * @param   mixed $item  Dumped data.
- *
- * @return  void
- */
-function dump( $item ) {
-	/** phpcs:disable */
-	var_export( $item );
-	/** phpcs:enable Enable the linter. */
-}
-
-/**
- * Die Dump
- *
- * @param   mixed $item  Dumped data.
- *
- * @return  void
- */
-function dd( $item ) {
-	/** phpcs:disable */
-	die( '<pre>' . print_r( $item, true ) );
-	/** phpcs:enable Enable the linter. */
-}
-
-/**
  * Var export with 4 spaces and square brackets
  *
  * @param   mixed $expression  Variable to export.
@@ -236,13 +210,17 @@ function dd( $item ) {
  * @return  string             Exported object representation.
  */
 function var_export_override( $expression, $return = false ) {
-	$export = var_export( $expression, true );
+	$export = var_export( $expression, true ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_var_export
 	$export = preg_replace( '/^([ ]*)(.*)/m', '$1$1$2', $export );
 	$array  = preg_split( "/\r\n|\n|\r/", $export );
 	$array  = preg_replace( [ '/\s*array\s\($/', '/\)(,)?$/', '/\s=>\s$/' ], [ null, ']$1', ' => [' ], $array );
-	$array  = preg_replace_callback("/('.+?') => (.+),/", function($m) {
-		return str_pad($m[1], 17, "*") . "=> " . $m[2] . ",";
-	}, $array);
+	$array  = preg_replace_callback(
+		"/('.+?') => (.+),/",
+		function( $m ) {
+			return str_pad( $m[1], 17, '*' ) . '=> ' . $m[2] . ',';
+		},
+		$array
+	);
 	$export = join( PHP_EOL, array_filter( [ '[' ] + $array ) );
 	$export = str_replace( '    ', "\t", $export );
 	$export = str_replace( '*', ' ', $export );
@@ -272,7 +250,7 @@ function get_language_direction( $country, $default_locales, $language_direction
  * Gets the direction of the locale.
  *
  * @param   string $locale               The locale to check for.
- * @param   array  $language_directions  The locale directions array
+ * @param   array  $language_directions  The locale directions array.
  *
  * @return  string                       The direction
  */
@@ -296,8 +274,8 @@ function get_locale_direction( $locale, $language_directions ) {
 /**
  * Gets the hash key for grouping format data
  *
- * @param   string $key  Currency name.
- * @param   array  $data  Currency formatting data.
+ * @param   string $language Language.
+ * @param   array  $data     Currency formatting data.
  *
  * @return  string         The key of the format
  */

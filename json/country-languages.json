@@ -107,7 +107,8 @@
         "nl-BQ"
     ],
     "BR": [
-        "pt-BR"
+        "pt-BR",
+        "vec-BR"
     ],
     "BS": [
         "en-BS"
@@ -131,7 +132,11 @@
         "fr-CA",
         "iu-CA",
         "iu-Latn-CA",
-        "ikt-CA"
+        "chp-CA",
+        "cr-CA",
+        "den-CA",
+        "dgr-CA",
+        "gwi-CA"
     ],
     "CC": [
         "en-CC"
@@ -181,6 +186,9 @@
     "CO": [
         "es-CO"
     ],
+    "CQ": [
+        "en-CQ"
+    ],
     "CR": [
         "es-CR"
     ],
@@ -205,7 +213,8 @@
         "cs-CZ"
     ],
     "DE": [
-        "de-DE"
+        "de-DE",
+        "frr-DE"
     ],
     "DG": [
         "en-DG"
@@ -255,14 +264,16 @@
         "ca-ES",
         "gl-ES",
         "eu-ES",
-        "ast-ES"
+        "ast-ES",
+        "oc-ES"
     ],
     "ET": [
         "am-ET"
     ],
     "FI": [
         "fi-FI",
-        "sv-FI"
+        "sv-FI",
+        "sms-FI"
     ],
     "FJ": [
         "en-FJ",
@@ -287,8 +298,8 @@
     "GB": [
         "en-GB",
         "cy-GB",
-        "gd-GB",
-        "ga-GB"
+        "ga-GB",
+        "gd-GB"
     ],
     "GD": [
         "en-GD"
@@ -356,7 +367,8 @@
     ],
     "HR": [
         "hr-HR",
-        "it-HR"
+        "it-HR",
+        "vec-HR"
     ],
     "HT": [
         "ht-HT",
@@ -403,8 +415,8 @@
         "ks-IN",
         "kok-IN",
         "sd-IN",
-        "kha-IN",
         "sd-Deva-IN",
+        "kha-IN",
         "sa-IN"
     ],
     "IO": [
@@ -423,7 +435,8 @@
     ],
     "IT": [
         "it-IT",
-        "fr-IT"
+        "fr-IT",
+        "vec-IT"
     ],
     "JE": [
         "en-JE"
@@ -586,7 +599,8 @@
         "ny-MW"
     ],
     "MX": [
-        "es-MX"
+        "es-MX",
+        "vec-MX"
     ],
     "MY": [
         "ms-MY"
@@ -619,6 +633,7 @@
     ],
     "NO": [
         "nb-NO",
+        "no-NO",
         "nn-NO",
         "se-NO"
     ],
@@ -774,7 +789,8 @@
         "en-SH"
     ],
     "SI": [
-        "sl-SI"
+        "sl-SI",
+        "vec-SI"
     ],
     "SJ": [
         "nb-SJ"

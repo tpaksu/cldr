@@ -20,8 +20,8 @@ if ( ! function_exists( 'get_json' ) ) {
 	}
 }
 
-$locale_data   = include './country-locale-matcher.php';
-$currency_data = include './country-currency-matcher.php';
+$locale_data   = require 'country-locale-matcher.php';
+$currency_data = require 'country-currency-matcher.php';
 
 
 $data = [];
@@ -40,7 +40,7 @@ $data['zh']    = [ 'CNY' ];
 $data['zh-CN'] = [ 'CNY' ];
 //$data['kn']    = [ 'KHR' ];
 // $data['en-GG']   = [ 'GGP' ];
-$data['dv']      = [ 'MVR' ];
+$data['dv'] = [ 'MVR' ];
 //$data['sr']      = [ 'RSD' ];
 $data['zh-Hant'] = [ 'TWD' ];
 $data['es-VE']   = [ 'VES', 'VEF' ];

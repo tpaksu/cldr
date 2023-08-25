@@ -12,15 +12,19 @@ if ( ! function_exists( 'get_json' ) ) {
 	 * @param string $path  Path to open.
 	 *
 	 * @return object         File contents.
+	 * @throws Exception      When file doesn't exist.
 	 */
 	function get_json( $path ) {
 		/* phpcs:disable */
+		if(!file_exists($path)){
+			throw new Exception("File doesn't exist: $path");
+		}
 		return json_decode( file_get_contents( $path ), true );
 		/* phpcs:enable */
 	}
 }
 
-$language_data   = include './country-language-matcher.php';
+$language_data   = require 'country-language-matcher.php';
 $locales         = get_json( './cldr/cldr-core/availableLocales.json' );
 $locales         = $locales['availableLocales']['full'];
 $default_content = get_json( './cldr/cldr-core/defaultContent.json' );

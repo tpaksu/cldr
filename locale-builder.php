@@ -14,9 +14,9 @@ if ( ! file_exists( './output' ) ) {
 	mkdir( './output' );
 }
 
-$currency_locale_data  = include './currency-locale-matcher.php';
-$country_currency_data = include './country-currency-matcher.php';
-$currencies            = include './currencies.php';
+$currency_locale_data  = require 'includes/currency-locale-matcher.php';
+$country_currency_data = require 'includes/country-currency-matcher.php';
+$currencies            = require 'includes/currencies.php';
 $currency_symbols      = get_json( __DIR__ . '/cldr/cldr-numbers-full/main/en/currencies.json' );
 $currency_data         = get_json( __DIR__ . '/cldr/cldr-core/supplemental/currencyData.json' );
 $unit_preference_data  = get_json( __DIR__ . '/cldr/cldr-core/supplemental/unitPreferenceData.json' );
@@ -24,7 +24,7 @@ $default_content       = get_json( __DIR__ . '/cldr/cldr-core/defaultContent.jso
 $default_locales       = get_json( __DIR__ . '/json/default-locales.json' );
 $language_directions   = get_json( __DIR__ . '/json/language-direction.json' );
 
-require_once './functions.php';
+require './includes/functions.php';
 
 $data           = [];
 $global_formats = [];
@@ -32,6 +32,8 @@ $global_formats = [];
 foreach ( $currencies as $code => $name ) {
 	$data[ $code ] = get_currency_object( $code, $name, $currency_symbols, $currency_data, $currency_locale_data );
 }
+
+$data['BYN']['format']['symbol-alt-narrow'] = 'р.';
 
 // Map currency info to countries.
 $locale_info = [];
@@ -164,7 +166,7 @@ foreach ( $locale_info as $locale => $info ) {
 		'locales'        => '%%$locales[`' . $info['currency_code'] . '`]%%',
 	];
 	if ( 0 === count( $info['codes'] ) ) {
-		dump( 'Missing Locales: ' . $locale . ': ' . $info['currency_code'] . PHP_EOL );
+		echo 'Missing Locales: ' . $locale . ': ' . $info['currency_code'] . PHP_EOL;
 	}
 	if ( 1 < count( $output[ $locale ] ) ) {
 		$repeating[] = $info['currency_code'];
@@ -191,12 +193,11 @@ foreach ( $new_locales as $currency => &$locale ) {
 		}
 		if ( false === strpos( $key, '_' ) && 'default' !== $key ) {
 			$locale[ complete_country_for_locale( $key, $default_content['defaultContent'] ) ] = $locale[ $key ];
-			unset( $locale[ $key ] );
 		}
 		if ( isset( $value['format'] ) ) {
 			$value = $value['format'];
 		} else {
-			dump( 'Missing format for ' . $currency . '-' . $key . "\n" );
+			echo 'Missing format for ' . $currency . '-' . $key . "\n";
 		}
 	}
 }
@@ -241,7 +242,7 @@ $country_locale_data = '<?php
 
 defined( \'ABSPATH\' ) || exit;
 
-$locales = include \'./currency-info.php\';
+$locales = require WCPAY_ABSPATH . \'/i18n/currency-info.php\';
 
 return ' . var_export_override( $output, true ) . ';
 ';
@@ -252,5 +253,7 @@ $country_locale_data = str_replace( 'NULL', 'null', $country_locale_data );
 $country_locale_data = str_replace( '`', "'", $country_locale_data );
 /* phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents */
 file_put_contents( './output/locale-info.php', $country_locale_data );
+
+// exec( 'phpcbf ./output/*.php' ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.system_calls_exec
 
 return $data;
