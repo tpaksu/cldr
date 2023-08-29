@@ -2,92 +2,95 @@
     "ab": [
         "GEL"
     ],
+    "ady": [
+        "RUB"
+    ],
     "af": [
         "ZAR"
     ],
     "ak": [
         "GHS"
     ],
-    "am": [
+    "am_ET": [
         "ETB"
     ],
-    "ar-AE": [
+    "ar_AE": [
         "AED"
     ],
-    "ar-BH": [
+    "ar_BH": [
         "BHD"
     ],
-    "ar-DJ": [
+    "ar_DJ": [
         "DJF"
     ],
-    "ar-DZ": [
+    "ar_DZ": [
         "DZD"
     ],
-    "ar-EG": [
+    "ar_EG": [
         "EGP"
     ],
-    "ar-EH": [
+    "ar_EH": [
         "MAD"
     ],
-    "ar-ER": [
+    "ar_ER": [
         "ERN"
     ],
-    "ar-IL": [
+    "ar_IL": [
         "ILS"
     ],
-    "ar-IQ": [
+    "ar_IQ": [
         "IQD"
     ],
-    "ar-JO": [
+    "ar_JO": [
         "JOD"
     ],
-    "ar-KM": [
+    "ar_KM": [
         "KMF"
     ],
-    "ar-KW": [
+    "ar_KW": [
         "KWD"
     ],
-    "ar-LB": [
+    "ar_LB": [
         "LBP"
     ],
-    "ar-LY": [
+    "ar_LY": [
         "LYD"
     ],
-    "ar-MA": [
+    "ar_MA": [
         "MAD"
     ],
-    "ar-MR": [
+    "ar_MR": [
         "MRU"
     ],
-    "ar-OM": [
+    "ar_OM": [
         "OMR"
     ],
-    "ar-PS": [
+    "ar_PS": [
         "ILS",
         "JOD"
     ],
-    "ar-QA": [
+    "ar_QA": [
         "QAR"
     ],
-    "ar-SA": [
+    "ar_SA": [
         "SAR"
     ],
-    "ar-SD": [
+    "ar_SD": [
         "SDG"
     ],
-    "ar-SO": [
+    "ar_SO": [
         "SOS"
     ],
-    "ar-SY": [
+    "ar_SY": [
         "SYP"
     ],
-    "ar-TD": [
+    "ar_TD": [
         "XAF"
     ],
-    "ar-TN": [
+    "ar_TN": [
         "TND"
     ],
-    "ar-YE": [
+    "ar_YE": [
         "YER"
     ],
     "as": [
@@ -96,38 +99,51 @@
     "ast": [
         "EUR"
     ],
-    "az": [
+    "av": [
+        "RUB"
+    ],
+    "ay_BO": [
+        "BOV",
+        "BOB"
+    ],
+    "az_AZ": [
         "AZN"
     ],
-    "az-Arab-IQ": [
-        "IQD"
+    "az_Cyrl_AZ": [
+        "AZN"
     ],
     "ba": [
         "RUB"
     ],
-    "be": [
+    "be_BY": [
         "BYN"
     ],
-    "bg": [
+    "bg_BG": [
         "BGN"
     ],
-    "bn": [
-        "BDT"
+    "bi_VU": [
+        "VUV"
     ],
-    "bn-IN": [
-        "INR"
+    "bjt": [
+        "XOF"
+    ],
+    "bn_BD": [
+        "BDT"
     ],
     "bo": [
         "CNY",
         "CNH"
     ],
-    "bs": [
+    "bs_BA": [
         "BAM"
     ],
-    "ca": [
-        "EUR"
+    "bs_Cyrl_BA": [
+        "BAM"
     ],
-    "ca-AD": [
+    "bsc": [
+        "XOF"
+    ],
+    "ca_AD": [
         "EUR"
     ],
     "ce": [
@@ -136,566 +152,590 @@
     "ceb": [
         "PHP"
     ],
+    "ch_GU": [
+        "USD"
+    ],
+    "chp": [
+        "CAD"
+    ],
     "ckb": [
         "IQD"
     ],
-    "cs": [
+    "cr": [
+        "CAD"
+    ],
+    "cs_CZ": [
         "CZK"
+    ],
+    "csb": [
+        "PLN"
     ],
     "cy": [
         "GBP"
     ],
-    "da": [
+    "da_DK": [
         "DKK"
     ],
-    "de": [
+    "de_AT": [
         "EUR"
     ],
-    "de-AT": [
+    "de_BE": [
         "EUR"
     ],
-    "de-BE": [
-        "EUR"
-    ],
-    "de-CH": [
+    "de_CH": [
         "CHE",
         "CHW",
         "CHF"
     ],
-    "de-LI": [
-        "CHF"
-    ],
-    "de-LU": [
+    "de_DE": [
         "EUR"
     ],
+    "de_LI": [
+        "CHF"
+    ],
+    "de_LU": [
+        "EUR"
+    ],
+    "den": [
+        "CAD"
+    ],
+    "dgr": [
+        "CAD"
+    ],
     "dv": [
+        "MVR"
+    ],
+    "dv_MV": [
         "MVR"
     ],
     "dyo": [
         "XOF"
     ],
-    "dz": [
+    "dz_BT": [
         "INR",
         "BTN"
     ],
     "ee": [
         "GHS"
     ],
-    "el": [
+    "el_CY": [
         "EUR"
     ],
-    "el-CY": [
+    "el_GR": [
         "EUR"
     ],
-    "en": [
-        "USN",
-        "USD"
-    ],
-    "en-AG": [
+    "en_AG": [
         "XCD"
     ],
-    "en-AI": [
+    "en_AI": [
         "XCD"
     ],
-    "en-AS": [
+    "en_AS": [
         "USD"
     ],
-    "en-AU": [
+    "en_AU": [
         "AUD"
     ],
-    "en-BB": [
+    "en_BB": [
         "BBD"
     ],
-    "en-BI": [
+    "en_BI": [
         "BIF"
     ],
-    "en-BM": [
+    "en_BM": [
         "BMD"
     ],
-    "en-BS": [
+    "en_BS": [
         "BSD"
     ],
-    "en-BW": [
+    "en_BW": [
         "BWP"
     ],
-    "en-BZ": [
+    "en_BZ": [
         "BZD"
     ],
-    "en-CA": [
+    "en_CA": [
         "CAD"
     ],
-    "en-CC": [
+    "en_CC": [
         "AUD"
     ],
-    "en-CK": [
+    "en_CK": [
         "NZD"
     ],
-    "en-CM": [
+    "en_CM": [
         "XAF"
     ],
-    "en-CX": [
+    "en_CQ": [],
+    "en_CX": [
         "AUD"
     ],
-    "en-DG": [
+    "en_DG": [
         "USD"
     ],
-    "en-DM": [
+    "en_DM": [
         "XCD"
     ],
-    "en-ER": [
+    "en_ER": [
         "ERN"
     ],
-    "en-FJ": [
+    "en_FJ": [
         "FJD"
     ],
-    "en-FK": [
+    "en_FK": [
         "FKP"
     ],
-    "en-FM": [
+    "en_FM": [
         "USD"
     ],
-    "en-GB": [
+    "en_GB": [
         "GBP"
     ],
-    "en-GD": [
+    "en_GD": [
         "XCD"
     ],
-    "en-GG": [
+    "en_GG": [
         "GBP"
     ],
-    "en-GH": [
+    "en_GH": [
         "GHS"
     ],
-    "en-GI": [
+    "en_GI": [
         "GIP"
     ],
-    "en-GM": [
+    "en_GM": [
         "GMD"
     ],
-    "en-GU": [
+    "en_GU": [
         "USD"
     ],
-    "en-GY": [
+    "en_GY": [
         "GYD"
     ],
-    "en-HK": [
+    "en_HK": [
         "HKD"
     ],
-    "en-IE": [
+    "en_IE": [
         "EUR"
     ],
-    "en-IM": [
+    "en_IM": [
         "GBP"
     ],
-    "en-IN": [
+    "en_IN": [
         "INR"
     ],
-    "en-IO": [
+    "en_IO": [
         "USD"
     ],
-    "en-JE": [
+    "en_JE": [
         "GBP"
     ],
-    "en-JM": [
+    "en_JM": [
         "JMD"
     ],
-    "en-KE": [
+    "en_KE": [
         "KES"
     ],
-    "en-KI": [
+    "en_KI": [
         "AUD"
     ],
-    "en-KN": [
+    "en_KN": [
         "XCD"
     ],
-    "en-KY": [
+    "en_KY": [
         "KYD"
     ],
-    "en-LC": [
+    "en_LC": [
         "XCD"
     ],
-    "en-LR": [
+    "en_LR": [
         "LRD"
     ],
-    "en-LS": [
+    "en_LS": [
         "ZAR",
         "LSL"
     ],
-    "en-MG": [
+    "en_MG": [
         "MGA"
     ],
-    "en-MH": [
+    "en_MH": [
         "USD"
     ],
-    "en-MP": [
+    "en_MP": [
         "USD"
     ],
-    "en-MS": [
+    "en_MS": [
         "XCD"
     ],
-    "en-MT": [
+    "en_MT": [
         "EUR"
     ],
-    "en-MU": [
+    "en_MU": [
         "MUR"
     ],
-    "en-MW": [
+    "en_MW": [
         "MWK"
     ],
-    "en-NA": [
+    "en_NA": [
         "ZAR",
         "NAD"
     ],
-    "en-NF": [
+    "en_NF": [
         "AUD"
     ],
-    "en-NG": [
+    "en_NG": [
         "NGN"
     ],
-    "en-NR": [
+    "en_NR": [
         "AUD"
     ],
-    "en-NU": [
+    "en_NU": [
         "NZD"
     ],
-    "en-NZ": [
+    "en_NZ": [
         "NZD"
     ],
-    "en-PG": [
+    "en_PG": [
         "PGK"
     ],
-    "en-PH": [
+    "en_PH": [
         "PHP"
     ],
-    "en-PK": [
+    "en_PK": [
         "PKR"
     ],
-    "en-PN": [
+    "en_PN": [
         "NZD"
     ],
-    "en-PR": [
+    "en_PR": [
         "USD"
     ],
-    "en-PW": [
+    "en_PW": [
         "USD"
     ],
-    "en-RW": [
+    "en_RW": [
         "RWF"
     ],
-    "en-SB": [
+    "en_SB": [
         "SBD"
     ],
-    "en-SC": [
+    "en_SC": [
         "SCR"
     ],
-    "en-SD": [
+    "en_SD": [
         "SDG"
     ],
-    "en-SG": [
+    "en_SG": [
         "SGD"
     ],
-    "en-SH": [
+    "en_SH": [
         "SHP"
     ],
-    "en-SL": [
+    "en_SL": [
         "SLE"
     ],
-    "en-SS": [
+    "en_SS": [
         "SSP"
     ],
-    "en-SX": [
+    "en_SX": [
         "ANG"
     ],
-    "en-SZ": [
+    "en_SZ": [
         "SZL"
     ],
-    "en-TC": [
+    "en_TC": [
         "USD"
     ],
-    "en-TK": [
+    "en_TK": [
         "NZD"
     ],
-    "en-TO": [
+    "en_TO": [
         "TOP"
     ],
-    "en-TT": [
+    "en_TT": [
         "TTD"
     ],
-    "en-TV": [
+    "en_TV": [
         "AUD"
     ],
-    "en-TZ": [
+    "en_TZ": [
         "TZS"
     ],
-    "en-UG": [
+    "en_UG": [
         "UGX"
     ],
-    "en-UM": [
+    "en_UM": [
         "USD"
     ],
-    "en-VC": [
-        "XCD"
-    ],
-    "en-VG": [
-        "USD"
-    ],
-    "en-VI": [
-        "USD"
-    ],
-    "en-VU": [
-        "VUV"
-    ],
-    "en-WS": [
-        "WST"
-    ],
-    "en-ZA": [
-        "ZAR"
-    ],
-    "en-ZM": [
-        "ZMW"
-    ],
-    "en-ZW": [
-        "USD"
-    ],
-    "es": [
-        "EUR"
-    ],
-    "es-AR": [
-        "ARS"
-    ],
-    "es-BO": [
-        "BOV",
-        "BOB"
-    ],
-    "es-CL": [
-        "CLF",
-        "CLP"
-    ],
-    "es-CO": [
-        "COU",
-        "COP"
-    ],
-    "es-CR": [
-        "CRC"
-    ],
-    "es-CU": [
-        "CUP",
-        "CUC"
-    ],
-    "es-DO": [
-        "DOP"
-    ],
-    "es-EA": [
-        "EUR"
-    ],
-    "es-EC": [
-        "USD"
-    ],
-    "es-GQ": [
-        "XAF"
-    ],
-    "es-GT": [
-        "GTQ"
-    ],
-    "es-HN": [
-        "HNL"
-    ],
-    "es-IC": [
-        "EUR"
-    ],
-    "es-MX": [
-        "MXV",
-        "MXN"
-    ],
-    "es-NI": [
-        "NIO"
-    ],
-    "es-PA": [
-        "PAB",
-        "USD"
-    ],
-    "es-PE": [
-        "PEN"
-    ],
-    "es-PR": [
-        "USD"
-    ],
-    "es-PY": [
-        "PYG"
-    ],
-    "es-SV": [
-        "USD"
-    ],
-    "es-US": [
+    "en_US": [
         "USN",
         "USD"
     ],
-    "es-UY": [
+    "en_VC": [
+        "XCD"
+    ],
+    "en_VG": [
+        "USD"
+    ],
+    "en_VI": [
+        "USD"
+    ],
+    "en_VU": [
+        "VUV"
+    ],
+    "en_WS": [
+        "WST"
+    ],
+    "en_ZA": [
+        "ZAR"
+    ],
+    "en_ZM": [
+        "ZMW"
+    ],
+    "en_ZW": [
+        "USD"
+    ],
+    "es_AR": [
+        "ARS"
+    ],
+    "es_BO": [
+        "BOV",
+        "BOB"
+    ],
+    "es_CL": [
+        "CLF",
+        "CLP"
+    ],
+    "es_CO": [
+        "COU",
+        "COP"
+    ],
+    "es_CR": [
+        "CRC"
+    ],
+    "es_CU": [
+        "CUP",
+        "CUC"
+    ],
+    "es_DO": [
+        "DOP"
+    ],
+    "es_EA": [
+        "EUR"
+    ],
+    "es_EC": [
+        "USD"
+    ],
+    "es_ES": [
+        "EUR"
+    ],
+    "es_GQ": [
+        "XAF"
+    ],
+    "es_GT": [
+        "GTQ"
+    ],
+    "es_HN": [
+        "HNL"
+    ],
+    "es_IC": [
+        "EUR"
+    ],
+    "es_MX": [
+        "MXV",
+        "MXN"
+    ],
+    "es_NI": [
+        "NIO"
+    ],
+    "es_PA": [
+        "PAB",
+        "USD"
+    ],
+    "es_PE": [
+        "PEN"
+    ],
+    "es_PR": [
+        "USD"
+    ],
+    "es_PY": [
+        "PYG"
+    ],
+    "es_SV": [
+        "USD"
+    ],
+    "es_UY": [
         "UYI",
         "UYW",
         "UYU"
     ],
-    "es-VE": [
+    "es_VE": [
         "VES",
         "VEF"
     ],
-    "et": [
+    "et_EE": [
         "EUR"
     ],
     "eu": [
         "EUR"
     ],
-    "fa": [
-        "IRR"
-    ],
-    "fa-AF": [
+    "fa_AF": [
         "AFN"
     ],
-    "fi": [
+    "fa_IR": [
+        "IRR"
+    ],
+    "ff": [
+        "XOF"
+    ],
+    "fi_FI": [
         "EUR"
     ],
-    "fil": [
+    "fil_PH": [
         "PHP"
     ],
-    "fo": [
+    "fj_FJ": [
+        "FJD"
+    ],
+    "fo_FO": [
         "DKK"
     ],
-    "fr": [
+    "fr_BE": [
         "EUR"
     ],
-    "fr-BE": [
-        "EUR"
-    ],
-    "fr-BF": [
+    "fr_BF": [
         "XOF"
     ],
-    "fr-BI": [
+    "fr_BI": [
         "BIF"
     ],
-    "fr-BJ": [
+    "fr_BJ": [
         "XOF"
     ],
-    "fr-BL": [
+    "fr_BL": [
         "EUR"
     ],
-    "fr-CA": [
+    "fr_CA": [
         "CAD"
     ],
-    "fr-CD": [
+    "fr_CD": [
         "CDF"
     ],
-    "fr-CF": [
+    "fr_CF": [
         "XAF"
     ],
-    "fr-CG": [
+    "fr_CG": [
         "XAF"
     ],
-    "fr-CH": [
+    "fr_CH": [
         "CHE",
         "CHW",
         "CHF"
     ],
-    "fr-CI": [
+    "fr_CI": [
         "XOF"
     ],
-    "fr-CM": [
+    "fr_CM": [
         "XAF"
     ],
-    "fr-DJ": [
+    "fr_DJ": [
         "DJF"
     ],
-    "fr-DZ": [
+    "fr_DZ": [
         "DZD"
     ],
-    "fr-GA": [
-        "XAF"
-    ],
-    "fr-GF": [
+    "fr_FR": [
         "EUR"
     ],
-    "fr-GN": [
+    "fr_GA": [
+        "XAF"
+    ],
+    "fr_GF": [
+        "EUR"
+    ],
+    "fr_GN": [
         "GNF"
     ],
-    "fr-GP": [
+    "fr_GP": [
         "EUR"
     ],
-    "fr-GQ": [
+    "fr_GQ": [
         "XAF"
     ],
-    "fr-HT": [
+    "fr_HT": [
         "HTG",
         "USD"
     ],
-    "fr-KM": [
+    "fr_KM": [
         "KMF"
     ],
-    "fr-LU": [
+    "fr_LU": [
         "EUR"
     ],
-    "fr-MA": [
+    "fr_MA": [
         "MAD"
     ],
-    "fr-MC": [
+    "fr_MC": [
         "EUR"
     ],
-    "fr-MF": [
+    "fr_MF": [
         "EUR"
     ],
-    "fr-MG": [
+    "fr_MG": [
         "MGA"
     ],
-    "fr-ML": [
+    "fr_ML": [
         "XOF"
     ],
-    "fr-MQ": [
+    "fr_MQ": [
         "EUR"
     ],
-    "fr-MU": [
+    "fr_MU": [
         "MUR"
     ],
-    "fr-NC": [
+    "fr_NC": [
         "XPF"
     ],
-    "fr-NE": [
+    "fr_NE": [
         "XOF"
     ],
-    "fr-PF": [
+    "fr_PF": [
         "XPF"
     ],
-    "fr-PM": [
+    "fr_PM": [
         "EUR"
     ],
-    "fr-RE": [
+    "fr_RE": [
         "EUR"
     ],
-    "fr-RW": [
+    "fr_RW": [
         "RWF"
     ],
-    "fr-SC": [
+    "fr_SC": [
         "SCR"
     ],
-    "fr-SN": [
+    "fr_SN": [
         "XOF"
     ],
-    "fr-SY": [
+    "fr_SY": [
         "SYP"
     ],
-    "fr-TD": [
+    "fr_TD": [
         "XAF"
     ],
-    "fr-TG": [
+    "fr_TG": [
         "XOF"
     ],
-    "fr-TN": [
+    "fr_TN": [
         "TND"
     ],
-    "fr-VU": [
+    "fr_VU": [
         "VUV"
     ],
-    "fr-WF": [
+    "fr_WF": [
         "XPF"
     ],
-    "fr-YT": [
+    "fr_YT": [
         "EUR"
     ],
     "frr": [
@@ -704,11 +744,8 @@
     "fy": [
         "EUR"
     ],
-    "ga": [
+    "ga_IE": [
         "EUR"
-    ],
-    "ga-GB": [
-        "GBP"
     ],
     "gaa": [
         "GHS"
@@ -716,115 +753,178 @@
     "gd": [
         "GBP"
     ],
+    "gil_KI": [
+        "AUD"
+    ],
     "gl": [
         "EUR"
     ],
-    "gn": [
+    "gn_PY": [
         "PYG"
     ],
-    "gsw": [
+    "gsw_CH": [
         "CHE",
         "CHW",
         "CHF"
     ],
-    "gsw-LI": [
+    "gsw_LI": [
         "CHF"
     ],
     "gu": [
         "INR"
     ],
-    "gv": [
+    "gv_IM": [
         "GBP"
+    ],
+    "gwi": [
+        "CAD"
     ],
     "haw": [
         "USN",
         "USD"
     ],
-    "he": [
+    "he_IL": [
         "ILS"
     ],
-    "hi": [
+    "hi_IN": [
         "INR"
     ],
-    "hr": [
-        "EUR"
+    "hif_FJ": [
+        "FJD"
     ],
-    "hr-BA": [
+    "hil": [
+        "PHP"
+    ],
+    "ho_PG": [
+        "PGK"
+    ],
+    "hr_BA": [
         "BAM"
     ],
-    "hu": [
-        "HUF"
-    ],
-    "hy": [
-        "AMD"
-    ],
-    "id": [
-        "IDR"
-    ],
-    "is": [
-        "ISK"
-    ],
-    "it": [
+    "hr_HR": [
         "EUR"
     ],
-    "it-CH": [
+    "ht_HT": [
+        "HTG",
+        "USD"
+    ],
+    "hu_HU": [
+        "HUF"
+    ],
+    "hy_AM": [
+        "AMD"
+    ],
+    "id_ID": [
+        "IDR"
+    ],
+    "ilo": [
+        "PHP"
+    ],
+    "inh": [
+        "RUB"
+    ],
+    "is_IS": [
+        "ISK"
+    ],
+    "it_CH": [
         "CHE",
         "CHW",
         "CHF"
     ],
-    "it-SM": [
+    "it_IT": [
         "EUR"
     ],
-    "it-VA": [
+    "it_SM": [
+        "EUR"
+    ],
+    "it_VA": [
         "EUR"
     ],
     "iu": [
-        "CAD",
         "CAD"
     ],
-    "ja": [
+    "iu_Latn": [
+        "CAD"
+    ],
+    "ja_JP": [
         "JPY"
     ],
-    "ka": [
+    "ka_GE": [
         "GEL"
     ],
-    "kk": [
+    "kbd": [
+        "RUB"
+    ],
+    "kg": [
+        "CDF"
+    ],
+    "kha": [
+        "INR"
+    ],
+    "kk_KZ": [
         "KZT"
     ],
-    "kl": [
+    "kl_GL": [
         "DKK"
     ],
-    "km": [
+    "km_KH": [
         "KHR"
     ],
     "kn": [
         "INR"
     ],
-    "ko": [
+    "knf": [
+        "XOF"
+    ],
+    "ko_KP": [
+        "KPW"
+    ],
+    "ko_KR": [
         "KRW"
     ],
-    "ko-KP": [
-        "KPW"
+    "koi": [
+        "RUB"
     ],
     "kok": [
         "INR"
     ],
-    "ky": [
+    "krc": [
+        "RUB"
+    ],
+    "ks": [
+        "INR"
+    ],
+    "kum": [
+        "RUB"
+    ],
+    "kv": [
+        "RUB"
+    ],
+    "ky_KG": [
         "KGS"
     ],
-    "lb": [
+    "lb_LU": [
         "EUR"
+    ],
+    "lbe": [
+        "RUB"
+    ],
+    "lez": [
+        "RUB"
     ],
     "ln": [
         "CDF"
     ],
-    "lo": [
+    "lo_LA": [
         "LAK"
     ],
-    "lt": [
+    "lt_LT": [
         "EUR"
     ],
-    "lv": [
+    "lua": [
+        "CDF"
+    ],
+    "lv_LV": [
         "EUR"
     ],
     "mai": [
@@ -833,84 +933,100 @@
     "mdf": [
         "RUB"
     ],
-    "mg": [
+    "mdh": [
+        "PHP"
+    ],
+    "mey": [
+        "XOF"
+    ],
+    "mfv": [
+        "XOF"
+    ],
+    "mg_MG": [
         "MGA"
     ],
-    "mi": [
+    "mh_MH": [
+        "USD"
+    ],
+    "mi_NZ": [
         "NZD"
     ],
-    "mk": [
+    "mk_MK": [
         "MKD"
     ],
     "ml": [
         "INR"
     ],
-    "mn": [
-        "CNY",
-        "CNH",
+    "mn_MN": [
         "MNT"
     ],
     "mr": [
         "INR"
     ],
-    "ms": [
+    "ms_Arab_BN": [
+        "BND"
+    ],
+    "ms_BN": [
+        "BND"
+    ],
+    "ms_MY": [
         "MYR"
     ],
-    "ms-Arab-BN": [
-        "BND"
-    ],
-    "ms-BN": [
-        "BND"
-    ],
-    "ms-SG": [
+    "ms_SG": [
         "SGD"
     ],
-    "mt": [
+    "mt_MT": [
         "EUR"
     ],
-    "my": [
+    "my_MM": [
         "MMK"
     ],
     "myv": [
         "RUB"
     ],
-    "nb": [
+    "na_NR": [
+        "AUD"
+    ],
+    "nb_NO": [
         "NOK"
     ],
-    "nb-SJ": [
+    "nb_SJ": [
         "NOK"
     ],
-    "nd": [
+    "nd_ZW": [
         "USD"
     ],
-    "ne": [
+    "ne_NP": [
         "NPR"
     ],
-    "ne-IN": [
-        "INR"
+    "niu_NU": [
+        "NZD"
     ],
-    "nl": [
-        "EUR"
-    ],
-    "nl-AW": [
+    "nl_AW": [
         "AWG"
     ],
-    "nl-BE": [
+    "nl_BE": [
         "EUR"
     ],
-    "nl-BQ": [
+    "nl_BQ": [
         "USD"
     ],
-    "nl-CW": [
+    "nl_CW": [
         "ANG"
     ],
-    "nl-SR": [
+    "nl_NL": [
+        "EUR"
+    ],
+    "nl_SR": [
         "SRD"
     ],
-    "nl-SX": [
+    "nl_SX": [
         "ANG"
     ],
-    "nn": [
+    "nn_NO": [
+        "NOK"
+    ],
+    "no_NO": [
         "NOK"
     ],
     "nr": [
@@ -919,10 +1035,10 @@
     "nso": [
         "ZAR"
     ],
-    "ny": [
+    "ny_MW": [
         "MWK"
     ],
-    "oc-ES": [
+    "oc": [
         "EUR"
     ],
     "or": [
@@ -931,57 +1047,66 @@
     "os": [
         "GEL"
     ],
-    "pap": [
-        "ANG"
+    "pa": [
+        "INR"
     ],
-    "pap-AW": [
+    "pag": [
+        "PHP"
+    ],
+    "pap_AW": [
         "AWG"
     ],
-    "pl": [
-        "PLN"
+    "pap_CW": [
+        "ANG"
     ],
-    "ps": [
-        "AFN"
-    ],
-    "pt": [
-        "BRL"
-    ],
-    "pt-AO": [
-        "AOA"
-    ],
-    "pt-CV": [
-        "CVE"
-    ],
-    "pt-GQ": [
-        "XAF"
-    ],
-    "pt-GW": [
-        "XOF"
-    ],
-    "pt-MO": [
-        "MOP"
-    ],
-    "pt-MZ": [
-        "MZN"
-    ],
-    "pt-PT": [
-        "EUR"
-    ],
-    "pt-ST": [
-        "STN"
-    ],
-    "pt-TL": [
+    "pau_PW": [
         "USD"
     ],
-    "qu": [
-        "PEN"
+    "pl_PL": [
+        "PLN"
     ],
-    "qu-BO": [
+    "ps_AF": [
+        "AFN"
+    ],
+    "pt_AO": [
+        "AOA"
+    ],
+    "pt_BR": [
+        "BRL"
+    ],
+    "pt_CV": [
+        "CVE"
+    ],
+    "pt_GQ": [
+        "XAF"
+    ],
+    "pt_GW": [
+        "XOF"
+    ],
+    "pt_MO": [
+        "MOP"
+    ],
+    "pt_MZ": [
+        "MZN"
+    ],
+    "pt_PT": [
+        "EUR"
+    ],
+    "pt_ST": [
+        "STN"
+    ],
+    "pt_TL": [
+        "USD"
+    ],
+    "qu_BO": [
         "BOV",
         "BOB"
     ],
-    "qu-EC": [
+    "qu_EC": [
         "USD"
+    ],
+    "qu_PE": [
+        "PEN"
     ],
     "quc": [
         "GTQ"
@@ -991,31 +1116,31 @@
         "CHW",
         "CHF"
     ],
-    "rn": [
+    "rn_BI": [
         "BIF"
     ],
-    "ro": [
-        "RON"
-    ],
-    "ro-MD": [
+    "ro_MD": [
         "MDL"
     ],
-    "ru": [
-        "RUB"
+    "ro_RO": [
+        "RON"
     ],
-    "ru-BY": [
+    "ru_BY": [
         "BYN"
     ],
-    "ru-KG": [
+    "ru_KG": [
         "KGS"
     ],
-    "ru-KZ": [
+    "ru_KZ": [
         "KZT"
     ],
-    "ru-UA": [
+    "ru_RU": [
+        "RUB"
+    ],
+    "ru_UA": [
         "UAH"
     ],
-    "rw": [
+    "rw_RW": [
         "RWF"
     ],
     "sa": [
@@ -1024,188 +1149,247 @@
     "sah": [
         "RUB"
     ],
+    "sat": [
+        "INR"
+    ],
+    "sav": [
+        "XOF"
+    ],
     "sd": [
+        "INR"
+    ],
+    "sd_Deva": [
         "INR"
     ],
     "se": [
         "NOK"
     ],
-    "sg": [
+    "sg_CF": [
         "XAF"
     ],
-    "si": [
+    "si_LK": [
         "LKR"
     ],
-    "sk": [
+    "sk_SK": [
         "EUR"
     ],
-    "sl": [
+    "sl_SI": [
         "EUR"
+    ],
+    "sm_AS": [
+        "USD"
+    ],
+    "sm_WS": [
+        "WST"
     ],
     "sms": [
         "EUR"
     ],
-    "sn": [
+    "sn_ZW": [
         "USD"
     ],
-    "so": [
+    "snf": [
+        "XOF"
+    ],
+    "so_SO": [
         "SOS"
     ],
-    "sq": [
+    "sq_AL": [
         "ALL"
     ],
-    "sq-MK": [
-        "MKD"
-    ],
-    "sq-XK": [
+    "sq_XK": [
         "EUR"
     ],
-    "sr": [
-        "RSD"
-    ],
-    "sr-Latn-BA": [
+    "sr_BA": [
         "BAM"
     ],
-    "sr-Latn-ME": [
+    "sr_Latn_BA": [
+        "BAM"
+    ],
+    "sr_Latn_ME": [
         "EUR"
     ],
-    "sr-Latn-XK": [
+    "sr_Latn_RS": [
+        "RSD"
+    ],
+    "sr_Latn_XK": [
         "EUR"
     ],
-    "ss": [
-        "ZAR"
+    "sr_RS": [
+        "RSD"
     ],
-    "ss-SZ": [
+    "sr_XK": [
+        "EUR"
+    ],
+    "srr": [
+        "XOF"
+    ],
+    "ss_SZ": [
         "SZL"
     ],
-    "st": [
-        "ZAR"
-    ],
-    "st-LS": [
+    "st_LS": [
         "ZAR",
         "LSL"
     ],
-    "sv": [
+    "sv_AX": [
+        "EUR"
+    ],
+    "sv_FI": [
+        "EUR"
+    ],
+    "sv_SE": [
         "SEK"
     ],
-    "sv-AX": [
-        "EUR"
-    ],
-    "sv-FI": [
-        "EUR"
-    ],
-    "sw": [
-        "TZS"
-    ],
-    "sw-CD": [
-        "CDF"
-    ],
-    "sw-KE": [
+    "sw_KE": [
         "KES"
     ],
-    "sw-UG": [
+    "sw_TZ": [
+        "TZS"
+    ],
+    "sw_UG": [
         "UGX"
     ],
-    "ta": [
-        "INR"
-    ],
-    "ta-LK": [
+    "ta_LK": [
         "LKR"
     ],
-    "ta-SG": [
+    "ta_SG": [
         "SGD"
     ],
     "te": [
         "INR"
     ],
-    "tg": [
+    "tet_TL": [
+        "USD"
+    ],
+    "tg_TJ": [
         "TJS"
     ],
-    "th": [
+    "th_TH": [
         "THB"
     ],
-    "ti-ER": [
+    "ti_ER": [
         "ERN"
     ],
-    "tk": [
+    "tk_TM": [
         "TMT"
     ],
-    "tn": [
-        "ZAR"
+    "tkl_TK": [
+        "NZD"
     ],
-    "tn-BW": [
+    "tn_BW": [
         "BWP"
     ],
-    "to": [
+    "tnr": [
+        "XOF"
+    ],
+    "to_TO": [
         "TOP"
     ],
-    "tpi": [
+    "tpi_PG": [
         "PGK"
     ],
-    "tr": [
-        "TRY"
-    ],
-    "tr-CY": [
+    "tr_CY": [
         "EUR"
+    ],
+    "tr_TR": [
+        "TRY"
     ],
     "ts": [
         "ZAR"
     ],
+    "tsg": [
+        "PHP"
+    ],
     "tt": [
         "RUB"
     ],
-    "tzm": [
+    "tvl_TV": [
+        "AUD"
+    ],
+    "ty_PF": [
+        "XPF"
+    ],
+    "tyv": [
+        "RUB"
+    ],
+    "tzm_MA": [
         "MAD"
+    ],
+    "udm": [
+        "RUB"
     ],
     "ug": [
         "CNY",
         "CNH"
     ],
-    "uk": [
+    "uk_UA": [
         "UAH"
     ],
-    "ur": [
+    "ur_PK": [
         "PKR"
     ],
-    "ur-IN": [
-        "INR"
+    "uz_Cyrl_UZ": [
+        "UZS"
     ],
-    "uz": [
-        "AFN",
+    "uz_UZ": [
         "UZS"
     ],
     "ve": [
         "ZAR"
     ],
     "vec": [
+        "BRL",
+        "EUR",
+        "EUR",
+        "MXV",
+        "MXN",
         "EUR"
     ],
-    "vi": [
+    "vi_VN": [
         "VND"
     ],
-    "wo": [
+    "war": [
+        "PHP"
+    ],
+    "wni_KM": [
+        "KMF"
+    ],
+    "wo_SN": [
         "XOF"
     ],
     "xh": [
         "ZAR"
     ],
-    "yo": [
+    "yo_NG": [
         "NGN"
+    ],
+    "za": [
+        "CNY",
+        "CNH"
+    ],
+    "zdj_KM": [
+        "KMF"
     ],
     "zh": [
         "CNY"
     ],
-    "zh-CN": [
+    "zh_CN": [
         "CNY"
     ],
-    "zh-Hant": [
+    "zh_Hant": [
         "TWD"
     ],
-    "zh-Hant-HK": [
+    "zh_Hant_HK": [
         "HKD"
     ],
-    "zh-Hant-MO": [
+    "zh_Hant_MO": [
         "MOP"
+    ],
+    "zh_Hant_TW": [
+        "TWD"
+    ],
+    "zh_SG": [
+        "SGD"
     ],
     "zu": [
         "ZAR"

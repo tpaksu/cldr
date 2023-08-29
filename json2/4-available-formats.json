@@ -1,0 +1,128 @@
+{
+    "ls_comma_dot_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left_space"
+    },
+    "ls_comma_dot_rtl": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "rtl",
+        "currency_pos": "left_space"
+    },
+    "ls_comma_space_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left_space"
+    },
+    "ls_dot_comma_ltr": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "left_space"
+    },
+    "ls_dot_comma_rtl": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "rtl",
+        "currency_pos": "left_space"
+    },
+    "lx_comma_dot_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left"
+    },
+    "lx_comma_dot_rtl": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "rtl",
+        "currency_pos": "left"
+    },
+    "lx_comma_space_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left"
+    },
+    "lx_dot_comma_ltr": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "left"
+    },
+    "lx_dot_comma_rtl": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "rtl",
+        "currency_pos": "left"
+    },
+    "lx_dot_space_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "left"
+    },
+    "rs_comma_dot_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "right_space"
+    },
+    "rs_comma_dot_rtl": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "rtl",
+        "currency_pos": "right_space"
+    },
+    "rs_comma_space_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "right_space"
+    },
+    "rs_dot_apos_ltr": {
+        "thousand_sep": "'",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "right_space"
+    },
+    "rs_dot_comma_ltr": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "right_space"
+    },
+    "rs_dot_comma_rtl": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "rtl",
+        "currency_pos": "right_space"
+    },
+    "rx_comma_dot_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "right"
+    },
+    "rx_comma_dot_rtl": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "rtl",
+        "currency_pos": "right"
+    },
+    "rx_dot_comma_ltr": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "right"
+    },
+    "rx_dot_comma_rtl": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "rtl",
+        "currency_pos": "right"
+    }
+}

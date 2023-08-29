@@ -48,7 +48,7 @@ function get_numbers_data( $locale ) {
 			$locale = strtolower( $parts[0] );
 		}
 	}
-	$path = __DIR__ . '/../cldr/cldr-numbers-full/main/' . strtolower( $locale ) . '/numbers.json';
+	$path = __DIR__ . '/../cldr/cldr-numbers-full/main/' . strtolower( str_replace( '_', '-', $locale ) ) . '/numbers.json';
 	if ( file_exists( $path ) ) {
 		return get_json( $path );
 	}
@@ -176,7 +176,10 @@ function get_currency_object( $code, $name, $currency_symbols, $currency_data, $
  */
 function select_default_locale_for_currency( $codes ) {
 	if ( count( $codes ) === 0 ) {
-		return [];
+		return [
+			'format' => null,
+			'locale' => null,
+		];
 	}
 
 	$spec_counts = [];
@@ -186,7 +189,10 @@ function select_default_locale_for_currency( $codes ) {
 	}
 
 	if ( count( $spec_counts ) === 0 ) {
-		return [];
+		return [
+			'format' => null,
+			'locale' => null,
+		];
 	}
 
 	$counts = array_count_values( $spec_counts );
@@ -194,11 +200,17 @@ function select_default_locale_for_currency( $codes ) {
 	$max_hash = array_keys( $counts )[0];
 	foreach ( $spec_counts as $locale => $hash ) {
 		if ( $hash === $max_hash ) {
-			return $codes[ $locale ];
+			return [
+				'format' => $codes[ $locale ],
+				'locale' => $locale,
+			];
 		}
 	}
 	$first = my_array_key_first( $codes );
-	return $codes[ $first ];
+	return [
+		'format' => $codes[ $first ],
+		'locale' => $first,
+	];
 }
 
 /**
@@ -256,15 +268,15 @@ function get_language_direction( $country, $default_locales, $language_direction
  */
 function get_locale_direction( $locale, $language_directions ) {
 	while ( true ) {
-		if ( strpos( $locale, '-' ) > 0 ) {
-			$parts = explode( '-', $locale );
+		if ( strpos( $locale, '_' ) > 0 ) {
+			$parts = explode( '_', $locale );
 			array_pop( $parts );
-			$locale = implode( '-', $parts );
+			$locale = implode( '_', $parts );
 		}
 		if ( array_key_exists( $locale, $language_directions ) ) {
 			return $language_directions[ $locale ];
 		}
-		if ( strpos( $locale, '-' ) > 0 ) {
+		if ( strpos( $locale, '_' ) > 0 ) {
 			continue;
 		}
 		return 'ltr';
@@ -376,26 +388,13 @@ function fix_formats( $formats ) {
 }
 
 /**
- * Completes locales without country suffixes from defaultContent data
+ * Gets the default language for the given locale.
  *
- * @param   string $key   The locale to complete.
- * @param   array  $list  The default locales list.
+ * @param   string $locale         The locale.
+ * @param   array  $language_list  The languages list.
  *
- * @return  string        The completed locale.
+ * @return  string        The language.
  */
-function complete_country_for_locale( $key, $list ) {
-	$matches = array_values(
-		array_filter(
-			$list,
-			function( $locale ) use ( $key ) {
-				return strpos( $locale, $key . '-' ) === 0;
-			}
-		)
-	);
-	if ( count( $matches ) > 0 ) {
-		$parts  = explode( '-', $matches[0] );
-		$second = end( $parts );
-		return $key . '_' . $second;
-	}
-	return $key;
+function get_language_for_locale( $locale, $language_list ) {
+	return Locale::lookup( $language_list, $locale, true );
 }

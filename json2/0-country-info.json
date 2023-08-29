@@ -1,0 +1,4083 @@
+{
+    "AC": {
+        "currencies": [
+            "SHP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en"
+        ],
+        "default_locale": "en"
+    },
+    "AD": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ca"
+        ],
+        "locales": [
+            "ca-AD"
+        ],
+        "default_locale": "ca-AD"
+    },
+    "AE": {
+        "currencies": [
+            "AED"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-AE"
+        ],
+        "default_locale": "ar-AE"
+    },
+    "AF": {
+        "currencies": [
+            "AFN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fa",
+            "ps",
+            "tk",
+            "uz_Arab"
+        ],
+        "locales": [
+            "fa-AF",
+            "ps",
+            "tk",
+            "uz-Arab"
+        ],
+        "default_locale": "fa-AF"
+    },
+    "AG": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-AG"
+        ],
+        "default_locale": "en-AG"
+    },
+    "AI": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-AI"
+        ],
+        "default_locale": "en-AI"
+    },
+    "AL": {
+        "currencies": [
+            "ALL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "sq"
+        ],
+        "locales": [
+            "sq"
+        ],
+        "default_locale": "sq"
+    },
+    "AM": {
+        "currencies": [
+            "AMD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "hy"
+        ],
+        "locales": [
+            "hy"
+        ],
+        "default_locale": "hy"
+    },
+    "AO": {
+        "currencies": [
+            "AOA"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt"
+        ],
+        "locales": [
+            "pt-AO"
+        ],
+        "default_locale": "pt-AO"
+    },
+    "AQ": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "und"
+        ],
+        "locales": [
+            "und"
+        ],
+        "default_locale": "und"
+    },
+    "AR": {
+        "currencies": [
+            "ARS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-AR"
+        ],
+        "default_locale": "es-AR"
+    },
+    "AS": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "sm"
+        ],
+        "locales": [
+            "en-AS"
+        ],
+        "default_locale": "en-AS"
+    },
+    "AT": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "de",
+            "hr",
+            "hu",
+            "sl"
+        ],
+        "locales": [
+            "de-AT",
+            "hr",
+            "hu",
+            "sl"
+        ],
+        "default_locale": "de-AT"
+    },
+    "AU": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-AU"
+        ],
+        "default_locale": "en-AU"
+    },
+    "AW": {
+        "currencies": [
+            "AWG"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "nl",
+            "pap"
+        ],
+        "locales": [
+            "nl-AW",
+            "pap-AW"
+        ],
+        "default_locale": "nl-AW"
+    },
+    "AX": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "sv"
+        ],
+        "locales": [
+            "sv-AX"
+        ],
+        "default_locale": "sv-AX"
+    },
+    "AZ": {
+        "currencies": [
+            "AZN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "az",
+            "az_Cyrl"
+        ],
+        "locales": [
+            "az",
+            "az-Cyrl"
+        ],
+        "default_locale": "az"
+    },
+    "BA": {
+        "currencies": [
+            "BAM"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "bs",
+            "bs_Cyrl",
+            "hr",
+            "sr",
+            "sr_Latn"
+        ],
+        "locales": [
+            "bs",
+            "bs-Cyrl",
+            "hr-BA",
+            "sr",
+            "sr-Latn"
+        ],
+        "default_locale": "bs"
+    },
+    "BB": {
+        "currencies": [
+            "BBD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-BB"
+        ],
+        "default_locale": "en-BB"
+    },
+    "BD": {
+        "currencies": [
+            "BDT"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "bn"
+        ],
+        "locales": [
+            "bn"
+        ],
+        "default_locale": "bn"
+    },
+    "BE": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "de",
+            "fr",
+            "nl"
+        ],
+        "locales": [
+            "de-BE",
+            "fr-BE",
+            "nl-BE"
+        ],
+        "default_locale": "nl-BE"
+    },
+    "BF": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-BF"
+        ],
+        "default_locale": "fr-BF"
+    },
+    "BG": {
+        "currencies": [
+            "BGN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "bg"
+        ],
+        "locales": [
+            "bg"
+        ],
+        "default_locale": "bg"
+    },
+    "BH": {
+        "currencies": [
+            "BHD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-BH"
+        ],
+        "default_locale": "ar-BH"
+    },
+    "BI": {
+        "currencies": [
+            "BIF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fr",
+            "rn"
+        ],
+        "locales": [
+            "en-BI",
+            "fr-BI",
+            "rn"
+        ],
+        "default_locale": "rn"
+    },
+    "BJ": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-BJ"
+        ],
+        "default_locale": "fr-BJ"
+    },
+    "BL": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-BL"
+        ],
+        "default_locale": "fr-BL"
+    },
+    "BM": {
+        "currencies": [
+            "BMD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-BM"
+        ],
+        "default_locale": "en-BM"
+    },
+    "BN": {
+        "currencies": [
+            "BND"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ms",
+            "ms_Arab"
+        ],
+        "locales": [
+            "ms-Arab",
+            "ms-BN"
+        ],
+        "default_locale": "ms-Arab"
+    },
+    "BO": {
+        "currencies": [
+            "BOB"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ay",
+            "es",
+            "qu"
+        ],
+        "locales": [
+            "es-BO",
+            "qu-BO"
+        ],
+        "default_locale": "es-BO"
+    },
+    "BQ": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "nl"
+        ],
+        "locales": [
+            "nl-BQ"
+        ],
+        "default_locale": "nl-BQ"
+    },
+    "BR": {
+        "currencies": [
+            "BRL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt",
+            "vec"
+        ],
+        "locales": [
+            "pt",
+            "vec"
+        ],
+        "default_locale": "pt"
+    },
+    "BS": {
+        "currencies": [
+            "BSD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-BS"
+        ],
+        "default_locale": "en-BS"
+    },
+    "BT": {
+        "currencies": [
+            "BTN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "dz"
+        ],
+        "locales": [
+            "dz"
+        ],
+        "default_locale": "dz"
+    },
+    "BU": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "BV": {
+        "currencies": [
+            "NOK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "und"
+        ],
+        "locales": [
+            "und"
+        ],
+        "default_locale": "und"
+    },
+    "BW": {
+        "currencies": [
+            "BWP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "tn"
+        ],
+        "locales": [
+            "en-BW",
+            "tn-BW"
+        ],
+        "default_locale": "en-BW"
+    },
+    "BY": {
+        "currencies": [
+            "BYN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "be",
+            "ru"
+        ],
+        "locales": [
+            "be",
+            "ru-BY"
+        ],
+        "default_locale": "be"
+    },
+    "BZ": {
+        "currencies": [
+            "BZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-BZ"
+        ],
+        "default_locale": "en-BZ"
+    },
+    "CA": {
+        "currencies": [
+            "CAD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "chp",
+            "cr",
+            "den",
+            "dgr",
+            "en",
+            "fr",
+            "gwi",
+            "iu",
+            "iu_Latn"
+        ],
+        "locales": [
+            "en-CA",
+            "fr-CA",
+            "iu",
+            "iu-Latn"
+        ],
+        "default_locale": "en-CA"
+    },
+    "CC": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-CC"
+        ],
+        "default_locale": "en-CC"
+    },
+    "CD": {
+        "currencies": [
+            "CDF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr",
+            "kg",
+            "ln",
+            "lua",
+            "sw"
+        ],
+        "locales": [
+            "fr-CD",
+            "ln",
+            "sw-CD"
+        ],
+        "default_locale": "fr-CD"
+    },
+    "CF": {
+        "currencies": [
+            "XAF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr",
+            "sg"
+        ],
+        "locales": [
+            "fr-CF",
+            "sg"
+        ],
+        "default_locale": "sg"
+    },
+    "CG": {
+        "currencies": [
+            "XAF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-CG"
+        ],
+        "default_locale": "fr-CG"
+    },
+    "CH": {
+        "currencies": [
+            "CHF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "de",
+            "fr",
+            "gsw",
+            "it",
+            "rm"
+        ],
+        "locales": [
+            "de-CH",
+            "fr-CH",
+            "gsw",
+            "it-CH",
+            "rm"
+        ],
+        "default_locale": "de-CH"
+    },
+    "CI": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-CI"
+        ],
+        "default_locale": "fr-CI"
+    },
+    "CK": {
+        "currencies": [
+            "NZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-CK"
+        ],
+        "default_locale": "en-CK"
+    },
+    "CL": {
+        "currencies": [
+            "CLP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-CL"
+        ],
+        "default_locale": "es-CL"
+    },
+    "CM": {
+        "currencies": [
+            "XAF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fr"
+        ],
+        "locales": [
+            "en-CM",
+            "fr-CM"
+        ],
+        "default_locale": "fr-CM"
+    },
+    "CN": {
+        "currencies": [
+            "CNY"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "bo",
+            "ko",
+            "mn_Mong",
+            "ug",
+            "za",
+            "zh"
+        ],
+        "locales": [
+            "bo",
+            "ko",
+            "mn-Mong",
+            "ug",
+            "zh"
+        ],
+        "default_locale": "zh"
+    },
+    "CO": {
+        "currencies": [
+            "COP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-CO"
+        ],
+        "default_locale": "es-CO"
+    },
+    "CP": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "und"
+        ],
+        "locales": [
+            "und"
+        ],
+        "default_locale": "und"
+    },
+    "CR": {
+        "currencies": [
+            "CRC"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-CR"
+        ],
+        "default_locale": "es-CR"
+    },
+    "CS": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "CU": {
+        "currencies": [
+            "CUP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-CU"
+        ],
+        "default_locale": "es-CU"
+    },
+    "CV": {
+        "currencies": [
+            "CVE"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt"
+        ],
+        "locales": [
+            "pt-CV"
+        ],
+        "default_locale": "pt-CV"
+    },
+    "CW": {
+        "currencies": [
+            "ANG"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "nl",
+            "pap"
+        ],
+        "locales": [
+            "nl-CW",
+            "pap"
+        ],
+        "default_locale": "pap"
+    },
+    "CX": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-CX"
+        ],
+        "default_locale": "en-CX"
+    },
+    "CY": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "el",
+            "tr"
+        ],
+        "locales": [
+            "el-CY",
+            "tr-CY"
+        ],
+        "default_locale": "el-CY"
+    },
+    "CZ": {
+        "currencies": [
+            "CZK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "cs"
+        ],
+        "locales": [
+            "cs"
+        ],
+        "default_locale": "cs"
+    },
+    "DD": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "DE": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "de",
+            "frr"
+        ],
+        "locales": [
+            "de",
+            "frr"
+        ],
+        "default_locale": "de"
+    },
+    "DG": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-DG"
+        ],
+        "default_locale": "en-DG"
+    },
+    "DJ": {
+        "currencies": [
+            "DJF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr"
+        ],
+        "locales": [
+            "ar-DJ",
+            "fr-DJ"
+        ],
+        "default_locale": "ar-DJ"
+    },
+    "DK": {
+        "currencies": [
+            "DKK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "da",
+            "de",
+            "kl"
+        ],
+        "locales": [
+            "da",
+            "de",
+            "kl"
+        ],
+        "default_locale": "da"
+    },
+    "DM": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-DM"
+        ],
+        "default_locale": "en-DM"
+    },
+    "DO": {
+        "currencies": [
+            "DOP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-DO"
+        ],
+        "default_locale": "es-DO"
+    },
+    "DZ": {
+        "currencies": [
+            "DZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr"
+        ],
+        "locales": [
+            "ar-DZ",
+            "fr-DZ"
+        ],
+        "default_locale": "ar-DZ"
+    },
+    "EA": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-EA"
+        ],
+        "default_locale": "es-EA"
+    },
+    "EC": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es",
+            "qu"
+        ],
+        "locales": [
+            "es-EC",
+            "qu-EC"
+        ],
+        "default_locale": "es-EC"
+    },
+    "EE": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "et"
+        ],
+        "locales": [
+            "et"
+        ],
+        "default_locale": "et"
+    },
+    "EG": {
+        "currencies": [
+            "EGP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-EG"
+        ],
+        "default_locale": "ar-EG"
+    },
+    "EH": {
+        "currencies": [
+            "MAD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-EH"
+        ],
+        "default_locale": "ar-EH"
+    },
+    "ER": {
+        "currencies": [
+            "ERN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "en",
+            "ti"
+        ],
+        "locales": [
+            "ar-ER",
+            "en-ER",
+            "ti-ER"
+        ],
+        "default_locale": "ti-ER"
+    },
+    "ES": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ast",
+            "ca",
+            "es",
+            "eu",
+            "gl",
+            "oc"
+        ],
+        "locales": [
+            "ast",
+            "ca",
+            "es",
+            "eu",
+            "gl",
+            "oc-ES"
+        ],
+        "default_locale": "es"
+    },
+    "ET": {
+        "currencies": [
+            "ETB"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "am"
+        ],
+        "locales": [
+            "am"
+        ],
+        "default_locale": "am"
+    },
+    "EU": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "FI": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fi",
+            "sms",
+            "sv"
+        ],
+        "locales": [
+            "fi",
+            "sms",
+            "sv-FI"
+        ],
+        "default_locale": "fi"
+    },
+    "FJ": {
+        "currencies": [
+            "FJD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fj",
+            "hif"
+        ],
+        "locales": [
+            "en-FJ"
+        ],
+        "default_locale": "en-FJ"
+    },
+    "FK": {
+        "currencies": [
+            "FKP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-FK"
+        ],
+        "default_locale": "en-FK"
+    },
+    "FM": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-FM"
+        ],
+        "default_locale": "en-FM"
+    },
+    "FO": {
+        "currencies": [
+            "DKK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fo"
+        ],
+        "locales": [
+            "fo"
+        ],
+        "default_locale": "fo"
+    },
+    "FR": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr"
+        ],
+        "default_locale": "fr"
+    },
+    "GA": {
+        "currencies": [
+            "XAF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-GA"
+        ],
+        "default_locale": "fr-GA"
+    },
+    "GB": {
+        "currencies": [
+            "GBP"
+        ],
+        "weight_unit": "oz",
+        "dimension_unit": "foot",
+        "languages": [
+            "cy",
+            "en",
+            "ga",
+            "gd"
+        ],
+        "locales": [
+            "cy",
+            "en-GB",
+            "ga-GB",
+            "gd"
+        ],
+        "default_locale": "en-GB"
+    },
+    "GD": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-GD"
+        ],
+        "default_locale": "en-GD"
+    },
+    "GE": {
+        "currencies": [
+            "GEL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ab",
+            "ka",
+            "os"
+        ],
+        "locales": [
+            "ab",
+            "ka",
+            "os"
+        ],
+        "default_locale": "ka"
+    },
+    "GF": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-GF"
+        ],
+        "default_locale": "fr-GF"
+    },
+    "GG": {
+        "currencies": [
+            "GBP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-GG"
+        ],
+        "default_locale": "en-GG"
+    },
+    "GH": {
+        "currencies": [
+            "GHS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ak",
+            "ee",
+            "en",
+            "gaa"
+        ],
+        "locales": [
+            "ak",
+            "ee",
+            "en-GH",
+            "gaa"
+        ],
+        "default_locale": "en-GH"
+    },
+    "GI": {
+        "currencies": [
+            "GIP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-GI"
+        ],
+        "default_locale": "en-GI"
+    },
+    "GL": {
+        "currencies": [
+            "DKK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "kl"
+        ],
+        "locales": [
+            "kl"
+        ],
+        "default_locale": "kl"
+    },
+    "GM": {
+        "currencies": [
+            "GMD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-GM"
+        ],
+        "default_locale": "en-GM"
+    },
+    "GN": {
+        "currencies": [
+            "GNF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-GN"
+        ],
+        "default_locale": "fr-GN"
+    },
+    "GP": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-GP"
+        ],
+        "default_locale": "fr-GP"
+    },
+    "GQ": {
+        "currencies": [
+            "XAF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es",
+            "fr",
+            "pt"
+        ],
+        "locales": [
+            "es-GQ",
+            "fr-GQ",
+            "pt-GQ"
+        ],
+        "default_locale": "es-GQ"
+    },
+    "GR": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "el"
+        ],
+        "locales": [
+            "el"
+        ],
+        "default_locale": "el"
+    },
+    "GS": {
+        "currencies": [
+            "GBP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "und"
+        ],
+        "locales": [
+            "und"
+        ],
+        "default_locale": "und"
+    },
+    "GT": {
+        "currencies": [
+            "GTQ"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es",
+            "quc"
+        ],
+        "locales": [
+            "es-GT",
+            "quc"
+        ],
+        "default_locale": "es-GT"
+    },
+    "GU": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ch",
+            "en"
+        ],
+        "locales": [
+            "en-GU"
+        ],
+        "default_locale": "en-GU"
+    },
+    "GW": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt"
+        ],
+        "locales": [
+            "pt-GW"
+        ],
+        "default_locale": "pt-GW"
+    },
+    "GY": {
+        "currencies": [
+            "GYD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-GY"
+        ],
+        "default_locale": "en-GY"
+    },
+    "HK": {
+        "currencies": [
+            "HKD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "zh_Hant"
+        ],
+        "locales": [
+            "en-HK",
+            "zh-Hant"
+        ],
+        "default_locale": "en-HK"
+    },
+    "HM": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "und"
+        ],
+        "locales": [
+            "und"
+        ],
+        "default_locale": "und"
+    },
+    "HN": {
+        "currencies": [
+            "HNL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-HN"
+        ],
+        "default_locale": "es-HN"
+    },
+    "HR": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "hr",
+            "it",
+            "vec"
+        ],
+        "locales": [
+            "hr",
+            "it",
+            "vec"
+        ],
+        "default_locale": "hr"
+    },
+    "HT": {
+        "currencies": [
+            "HTG"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr",
+            "ht"
+        ],
+        "locales": [
+            "fr-HT"
+        ],
+        "default_locale": "fr-HT"
+    },
+    "HU": {
+        "currencies": [
+            "HUF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "hu"
+        ],
+        "locales": [
+            "hu"
+        ],
+        "default_locale": "hu"
+    },
+    "IC": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-IC"
+        ],
+        "default_locale": "es-IC"
+    },
+    "ID": {
+        "currencies": [
+            "IDR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "id"
+        ],
+        "locales": [
+            "id"
+        ],
+        "default_locale": "id"
+    },
+    "IE": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "ga"
+        ],
+        "locales": [
+            "en-IE",
+            "ga"
+        ],
+        "default_locale": "en-IE"
+    },
+    "IL": {
+        "currencies": [
+            "ILS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "he"
+        ],
+        "locales": [
+            "ar-IL",
+            "he"
+        ],
+        "default_locale": "he"
+    },
+    "IM": {
+        "currencies": [
+            "GBP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "gv"
+        ],
+        "locales": [
+            "en-IM",
+            "gv"
+        ],
+        "default_locale": "en-IM"
+    },
+    "IN": {
+        "currencies": [
+            "INR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "as",
+            "bn",
+            "en",
+            "gu",
+            "hi",
+            "kha",
+            "kn",
+            "kok",
+            "ks",
+            "mai",
+            "ml",
+            "mr",
+            "ne",
+            "or",
+            "pa",
+            "sa",
+            "sat",
+            "sd",
+            "sd_Deva",
+            "ta",
+            "te",
+            "ur"
+        ],
+        "locales": [
+            "as",
+            "bn-IN",
+            "en-IN",
+            "gu",
+            "hi",
+            "kn",
+            "kok",
+            "ks",
+            "mai",
+            "ml",
+            "mr",
+            "ne-IN",
+            "or",
+            "pa",
+            "sa",
+            "sat",
+            "sd",
+            "sd-Deva",
+            "ta",
+            "te",
+            "ur-IN"
+        ],
+        "default_locale": "hi"
+    },
+    "IO": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-IO"
+        ],
+        "default_locale": "en-IO"
+    },
+    "IQ": {
+        "currencies": [
+            "IQD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "az_Arab",
+            "ckb"
+        ],
+        "locales": [
+            "ar-IQ",
+            "az-Arab",
+            "ckb"
+        ],
+        "default_locale": "ar-IQ"
+    },
+    "IR": {
+        "currencies": [
+            "IRR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fa"
+        ],
+        "locales": [
+            "fa"
+        ],
+        "default_locale": "fa"
+    },
+    "IS": {
+        "currencies": [
+            "ISK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "is"
+        ],
+        "locales": [
+            "is"
+        ],
+        "default_locale": "is"
+    },
+    "IT": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr",
+            "it",
+            "vec"
+        ],
+        "locales": [
+            "fr",
+            "it",
+            "vec"
+        ],
+        "default_locale": "it"
+    },
+    "JE": {
+        "currencies": [
+            "GBP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-JE"
+        ],
+        "default_locale": "en-JE"
+    },
+    "JM": {
+        "currencies": [
+            "JMD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-JM"
+        ],
+        "default_locale": "en-JM"
+    },
+    "JO": {
+        "currencies": [
+            "JOD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-JO"
+        ],
+        "default_locale": "ar-JO"
+    },
+    "JP": {
+        "currencies": [
+            "JPY"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ja"
+        ],
+        "locales": [
+            "ja"
+        ],
+        "default_locale": "ja"
+    },
+    "KE": {
+        "currencies": [
+            "KES"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "sw"
+        ],
+        "locales": [
+            "en-KE",
+            "sw-KE"
+        ],
+        "default_locale": "sw-KE"
+    },
+    "KG": {
+        "currencies": [
+            "KGS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ky",
+            "ru"
+        ],
+        "locales": [
+            "ky",
+            "ru-KG"
+        ],
+        "default_locale": "ky"
+    },
+    "KH": {
+        "currencies": [
+            "KHR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "km"
+        ],
+        "locales": [
+            "km"
+        ],
+        "default_locale": "km"
+    },
+    "KI": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "gil"
+        ],
+        "locales": [
+            "en-KI"
+        ],
+        "default_locale": "en-KI"
+    },
+    "KM": {
+        "currencies": [
+            "KMF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr",
+            "wni",
+            "zdj"
+        ],
+        "locales": [
+            "ar-KM",
+            "fr-KM"
+        ],
+        "default_locale": "ar-KM"
+    },
+    "KN": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-KN"
+        ],
+        "default_locale": "en-KN"
+    },
+    "KP": {
+        "currencies": [
+            "KPW"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ko"
+        ],
+        "locales": [
+            "ko-KP"
+        ],
+        "default_locale": "ko-KP"
+    },
+    "KR": {
+        "currencies": [
+            "KRW"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ko"
+        ],
+        "locales": [
+            "ko"
+        ],
+        "default_locale": "ko"
+    },
+    "KW": {
+        "currencies": [
+            "KWD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-KW"
+        ],
+        "default_locale": "ar-KW"
+    },
+    "KY": {
+        "currencies": [
+            "KYD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-KY"
+        ],
+        "default_locale": "en-KY"
+    },
+    "KZ": {
+        "currencies": [
+            "KZT"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "kk",
+            "ru"
+        ],
+        "locales": [
+            "kk",
+            "ru-KZ"
+        ],
+        "default_locale": "ru-KZ"
+    },
+    "LA": {
+        "currencies": [
+            "LAK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "lo"
+        ],
+        "locales": [
+            "lo"
+        ],
+        "default_locale": "lo"
+    },
+    "LB": {
+        "currencies": [
+            "LBP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-LB"
+        ],
+        "default_locale": "ar-LB"
+    },
+    "LC": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-LC"
+        ],
+        "default_locale": "en-LC"
+    },
+    "LI": {
+        "currencies": [
+            "CHF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "de",
+            "gsw"
+        ],
+        "locales": [
+            "de-LI",
+            "gsw-LI"
+        ],
+        "default_locale": "de-LI"
+    },
+    "LK": {
+        "currencies": [
+            "LKR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "si",
+            "ta"
+        ],
+        "locales": [
+            "si",
+            "ta-LK"
+        ],
+        "default_locale": "si"
+    },
+    "LR": {
+        "currencies": [
+            "LRD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-LR"
+        ],
+        "default_locale": "en-LR"
+    },
+    "LS": {
+        "currencies": [
+            "LSL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "st"
+        ],
+        "locales": [
+            "en-LS",
+            "st-LS"
+        ],
+        "default_locale": "st-LS"
+    },
+    "LT": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "lt"
+        ],
+        "locales": [
+            "lt"
+        ],
+        "default_locale": "lt"
+    },
+    "LU": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "de",
+            "fr",
+            "lb"
+        ],
+        "locales": [
+            "de-LU",
+            "fr-LU",
+            "lb"
+        ],
+        "default_locale": "fr-LU"
+    },
+    "LV": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "lv"
+        ],
+        "locales": [
+            "lv"
+        ],
+        "default_locale": "lv"
+    },
+    "LY": {
+        "currencies": [
+            "LYD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-LY"
+        ],
+        "default_locale": "ar-LY"
+    },
+    "MA": {
+        "currencies": [
+            "MAD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr",
+            "tzm"
+        ],
+        "locales": [
+            "ar-MA",
+            "fr-MA",
+            "tzm"
+        ],
+        "default_locale": "ar-MA"
+    },
+    "MC": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-MC"
+        ],
+        "default_locale": "fr-MC"
+    },
+    "MD": {
+        "currencies": [
+            "MDL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ro"
+        ],
+        "locales": [
+            "ro-MD"
+        ],
+        "default_locale": "ro-MD"
+    },
+    "ME": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "sr_Latn"
+        ],
+        "locales": [
+            "sr-Latn"
+        ],
+        "default_locale": "sr-Latn"
+    },
+    "MF": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-MF"
+        ],
+        "default_locale": "fr-MF"
+    },
+    "MG": {
+        "currencies": [
+            "MGA"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fr",
+            "mg"
+        ],
+        "locales": [
+            "en-MG",
+            "fr-MG",
+            "mg"
+        ],
+        "default_locale": "mg"
+    },
+    "MH": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "mh"
+        ],
+        "locales": [
+            "en-MH"
+        ],
+        "default_locale": "en-MH"
+    },
+    "MK": {
+        "currencies": [
+            "MKD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "mk",
+            "sq"
+        ],
+        "locales": [
+            "mk",
+            "sq-MK"
+        ],
+        "default_locale": "mk"
+    },
+    "ML": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-ML"
+        ],
+        "default_locale": "fr-ML"
+    },
+    "MM": {
+        "currencies": [
+            "MMK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "my"
+        ],
+        "locales": [
+            "my"
+        ],
+        "default_locale": "my"
+    },
+    "MN": {
+        "currencies": [
+            "MNT"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "mn"
+        ],
+        "locales": [
+            "mn"
+        ],
+        "default_locale": "mn"
+    },
+    "MO": {
+        "currencies": [
+            "MOP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt",
+            "zh_Hant"
+        ],
+        "locales": [
+            "pt-MO",
+            "zh-Hant"
+        ],
+        "default_locale": "pt-MO"
+    },
+    "MP": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-MP"
+        ],
+        "default_locale": "en-MP"
+    },
+    "MQ": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-MQ"
+        ],
+        "default_locale": "fr-MQ"
+    },
+    "MR": {
+        "currencies": [
+            "MRU"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-MR"
+        ],
+        "default_locale": "ar-MR"
+    },
+    "MS": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-MS"
+        ],
+        "default_locale": "en-MS"
+    },
+    "MT": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "mt"
+        ],
+        "locales": [
+            "en-MT",
+            "mt"
+        ],
+        "default_locale": "mt"
+    },
+    "MU": {
+        "currencies": [
+            "MUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fr"
+        ],
+        "locales": [
+            "en-MU",
+            "fr-MU"
+        ],
+        "default_locale": "en-MU"
+    },
+    "MV": {
+        "currencies": [
+            "MVR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "dv"
+        ],
+        "locales": [
+            "dv"
+        ],
+        "default_locale": "dv"
+    },
+    "MW": {
+        "currencies": [
+            "MWK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "ny"
+        ],
+        "locales": [
+            "en-MW",
+            "ny"
+        ],
+        "default_locale": "ny"
+    },
+    "MX": {
+        "currencies": [
+            "MXN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es",
+            "vec"
+        ],
+        "locales": [
+            "es-MX",
+            "vec"
+        ],
+        "default_locale": "es-MX"
+    },
+    "MY": {
+        "currencies": [
+            "MYR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ms"
+        ],
+        "locales": [
+            "ms"
+        ],
+        "default_locale": "ms"
+    },
+    "MZ": {
+        "currencies": [
+            "MZN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt"
+        ],
+        "locales": [
+            "pt-MZ"
+        ],
+        "default_locale": "pt-MZ"
+    },
+    "NA": {
+        "currencies": [
+            "NAD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-NA"
+        ],
+        "default_locale": "en-NA"
+    },
+    "NC": {
+        "currencies": [
+            "XPF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-NC"
+        ],
+        "default_locale": "fr-NC"
+    },
+    "NE": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-NE"
+        ],
+        "default_locale": "fr-NE"
+    },
+    "NF": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-NF"
+        ],
+        "default_locale": "en-NF"
+    },
+    "NG": {
+        "currencies": [
+            "NGN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "yo"
+        ],
+        "locales": [
+            "en-NG",
+            "yo"
+        ],
+        "default_locale": "en-NG"
+    },
+    "NI": {
+        "currencies": [
+            "NIO"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-NI"
+        ],
+        "default_locale": "es-NI"
+    },
+    "NL": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fy",
+            "nl"
+        ],
+        "locales": [
+            "fy",
+            "nl"
+        ],
+        "default_locale": "nl"
+    },
+    "NO": {
+        "currencies": [
+            "NOK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "nb",
+            "nn",
+            "no",
+            "se"
+        ],
+        "locales": [
+            "nb",
+            "nn",
+            "no",
+            "se"
+        ],
+        "default_locale": "no"
+    },
+    "NP": {
+        "currencies": [
+            "NPR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ne"
+        ],
+        "locales": [
+            "ne"
+        ],
+        "default_locale": "ne"
+    },
+    "NR": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "na"
+        ],
+        "locales": [
+            "en-NR"
+        ],
+        "default_locale": "en-NR"
+    },
+    "NU": {
+        "currencies": [
+            "NZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "niu"
+        ],
+        "locales": [
+            "en-NU"
+        ],
+        "default_locale": "en-NU"
+    },
+    "NZ": {
+        "currencies": [
+            "NZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "mi"
+        ],
+        "locales": [
+            "en-NZ",
+            "mi"
+        ],
+        "default_locale": "en-NZ"
+    },
+    "OM": {
+        "currencies": [
+            "OMR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-OM"
+        ],
+        "default_locale": "ar-OM"
+    },
+    "PA": {
+        "currencies": [
+            "PAB"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-PA"
+        ],
+        "default_locale": "es-PA"
+    },
+    "PE": {
+        "currencies": [
+            "PEN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es",
+            "qu"
+        ],
+        "locales": [
+            "es-PE",
+            "qu"
+        ],
+        "default_locale": "es-PE"
+    },
+    "PF": {
+        "currencies": [
+            "XPF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr",
+            "ty"
+        ],
+        "locales": [
+            "fr-PF"
+        ],
+        "default_locale": "fr-PF"
+    },
+    "PG": {
+        "currencies": [
+            "PGK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "ho",
+            "tpi"
+        ],
+        "locales": [
+            "en-PG",
+            "tpi"
+        ],
+        "default_locale": "tpi"
+    },
+    "PH": {
+        "currencies": [
+            "PHP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ceb",
+            "en",
+            "fil",
+            "hil",
+            "ilo",
+            "mdh",
+            "pag",
+            "tsg",
+            "war"
+        ],
+        "locales": [
+            "ceb",
+            "en-PH",
+            "fil"
+        ],
+        "default_locale": "en-PH"
+    },
+    "PK": {
+        "currencies": [
+            "PKR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "ur"
+        ],
+        "locales": [
+            "en-PK",
+            "ur"
+        ],
+        "default_locale": "ur"
+    },
+    "PL": {
+        "currencies": [
+            "PLN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "csb",
+            "de",
+            "lt",
+            "pl"
+        ],
+        "locales": [
+            "de",
+            "lt",
+            "pl"
+        ],
+        "default_locale": "pl"
+    },
+    "PM": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-PM"
+        ],
+        "default_locale": "fr-PM"
+    },
+    "PN": {
+        "currencies": [
+            "NZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-PN"
+        ],
+        "default_locale": "en-PN"
+    },
+    "PR": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "es"
+        ],
+        "locales": [
+            "en-PR",
+            "es-PR"
+        ],
+        "default_locale": "es-PR"
+    },
+    "PS": {
+        "currencies": [
+            "ILS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-PS"
+        ],
+        "default_locale": "ar-PS"
+    },
+    "PT": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt"
+        ],
+        "locales": [
+            "pt-PT"
+        ],
+        "default_locale": "pt-PT"
+    },
+    "PW": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "pau"
+        ],
+        "locales": [
+            "en-PW"
+        ],
+        "default_locale": "en-PW"
+    },
+    "PY": {
+        "currencies": [
+            "PYG"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es",
+            "gn"
+        ],
+        "locales": [
+            "es-PY",
+            "gn"
+        ],
+        "default_locale": "gn"
+    },
+    "QA": {
+        "currencies": [
+            "QAR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-QA"
+        ],
+        "default_locale": "ar-QA"
+    },
+    "RE": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-RE"
+        ],
+        "default_locale": "fr-RE"
+    },
+    "RO": {
+        "currencies": [
+            "RON"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ro"
+        ],
+        "locales": [
+            "ro"
+        ],
+        "default_locale": "ro"
+    },
+    "RS": {
+        "currencies": [
+            "RSD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "hr",
+            "hu",
+            "ro",
+            "sk",
+            "sr",
+            "sr_Latn",
+            "uk"
+        ],
+        "locales": [
+            "hr",
+            "hu",
+            "ro",
+            "sk",
+            "sr",
+            "sr-Latn",
+            "uk"
+        ],
+        "default_locale": "sr"
+    },
+    "RU": {
+        "currencies": [
+            "RUB"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ady",
+            "av",
+            "az_Cyrl",
+            "ba",
+            "ce",
+            "inh",
+            "kbd",
+            "koi",
+            "krc",
+            "kum",
+            "kv",
+            "lbe",
+            "lez",
+            "mdf",
+            "myv",
+            "ru",
+            "sah",
+            "tt",
+            "tyv",
+            "udm"
+        ],
+        "locales": [
+            "az-Cyrl",
+            "ba",
+            "ce",
+            "mdf",
+            "myv",
+            "ru",
+            "sah",
+            "tt"
+        ],
+        "default_locale": "ru"
+    },
+    "RW": {
+        "currencies": [
+            "RWF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fr",
+            "rw"
+        ],
+        "locales": [
+            "en-RW",
+            "fr-RW",
+            "rw"
+        ],
+        "default_locale": "rw"
+    },
+    "SA": {
+        "currencies": [
+            "SAR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-SA"
+        ],
+        "default_locale": "ar-SA"
+    },
+    "SB": {
+        "currencies": [
+            "SBD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-SB"
+        ],
+        "default_locale": "en-SB"
+    },
+    "SC": {
+        "currencies": [
+            "SCR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "fr"
+        ],
+        "locales": [
+            "en-SC",
+            "fr-SC"
+        ],
+        "default_locale": "fr-SC"
+    },
+    "SD": {
+        "currencies": [
+            "SDG"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "en"
+        ],
+        "locales": [
+            "ar-SD",
+            "en-SD"
+        ],
+        "default_locale": "ar-SD"
+    },
+    "SE": {
+        "currencies": [
+            "SEK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fi",
+            "sv"
+        ],
+        "locales": [
+            "fi",
+            "sv"
+        ],
+        "default_locale": "sv"
+    },
+    "SG": {
+        "currencies": [
+            "SGD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "ms",
+            "ta",
+            "zh"
+        ],
+        "locales": [
+            "en-SG",
+            "ms-SG",
+            "ta-SG",
+            "zh"
+        ],
+        "default_locale": "en-SG"
+    },
+    "SH": {
+        "currencies": [
+            "SHP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-SH"
+        ],
+        "default_locale": "en-SH"
+    },
+    "SI": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "sl",
+            "vec"
+        ],
+        "locales": [
+            "sl",
+            "vec"
+        ],
+        "default_locale": "sl"
+    },
+    "SJ": {
+        "currencies": [
+            "NOK"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "nb"
+        ],
+        "locales": [
+            "nb-SJ"
+        ],
+        "default_locale": "nb-SJ"
+    },
+    "SK": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "sk"
+        ],
+        "locales": [
+            "sk"
+        ],
+        "default_locale": "sk"
+    },
+    "SL": {
+        "currencies": [
+            "SLE"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-SL"
+        ],
+        "default_locale": "en-SL"
+    },
+    "SM": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "it"
+        ],
+        "locales": [
+            "it-SM"
+        ],
+        "default_locale": "it-SM"
+    },
+    "SN": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "bjt",
+            "bsc",
+            "dyo",
+            "ff",
+            "fr",
+            "knf",
+            "mey",
+            "mfv",
+            "sav",
+            "snf",
+            "srr",
+            "tnr",
+            "wo"
+        ],
+        "locales": [
+            "dyo",
+            "ff",
+            "fr-SN",
+            "wo"
+        ],
+        "default_locale": "wo"
+    },
+    "SO": {
+        "currencies": [
+            "SOS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "so"
+        ],
+        "locales": [
+            "ar-SO",
+            "so"
+        ],
+        "default_locale": "so"
+    },
+    "SR": {
+        "currencies": [
+            "SRD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "nl"
+        ],
+        "locales": [
+            "nl-SR"
+        ],
+        "default_locale": "nl-SR"
+    },
+    "SS": {
+        "currencies": [
+            "SSP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-SS"
+        ],
+        "default_locale": "en-SS"
+    },
+    "ST": {
+        "currencies": [
+            "STN"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt"
+        ],
+        "locales": [
+            "pt-ST"
+        ],
+        "default_locale": "pt-ST"
+    },
+    "SU": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "SV": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-SV"
+        ],
+        "default_locale": "es-SV"
+    },
+    "SX": {
+        "currencies": [
+            "ANG"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "nl"
+        ],
+        "locales": [
+            "en-SX",
+            "nl-SX"
+        ],
+        "default_locale": "en-SX"
+    },
+    "SY": {
+        "currencies": [
+            "SYP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr"
+        ],
+        "locales": [
+            "ar-SY",
+            "fr-SY"
+        ],
+        "default_locale": "ar-SY"
+    },
+    "SZ": {
+        "currencies": [
+            "SZL"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "ss"
+        ],
+        "locales": [
+            "en-SZ",
+            "ss-SZ"
+        ],
+        "default_locale": "en-SZ"
+    },
+    "TA": {
+        "currencies": [
+            "GBP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en"
+        ],
+        "default_locale": "en"
+    },
+    "TC": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-TC"
+        ],
+        "default_locale": "en-TC"
+    },
+    "TD": {
+        "currencies": [
+            "XAF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr"
+        ],
+        "locales": [
+            "ar-TD",
+            "fr-TD"
+        ],
+        "default_locale": "fr-TD"
+    },
+    "TF": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr"
+        ],
+        "default_locale": "fr"
+    },
+    "TG": {
+        "currencies": [
+            "XOF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-TG"
+        ],
+        "default_locale": "fr-TG"
+    },
+    "TH": {
+        "currencies": [
+            "THB"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "th"
+        ],
+        "locales": [
+            "th"
+        ],
+        "default_locale": "th"
+    },
+    "TJ": {
+        "currencies": [
+            "TJS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "tg"
+        ],
+        "locales": [
+            "tg"
+        ],
+        "default_locale": "tg"
+    },
+    "TK": {
+        "currencies": [
+            "NZD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "tkl"
+        ],
+        "locales": [
+            "en-TK"
+        ],
+        "default_locale": "en-TK"
+    },
+    "TL": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "pt",
+            "tet"
+        ],
+        "locales": [
+            "pt-TL"
+        ],
+        "default_locale": "pt-TL"
+    },
+    "TM": {
+        "currencies": [
+            "TMT"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "tk"
+        ],
+        "locales": [
+            "tk"
+        ],
+        "default_locale": "tk"
+    },
+    "TN": {
+        "currencies": [
+            "TND"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar",
+            "fr"
+        ],
+        "locales": [
+            "ar-TN",
+            "fr-TN"
+        ],
+        "default_locale": "ar-TN"
+    },
+    "TO": {
+        "currencies": [
+            "TOP"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "to"
+        ],
+        "locales": [
+            "en-TO",
+            "to"
+        ],
+        "default_locale": "to"
+    },
+    "TP": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "TR": {
+        "currencies": [
+            "TRY"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "tr"
+        ],
+        "locales": [
+            "tr"
+        ],
+        "default_locale": "tr"
+    },
+    "TT": {
+        "currencies": [
+            "TTD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-TT"
+        ],
+        "default_locale": "en-TT"
+    },
+    "TV": {
+        "currencies": [
+            "AUD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "tvl"
+        ],
+        "locales": [
+            "en-TV"
+        ],
+        "default_locale": "en-TV"
+    },
+    "TW": {
+        "currencies": [
+            "TWD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "zh_Hant"
+        ],
+        "locales": [
+            "zh-Hant"
+        ],
+        "default_locale": "zh-Hant"
+    },
+    "TZ": {
+        "currencies": [
+            "TZS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "sw"
+        ],
+        "locales": [
+            "en-TZ",
+            "sw"
+        ],
+        "default_locale": "sw"
+    },
+    "UA": {
+        "currencies": [
+            "UAH"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ru",
+            "uk"
+        ],
+        "locales": [
+            "ru-UA",
+            "uk"
+        ],
+        "default_locale": "uk"
+    },
+    "UG": {
+        "currencies": [
+            "UGX"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "sw"
+        ],
+        "locales": [
+            "en-UG",
+            "sw-UG"
+        ],
+        "default_locale": "sw-UG"
+    },
+    "UM": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-UM"
+        ],
+        "default_locale": "en-UM"
+    },
+    "US": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "oz",
+        "dimension_unit": "foot",
+        "languages": [
+            "en",
+            "es",
+            "haw"
+        ],
+        "locales": [
+            "en",
+            "es-US",
+            "haw"
+        ],
+        "default_locale": "en"
+    },
+    "UY": {
+        "currencies": [
+            "UYU"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-UY"
+        ],
+        "default_locale": "es-UY"
+    },
+    "UZ": {
+        "currencies": [
+            "UZS"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "uz",
+            "uz_Cyrl"
+        ],
+        "locales": [
+            "uz",
+            "uz-Cyrl"
+        ],
+        "default_locale": "uz"
+    },
+    "VA": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "it"
+        ],
+        "locales": [
+            "it-VA"
+        ],
+        "default_locale": "it-VA"
+    },
+    "VC": {
+        "currencies": [
+            "XCD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-VC"
+        ],
+        "default_locale": "en-VC"
+    },
+    "VE": {
+        "currencies": [
+            "VES"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "es"
+        ],
+        "locales": [
+            "es-VE"
+        ],
+        "default_locale": "es-VE"
+    },
+    "VG": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-VG"
+        ],
+        "default_locale": "en-VG"
+    },
+    "VI": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-VI"
+        ],
+        "default_locale": "en-VI"
+    },
+    "VN": {
+        "currencies": [
+            "VND"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "vi"
+        ],
+        "locales": [
+            "vi"
+        ],
+        "default_locale": "vi"
+    },
+    "VU": {
+        "currencies": [
+            "VUV"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "bi",
+            "en",
+            "fr"
+        ],
+        "locales": [
+            "en-VU",
+            "fr-VU"
+        ],
+        "default_locale": "en-VU"
+    },
+    "WF": {
+        "currencies": [
+            "XPF"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-WF"
+        ],
+        "default_locale": "fr-WF"
+    },
+    "WS": {
+        "currencies": [
+            "WST"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "sm"
+        ],
+        "locales": [
+            "en-WS"
+        ],
+        "default_locale": "en-WS"
+    },
+    "XK": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "sq",
+            "sr",
+            "sr_Latn"
+        ],
+        "locales": [
+            "sq-XK",
+            "sr",
+            "sr-Latn"
+        ],
+        "default_locale": "sq-XK"
+    },
+    "YD": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "YE": {
+        "currencies": [
+            "YER"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "ar"
+        ],
+        "locales": [
+            "ar-YE"
+        ],
+        "default_locale": "ar-YE"
+    },
+    "YT": {
+        "currencies": [
+            "EUR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "fr"
+        ],
+        "locales": [
+            "fr-YT"
+        ],
+        "default_locale": "fr-YT"
+    },
+    "YU": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "ZA": {
+        "currencies": [
+            "ZAR"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "af",
+            "en",
+            "nr",
+            "nso",
+            "ss",
+            "st",
+            "tn",
+            "ts",
+            "ve",
+            "xh",
+            "zu"
+        ],
+        "locales": [
+            "af",
+            "en-ZA",
+            "nr",
+            "nso",
+            "ss",
+            "st",
+            "tn",
+            "ts",
+            "ve",
+            "xh",
+            "zu"
+        ],
+        "default_locale": "en-ZA"
+    },
+    "ZM": {
+        "currencies": [
+            "ZMW"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en"
+        ],
+        "locales": [
+            "en-ZM"
+        ],
+        "default_locale": "en-ZM"
+    },
+    "ZR": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    },
+    "ZW": {
+        "currencies": [
+            "USD"
+        ],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [
+            "en",
+            "nd",
+            "sn"
+        ],
+        "locales": [
+            "en-ZW",
+            "nd",
+            "sn"
+        ],
+        "default_locale": "sn"
+    },
+    "ZZ": {
+        "currencies": [],
+        "weight_unit": "kg",
+        "dimension_unit": "cm",
+        "languages": [],
+        "locales": [],
+        "default_locale": null
+    }
+}

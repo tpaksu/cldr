@@ -20,8 +20,8 @@ if ( ! function_exists( 'get_json' ) ) {
 	}
 }
 
-$locale_data   = require 'country-locale-matcher.php';
-$currency_data = require 'country-currency-matcher.php';
+$locale_data   = require 'matcher-country-locale.php';
+$currency_data = require 'matcher-country-currency.php';
 
 
 $data = [];
@@ -37,15 +37,29 @@ foreach ( $locale_data as $country => $locales ) {
 }
 
 $data['zh']    = [ 'CNY' ];
-$data['zh-CN'] = [ 'CNY' ];
+$data['zh_CN'] = [ 'CNY' ];
 //$data['kn']    = [ 'KHR' ];
 // $data['en-GG']   = [ 'GGP' ];
 $data['dv'] = [ 'MVR' ];
 //$data['sr']      = [ 'RSD' ];
-$data['zh-Hant'] = [ 'TWD' ];
-$data['es-VE']   = [ 'VES', 'VEF' ];
+$data['zh_Hant'] = [ 'TWD' ];
+$data['es_VE']   = [ 'VES', 'VEF' ];
 
 ksort( $data );
+
+$currency_locales = [];
+foreach ( $data as $_locale => $currencies ) {
+	foreach ( $currencies as $currency ) {
+		if ( ! isset( $currency_locales[ $currency ] ) ) {
+			$currency_locales[ $currency ] = [];
+		}
+		$currency_locales[ $currency ][] = $_locale;
+	}
+}
+
+ksort( $currency_locales );
+
 file_put_contents( './json/locale-currencies.json', json_encode( $data, JSON_PRETTY_PRINT ) );
+file_put_contents( './json/currency-locales.json', json_encode( $currency_locales, JSON_PRETTY_PRINT ) );
 
 return $data;

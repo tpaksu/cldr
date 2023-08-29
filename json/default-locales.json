@@ -1,251 +1,970 @@
 {
-    "AD": "ca-AD",
-    "AE": "ar-AE",
-    "AF": "fa-AF",
-    "AG": "en-AG",
-    "AI": "en-AI",
-    "AL": "sq",
-    "AM": "hy",
-    "AO": "pt-AO",
-    "AR": "es-AR",
-    "AS": "en-AS",
-    "AT": "de-AT",
-    "AU": "en-AU",
-    "AW": "nl-AW",
-    "AX": "sv-AX",
-    "AZ": "az",
-    "BA": "bs",
-    "BB": "en-BB",
-    "BD": "bn",
-    "BE": "nl-BE",
-    "BF": "fr-BF",
-    "BG": "bg",
-    "BH": "ar-BH",
-    "BI": "rn",
-    "BJ": "fr-BJ",
-    "BL": "fr-BL",
-    "BM": "en-BM",
-    "BN": "ms-BN",
-    "BO": "es-BO",
-    "BQ": "nl-BQ",
-    "BR": "pt",
-    "BS": "en-BS",
-    "BT": "dz",
-    "BW": "en-BW",
-    "BY": "be",
-    "BZ": "en-BZ",
-    "CA": "en-CA",
-    "CC": "en-CC",
-    "CD": "sw-CD",
-    "CF": "fr-CF",
-    "CG": "fr-CG",
-    "CH": "de-CH",
-    "CI": "fr-CI",
-    "CK": "en-CK",
-    "CL": "es-CL",
-    "CM": "fr-CM",
-    "CN": "zh",
-    "CO": "es-CO",
-    "CQ": "en",
-    "CR": "es-CR",
-    "CU": "es-CU",
-    "CV": "pt-CV",
-    "CW": "pap",
-    "CX": "en-CX",
-    "CY": "el-CY",
-    "CZ": "cs",
-    "DE": "de",
-    "DG": "en-DG",
-    "DJ": "ar-DJ",
-    "DK": "da",
-    "DM": "en-DM",
-    "DO": "es-DO",
-    "DZ": "ar-DZ",
-    "EA": "es-EA",
-    "EC": "es-EC",
-    "EE": "et",
-    "EG": "ar-EG",
-    "EH": "ar-EH",
-    "ER": "ti-ER",
-    "ES": "es",
-    "ET": "am",
-    "FI": "fi",
-    "FJ": "en-FJ",
-    "FK": "en-FK",
-    "FM": "en-FM",
-    "FO": "fo",
-    "FR": "fr",
-    "GA": "fr-GA",
-    "GB": "en-GB",
-    "GD": "en-GD",
-    "GE": "ka",
-    "GF": "fr-GF",
-    "GG": "en-GG",
-    "GH": "ak",
-    "GI": "en-GI",
-    "GL": "kl",
-    "GM": "en-GM",
-    "GN": "fr-GN",
-    "GP": "fr-GP",
-    "GQ": "es-GQ",
-    "GR": "el",
-    "GT": "es-GT",
-    "GU": "en-GU",
-    "GW": "pt-GW",
-    "GY": "en-GY",
-    "HK": "zh-Hant-HK",
-    "HN": "es-HN",
-    "HR": "hr",
-    "HT": "fr-HT",
-    "HU": "hu",
-    "IC": "es-IC",
-    "ID": "id",
-    "IE": "en-IE",
-    "IL": "he",
-    "IM": "en-IM",
-    "IN": "hi",
-    "IO": "en-IO",
-    "IQ": "ar-IQ",
-    "IR": "fa",
-    "IS": "is",
-    "IT": "it",
-    "JE": "en-JE",
-    "JM": "en-JM",
-    "JO": "ar-JO",
-    "JP": "ja",
-    "KE": "sw-KE",
-    "KG": "ky",
-    "KH": "km",
-    "KI": "en-KI",
-    "KM": "ar-KM",
-    "KN": "en-KN",
-    "KP": "ko-KP",
-    "KR": "ko",
-    "KW": "ar-KW",
-    "KY": "en-KY",
-    "KZ": "ru-KZ",
-    "LA": "lo",
-    "LB": "ar-LB",
-    "LC": "en-LC",
-    "LI": "de-LI",
-    "LK": "si",
-    "LR": "en-LR",
-    "LS": "st-LS",
-    "LT": "lt",
-    "LU": "fr-LU",
-    "LV": "lv",
-    "LY": "ar-LY",
-    "MA": "ar-MA",
-    "MC": "fr-MC",
-    "MD": "ro-MD",
-    "ME": "sr-Latn-ME",
-    "MF": "fr-MF",
-    "MG": "mg",
-    "MH": "en-MH",
-    "MK": "mk",
-    "ML": "fr-ML",
-    "MM": "my",
-    "MN": "mn",
-    "MO": "zh-Hant-MO",
-    "MP": "en-MP",
-    "MQ": "fr-MQ",
-    "MR": "ar-MR",
-    "MS": "en-MS",
-    "MT": "mt",
-    "MU": "en-MU",
+    "AD": {
+        "ca_AD": 51
+    },
+    "AE": {
+        "ar_AE": 78
+    },
+    "AF": {
+        "fa_AF": 50,
+        "ps_AF": 43,
+        "": 1.7
+    },
+    "AG": {
+        "en_AG": 86
+    },
+    "AI": {
+        "en_AI": 95
+    },
+    "AL": {
+        "sq_AL": 100
+    },
+    "AM": {
+        "hy_AM": 98
+    },
+    "AO": {
+        "pt_AO": 67
+    },
+    "AR": {
+        "es_AR": 100
+    },
+    "AS": {
+        "sm_AS": 99,
+        "en_AS": 97
+    },
+    "AT": {
+        "de_AT": 97,
+        "": 0.26
+    },
+    "AU": {
+        "en_AU": 96
+    },
+    "AW": {
+        "nl_AW": 97,
+        "pap_AW": 61
+    },
+    "AX": {
+        "sv_AX": 99
+    },
+    "AZ": {
+        "az_AZ": 89,
+        "az_Cyrl_AZ": 9.9
+    },
+    "BA": {
+        "bs_BA": 99,
+        "bs_Cyrl_BA": 99,
+        "hr_BA": 12,
+        "sr_BA": 10,
+        "sr_Latn_BA": 10
+    },
+    "BB": {
+        "en_BB": 100
+    },
+    "BD": {
+        "bn_BD": 98
+    },
+    "BE": {
+        "nl_BE": 55,
+        "fr_BE": 38,
+        "de_BE": 22
+    },
+    "BF": {
+        "fr_BF": 22
+    },
+    "BG": {
+        "bg_BG": 100
+    },
+    "BH": {
+        "ar_BH": 87
+    },
+    "BI": {
+        "rn_BI": 63,
+        "fr_BI": 59,
+        "en_BI": 0.053
+    },
+    "BJ": {
+        "fr_BJ": 35
+    },
+    "BL": {
+        "fr_BL": 96
+    },
+    "BM": {
+        "en_BM": 92
+    },
+    "BN": {
+        "ms_BN": 93,
+        "ms_Arab_BN": 5
+    },
+    "BO": {
+        "es_BO": 61,
+        "qu_BO": 32,
+        "ay_BO": 20
+    },
+    "BQ": {
+        "nl_BQ": 8
+    },
+    "BR": {
+        "pt_BR": 91,
+        "vec": 0.24
+    },
+    "BS": {
+        "en_BS": 100
+    },
+    "BT": {
+        "dz_BT": 47
+    },
+    "BW": {
+        "en_BW": 81,
+        "tn_BW": 62
+    },
+    "BY": {
+        "be_BY": 100,
+        "ru_BY": 12
+    },
+    "BZ": {
+        "en_BZ": 100
+    },
+    "CA": {
+        "en_CA": 86,
+        "fr_CA": 30,
+        "iu": 0.12,
+        "iu_Latn": 0.12,
+        "chp": 0.034,
+        "cr": 0.024,
+        "den": 0.0061,
+        "dgr": 0.0056,
+        "gwi": 0.0008
+    },
+    "CC": {
+        "en_CC": 17
+    },
+    "CD": {
+        "": 50,
+        "lua": 9.6,
+        "fr_CD": 3.8,
+        "ln": 3.1,
+        "kg": 1.5
+    },
+    "CF": {
+        "fr_CF": 49,
+        "sg_CF": 49
+    },
+    "CG": {
+        "fr_CG": 84
+    },
+    "CH": {
+        "de_CH": 73,
+        "gsw_CH": 65,
+        "fr_CH": 21,
+        "it_CH": 4.3,
+        "rm": 0.5
+    },
+    "CI": {
+        "fr_CI": 49
+    },
+    "CK": {
+        "en_CK": 100
+    },
+    "CL": {
+        "es_CL": 98
+    },
+    "CM": {
+        "fr_CM": 68,
+        "en_CM": 38
+    },
+    "CN": {
+        "zh_CN": 90,
+        "ug": 0.55,
+        "za": 0.31,
+        "": 0.15,
+        "bo": 0.2
+    },
+    "CO": {
+        "es_CO": 93
+    },
+    "CQ": {
+        "en_CQ": 98
+    },
+    "CR": {
+        "es_CR": 95
+    },
+    "CU": {
+        "es_CU": 100
+    },
+    "CV": {
+        "pt_CV": 76
+    },
+    "CW": {
+        "pap_CW": 81,
+        "nl_CW": 8
+    },
+    "CX": {
+        "en_CX": 63
+    },
+    "CY": {
+        "el_CY": 95,
+        "tr_CY": 23
+    },
+    "CZ": {
+        "cs_CZ": 98
+    },
+    "DE": {
+        "de_DE": 91,
+        "frr": 0.012
+    },
+    "DG": {
+        "en_DG": 99
+    },
+    "DJ": {
+        "ar_DJ": 7.3,
+        "fr_DJ": 2.1
+    },
+    "DK": {
+        "da_DK": 93,
+        "": 0.12
+    },
+    "DM": {
+        "en_DM": 94
+    },
+    "DO": {
+        "es_DO": 78
+    },
+    "DZ": {
+        "ar_DZ": 74,
+        "fr_DZ": 20
+    },
+    "EA": {
+        "es_EA": 98
+    },
+    "EC": {
+        "es_EC": 96,
+        "qu_EC": 17
+    },
+    "EE": {
+        "et_EE": 71
+    },
+    "EG": {
+        "ar_EG": 94
+    },
+    "EH": {
+        "ar_EH": 100
+    },
+    "ER": {
+        "ti_ER": 60,
+        "en_ER": 59,
+        "ar_ER": 4.9
+    },
+    "ES": {
+        "es_ES": 99,
+        "": 17,
+        "gl": 7,
+        "eu": 2,
+        "ast": 1.3,
+        "oc": 0.0099
+    },
+    "ET": {
+        "am_ET": 33
+    },
+    "FI": {
+        "fi_FI": 94,
+        "sv_FI": 44,
+        "sms": 0.011
+    },
+    "FJ": {
+        "en_FJ": 94,
+        "hif_FJ": 41,
+        "fj_FJ": 39
+    },
+    "FK": {
+        "en_FK": 88
+    },
+    "FM": {
+        "en_FM": 57
+    },
+    "FO": {
+        "fo_FO": 95
+    },
+    "FR": {
+        "fr_FR": 99
+    },
+    "GA": {
+        "fr_GA": 63
+    },
+    "GB": {
+        "en_GB": 98,
+        "cy": 1.3,
+        "": 0.15,
+        "gd": 0.11
+    },
+    "GD": {
+        "en_GD": 96
+    },
+    "GE": {
+        "ka_GE": 86,
+        "ab": 2.2,
+        "os": 2.2
+    },
+    "GF": {
+        "fr_GF": 77
+    },
+    "GG": {
+        "en_GG": 100
+    },
+    "GH": {
+        "ak": 39,
+        "en_GH": 21,
+        "ee": 11,
+        "gaa": 2.8
+    },
+    "GI": {
+        "en_GI": 80
+    },
+    "GL": {
+        "kl_GL": 84
+    },
+    "GM": {
+        "en_GM": 40
+    },
+    "GN": {
+        "fr_GN": 29
+    },
+    "GP": {
+        "fr_GP": 90
+    },
+    "GQ": {
+        "es_GQ": 87,
+        "fr_GQ": 8.8,
+        "pt_GQ": 0.0001
+    },
+    "GR": {
+        "el_GR": 99
+    },
+    "GT": {
+        "es_GT": 93,
+        "quc": 7
+    },
+    "GU": {
+        "en_GU": 91,
+        "ch_GU": 22
+    },
+    "GW": {
+        "pt_GW": 100
+    },
+    "GY": {
+        "en_GY": 100
+    },
+    "HK": {
+        "zh_Hant_HK": 95,
+        "en_HK": 51
+    },
+    "HN": {
+        "es_HN": 78
+    },
+    "HR": {
+        "hr_HR": 99,
+        "": 1.6,
+        "vec": 0.7
+    },
+    "HT": {
+        "ht_HT": 81,
+        "fr_HT": 4.7
+    },
+    "HU": {
+        "hu_HU": 100
+    },
+    "IC": {
+        "es_IC": 98
+    },
+    "ID": {
+        "id_ID": 64
+    },
+    "IE": {
+        "en_IE": 98,
+        "ga_IE": 22
+    },
+    "IL": {
+        "he_IL": 100,
+        "ar_IL": 20
+    },
+    "IM": {
+        "en_IM": 100,
+        "gv_IM": 1.9
+    },
+    "IN": {
+        "hi_IN": 41,
+        "en_IN": 19,
+        "": 0.56,
+        "te": 7.2,
+        "mr": 7,
+        "gu": 4.5,
+        "kn": 3.7,
+        "ml": 3.2,
+        "or": 3.2,
+        "pa": 2.8,
+        "as": 1.3,
+        "mai": 1.2,
+        "sat": 0.55,
+        "ks": 0.41,
+        "kok": 0.37,
+        "sd": 0.26,
+        "sd_Deva": 0.14,
+        "kha": 0.08,
+        "sa": 0.0012
+    },
+    "IO": {
+        "en_IO": 100
+    },
+    "IQ": {
+        "ar_IQ": 68,
+        "ckb": 20,
+        "": 1.8
+    },
+    "IR": {
+        "fa_IR": 75
+    },
+    "IS": {
+        "is_IS": 100
+    },
+    "IT": {
+        "it_IT": 95,
+        "": 6.3,
+        "vec": 1.3
+    },
+    "JE": {
+        "en_JE": 95
+    },
+    "JM": {
+        "en_JM": 98
+    },
+    "JO": {
+        "ar_JO": 100
+    },
+    "JP": {
+        "ja_JP": 95
+    },
+    "KE": {
+        "sw_KE": 66,
+        "en_KE": 19
+    },
+    "KG": {
+        "ky_KG": 48,
+        "ru_KG": 36
+    },
+    "KH": {
+        "km_KH": 89
+    },
+    "KI": {
+        "en_KI": 100,
+        "gil_KI": 60
+    },
+    "KM": {
+        "ar_KM": 66,
+        "fr_KM": 56,
+        "zdj_KM": 37,
+        "wni_KM": 34
+    },
+    "KN": {
+        "en_KN": 98
+    },
+    "KP": {
+        "ko_KP": 88
+    },
+    "KR": {
+        "ko_KR": 100
+    },
+    "KW": {
+        "ar_KW": 100
+    },
+    "KY": {
+        "en_KY": 98
+    },
+    "KZ": {
+        "ru_KZ": 72,
+        "kk_KZ": 64
+    },
+    "LA": {
+        "lo_LA": 69
+    },
+    "LB": {
+        "ar_LB": 86
+    },
+    "LC": {
+        "en_LC": 90
+    },
+    "LI": {
+        "de_LI": 100,
+        "gsw_LI": 85
+    },
+    "LK": {
+        "si_LK": 68,
+        "ta_LK": 15
+    },
+    "LR": {
+        "en_LR": 83
+    },
+    "LS": {
+        "st_LS": 98,
+        "en_LS": 27
+    },
+    "LT": {
+        "lt_LT": 86
+    },
+    "LU": {
+        "fr_LU": 87,
+        "lb_LU": 67,
+        "de_LU": 63
+    },
+    "LV": {
+        "lv_LV": 61
+    },
+    "LY": {
+        "ar_LY": 74
+    },
+    "MA": {
+        "ar_MA": 62,
+        "fr_MA": 20,
+        "tzm_MA": 9.8
+    },
+    "MC": {
+        "fr_MC": 99
+    },
+    "MD": {
+        "ro_MD": 63
+    },
+    "ME": {
+        "sr_Latn_ME": 100
+    },
+    "MF": {
+        "fr_MF": 100
+    },
+    "MG": {
+        "mg_MG": 90,
+        "fr_MG": 69,
+        "en_MG": 18
+    },
+    "MH": {
+        "en_MH": 93,
+        "mh_MH": 73
+    },
+    "MK": {
+        "mk_MK": 67,
+        "": 25
+    },
+    "ML": {
+        "fr_ML": 46
+    },
+    "MM": {
+        "my_MM": 64
+    },
+    "MN": {
+        "mn_MN": 93
+    },
+    "MO": {
+        "zh_Hant_MO": 98,
+        "pt_MO": 5
+    },
+    "MP": {
+        "en_MP": 97
+    },
+    "MQ": {
+        "fr_MQ": 98
+    },
+    "MR": {
+        "ar_MR": 85
+    },
+    "MS": {
+        "en_MS": 65
+    },
+    "MT": {
+        "mt_MT": 100,
+        "en_MT": 88
+    },
+    "MU": {
+        "en_MU": 72,
+        "fr_MU": 3
+    },
     "MV": "dv",
-    "MW": "en-MW",
-    "MX": "es-MX",
-    "MY": "ms",
-    "MZ": "pt-MZ",
-    "NA": "en-NA",
-    "NC": "fr-NC",
-    "NE": "fr-NE",
-    "NF": "en-NF",
-    "NG": "en-NG",
-    "NI": "es-NI",
-    "NL": "nl",
-    "NO": "nb",
-    "NP": "ne",
-    "NR": "en-NR",
-    "NU": "en-NU",
-    "NZ": "en-NZ",
-    "OM": "ar-OM",
-    "PA": "es-PA",
-    "PE": "es-PE",
-    "PF": "fr-PF",
-    "PG": "tpi",
-    "PH": "en-PH",
-    "PK": "ur",
-    "PL": "pl",
-    "PM": "fr-PM",
-    "PN": "en-PN",
-    "PR": "es-PR",
-    "PS": "ar-PS",
-    "PT": "pt-PT",
-    "PW": "en-PW",
-    "PY": "gn",
-    "QA": "ar-QA",
-    "RE": "fr-RE",
-    "RO": "ro",
-    "RS": "sr",
-    "RU": "ru",
-    "RW": "rw",
-    "SA": "ar-SA",
-    "SB": "en-SB",
-    "SC": "fr-SC",
-    "SD": "ar-SD",
-    "SE": "sv",
-    "SG": "en-SG",
-    "SH": "en-SH",
-    "SI": "sl",
-    "SJ": "nb-SJ",
-    "SK": "sk",
-    "SL": "en-SL",
-    "SM": "it-SM",
-    "SN": "wo",
-    "SO": "so",
-    "SR": "nl-SR",
-    "SS": "en-SS",
-    "ST": "pt-ST",
-    "SV": "es-SV",
-    "SX": "en-SX",
-    "SY": "ar-SY",
-    "SZ": "en-SZ",
-    "TC": "en-TC",
-    "TD": "fr-TD",
-    "TG": "fr-TG",
-    "TH": "th",
-    "TJ": "tg",
-    "TK": "en-TK",
-    "TL": "pt-TL",
-    "TM": "tk",
-    "TN": "ar-TN",
-    "TO": "to",
-    "TR": "tr",
-    "TT": "en-TT",
-    "TV": "en-TV",
-    "TW": "zh-Hant",
-    "TZ": "sw",
-    "UA": "uk",
-    "UG": "sw-UG",
-    "UM": "en-UM",
-    "US": "en",
-    "UY": "es-UY",
-    "UZ": "uz",
-    "VA": "it-VA",
-    "VC": "en-VC",
-    "VE": "es-VE",
-    "VG": "en-VG",
-    "VI": "en-VI",
-    "VN": "vi",
-    "VU": "en-VU",
-    "WF": "fr-WF",
-    "WS": "en-WS",
-    "XK": "sq-XK",
-    "YE": "ar-YE",
-    "YT": "fr-YT",
-    "ZA": "en-ZA",
-    "ZM": "en-ZM",
-    "ZW": "sn"
+    "MW": {
+        "en_MW": 63,
+        "ny_MW": 63
+    },
+    "MX": {
+        "es_MX": 83,
+        "vec": 0.0019
+    },
+    "MY": {
+        "ms_MY": 75
+    },
+    "MZ": {
+        "pt_MZ": 27
+    },
+    "NA": {
+        "en_NA": 7
+    },
+    "NC": {
+        "fr_NC": 96
+    },
+    "NE": {
+        "fr_NE": 29
+    },
+    "NF": {
+        "en_NF": 96
+    },
+    "NG": {
+        "en_NG": 53,
+        "yo_NG": 13
+    },
+    "NI": {
+        "es_NI": 78
+    },
+    "NL": {
+        "nl_NL": 100,
+        "fy": 4.3
+    },
+    "NO": {
+        "nb_NO": 100,
+        "no_NO": 100,
+        "nn_NO": 25,
+        "se": 0.29
+    },
+    "NP": {
+        "ne_NP": 44
+    },
+    "NR": {
+        "en_NR": 85,
+        "na_NR": 63
+    },
+    "NU": {
+        "en_NU": 56,
+        "niu_NU": 56
+    },
+    "NZ": {
+        "en_NZ": 98,
+        "mi_NZ": 2.8
+    },
+    "OM": {
+        "ar_OM": 81
+    },
+    "PA": {
+        "es_PA": 69
+    },
+    "PE": {
+        "es_PE": 73,
+        "qu_PE": 15
+    },
+    "PF": {
+        "fr_PF": 61,
+        "ty_PF": 31
+    },
+    "PG": {
+        "tpi_PG": 71,
+        "en_PG": 50,
+        "ho_PG": 2.1
+    },
+    "PH": {
+        "en_PH": 64,
+        "fil_PH": 60,
+        "ceb": 24,
+        "ilo": 9.6,
+        "hil": 8.4,
+        "war": 2.9,
+        "pag": 1.4,
+        "mdh": 1.2,
+        "tsg": 1.1
+    },
+    "PK": {
+        "ur_PK": 95,
+        "en_PK": 50
+    },
+    "PL": {
+        "pl_PL": 96,
+        "": 0.021,
+        "csb": 0.13
+    },
+    "PM": {
+        "fr_PM": 96
+    },
+    "PN": {
+        "en_PN": 92
+    },
+    "PR": {
+        "es_PR": 87,
+        "en_PR": 49
+    },
+    "PS": {
+        "ar_PS": 100
+    },
+    "PT": {
+        "pt_PT": 96
+    },
+    "PW": {
+        "pau_PW": 74,
+        "en_PW": 8.7
+    },
+    "PY": {
+        "gn_PY": 80,
+        "es_PY": 3.2
+    },
+    "QA": {
+        "ar_QA": 89
+    },
+    "RE": {
+        "fr_RE": 89
+    },
+    "RO": {
+        "ro_RO": 90
+    },
+    "RS": {
+        "sr_RS": 99,
+        "sr_Latn_RS": 99,
+        "": 0
+    },
+    "RU": {
+        "ru_RU": 94,
+        "tt": 1.4,
+        "ba": 1.3,
+        "ce": 0.66,
+        "av": 0.39,
+        "udm": 0.38,
+        "sah": 0.32,
+        "kbd": 0.31,
+        "myv": 0.31,
+        "mdf": 0.21,
+        "kum": 0.2,
+        "kv": 0.18,
+        "lez": 0.18,
+        "krc": 0.17,
+        "inh": 0.16,
+        "tyv": 0.13,
+        "": 0.093,
+        "ady": 0.088,
+        "lbe": 0.078,
+        "koi": 0.045
+    },
+    "RW": {
+        "rw_RW": 77,
+        "en_RW": 15,
+        "fr_RW": 0.018
+    },
+    "SA": {
+        "ar_SA": 100
+    },
+    "SB": {
+        "en_SB": 100
+    },
+    "SC": {
+        "fr_SC": 60,
+        "en_SC": 38
+    },
+    "SD": {
+        "ar_SD": 61,
+        "en_SD": 61
+    },
+    "SE": {
+        "sv_SE": 95,
+        "": 2.2
+    },
+    "SG": {
+        "en_SG": 93,
+        "zh_SG": 77,
+        "ms_SG": 14,
+        "ta_SG": 2.1
+    },
+    "SH": {
+        "en_SH": 69
+    },
+    "SI": {
+        "sl_SI": 87,
+        "vec": 1.4
+    },
+    "SJ": {
+        "nb_SJ": 51
+    },
+    "SK": {
+        "sk_SK": 90
+    },
+    "SL": {
+        "en_SL": 35
+    },
+    "SM": {
+        "it_SM": 89
+    },
+    "SN": {
+        "wo_SN": 70,
+        "fr_SN": 39,
+        "ff": 21,
+        "srr": 11,
+        "dyo": 2.6,
+        "sav": 1.5,
+        "mfv": 0.77,
+        "bjt": 0.61,
+        "snf": 0.24,
+        "knf": 0.21,
+        "bsc": 0.097,
+        "mey": 0.046,
+        "tnr": 0.021
+    },
+    "SO": {
+        "so_SO": 78,
+        "ar_SO": 34
+    },
+    "SR": {
+        "nl_SR": 90
+    },
+    "SS": {
+        "en_SS": 27
+    },
+    "ST": {
+        "pt_ST": 85
+    },
+    "SV": {
+        "es_SV": 89
+    },
+    "SX": {
+        "en_SX": 68,
+        "nl_SX": 3.6
+    },
+    "SY": {
+        "ar_SY": 80,
+        "fr_SY": 5.9
+    },
+    "SZ": {
+        "en_SZ": 80,
+        "ss_SZ": 58
+    },
+    "TC": {
+        "en_TC": 98
+    },
+    "TD": {
+        "fr_TD": 26,
+        "ar_TD": 17
+    },
+    "TG": {
+        "fr_TG": 61
+    },
+    "TH": {
+        "th_TH": 80
+    },
+    "TJ": {
+        "tg_TJ": 100
+    },
+    "TK": {
+        "en_TK": 78,
+        "tkl_TK": 78
+    },
+    "TL": {
+        "pt_TL": 59,
+        "tet_TL": 59
+    },
+    "TM": {
+        "tk_TM": 70
+    },
+    "TN": {
+        "ar_TN": 90,
+        "fr_TN": 74
+    },
+    "TO": {
+        "to_TO": 95,
+        "en_TO": 28
+    },
+    "TR": {
+        "tr_TR": 93
+    },
+    "TT": {
+        "en_TT": 88
+    },
+    "TV": {
+        "tvl_TV": 87,
+        "en_TV": 9.4
+    },
+    "TW": {
+        "zh_Hant_TW": 95
+    },
+    "TZ": {
+        "sw_TZ": 90,
+        "en_TZ": 69
+    },
+    "UA": {
+        "uk_UA": 65,
+        "ru_UA": 46
+    },
+    "UG": {
+        "sw_UG": 75,
+        "en_UG": 3.9
+    },
+    "UM": {
+        "en_UM": 100
+    },
+    "US": {
+        "en_US": 96,
+        "": 9.6,
+        "haw": 0.0089
+    },
+    "UY": {
+        "es_UY": 88
+    },
+    "UZ": {
+        "uz_UZ": 85,
+        "uz_Cyrl_UZ": 15
+    },
+    "VA": {
+        "it_VA": 82
+    },
+    "VC": {
+        "en_VC": 96
+    },
+    "VE": {
+        "es_VE": 82
+    },
+    "VG": {
+        "en_VG": 98
+    },
+    "VI": {
+        "en_VI": 75
+    },
+    "VN": {
+        "vi_VN": 86
+    },
+    "VU": {
+        "bi_VU": 90,
+        "en_VU": 83,
+        "fr_VU": 50
+    },
+    "WF": {
+        "fr_WF": 48
+    },
+    "WS": {
+        "sm_WS": 100,
+        "en_WS": 2.1
+    },
+    "XK": {
+        "sq_XK": 92,
+        "sr_XK": 5,
+        "sr_Latn_XK": 5
+    },
+    "YE": {
+        "ar_YE": 74
+    },
+    "YT": {
+        "fr_YT": 57
+    },
+    "ZA": {
+        "en_ZA": 31,
+        "zu": 24,
+        "xh": 18,
+        "af": 13,
+        "nso": 9.4,
+        "": 2.7,
+        "ts": 4.4,
+        "ve": 2.3,
+        "nr": 1.6
+    },
+    "ZM": {
+        "en_ZM": 16
+    },
+    "ZW": {
+        "sn_ZW": 81,
+        "en_ZW": 42,
+        "nd_ZW": 12
+    }
 }

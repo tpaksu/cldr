@@ -28,12 +28,12 @@ foreach ( $territory_data['supplemental']['territoryInfo'] as $country => $data 
 	$countries[ $country ] = [];
 	if ( isset( $data['languagePopulation'] ) ) {
 		foreach ( $data['languagePopulation'] as $language => $language_data ) {
-			if ( isset( $language_data['_officialStatus'] ) ) {
-				$countries[ $country ][ str_replace( '_', '-', $language ) . '-' . strtoupper( $country ) ] = floatval( $language_data['_populationPercent'] );
+			if ( isset( $language_data['_officialStatus'] ) && in_array( $language_data['_officialStatus'], [ 'official', 'de_facto_official', 'official_regional' ], true ) ) {
+				$countries[ $country ][ $language ] = floatval( $language_data['_populationPercent'] );
 			}
 		}
 		arsort( $countries[ $country ] );
-		$defaults[ $country ]  = array_slice( $countries[ $country ], 0, 3 );
+		$defaults[ $country ]  = $countries[ $country ];
 		$countries[ $country ] = array_keys( $countries[ $country ] );
 	}
 }
