@@ -7,9 +7,7 @@
 
 
 function get_json( $path ) {
-	/* phpcs:disable */
-	return json_decode( file_get_contents( $path ), true );
-	/* phpcs:enable */
+	return json_decode( file_get_contents( $path ), true ); //phpcs:ignore
 }
 
 function var_export_override( $expression, $return = false ) {
@@ -65,12 +63,14 @@ function get_current_currency( $country, $currency_history ) {
 	return $currencies;
 }
 
-function str_starts_with( $haystack, $needle ) {
-	return 0 === strpos( $haystack, $needle, 0 );
-}
+if ( ! function_exists( 'str_starts_with' ) ) {
+	function str_starts_with( $haystack, $needle ) {
+		return 0 === strpos( $haystack, $needle, 0 );
+	}
 
-function str_ends_with( $haystack, $needle ) {
-	return substr( $haystack, -strlen( $needle ) ) === $needle;
+	function str_ends_with( $haystack, $needle ) {
+		return substr( $haystack, -strlen( $needle ) ) === $needle;
+	}
 }
 
 function get_country_languages( $country, $language_data ) {

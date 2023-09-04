@@ -183,4 +183,5 @@ $country_locale_data = str_replace( '`', "'", $country_locale_data );
 
 file_put_contents( './output/locale-info.php', $country_locale_data );
 
-exec( 'phpcbf ./output/*.php' ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.system_calls_exec
+ob_implicit_flush( true );
+system( 'phpcbf ./output/currency-info.php -v' ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.system_calls_system
