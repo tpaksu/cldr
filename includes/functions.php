@@ -5,222 +5,13 @@
  * @package Currencies
  */
 
-$global_locale_formats = [];
 
-if ( ! function_exists( 'get_json' ) ) {
-	/**
-	 * Test
-	 *
-	 * @param string $path  Path to open.
-	 *
-	 * @return object         File contents.
-	 */
-	function get_json( $path ) {
-		/* phpcs:disable */
-		return json_decode( file_get_contents( $path ), true );
-		/* phpcs:enable */
-	}
+function get_json( $path ) {
+	/* phpcs:disable */
+	return json_decode( file_get_contents( $path ), true );
+	/* phpcs:enable */
 }
 
-/**
- * Returns the first key
- *
- * @param   array $array   The array to return from.
- *
- * @return  mixed          The first key.
- */
-function my_array_key_first( $array ) {
-	$keys = array_keys( $array );
-	return $keys[0];
-}
-
-/**
- * Gets numbers data
- *
- * @param string $locale  Locale.
- *
- * @return object         the numbers data
- */
-function get_numbers_data( $locale ) {
-	if ( strpos( $locale, '_' ) > 0 ) {
-		$parts = explode( '_', $locale );
-		if ( strtolower( $parts[0] ) === strtolower( $parts[1] ) ) {
-			$locale = strtolower( $parts[0] );
-		}
-	}
-	$path = __DIR__ . '/../cldr/cldr-numbers-full/main/' . strtolower( str_replace( '_', '-', $locale ) ) . '/numbers.json';
-	if ( file_exists( $path ) ) {
-		return get_json( $path );
-	}
-	return [];
-}
-
-/**
- * Gets the currency data
- *
- * @param   string $currency  Currency to query.
- * @param   array  $data       Data.
- *
- * @return  array             The currency data
- */
-function get_currency_info( $currency, $data ) {
-	return $data['main']['en']['numbers']['currencies'][ $currency ] ?? [];
-}
-
-/**
- * Gets the currency formatting
- *
- * @param   array  $data    The format container.
- * @param   string $locale  The related locale.
- *
- * @return  array|null      Currency formats
- */
-function get_currency_format( $data, $locale ) {
-	$locale = str_replace( '_', '-', $locale );
-	if ( isset( $data['main'][ $locale ]['numbers'] ) ) {
-		$base    = $data['main'][ $locale ]['numbers'];
-		$default = $base['defaultNumberingSystem'];
-		$data    = [];
-		if ( isset( $base[ 'currencyFormats-numberSystem-' . $default ] ) ) {
-			$data = $base[ 'currencyFormats-numberSystem-' . $default ];
-		}
-		if ( isset( $base[ 'symbols-numberSystem-' . $default ] ) ) {
-			$data = array_merge( $data, $base[ 'symbols-numberSystem-' . $default ] );
-		}
-		return $data;
-	}
-	return null;
-}
-
-
-/**
- * Returns the associated locales for currency
- *
- * @param   string $currency              Currency to return codes for.
- * @param   array  $currency_locale_data  Locale data.
- *
- * @return  array                         Related locales
- */
-function get_codes_for( $currency, $currency_locale_data ) {
-	global $global_locale_formats;
-	if ( isset( $currency_locale_data[ $currency ] ) && ! empty( $currency_locale_data[ $currency ] ) ) {
-		$locale_formats = [];
-		foreach ( $currency_locale_data[ $currency ] as $locale ) {
-			if ( isset( $global_locale_formats[ $locale ] ) ) {
-				$locale_formats[ $locale ] = $global_locale_formats[ $locale ];
-				continue;
-			}
-			$locale_formats[ $locale ]        = get_locale_format( $locale );
-			$global_locale_formats[ $locale ] = $locale_formats[ $locale ];
-		}
-		return $locale_formats;
-	}
-	return [];
-}
-
-/**
- * Get format for locale
- *
- * @param   string $locale  The locale to return it's data.
- *
- * @return  array            The format specifications
- */
-function get_locale_format( $locale ) {
-	$data = get_numbers_data( $locale );
-	return get_currency_format( $data, $locale );
-}
-
-/**
- * Builds the initial currency object
- *
- * @param   string $code              The currency code.
- * @param   string $name              Currency name.
- * @param   array  $currency_symbols  Currency symbols data.
- * @param   array  $currency_data     Currency formatting data.
- * @param   array  $locale_data       Locale info.
- *
- * @return  array
- */
-function get_currency_object( $code, $name, $currency_symbols, $currency_data, $locale_data ) {
-	$currency_object = [
-		'name'     => $name,
-		'codes'    => get_codes_for( $code, $locale_data ),
-		'format'   => get_currency_info( $code, $currency_symbols ),
-		'rounding' => $currency_data['supplemental']['currencyData']['fractions'][ $code ] ?? $currency_data['supplemental']['currencyData']['fractions']['DEFAULT'],
-	];
-
-	foreach ( $currency_object['codes'] as $lcl => &$value ) {
-		$format = get_currency_format( get_numbers_data( $lcl ), $lcl );
-		if ( null !== $format ) {
-			$value = $format;
-			if ( isset( $value['currencySpacing'] ) ) {
-				unset( $value['currencySpacing'] );
-			}
-			if ( isset( $value['short'] ) ) {
-				unset( $value['short'] );
-			}
-		} else {
-			$value = null;
-		}
-	}
-	$currency_object['codes'] = array_filter( $currency_object['codes'] );
-	return $currency_object;
-}
-
-/**
- * Normalizes sub-locale data
- *
- * @param   array $codes  The locales array to normalize.
- *
- * @return  array          Normalized locales
- */
-function select_default_locale_for_currency( $codes ) {
-	if ( count( $codes ) === 0 ) {
-		return [
-			'format' => null,
-			'locale' => null,
-		];
-	}
-
-	$spec_counts = [];
-
-	foreach ( $codes as $locale => $definition ) {
-		$spec_counts[ $locale ] = get_format_key( $locale, $definition );
-	}
-
-	if ( count( $spec_counts ) === 0 ) {
-		return [
-			'format' => null,
-			'locale' => null,
-		];
-	}
-
-	$counts = array_count_values( $spec_counts );
-	arsort( $counts );
-	$max_hash = array_keys( $counts )[0];
-	foreach ( $spec_counts as $locale => $hash ) {
-		if ( $hash === $max_hash ) {
-			return [
-				'format' => $codes[ $locale ],
-				'locale' => $locale,
-			];
-		}
-	}
-	$first = my_array_key_first( $codes );
-	return [
-		'format' => $codes[ $first ],
-		'locale' => $first,
-	];
-}
-
-/**
- * Var export with 4 spaces and square brackets
- *
- * @param   mixed $expression  Variable to export.
- * @param   bool  $return      Flag for return or print.
- *
- * @return  string             Exported object representation.
- */
 function var_export_override( $expression, $return = false ) {
 	$export = var_export( $expression, true ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_var_export
 	$export = preg_replace( '/^([ ]*)(.*)/m', '$1$1$2', $export );
@@ -243,55 +34,271 @@ function var_export_override( $expression, $return = false ) {
 	}
 }
 
-/**
- * Gets the language direction by default locale
- *
- * @param   string $country              The country to check for.
- * @param   array  $default_locales      Default locales for countries.
- * @param   array  $language_directions  Language directions for locales.
- *
- * @return  string|null                   The language direction if exists, or "ltr" by default
- */
-function get_language_direction( $country, $default_locales, $language_directions ) {
-	$default_locale = $default_locales[ $country ];
-	return get_locale_direction( $default_locale, $language_directions );
+function get_current_currency( $country, $currency_history ) {
+	$currencies = [];
+	foreach ( $currency_history as $currency_history_array ) {
+		foreach ( $currency_history_array as $currency => $currency_history_item ) {
+			if ( ! isset( $currency_history_item['_to'] ) && ! isset( $currency_history_item['_tender'] ) ) {
+				$currencies[] = $currency;
+			}
+		}
+	}
 
+	// Select the default currency for multiple currency countries.
+	switch ( $country ) {
+		case 'BT':
+			return [ 'BTN' ];
+		case 'CU':
+			return [ 'CUP' ];
+		case 'HT':
+			return [ 'HTG' ];
+		case 'LS':
+			return [ 'LSL' ];
+		case 'NA':
+			return [ 'NAD' ];
+		case 'PA':
+			return [ 'PAB' ];
+		case 'PS':
+			return [ 'ILS' ];
+	}
+
+	return $currencies;
 }
 
-/**
- * Gets the direction of the locale.
- *
- * @param   string $locale               The locale to check for.
- * @param   array  $language_directions  The locale directions array.
- *
- * @return  string                       The direction
- */
-function get_locale_direction( $locale, $language_directions ) {
-	while ( true ) {
-		if ( strpos( $locale, '_' ) > 0 ) {
-			$parts = explode( '_', $locale );
-			array_pop( $parts );
-			$locale = implode( '_', $parts );
+function str_starts_with( $haystack, $needle ) {
+	return 0 === strpos( $haystack, $needle, 0 );
+}
+
+function str_ends_with( $haystack, $needle ) {
+	return substr( $haystack, -strlen( $needle ) ) === $needle;
+}
+
+function get_country_languages( $country, $language_data ) {
+	$country_languages = [];
+	if ( isset( $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'] ) && is_array( $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'] ) ) {
+		if ( 1 === count( $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'] ) ) {
+			$language            = array_keys( $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'] )[0];
+			$country_languages[] = $language;
+		} else {
+			foreach ( $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'] as $language => $data ) {
+
+				if ( isset( $data['_officialStatus'] ) && in_array( $data['_officialStatus'], [ 'official', 'de_facto_official', 'official_regional' ], true ) ) {
+					$country_languages[] = $language;
+				}
+			}
 		}
-		if ( array_key_exists( $locale, $language_directions ) ) {
-			return $language_directions[ $locale ];
-		}
-		if ( strpos( $locale, '_' ) > 0 ) {
+	}
+	sort( $country_languages );
+	return $country_languages;
+}
+
+function fix_locale( $_locale, $country ) {
+	$_locale = str_replace( '-', '_', $_locale );
+	$_locale = str_replace( [ '_Hant', '_Arab', '_Cyrl', '_Deva', '_Latn', '_Mong' ], [ '-Hant', '-Arab', '-Cyrl', '-Deva', '-Latn', '-Mong' ], $_locale );
+	$_locale = false === strpos( $_locale, '_' ) ? $_locale . '_' . $country : $_locale;
+	$_locale = str_replace( '-', '_', $_locale );
+	return $_locale;
+}
+
+function get_country_locales( $country, $languages, $locales_list ) {
+	$selected_locales = [];
+	foreach ( $locales_list as $locale ) {
+		if ( 'und' === $locale ) {
 			continue;
 		}
-		return 'ltr';
+		if ( strpos( $locale, "-$country" ) > 0 ) {
+			$split = explode( '-', $locale );
+			array_pop( $split );
+			$first_part = implode( '-', $split );
+			if ( in_array( $first_part, $languages, true ) ) {
+				$languages[ array_search( $first_part, $languages, true ) ] = '--';
+				if ( false !== array_search( $first_part, $selected_locales, true ) ) {
+					unset( $selected_locales[ array_search( $first_part, $selected_locales, true ) ] );
+				}
+				$selected_locales[] = $locale;
+			}
+		} elseif ( in_array( $locale, $languages, true ) ) {
+			$selected_locales[] = $locale;
+		} elseif ( in_array( str_replace( '-', '_', $locale ), $languages, true ) ) {
+			$selected_locales[] = $locale;
+		}
 	}
+
+	return array_values( $selected_locales );
 }
 
-/**
- * Gets the hash key for grouping format data
- *
- * @param   string $language Language.
- * @param   array  $data     Currency formatting data.
- *
- * @return  string         The key of the format
- */
-function get_format_key( $language, $data ) {
+function get_country_default_locale( $country, $locales, $language_data ) {
+	// Default language is defined as most used in writing in
+	// https://cldr.unicode.org/development/development-process/design-proposals/language-data-consistency
+
+	if ( ! count( $locales ) ) {
+		return null;
+	}
+
+	if ( 1 === count( $locales ) ) {
+		return $locales[0];
+	}
+
+	$country_language_data = $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'];
+	if ( 1 === count( $country_language_data ) ) {
+		return array_key_first( $country_language_data ); // phpcs:ignore PHPCompatibility.FunctionUse.NewFunctions.array_key_firstFound
+	}
+
+	$official_languages = array_filter(
+		$country_language_data,
+		function( $language ) {
+			return isset( $language['_officialStatus'] ) && ( 'official' === $language['_officialStatus'] || 'de_facto_official' === $language['_officialStatus'] ) &&
+			( ! isset( $language['_writingPercent'] ) || intval( $language['_writingPercent'] ) > 50 );
+		}
+	);
+
+	if ( 1 === count( $official_languages ) ) {
+		$language = array_key_first( $official_languages ); // phpcs:ignore PHPCompatibility.FunctionUse.NewFunctions.array_key_firstFound
+		if ( in_array( $language, $locales, true ) ) {
+			return $language;
+		}
+		$locale = array_filter(
+			$locales,
+			function( $locale ) use ( $language ) {
+				return str_starts_with( $locale, "$language-" );
+			}
+		);
+		if ( 1 === count( $locale ) ) {
+			return array_values( $locale )[0];
+		}
+	}
+
+	if ( 0 < count( $official_languages ) ) {
+		uasort(
+			$official_languages,
+			function( $lang1, $lang2 ) {
+				return intval( $lang1['_populationPercent'] ) > intval( $lang2['_populationPercent'] ) ? -1 : 1;
+			}
+		);
+
+		if ( 'SD' === $country ) {
+			return 'ar-SD';
+		}
+
+		foreach ( $official_languages as $default_language => $data ) {
+			$matching_locales_1 = array_filter(
+				$locales,
+				function( $locale ) use ( $default_language ) {
+					return str_replace( '_', '-', $default_language ) === $locale;
+				}
+			);
+			if ( count( $matching_locales_1 ) ) {
+				return array_values( $matching_locales_1 )[0];
+			}
+			$matching_locales_1 = array_filter(
+				$locales,
+				function( $locale ) use ( $default_language, $country ) {
+					return str_replace( '_', '-', $default_language ) . '-' . $country === $locale;
+				}
+			);
+			if ( count( $matching_locales_1 ) ) {
+				return array_values( $matching_locales_1 )[0];
+			}
+			$matching_locales_2 = array_filter(
+				$locales,
+				function( $locale ) use ( $default_language ) {
+					return str_starts_with( $locale, str_replace( '_', '-', $default_language ) );
+				}
+			);
+			if ( count( $matching_locales_2 ) ) {
+				return array_values( $matching_locales_2 )[0];
+			}
+		}
+	}
+
+	return $official_languages;
+}
+
+function get_locale_format( $locale, $currency, $currency_data ) {
+	$path    = __DIR__ . '/../cldr/cldr-numbers-full/main/' . strtolower( str_replace( '_', '-', $locale ) ) . '/numbers.json';
+	$data    = get_json( $path );
+	$base    = $data['main'][ $locale ]['numbers'];
+	$default = $base['defaultNumberingSystem'];
+	$data    = [];
+	if ( isset( $base[ 'currencyFormats-numberSystem-' . $default ] ) ) {
+		$data = $base[ 'currencyFormats-numberSystem-' . $default ];
+	}
+	if ( isset( $base[ 'symbols-numberSystem-' . $default ] ) ) {
+		$data = array_merge( $data, $base[ 'symbols-numberSystem-' . $default ] );
+	}
+
+	return summarize_format( $data, $currency, $currency_data );
+}
+
+function fix_formats( $formats ) {
+	$formats = preg_replace( "/\xC2\xA4/", 'o', $formats );
+	$formats = preg_replace( "/\xE2\x80\xAF/", ' ', $formats );
+	$formats = preg_replace( "/\xC2\xA0/", ' ', $formats );
+	$formats = preg_replace( "/\xD9\xAC/", '.', $formats );
+	$formats = preg_replace( "/\xD9\xAb/", ',', $formats );
+	$formats = preg_replace( "/\xE2\x80\x99/", "'", $formats );
+	$formats = preg_replace( "/\xE2\x80\x8F/", '', $formats );
+	$formats = preg_replace( "/\xE2\x80\x8E/", '', $formats );
+	$formats = preg_replace( "/\xD8\x9C/", '', $formats );
+
+	return $formats;
+}
+
+function parse_amount_format( $format_string ) {
+
+	if ( str_starts_with( $format_string, 'o ' ) ) {
+			$currency_pos = 'left_space';
+	} elseif ( str_starts_with( $format_string, 'o' ) ) {
+			$currency_pos = 'left';
+	} elseif ( str_ends_with( $format_string, ' o' ) ) {
+			$currency_pos = 'right_space';
+	} elseif ( str_ends_with( $format_string, 'o' ) ) {
+			$currency_pos = 'right';
+	} else {
+		echo "Undefined currency pos for $format_string\n\n";
+		$currency_pos = 'undefined';
+	}
+	return [
+		'has_space'    => str_ends_with( $currency_pos, '_space' ),
+		'currency_pos' => $currency_pos,
+	];
+}
+
+function summarize_format( $format, $currency, $currency_data ) {
+	$amount_formats                  = explode( ';', $format['accounting'] );
+	$amount_formats_without_currency = explode( ';', $format['accounting-noCurrency'] );
+	$positive_format                 = fix_formats( $amount_formats[0] );
+	$negative_format                 = isset( $amount_formats[1] ) ? fix_formats( $amount_formats[1] ) : "-$positive_format";
+	$format_info                     = parse_amount_format( $positive_format, fix_formats( $amount_formats_without_currency[0] ) );
+	$num_decimals                    = $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_cashDigits']
+	?? $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_digits']
+	?? $currency_data['supplemental']['currencyData']['fractions']['DEFAULT']['_digits']
+	?? null;
+
+	return [
+		'decimal_sep'     => fix_formats( $format['decimal'] ),
+		'thousand_sep'    => fix_formats( $format['group'] ),
+		'has_space'       => $format_info['has_space'],
+		'currency_pos'    => $format_info['currency_pos'],
+		'negative_format' => $negative_format,
+		'num_decimals'    => $num_decimals,
+	];
+}
+
+function get_locale_direction( $locale ) {
+	$path      = __DIR__ . '/../cldr/cldr-misc-full/main/' . strtolower( str_replace( '_', '-', $locale ) ) . '/layout.json';
+	$data      = get_json( $path );
+	$direction = $data['main'][ $locale ]['layout']['orientation']['characterOrder'];
+	return 'right-to-left' === $direction ? 'rtl' : 'ltr';
+}
+
+function fix_combined_info( $info ) {
+	$info['BY']['short_symbol'] = 'р.';
+	return $info;
+}
+
+
+function combine_format( $data, $language ) {
 
 	$key = [];
 	if ( ! isset( $data['currency_pos'] ) ) {
@@ -309,6 +316,9 @@ function get_format_key( $language, $data ) {
 				break;
 			case 'right_space':
 				$key[] = 'rs';
+				break;
+			default:
+				echo 'invalid currency pos case: ' . $language . ' ' . dechex( ord( $data['currency_pos'] ) ) . ' (' . $data['currency_pos'] . ') ' . "\n";
 				break;
 		}
 	}
@@ -330,7 +340,7 @@ function get_format_key( $language, $data ) {
 				$key[] = 'apos';
 				break;
 			default:
-				echo 'missing decimal delimiter case: ' . $language . ' ' . dechex( ord( $data['decimal_sep'] ) ) . ' (' . $data['decimal_sep'] . ') ' . "\n";
+				echo 'invalid decimal delimiter case: ' . $language . ' ' . dechex( ord( $data['decimal_sep'] ) ) . ' (' . $data['decimal_sep'] . ') ' . "\n";
 				break;
 		}
 	}
@@ -352,7 +362,7 @@ function get_format_key( $language, $data ) {
 				$key[] = 'apos';
 				break;
 			default:
-				echo 'missing thousand delimiter case: ' . $language . ' ' . dechex( ord( $data['thousand_sep'] ) ) . ' (' . $data['thousand_sep'] . ') ' . "\n";
+				echo 'invalid thousand delimiter case: ' . $language . ' ' . dechex( ord( $data['thousand_sep'] ) ) . ' (' . $data['thousand_sep'] . ') ' . "\n";
 				break;
 		}
 	}
@@ -364,37 +374,4 @@ function get_format_key( $language, $data ) {
 	}
 
 	return implode( '_', $key );
-}
-
-/**
- * Fixes the non-ASCII text to ASCII equivalents
- *
- * @param   string $formats  String to fix.
- *
- * @return  string            Fixed string
- */
-function fix_formats( $formats ) {
-	$formats = explode( ';', $formats )[0];
-	$formats = str_replace( "\xC2\xA4", 'o', $formats );
-	$formats = str_replace( "\xE2\x80\xAF", ' ', $formats );
-	$formats = str_replace( "\xC2\xA0", ' ', $formats );
-	$formats = str_replace( "\xD9\xAC", '.', $formats );
-	$formats = str_replace( "\xD9\xAb", ',', $formats );
-	$formats = str_replace( "\xE2\x80\x99", "'", $formats );
-	$formats = str_replace( "\xE2\x80\x8F", '', $formats );
-	$formats = str_replace( "\xE2\x80\x8E", '', $formats );
-
-	return $formats;
-}
-
-/**
- * Gets the default language for the given locale.
- *
- * @param   string $locale         The locale.
- * @param   array  $language_list  The languages list.
- *
- * @return  string        The language.
- */
-function get_language_for_locale( $locale, $language_list ) {
-	return Locale::lookup( $language_list, $locale, true );
 }

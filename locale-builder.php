@@ -5,221 +5,137 @@
  * @package Currencies
  * @phpcs:disable WordPress.WP.GlobalVariablesOverride.Prohibited
  */
+require 'includes/functions.php';
 
-if ( ! file_exists( './json' ) ) {
-	mkdir( './json' );
+// Step 1: Get country, currency, language and locales together.
+
+$currency_data        = get_json( __DIR__ . '/cldr/cldr-core/supplemental/currencyData.json' );
+$language_data        = get_json( __DIR__ . '/cldr/cldr-core/supplemental/territoryInfo.json' );
+$available_locales    = get_json( __DIR__ . '/cldr/cldr-core/availableLocales.json' );
+$unit_preference_data = get_json( __DIR__ . '/cldr/cldr-core/supplemental/unitPreferenceData.json' );
+$locales_list         = $available_locales['availableLocales']['full'];
+
+$country_info = [];
+foreach ( $currency_data['supplemental']['currencyData']['region'] as $country => $currency_info ) {
+	$country_info[ $country ]['currencies'] = get_current_currency( $country, $currency_info );
+	if ( 1 < count( $country_info[ $country ]['currencies'] ) ) {
+		echo "Multiple currencies found for $country\n";
+	}
+
+	$country_info[ $country ]['weight_unit']    = $unit_preference_data['supplemental']['unitPreferenceData']['mass']['default'][ $country ][1]['unit'] ?? $unit_preference_data['supplemental']['unitPreferenceData']['mass']['default']['001'][1]['unit'];
+	$country_info[ $country ]['dimension_unit'] = $unit_preference_data['supplemental']['unitPreferenceData']['length']['default'][ $country ][1]['unit'] ?? $unit_preference_data['supplemental']['unitPreferenceData']['length']['default']['001'][2]['unit'];
+
+	$weight = &$country_info[ $country ]['weight_unit'];
+	if ( 'kilogram' === $weight ) {
+		$weight = 'kg';
+	} elseif ( 'pound' === $weight ) {
+		$weight = 'oz';
+	}
+
+	$dimension = &$country_info[ $country ]['dimension_unit'];
+	if ( 'centimeter' === $dimension ) {
+		$dimension = 'cm';
+	} elseif ( 'inches' === $dimension ) {
+		$dimension = 'in';
+	}
+
+	$country_info[ $country ]['languages']      = get_country_languages( $country, $language_data );
+	$country_info[ $country ]['locales']        = get_country_locales( $country, $country_info[ $country ]['languages'], $locales_list );
+	$country_info[ $country ]['default_locale'] = get_country_default_locale( $country, $country_info[ $country ]['locales'], $language_data );
 }
 
-if ( ! file_exists( './output' ) ) {
-	mkdir( './output' );
+file_put_contents( './json/0-country-info.json', json_encode( $country_info, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
+
+// Step 2: Import formats for each locale.
+$format_cache = [];
+foreach ( $country_info as $country => &$info ) {
+	$info['locale_formats'] = [];
+	foreach ( $info['locales'] as $_locale ) {
+		foreach ( $info['currencies'] as $currency ) {
+			if ( isset( $format_cache[ $_locale ][ $currency ] ) ) {
+				$info['locale_formats'][ $_locale ][ $currency ] = $format_cache[ $_locale ][ $currency ];
+				continue;
+			}
+			$info['locale_formats'][ $_locale ][ $currency ]              = get_locale_format( $_locale, $currency, $currency_data );
+			$info['locale_formats'][ $_locale ][ $currency ]['direction'] = get_locale_direction( $_locale );
+			$format_cache[ $_locale ][ $currency ]                        = $info['locale_formats'][ $_locale ][ $currency ];
+		}
+	}
+
+	if ( isset( $info['locale_formats'][ $info['default_locale'] ] ) ) {
+		$info['default_format']            = $info['locale_formats'][ $info['default_locale'] ];
+		$info['locale_formats']['default'] = $info['locale_formats'][ $info['default_locale'] ];
+	} else {
+		$info['default_format'] = '';
+	}
 }
 
-$currency_locale_data  = require 'includes/matcher-currency-locale.php';
-$country_currency_data = require 'includes/matcher-country-currency.php';
-$country_languages     = require 'includes/matcher-country-language.php';
-$currencies            = require 'includes/wordpress-currencies.php';
-$currency_symbols      = get_json( __DIR__ . '/cldr/cldr-numbers-full/main/en/currencies.json' );
-$currency_data         = get_json( __DIR__ . '/cldr/cldr-core/supplemental/currencyData.json' );
-$unit_preference_data  = get_json( __DIR__ . '/cldr/cldr-core/supplemental/unitPreferenceData.json' );
-$default_locales       = get_json( __DIR__ . '/json/default-locales.json' );
-$language_directions   = get_json( __DIR__ . '/json/language-direction.json' );
+file_put_contents( './json/1-locale-formats.json', json_encode( $country_info, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
 
-require './includes/functions.php';
+$english_numbers    = get_json( __DIR__ . '/cldr/cldr-numbers-full/main/en/currencies.json' )['main']['en']['numbers'];
+$english_currencies = $english_numbers['currencies'];
 
-$data           = [];
-$global_formats = [];
-
-foreach ( $currencies as $code => $name ) {
-	$data[ $code ] = get_currency_object( $code, $name, $currency_symbols, $currency_data, $currency_locale_data );
-}
-
-$data['BYN']['format']['symbol-alt-narrow'] = 'р.';
-
-file_put_contents( './json/0-currency-objects.json', json_encode( $data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
-
-// Map currency info to countries.
-$locale_info = [];
-
-$defaults = [
-	'currency_pos'   => 'left_space',
-	'num_decimals'   => 2,
-	'thousand_sep'   => '.',
-	'decimal_sep'    => ',',
-	'dimension_unit' => 'cm',
-	'weight_unit'    => 'kg',
-];
-
-foreach ( $country_currency_data as $country => $currencies ) {
-	if ( ! array_key_exists( $country, (array) $default_locales ) ) {
+// Step 3: Group by currencies
+$combined_info = [];
+foreach ( $country_info as $country => &$info ) {
+	if ( empty( $info['currencies'] ) ) {
 		continue;
 	}
-	foreach ( $currencies as $currency ) {
-		if ( array_key_exists( $currency, $data ) ) {
-			$locale_info[ $country ]                   = $data[ $currency ];
-			$locale_info[ $country ]['currency_code']  = $currency;
-			$locale_info[ $country ]['weight_unit']    = $unit_preference_data['supplemental']['unitPreferenceData']['mass']['default'][ $country ][1]['unit'] ?? $unit_preference_data['supplemental']['unitPreferenceData']['mass']['default']['001'][1]['unit'];
-			$locale_info[ $country ]['dimension_unit'] = $unit_preference_data['supplemental']['unitPreferenceData']['length']['default'][ $country ][1]['unit'] ?? $unit_preference_data['supplemental']['unitPreferenceData']['length']['default']['001'][2]['unit'];
-			$locale_info[ $country ]['singular']       = $locale_info[ $country ]['format']['displayName-count-one'] ?? null;
-			$locale_info[ $country ]['plural']         = $locale_info[ $country ]['format']['displayName-count-other'] ?? null;
-			$locale_info[ $country ]['short_symbol']   = $locale_info[ $country ]['format']['symbol-alt-narrow'] ?? null;
-			$locale_info[ $country ]['direction']      = get_language_direction( $country, $default_locales, $language_directions );
-			$weight                                    = &$locale_info[ $country ]['weight_unit'];
-			if ( 'kilogram' === $weight ) {
-				$weight = 'kg';
-			} elseif ( 'pound' === $weight ) {
-				$weight = 'oz';
-			}
-
-			$dimension = &$locale_info[ $country ]['dimension_unit'];
-			if ( 'centimeter' === $dimension ) {
-				$dimension = 'cm';
-			} elseif ( 'inches' === $dimension ) {
-				$dimension = 'in';
-			}
-
-			$default_locale = $default_locales[ $country ];
-
-			if ( is_array( $locale_info[ $country ]['codes'] ) && isset( $locale_info[ $country ]['codes'][ $default_locale ] ) ) {
-				$locale_info[ $country ]['selected_code'] = [ $default_locale => $locale_info[ $country ]['codes'][ $default_locale ] ];
-				if ( is_array( $locale_info[ $country ]['selected_code'] ) ) {
-					if ( count( $locale_info[ $country ]['selected_code'] ) > 0 ) {
-						$format_container = $locale_info[ $country ];
-						$locale_code      = array_keys( $format_container['selected_code'] )[0];
-						$format_data      = $format_container['codes'][ $locale_code ];
-						$formats          = $format_data['standard'];
-						$formats          = fix_formats( $formats );
-						if ( substr( $formats, 0, 2 ) === 'o ' ) {
-							$locale_info[ $country ]['currency_pos'] = 'left_space';
-						} elseif ( substr( $formats, 0, 1 ) === 'o' ) {
-							$locale_info[ $country ]['currency_pos'] = 'left';
-						} elseif ( substr( $formats, -2, 2 ) === ' o' ) {
-							$locale_info[ $country ]['currency_pos'] = 'right_space';
-						} elseif ( substr( $formats, -1, 1 ) === 'o' ) {
-							$locale_info[ $country ]['currency_pos'] = 'right';
-						}
-						$locale_info[ $country ]['locales']        = array_keys( $locale_info[ $country ]['codes'] );
-						$locale_info[ $country ]['default_locale'] = $locale_code;
-						$locale_info[ $country ]['thousand_sep']   = fix_formats( $format_data['group'] );
-						$locale_info[ $country ]['decimal_sep']    = fix_formats( $format_data['decimal'] );
-						$locale_info[ $country ]['num_decimals']   = $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_cashDigits']
-						?? $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_digits']
-						?? $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_cashDigits']
-						?? $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_digits']
-						?? null;
-					}
-
-					foreach ( $locale_info[ $country ]['codes'] as $key => &$value ) {
-						$formats   = $value['standard'];
-						$new_value = [];
-						$formats   = fix_formats( $formats );
-						if ( substr( $formats, 0, 2 ) === 'o ' ) {
-							$new_value['currency_pos'] = 'left_space';
-						} elseif ( substr( $formats, 0, 1 ) === 'o' ) {
-							$new_value['currency_pos'] = 'left';
-						} elseif ( substr( $formats, -2, 2 ) === ' o' ) {
-							$new_value['currency_pos'] = 'right_space';
-						} elseif ( substr( $formats, -1, 1 ) === 'o' ) {
-							$new_value['currency_pos'] = 'right';
-						}
-						$new_value['thousand_sep']              = fix_formats( $value['group'] );
-						$new_value['decimal_sep']               = fix_formats( $value['decimal'] );
-						$new_value['direction']                 = get_locale_direction( $key, $language_directions );
-						$new_value['format']                    = get_format_key( $currency . ' - ' . $key, $new_value );
-						$global_formats[ $new_value['format'] ] = [
-							'thousand_sep' => $new_value['thousand_sep'],
-							'decimal_sep'  => $new_value['decimal_sep'],
-							'direction'    => $new_value['direction'],
-							'currency_pos' => $new_value['currency_pos'],
-						];
-						$new_value['format']                    = '%%$global_formats["' . $new_value['format'] . '"]%%';
-						$value                                  = $new_value;
-					}
-				}
-
-				unset( $locale_info[ $country ]['selected_code'] );
-				unset( $locale_info[ $country ]['rounding'] );
-				unset( $locale_info[ $country ]['format'] );
-				unset( $locale_info[ $country ]['locales'] );
-			}
-		}
+	$currency = $info['currencies'][0];
+	if ( empty( $info['default_format'] ) ) {
+		continue;
 	}
-}
-
-file_put_contents( './json/1-unformatted-info.json', json_encode( $data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
-
-
-// Reformat output.
-
-$output    = [];
-$locales   = [];
-$repeating = [];
-
-foreach ( $locale_info as $locale => $info ) {
-	$locales[ $info['currency_code'] ] = $info['codes'];
-	$default_locale                    = $info['default_locale'] ?? '';
-	$default_locale                    = str_replace( '-', '_', $default_locale );
-	$output[ $locale ]                 = [
-		'currency_code'  => $info['currency_code'],
-		'currency_pos'   => $info['currency_pos'] ?? $defaults['currency_pos'],
-		'thousand_sep'   => $info['thousand_sep'] ?? $defaults['thousand_sep'],
-		'decimal_sep'    => $info['decimal_sep'] ?? $defaults['decimal_sep'],
-		'num_decimals'   => intval( $info['num_decimals'] ?? $defaults['num_decimals'] ),
-		'weight_unit'    => $info['weight_unit'] ?? $defaults['weight_unit'],
-		'dimension_unit' => $info['dimension_unit'] ?? $defaults['dimension_unit'],
-		'direction'      => $info['direction'],
-		'default_locale' => $default_locale,
-		'name'           => $info['name'],
-		'singular'       => $info['singular'] ?? null,
-		'plural'         => $info['plural'] ?? null,
-		'short_symbol'   => $info['short_symbol'] ?? null,
-		'locales'        => '%%$locales[`' . $info['currency_code'] . '`]%%',
+	$default_format            = $info['default_format'][ $currency ];
+	$combined_info[ $country ] = [
+		'currency_code'  => $currency,
+		'currency_pos'   => $default_format['currency_pos'],
+		'thousand_sep'   => $default_format['thousand_sep'] ?? '.',
+		'decimal_sep'    => $default_format['decimal_sep'] ?? ',',
+		'num_decimals'   => intval( $default_format['num_decimals'] ) ?? 2,
+		'weight_unit'    => $info['weight_unit'],
+		'dimension_unit' => $info['dimension_unit'],
+		'direction'      => $default_format['direction'],
+		'default_locale' => fix_locale( $info['default_locale'], $country ),
+		'name'           => $english_currencies[ $currency ]['displayName'],
+		'singular'       => $english_currencies[ $currency ]['displayName-count-one'],
+		'plural'         => $english_currencies[ $currency ]['displayName-count-other'],
+		'short_symbol'   => isset( $english_currencies[ $currency ]['symbol-alt-narrow'] ) ? $english_currencies[ $currency ]['symbol-alt-narrow'] : null,
+		'locales'        => "\$locales['$currency']",
 	];
-	if ( 0 === count( $info['codes'] ) ) {
-		echo 'Missing Locales: ' . $locale . ': ' . $info['currency_code'] . PHP_EOL;
-	}
-	if ( 1 < count( $output[ $locale ] ) ) {
-		$repeating[] = $info['currency_code'];
-	}
 }
 
-ksort( $locales );
-ksort( $global_formats );
+$available_formats = [];
+$country_formats   = [];
+foreach ( $country_info as $country => $info ) {
+	foreach ( $info['locale_formats'] as $_locale => $locale_info ) {
+		$currency = $info['currencies'][0];
+		$format   = $locale_info[ $currency ];
+		if ( 'default' !== $_locale ) {
+			$_locale = fix_locale( $_locale, $country );
 
-file_put_contents( './json/3-locales-preprocessed.json', json_encode( $locales, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
-file_put_contents( './json/3-global-formats.json', json_encode( $global_formats, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
-
-// Add default formats to the currency => locale formats array.
-$new_locales = [];
-foreach ( $locales as $currency => &$locale ) {
-	$new_locales[ $currency ] = [];
-	foreach ( $locale as $key => $value ) {
-		$k                              = str_replace( '-', '_', $key );
-		$new_locales[ $currency ][ $k ] = $value;
-	}
-	$default                             = select_default_locale_for_currency( $locale );
-	$new_locales[ $currency ]['default'] = $default['format'];
-}
-
-file_put_contents( './json/4-locales-defaults.json', json_encode( $new_locales, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
-
-// Optimize locale list by replacing them with global formats.
-foreach ( $new_locales as $currency => &$locale ) {
-	foreach ( $locale as $key => &$value ) {
-		if ( 'num_decimals' === $key ) {
-			continue;
 		}
-		if ( isset( $value['format'] ) ) {
-			$value = $value['format'];
-		} else {
-			echo 'Missing format for ' . $currency . '-' . $key . "\n";
+		$combined_key = combine_format( $format, $_locale );
+		if ( ! isset( $available_formats[ $combined_key ] ) ) {
+			$available_formats[ $combined_key ] = [
+				'thousand_sep' => $format['thousand_sep'],
+				'decimal_sep'  => $format['decimal_sep'],
+				'direction'    => $format['direction'],
+				'currency_pos' => $format['currency_pos'],
+			];
 		}
+		$country_formats[ $currency ][ $_locale ] = "\$global_formats['$combined_key']";
 	}
 }
 
-$locales = $new_locales;
+$combined_info = fix_combined_info( $combined_info );
+ksort( $combined_info );
+ksort( $country_formats );
+ksort( $available_formats );
 
-file_put_contents( './json/5-locale_data.json', json_encode( $locales, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
-file_put_contents( './json/5-currency_data.json', json_encode( $output, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
+file_put_contents( './json/2-locale-info.json', json_encode( $combined_info, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
+file_put_contents( './json/3-currency-info.json', json_encode( $country_formats, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
+file_put_contents( './json/4-available-formats.json', json_encode( $available_formats, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ); /* phpcs:ignore WordPress.WP.AlternativeFunctions */
+
 
 $currency_locale_data = '<?php
 /**
@@ -231,16 +147,19 @@ $currency_locale_data = '<?php
 
 defined( \'ABSPATH\' ) || exit;
 
-$global_formats = ' . var_export_override( $global_formats, true ) . ';
+$global_formats = ' . var_export_override( $available_formats, true ) . ';
 
-return ' . var_export_override( $locales, true ) . ';
+return ' . var_export_override( $country_formats, true ) . ';
 ';
 
+$currency_locale_data = str_replace( "'\$global_formats[\\'", '$global_formats[\'', $currency_locale_data );
+$currency_locale_data = str_replace( "\\']'", '\']', $currency_locale_data );
 $currency_locale_data = str_replace( 'NULL', 'null', $currency_locale_data );
 $currency_locale_data = str_replace( "'%%", '', $currency_locale_data );
 $currency_locale_data = str_replace( "%%'", '', $currency_locale_data );
-/* phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents */
+
 file_put_contents( './output/currency-info.php', $currency_locale_data );
+
 
 $country_locale_data = '<?php
 /**
@@ -254,16 +173,14 @@ defined( \'ABSPATH\' ) || exit;
 
 $locales = include WCPAY_ABSPATH . \'/i18n/currency-info.php\';
 
-return ' . var_export_override( $output, true ) . ';
+return ' . var_export_override( $combined_info, true ) . ';
 ';
 
-$country_locale_data = str_replace( "'%%", '', $country_locale_data );
-$country_locale_data = str_replace( "%%'", '', $country_locale_data );
+$country_locale_data = str_replace( "'\$locales[\\'", '$locales[\'', $country_locale_data );
+$country_locale_data = str_replace( "\\']'", '\']', $country_locale_data );
 $country_locale_data = str_replace( 'NULL', 'null', $country_locale_data );
 $country_locale_data = str_replace( '`', "'", $country_locale_data );
-/* phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents */
+
 file_put_contents( './output/locale-info.php', $country_locale_data );
 
-exec( 'phpcbf ./output/currency-info.php' ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.system_calls_exec
-
-return $data;
+exec( 'phpcbf ./output/*.php' ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.system_calls_exec

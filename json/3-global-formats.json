@@ -1,8 +1,0 @@
-{
-    "ls_dot_comma_rtl": {
-        "thousand_sep": ",",
-        "decimal_sep": ".",
-        "direction": "rtl",
-        "currency_pos": "left_space"
-    }
-}
