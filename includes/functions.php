@@ -124,6 +124,8 @@ function get_country_locales( $country, $languages, $locales_list ) {
 		}
 	}
 
+	ksort( $selected_locales );
+
 	return array_values( $selected_locales );
 }
 

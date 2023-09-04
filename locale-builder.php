@@ -126,6 +126,7 @@ foreach ( $country_info as $country => $info ) {
 		}
 		$country_formats[ $currency ][ $_locale ] = "\$global_formats['$combined_key']";
 	}
+	ksort( $country_formats[ $currency ] );
 }
 
 $combined_info = fix_combined_info( $combined_info );
