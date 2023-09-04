@@ -91,6 +91,7 @@ foreach ( $country_info as $country => &$info ) {
 		'currency_pos'   => $default_format['currency_pos'],
 		'thousand_sep'   => $default_format['thousand_sep'] ?? '.',
 		'decimal_sep'    => $default_format['decimal_sep'] ?? ',',
+		'negativity'     => $default_format['negative_format'] ?? '-',
 		'num_decimals'   => intval( $default_format['num_decimals'] ) ?? 2,
 		'weight_unit'    => $info['weight_unit'],
 		'dimension_unit' => $info['dimension_unit'],

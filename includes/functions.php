@@ -269,8 +269,13 @@ function summarize_format( $format, $currency, $currency_data ) {
 	$amount_formats_without_currency = explode( ';', $format['accounting-noCurrency'] );
 	$positive_format                 = fix_formats( $amount_formats[0] );
 	$negative_format                 = isset( $amount_formats[1] ) ? fix_formats( $amount_formats[1] ) : "-$positive_format";
-	$format_info                     = parse_amount_format( $positive_format, fix_formats( $amount_formats_without_currency[0] ) );
-	$num_decimals                    = $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_cashDigits']
+	$negative_format                 = str_replace( $positive_format, '', $negative_format );
+	$negative_format                 = str_replace( $amount_formats_without_currency, '', $negative_format );
+	if ( 0 < strpos( $negative_format, '#' ) ) {
+		echo "negative format for $currency still has format characters.\n";
+	}
+	$format_info  = parse_amount_format( $positive_format, fix_formats( $amount_formats_without_currency[0] ) );
+	$num_decimals = $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_cashDigits']
 	?? $currency_data['supplemental']['currencyData']['fractions'][ $currency ]['_digits']
 	?? $currency_data['supplemental']['currencyData']['fractions']['DEFAULT']['_digits']
 	?? null;
