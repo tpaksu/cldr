@@ -23,6 +23,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SHP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -61,6 +72,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -90,6 +112,17 @@
         "default_locale": "ar-AE",
         "locale_formats": {
             "ar-AE": {
+                "AED": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "AED": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -176,6 +209,17 @@
                     "num_decimals": "0",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "AFN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -205,6 +249,17 @@
         "default_locale": "en-AG",
         "locale_formats": {
             "en-AG": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XCD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -252,6 +307,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -281,6 +347,17 @@
         "default_locale": "sq",
         "locale_formats": {
             "sq": {
+                "ALL": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "ALL": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -328,6 +405,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "AMD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -366,6 +454,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "AOA": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -387,10 +486,8 @@
         "languages": [
             "und"
         ],
-        "locales": [
-            "und"
-        ],
-        "default_locale": "und",
+        "locales": [],
+        "default_locale": null,
         "locale_formats": [],
         "default_format": ""
     },
@@ -409,6 +506,17 @@
         "default_locale": "es-AR",
         "locale_formats": {
             "es-AR": {
+                "ARS": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "ARS": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -448,6 +556,17 @@
         "default_locale": "en-AS",
         "locale_formats": {
             "en-AS": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -534,6 +653,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -563,6 +693,17 @@
         "default_locale": "en-AU",
         "locale_formats": {
             "en-AU": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "AUD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -623,6 +764,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "AWG": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -652,6 +804,17 @@
         "default_locale": "sv-AX",
         "locale_formats": {
             "sv-AX": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -703,6 +866,17 @@
                 }
             },
             "az-Cyrl": {
+                "AZN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "AZN": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -802,6 +976,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BAM": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -840,6 +1025,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BBD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -869,6 +1065,17 @@
         "default_locale": "bn",
         "locale_formats": {
             "bn": {
+                "BDT": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##,##0.00o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "BDT": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -942,6 +1149,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -971,6 +1189,17 @@
         "default_locale": "fr-BF",
         "locale_formats": {
             "fr-BF": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XOF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -1018,6 +1247,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BGN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1047,6 +1287,17 @@
         "default_locale": "ar-BH",
         "locale_formats": {
             "ar-BH": {
+                "BHD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "3",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "BHD": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -1120,6 +1371,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BIF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "-#,##0.00o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1149,6 +1411,17 @@
         "default_locale": "fr-BJ",
         "locale_formats": {
             "fr-BJ": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XOF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -1196,6 +1469,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1234,6 +1518,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BMD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1262,7 +1557,7 @@
             "ms-Arab",
             "ms-BN"
         ],
-        "default_locale": "ms-Arab",
+        "default_locale": "ms-BN",
         "locale_formats": {
             "ms-Arab": {
                 "BND": {
@@ -1285,17 +1580,28 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BND": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
             "BND": {
-                "decimal_sep": ".",
-                "thousand_sep": ",",
+                "decimal_sep": ",",
+                "thousand_sep": ".",
                 "has_space": false,
                 "currency_pos": "left",
                 "negative_format": "(o#,##0.00)",
                 "num_decimals": "2",
-                "direction": "rtl"
+                "direction": "ltr"
             }
         }
     },
@@ -1337,6 +1643,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BOB": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1366,6 +1683,17 @@
         "default_locale": "nl-BQ",
         "locale_formats": {
             "nl-BQ": {
+                "USD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -1426,6 +1754,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BRL": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1455,6 +1794,17 @@
         "default_locale": "en-BS",
         "locale_formats": {
             "en-BS": {
+                "BSD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "BSD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -1502,6 +1852,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BTN": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1535,34 +1896,10 @@
         "languages": [
             "und"
         ],
-        "locales": [
-            "und"
-        ],
-        "default_locale": "und",
-        "locale_formats": {
-            "und": {
-                "NOK": {
-                    "decimal_sep": ".",
-                    "thousand_sep": ",",
-                    "has_space": true,
-                    "currency_pos": "left_space",
-                    "negative_format": "-o #,##0.00",
-                    "num_decimals": "0",
-                    "direction": "ltr"
-                }
-            }
-        },
-        "default_format": {
-            "NOK": {
-                "decimal_sep": ".",
-                "thousand_sep": ",",
-                "has_space": true,
-                "currency_pos": "left_space",
-                "negative_format": "-o #,##0.00",
-                "num_decimals": "0",
-                "direction": "ltr"
-            }
-        }
+        "locales": [],
+        "default_locale": null,
+        "locale_formats": [],
+        "default_format": ""
     },
     "BW": {
         "currencies": [
@@ -1598,6 +1935,17 @@
                     "has_space": false,
                     "currency_pos": "left",
                     "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
+                "BWP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
@@ -1652,6 +2000,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "BYN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1681,6 +2040,17 @@
         "default_locale": "en-BZ",
         "locale_formats": {
             "en-BZ": {
+                "BZD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "BZD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -1772,6 +2142,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "CAD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1801,6 +2182,17 @@
         "default_locale": "en-CC",
         "locale_formats": {
             "en-CC": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "AUD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -1876,6 +2268,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "CDF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1927,6 +2330,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XAF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "o-#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -1956,6 +2370,17 @@
         "default_locale": "fr-CG",
         "locale_formats": {
             "fr-CG": {
+                "XAF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XAF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -2055,6 +2480,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "CHF": {
+                    "decimal_sep": ".",
+                    "thousand_sep": "'",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2084,6 +2520,17 @@
         "default_locale": "fr-CI",
         "locale_formats": {
             "fr-CI": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XOF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -2131,6 +2578,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "NZD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2160,6 +2618,17 @@
         "default_locale": "es-CL",
         "locale_formats": {
             "es-CL": {
+                "CLP": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "CLP": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -2211,6 +2680,17 @@
                 }
             },
             "fr-CM": {
+                "XAF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XAF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -2311,6 +2791,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "CNY": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2349,6 +2840,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "COP": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2370,10 +2872,8 @@
         "languages": [
             "und"
         ],
-        "locales": [
-            "und"
-        ],
-        "default_locale": "und",
+        "locales": [],
+        "default_locale": null,
         "locale_formats": [],
         "default_format": ""
     },
@@ -2392,6 +2892,17 @@
         "default_locale": "es-CR",
         "locale_formats": {
             "es-CR": {
+                "CRC": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "CRC": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -2449,6 +2960,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "CUP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2478,6 +3000,17 @@
         "default_locale": "pt-CV",
         "locale_formats": {
             "pt-CV": {
+                "CVE": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "CVE": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -2538,6 +3071,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "ANG": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2567,6 +3111,17 @@
         "default_locale": "en-CX",
         "locale_formats": {
             "en-CX": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "AUD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -2627,6 +3182,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2656,6 +3222,17 @@
         "default_locale": "cs",
         "locale_formats": {
             "cs": {
+                "CZK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "CZK": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -2726,6 +3303,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2755,6 +3343,17 @@
         "default_locale": "en-DG",
         "locale_formats": {
             "en-DG": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -2814,6 +3413,17 @@
                     "negative_format": "(#,##0.00 o)",
                     "num_decimals": "0",
                     "direction": "ltr"
+                }
+            },
+            "default": {
+                "DJF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "rtl"
                 }
             }
         },
@@ -2879,6 +3489,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "DKK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2917,6 +3538,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -2946,6 +3578,17 @@
         "default_locale": "es-DO",
         "locale_formats": {
             "es-DO": {
+                "DOP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "DOP": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3006,6 +3649,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "DZD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -3035,6 +3689,17 @@
         "default_locale": "es-EA",
         "locale_formats": {
             "es-EA": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -3095,6 +3760,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "USD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3124,6 +3800,17 @@
         "default_locale": "et",
         "locale_formats": {
             "et": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -3171,6 +3858,17 @@
                     "num_decimals": "2",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "EGP": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -3200,6 +3898,17 @@
         "default_locale": "ar-EH",
         "locale_formats": {
             "ar-EH": {
+                "MAD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "MAD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3264,6 +3973,17 @@
                 }
             },
             "ti-ER": {
+                "ERN": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "ERN": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3376,6 +4096,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3405,6 +4136,17 @@
         "default_locale": "am",
         "locale_formats": {
             "am": {
+                "ETB": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "ETB": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3490,6 +4232,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3521,6 +4274,17 @@
         "default_locale": "en-FJ",
         "locale_formats": {
             "en-FJ": {
+                "FJD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "FJD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3568,6 +4332,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "FKP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3597,6 +4372,17 @@
         "default_locale": "en-FM",
         "locale_formats": {
             "en-FM": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3644,6 +4430,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "DKK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3682,6 +4479,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3711,6 +4519,17 @@
         "default_locale": "fr-GA",
         "locale_formats": {
             "fr-GA": {
+                "XAF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XAF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -3797,6 +4616,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GBP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3826,6 +4656,17 @@
         "default_locale": "en-GD",
         "locale_formats": {
             "en-GD": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XCD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -3899,6 +4740,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GEL": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3937,6 +4789,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -3966,6 +4829,17 @@
         "default_locale": "en-GG",
         "locale_formats": {
             "en-GG": {
+                "GBP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "GBP": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -4052,6 +4926,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GHS": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4081,6 +4966,17 @@
         "default_locale": "en-GI",
         "locale_formats": {
             "en-GI": {
+                "GIP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "GIP": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -4128,6 +5024,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "DKK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "o-#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4157,6 +5064,17 @@
         "default_locale": "en-GM",
         "locale_formats": {
             "en-GM": {
+                "GMD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "GMD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -4204,6 +5122,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GNF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4233,6 +5162,17 @@
         "default_locale": "fr-GP",
         "locale_formats": {
             "fr-GP": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -4306,6 +5246,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XAF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4344,6 +5295,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4367,34 +5329,10 @@
         "languages": [
             "und"
         ],
-        "locales": [
-            "und"
-        ],
-        "default_locale": "und",
-        "locale_formats": {
-            "und": {
-                "GBP": {
-                    "decimal_sep": ".",
-                    "thousand_sep": ",",
-                    "has_space": true,
-                    "currency_pos": "left_space",
-                    "negative_format": "-o #,##0.00",
-                    "num_decimals": "2",
-                    "direction": "ltr"
-                }
-            }
-        },
-        "default_format": {
-            "GBP": {
-                "decimal_sep": ".",
-                "thousand_sep": ",",
-                "has_space": true,
-                "currency_pos": "left_space",
-                "negative_format": "-o #,##0.00",
-                "num_decimals": "2",
-                "direction": "ltr"
-            }
-        }
+        "locales": [],
+        "default_locale": null,
+        "locale_formats": [],
+        "default_format": ""
     },
     "GT": {
         "currencies": [
@@ -4433,6 +5371,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GTQ": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4463,6 +5412,17 @@
         "default_locale": "en-GU",
         "locale_formats": {
             "en-GU": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -4510,6 +5470,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4548,6 +5519,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GYD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4576,7 +5558,7 @@
             "en-HK",
             "zh-Hant"
         ],
-        "default_locale": "en-HK",
+        "default_locale": "zh-Hant",
         "locale_formats": {
             "en-HK": {
                 "HKD": {
@@ -4590,6 +5572,17 @@
                 }
             },
             "zh-Hant": {
+                "HKD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "HKD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -4622,34 +5615,10 @@
         "languages": [
             "und"
         ],
-        "locales": [
-            "und"
-        ],
-        "default_locale": "und",
-        "locale_formats": {
-            "und": {
-                "AUD": {
-                    "decimal_sep": ".",
-                    "thousand_sep": ",",
-                    "has_space": true,
-                    "currency_pos": "left_space",
-                    "negative_format": "-o #,##0.00",
-                    "num_decimals": "2",
-                    "direction": "ltr"
-                }
-            }
-        },
-        "default_format": {
-            "AUD": {
-                "decimal_sep": ".",
-                "thousand_sep": ",",
-                "has_space": true,
-                "currency_pos": "left_space",
-                "negative_format": "-o #,##0.00",
-                "num_decimals": "2",
-                "direction": "ltr"
-            }
-        }
+        "locales": [],
+        "default_locale": null,
+        "locale_formats": [],
+        "default_format": ""
     },
     "HN": {
         "currencies": [
@@ -4666,6 +5635,17 @@
         "default_locale": "es-HN",
         "locale_formats": {
             "es-HN": {
+                "HNL": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "HNL": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -4739,6 +5719,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4769,6 +5760,17 @@
         "default_locale": "fr-HT",
         "locale_formats": {
             "fr-HT": {
+                "HTG": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "HTG": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -4816,6 +5818,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "HUF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4854,6 +5867,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4883,6 +5907,17 @@
         "default_locale": "id",
         "locale_formats": {
             "id": {
+                "IDR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "IDR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -4943,6 +5978,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -4985,6 +6031,17 @@
                 }
             },
             "he": {
+                "ILS": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "ILS": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -5042,6 +6099,17 @@
                     "has_space": false,
                     "currency_pos": "left",
                     "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
+                "GBP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
@@ -5344,6 +6412,17 @@
                     "num_decimals": "2",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "INR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -5373,6 +6452,17 @@
         "default_locale": "en-IO",
         "locale_formats": {
             "en-IO": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -5446,6 +6536,17 @@
                     "num_decimals": "0",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "IQD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -5484,6 +6585,17 @@
                     "num_decimals": "0",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "IRR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -5513,6 +6625,17 @@
         "default_locale": "is",
         "locale_formats": {
             "is": {
+                "ISK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "ISK": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -5586,6 +6709,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -5615,6 +6749,17 @@
         "default_locale": "en-JE",
         "locale_formats": {
             "en-JE": {
+                "GBP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "GBP": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -5662,6 +6807,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "JMD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -5700,6 +6856,17 @@
                     "num_decimals": "3",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "JOD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "3",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -5729,6 +6896,17 @@
         "default_locale": "ja",
         "locale_formats": {
             "ja": {
+                "JPY": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "JPY": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -5789,6 +6967,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "KES": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -5840,6 +7029,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "KGS": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -5869,6 +7069,17 @@
         "default_locale": "km",
         "locale_formats": {
             "km": {
+                "KHR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "KHR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -5908,6 +7119,17 @@
         "default_locale": "en-KI",
         "locale_formats": {
             "en-KI": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "AUD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -5970,6 +7192,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "KMF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -5999,6 +7232,17 @@
         "default_locale": "en-KN",
         "locale_formats": {
             "en-KN": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XCD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -6046,6 +7290,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "KPW": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6075,6 +7330,17 @@
         "default_locale": "ko",
         "locale_formats": {
             "ko": {
+                "KRW": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "KRW": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -6122,6 +7388,17 @@
                     "num_decimals": "3",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "KWD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "3",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -6151,6 +7428,17 @@
         "default_locale": "en-KY",
         "locale_formats": {
             "en-KY": {
+                "KYD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "KYD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -6211,6 +7499,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "KZT": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6240,6 +7539,17 @@
         "default_locale": "lo",
         "locale_formats": {
             "lo": {
+                "LAK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "o-#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "LAK": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -6287,6 +7597,17 @@
                     "num_decimals": "0",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "LBP": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -6316,6 +7637,17 @@
         "default_locale": "en-LC",
         "locale_formats": {
             "en-LC": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XCD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -6376,6 +7708,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "CHF": {
+                    "decimal_sep": ".",
+                    "thousand_sep": "'",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6427,6 +7770,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "LKR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6456,6 +7810,17 @@
         "default_locale": "en-LR",
         "locale_formats": {
             "en-LR": {
+                "LRD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "LRD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -6516,6 +7881,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "LSL": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6545,6 +7921,17 @@
         "default_locale": "lt",
         "locale_formats": {
             "lt": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -6618,6 +8005,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6656,6 +8054,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6685,6 +8094,17 @@
         "default_locale": "ar-LY",
         "locale_formats": {
             "ar-LY": {
+                "LYD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "3",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "LYD": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -6758,6 +8178,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MAD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -6787,6 +8218,17 @@
         "default_locale": "fr-MC",
         "locale_formats": {
             "fr-MC": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -6834,6 +8276,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MDL": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6872,6 +8325,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -6901,6 +8365,17 @@
         "default_locale": "fr-MF",
         "locale_formats": {
             "fr-MF": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -6974,6 +8449,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MGA": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7004,6 +8490,17 @@
         "default_locale": "en-MH",
         "locale_formats": {
             "en-MH": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7064,6 +8561,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MKD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7093,6 +8601,17 @@
         "default_locale": "fr-ML",
         "locale_formats": {
             "fr-ML": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XOF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -7140,6 +8659,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MMK": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7178,6 +8708,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MNT": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7206,7 +8747,7 @@
             "pt-MO",
             "zh-Hant"
         ],
-        "default_locale": "pt-MO",
+        "default_locale": "zh-Hant",
         "locale_formats": {
             "pt-MO": {
                 "MOP": {
@@ -7229,15 +8770,26 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MOP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
             "MOP": {
-                "decimal_sep": ",",
-                "thousand_sep": " ",
-                "has_space": true,
-                "currency_pos": "right_space",
-                "negative_format": "(#,##0.00 o)",
+                "decimal_sep": ".",
+                "thousand_sep": ",",
+                "has_space": false,
+                "currency_pos": "left",
+                "negative_format": "(o#,##0.00)",
                 "num_decimals": "2",
                 "direction": "ltr"
             }
@@ -7258,6 +8810,17 @@
         "default_locale": "en-MP",
         "locale_formats": {
             "en-MP": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7305,6 +8868,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7343,6 +8917,17 @@
                     "num_decimals": "2",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "MRU": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -7372,6 +8957,17 @@
         "default_locale": "en-MS",
         "locale_formats": {
             "en-MS": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XCD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7432,6 +9028,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7483,6 +9090,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MUR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7512,6 +9130,17 @@
         "default_locale": "dv",
         "locale_formats": {
             "dv": {
+                "MVR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "MVR": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7572,6 +9201,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MWK": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7623,6 +9263,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MXN": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7652,6 +9303,17 @@
         "default_locale": "ms",
         "locale_formats": {
             "ms": {
+                "MYR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "MYR": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7699,6 +9361,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "MZN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7728,6 +9401,17 @@
         "default_locale": "en-NA",
         "locale_formats": {
             "en-NA": {
+                "NAD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "NAD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7775,6 +9459,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XPF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7813,6 +9508,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7842,6 +9548,17 @@
         "default_locale": "en-NF",
         "locale_formats": {
             "en-NF": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "AUD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7902,6 +9619,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "NGN": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -7931,6 +9659,17 @@
         "default_locale": "es-NI",
         "locale_formats": {
             "es-NI": {
+                "NIO": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "NIO": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -7982,6 +9721,17 @@
                 }
             },
             "nl": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -8068,6 +9818,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "NOK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8097,6 +9858,17 @@
         "default_locale": "ne",
         "locale_formats": {
             "ne": {
+                "NPR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "NPR": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8145,6 +9917,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8175,6 +9958,17 @@
         "default_locale": "en-NU",
         "locale_formats": {
             "en-NU": {
+                "NZD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "NZD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8235,6 +10029,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "NZD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8273,6 +10078,17 @@
                     "num_decimals": "3",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "OMR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "3",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -8302,6 +10118,17 @@
         "default_locale": "es-PA",
         "locale_formats": {
             "es-PA": {
+                "PAB": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "PAB": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8362,6 +10189,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "PEN": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8392,6 +10230,17 @@
         "default_locale": "fr-PF",
         "locale_formats": {
             "fr-PF": {
+                "XPF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XPF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -8444,6 +10293,17 @@
                 }
             },
             "tpi": {
+                "PGK": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "PGK": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8523,6 +10383,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "PHP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8565,6 +10436,17 @@
                 }
             },
             "ur": {
+                "PKR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "PKR": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8639,6 +10521,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "PLN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8677,6 +10570,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8706,6 +10610,17 @@
         "default_locale": "en-PN",
         "locale_formats": {
             "en-PN": {
+                "NZD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "NZD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8766,6 +10681,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8795,6 +10721,17 @@
         "default_locale": "ar-PS",
         "locale_formats": {
             "ar-PS": {
+                "ILS": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "ILS": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -8842,6 +10779,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8872,6 +10820,17 @@
         "default_locale": "en-PW",
         "locale_formats": {
             "en-PW": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -8932,6 +10891,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "PYG": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -8961,6 +10931,17 @@
         "default_locale": "ar-QA",
         "locale_formats": {
             "ar-QA": {
+                "QAR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
+            },
+            "default": {
                 "QAR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -9008,6 +10989,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9037,6 +11029,17 @@
         "default_locale": "ro",
         "locale_formats": {
             "ro": {
+                "RON": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "RON": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -9159,6 +11162,17 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
+                "RSD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
@@ -9303,6 +11317,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "RUB": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9367,6 +11392,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "RWF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9405,6 +11441,17 @@
                     "num_decimals": "2",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "SAR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -9434,6 +11481,17 @@
         "default_locale": "en-SB",
         "locale_formats": {
             "en-SB": {
+                "SBD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "SBD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -9494,6 +11552,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SCR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9545,6 +11614,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SDG": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -9587,6 +11667,17 @@
                 }
             },
             "sv": {
+                "SEK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "SEK": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -9673,6 +11764,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SGD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9702,6 +11804,17 @@
         "default_locale": "en-SH",
         "locale_formats": {
             "en-SH": {
+                "SHP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "SHP": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -9762,6 +11875,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9791,6 +11915,17 @@
         "default_locale": "nb-SJ",
         "locale_formats": {
             "nb-SJ": {
+                "NOK": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "NOK": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -9838,6 +11973,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9876,6 +12022,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SLE": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -9905,6 +12062,17 @@
         "default_locale": "it-SM",
         "locale_formats": {
             "it-SM": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -10000,6 +12168,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10051,6 +12230,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SOS": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10080,6 +12270,17 @@
         "default_locale": "nl-SR",
         "locale_formats": {
             "nl-SR": {
+                "SRD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "SRD": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -10127,6 +12328,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SSP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10156,6 +12368,17 @@
         "default_locale": "pt-ST",
         "locale_formats": {
             "pt-ST": {
+                "STN": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "STN": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -10204,6 +12427,17 @@
         "default_locale": "es-SV",
         "locale_formats": {
             "es-SV": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -10264,6 +12498,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "ANG": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10314,6 +12559,17 @@
                     "negative_format": "(#,##0.00 o)",
                     "num_decimals": "0",
                     "direction": "ltr"
+                }
+            },
+            "default": {
+                "SYP": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "rtl"
                 }
             }
         },
@@ -10366,6 +12622,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "SZL": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10404,6 +12671,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "GBP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10433,6 +12711,17 @@
         "default_locale": "en-TC",
         "locale_formats": {
             "en-TC": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -10493,6 +12782,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XAF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10522,6 +12822,17 @@
         "default_locale": "fr",
         "locale_formats": {
             "fr": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -10569,6 +12880,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XOF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10607,6 +12929,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "THB": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10636,6 +12969,17 @@
         "default_locale": "tg",
         "locale_formats": {
             "tg": {
+                "TJS": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "TJS": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -10684,6 +13028,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "NZD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10723,6 +13078,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "USD": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10752,6 +13118,17 @@
         "default_locale": "tk",
         "locale_formats": {
             "tk": {
+                "TMT": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "TMT": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -10812,6 +13189,17 @@
                     "num_decimals": "3",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "TND": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "right",
+                    "negative_format": "(#,##0.00o)",
+                    "num_decimals": "3",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -10854,6 +13242,17 @@
                 }
             },
             "to": {
+                "TOP": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "TOP": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -10911,6 +13310,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "TRY": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -10940,6 +13350,17 @@
         "default_locale": "en-TT",
         "locale_formats": {
             "en-TT": {
+                "TTD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "TTD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -10988,6 +13409,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "AUD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11017,6 +13449,17 @@
         "default_locale": "zh-Hant",
         "locale_formats": {
             "zh-Hant": {
+                "TWD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "TWD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -11077,6 +13520,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "TZS": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11119,6 +13573,17 @@
                 }
             },
             "uk": {
+                "UAH": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "UAH": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -11179,6 +13644,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "UGX": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "-o #,##0.00",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11208,6 +13684,17 @@
         "default_locale": "en-UM",
         "locale_formats": {
             "en-UM": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -11281,6 +13768,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11310,6 +13808,17 @@
         "default_locale": "es-UY",
         "locale_formats": {
             "es-UY": {
+                "UYU": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "left_space",
+                    "negative_format": "(o #,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "UYU": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -11370,6 +13879,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "UZS": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11399,6 +13919,17 @@
         "default_locale": "it-VA",
         "locale_formats": {
             "it-VA": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -11446,6 +13977,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "XCD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11475,6 +14017,17 @@
         "default_locale": "es-VE",
         "locale_formats": {
             "es-VE": {
+                "VES": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "-o#,##0.00",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "VES": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -11522,6 +14075,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11560,6 +14124,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11589,6 +14164,17 @@
         "default_locale": "vi",
         "locale_formats": {
             "vi": {
+                "VND": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "VND": {
                     "decimal_sep": ",",
                     "thousand_sep": ".",
@@ -11650,6 +14236,17 @@
                     "num_decimals": "0",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "VUV": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11679,6 +14276,17 @@
         "default_locale": "fr-WF",
         "locale_formats": {
             "fr-WF": {
+                "XPF": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "0",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "XPF": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -11718,6 +14326,17 @@
         "default_locale": "en-WS",
         "locale_formats": {
             "en-WS": {
+                "WST": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "WST": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -11791,6 +14410,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -11839,6 +14469,17 @@
                     "num_decimals": "0",
                     "direction": "rtl"
                 }
+            },
+            "default": {
+                "YER": {
+                    "decimal_sep": ",",
+                    "thousand_sep": ".",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "-#,##0.00 o",
+                    "num_decimals": "0",
+                    "direction": "rtl"
+                }
             }
         },
         "default_format": {
@@ -11868,6 +14509,17 @@
         "default_locale": "fr-YT",
         "locale_formats": {
             "fr-YT": {
+                "EUR": {
+                    "decimal_sep": ",",
+                    "thousand_sep": " ",
+                    "has_space": true,
+                    "currency_pos": "right_space",
+                    "negative_format": "(#,##0.00 o)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "EUR": {
                     "decimal_sep": ",",
                     "thousand_sep": " ",
@@ -12055,6 +14707,17 @@
                     "num_decimals": "2",
                     "direction": "ltr"
                 }
+            },
+            "default": {
+                "ZAR": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
             }
         },
         "default_format": {
@@ -12084,6 +14747,17 @@
         "default_locale": "en-ZM",
         "locale_formats": {
             "en-ZM": {
+                "ZMW": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "ZMW": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",
@@ -12158,6 +14832,17 @@
                 }
             },
             "sn": {
+                "USD": {
+                    "decimal_sep": ".",
+                    "thousand_sep": ",",
+                    "has_space": false,
+                    "currency_pos": "left",
+                    "negative_format": "(o#,##0.00)",
+                    "num_decimals": "2",
+                    "direction": "ltr"
+                }
+            },
+            "default": {
                 "USD": {
                     "decimal_sep": ".",
                     "thousand_sep": ",",

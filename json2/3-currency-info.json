@@ -1,950 +1,895 @@
 {
-    "AC": {
-        "en": "lx_dot_comma_ltr"
-    },
-    "AD": {
-        "ca-AD": "rs_comma_dot_ltr"
-    },
-    "AE": {
-        "ar-AE": "rx_dot_comma_rtl"
-    },
-    "AF": {
-        "fa-AF": "ls_comma_dot_rtl",
-        "ps": "lx_comma_dot_rtl",
-        "tk": "rs_comma_space_ltr",
-        "uz-Arab": "ls_comma_dot_rtl"
-    },
-    "AG": {
-        "en-AG": "lx_dot_comma_ltr"
-    },
-    "AI": {
-        "en-AI": "lx_dot_comma_ltr"
-    },
-    "AL": {
-        "sq": "rs_comma_space_ltr"
-    },
-    "AM": {
-        "hy": "rs_comma_space_ltr"
-    },
-    "AO": {
-        "pt-AO": "rs_comma_space_ltr"
-    },
-    "AR": {
-        "es-AR": "ls_comma_dot_ltr"
-    },
-    "AS": {
-        "en-AS": "lx_dot_comma_ltr"
-    },
-    "AT": {
-        "de-AT": "rs_comma_space_ltr",
-        "hr": "rs_comma_dot_ltr",
-        "hu": "rs_comma_space_ltr",
-        "sl": "rs_comma_dot_ltr"
-    },
-    "AU": {
-        "en-AU": "lx_dot_comma_ltr"
-    },
-    "AW": {
-        "nl-AW": "ls_comma_dot_ltr",
-        "pap-AW": "ls_dot_comma_ltr"
-    },
-    "AX": {
-        "sv-AX": "rs_comma_space_ltr"
-    },
-    "AZ": {
-        "az": "rs_comma_dot_ltr",
-        "az-Cyrl": "rs_comma_dot_ltr"
-    },
-    "BA": {
-        "bs": "rs_comma_dot_ltr",
-        "bs-Cyrl": "rs_comma_dot_ltr",
-        "hr-BA": "rs_comma_dot_ltr",
-        "sr": "rs_comma_dot_ltr",
-        "sr-Latn": "rs_comma_dot_ltr"
-    },
-    "BB": {
-        "en-BB": "lx_dot_comma_ltr"
-    },
-    "BD": {
-        "bn": "rx_dot_comma_ltr"
-    },
-    "BE": {
-        "de-BE": "rs_comma_dot_ltr",
-        "fr-BE": "rs_comma_space_ltr",
-        "nl-BE": "ls_comma_dot_ltr"
-    },
-    "BF": {
-        "fr-BF": "rs_comma_space_ltr"
-    },
-    "BG": {
-        "bg": "rs_comma_space_ltr"
-    },
-    "BH": {
-        "ar-BH": "rs_comma_dot_rtl"
-    },
-    "BI": {
-        "en-BI": "lx_dot_comma_ltr",
-        "fr-BI": "rs_comma_space_ltr",
-        "rn": "rx_comma_dot_ltr"
-    },
-    "BJ": {
-        "fr-BJ": "rs_comma_space_ltr"
-    },
-    "BL": {
-        "fr-BL": "rs_comma_space_ltr"
-    },
-    "BM": {
-        "en-BM": "lx_dot_comma_ltr"
-    },
-    "BN": {
-        "ms-Arab": "lx_dot_comma_rtl",
-        "ms-BN": "lx_comma_dot_ltr"
-    },
-    "BO": {
-        "es-BO": "lx_comma_dot_ltr",
-        "qu-BO": "ls_comma_dot_ltr"
-    },
-    "BQ": {
-        "nl-BQ": "ls_comma_dot_ltr"
-    },
-    "BR": {
-        "pt": "ls_comma_dot_ltr",
-        "vec": "ls_dot_comma_ltr"
-    },
-    "BS": {
-        "en-BS": "lx_dot_comma_ltr"
-    },
-    "BT": {
-        "dz": "lx_dot_comma_ltr"
-    },
-    "BV": {
-        "und": "ls_dot_comma_ltr"
-    },
-    "BW": {
-        "en-BW": "lx_dot_comma_ltr",
-        "tn-BW": "lx_dot_space_ltr"
-    },
-    "BY": {
-        "be": "rs_comma_space_ltr",
-        "ru-BY": "rs_comma_space_ltr"
-    },
-    "BZ": {
-        "en-BZ": "lx_dot_comma_ltr"
-    },
-    "CA": {
-        "en-CA": "lx_dot_comma_ltr",
-        "fr-CA": "rs_comma_space_ltr",
-        "iu": "ls_dot_comma_ltr",
-        "iu-Latn": "ls_dot_comma_ltr"
-    },
-    "CC": {
-        "en-CC": "lx_dot_comma_ltr"
-    },
-    "CD": {
-        "fr-CD": "rs_comma_space_ltr",
-        "ln": "rs_comma_dot_ltr",
-        "sw-CD": "ls_comma_dot_ltr"
-    },
-    "CF": {
-        "fr-CF": "rs_comma_space_ltr",
-        "sg": "lx_comma_dot_ltr"
-    },
-    "CG": {
-        "fr-CG": "rs_comma_space_ltr"
-    },
-    "CH": {
-        "de-CH": "rs_dot_apos_ltr",
-        "fr-CH": "rs_comma_space_ltr",
-        "gsw": "rs_dot_apos_ltr",
-        "it-CH": "rs_dot_apos_ltr",
-        "rm": "rs_dot_apos_ltr"
-    },
-    "CI": {
-        "fr-CI": "rs_comma_space_ltr"
-    },
-    "CK": {
-        "en-CK": "lx_dot_comma_ltr"
-    },
-    "CL": {
-        "es-CL": "lx_comma_dot_ltr"
-    },
-    "CM": {
-        "en-CM": "lx_dot_comma_ltr",
-        "fr-CM": "rs_comma_space_ltr"
-    },
-    "CN": {
-        "bo": "ls_dot_comma_ltr",
-        "ko": "lx_dot_comma_ltr",
-        "mn-Mong": "ls_dot_comma_ltr",
-        "ug": "lx_dot_comma_rtl",
-        "zh": "lx_dot_comma_ltr"
-    },
-    "CO": {
-        "es-CO": "lx_comma_dot_ltr"
-    },
-    "CR": {
-        "es-CR": "lx_comma_space_ltr"
-    },
-    "CU": {
-        "es-CU": "lx_dot_comma_ltr"
-    },
-    "CV": {
-        "pt-CV": "rs_comma_space_ltr"
-    },
-    "CW": {
-        "nl-CW": "ls_comma_dot_ltr",
-        "pap": "ls_dot_comma_ltr"
-    },
-    "CX": {
-        "en-CX": "lx_dot_comma_ltr"
-    },
-    "CY": {
-        "el-CY": "rs_comma_dot_ltr",
-        "tr-CY": "lx_comma_dot_ltr"
-    },
-    "CZ": {
-        "cs": "rs_comma_space_ltr"
-    },
-    "DE": {
-        "de": "rs_comma_dot_ltr",
-        "frr": "ls_dot_comma_ltr"
-    },
-    "DG": {
-        "en-DG": "lx_dot_comma_ltr"
-    },
-    "DJ": {
-        "ar-DJ": "rs_comma_dot_rtl",
-        "fr-DJ": "rs_comma_space_ltr"
-    },
-    "DK": {
-        "da": "rs_comma_dot_ltr",
-        "de": "rs_comma_dot_ltr",
-        "kl": "lx_comma_dot_ltr"
-    },
-    "DM": {
-        "en-DM": "lx_dot_comma_ltr"
-    },
-    "DO": {
-        "es-DO": "lx_dot_comma_ltr"
-    },
-    "DZ": {
-        "ar-DZ": "rx_comma_dot_rtl",
-        "fr-DZ": "rs_comma_space_ltr"
-    },
-    "EA": {
-        "es-EA": "rs_comma_dot_ltr"
-    },
-    "EC": {
-        "es-EC": "lx_comma_dot_ltr",
-        "qu-EC": "ls_dot_comma_ltr"
-    },
-    "EE": {
-        "et": "rs_comma_space_ltr"
-    },
-    "EG": {
-        "ar-EG": "rs_comma_dot_rtl"
-    },
-    "EH": {
-        "ar-EH": "rx_dot_comma_rtl"
-    },
-    "ER": {
-        "ar-ER": "rs_comma_dot_rtl",
-        "en-ER": "lx_dot_comma_ltr",
-        "ti-ER": "lx_dot_comma_ltr"
-    },
-    "ES": {
-        "ast": "rs_comma_dot_ltr",
-        "ca": "rs_comma_dot_ltr",
-        "es": "rs_comma_dot_ltr",
-        "eu": "rs_comma_dot_ltr",
-        "gl": "rs_comma_dot_ltr",
-        "oc-ES": "ls_dot_comma_ltr"
-    },
-    "ET": {
-        "am": "lx_dot_comma_ltr"
-    },
-    "FI": {
-        "fi": "rs_comma_space_ltr",
-        "sms": "ls_dot_comma_ltr",
-        "sv-FI": "rs_comma_space_ltr"
-    },
-    "FJ": {
-        "en-FJ": "lx_dot_comma_ltr"
-    },
-    "FK": {
-        "en-FK": "lx_dot_comma_ltr"
-    },
-    "FM": {
-        "en-FM": "lx_dot_comma_ltr"
-    },
-    "FO": {
-        "fo": "rs_comma_dot_ltr"
-    },
-    "FR": {
-        "fr": "rs_comma_space_ltr"
-    },
-    "GA": {
-        "fr-GA": "rs_comma_space_ltr"
-    },
-    "GB": {
-        "cy": "lx_dot_comma_ltr",
-        "en-GB": "lx_dot_comma_ltr",
-        "ga-GB": "lx_dot_comma_ltr",
-        "gd": "lx_dot_comma_ltr"
-    },
-    "GD": {
-        "en-GD": "lx_dot_comma_ltr"
-    },
-    "GE": {
-        "ab": "ls_dot_comma_ltr",
-        "ka": "rs_comma_space_ltr",
-        "os": "ls_comma_space_ltr"
-    },
-    "GF": {
-        "fr-GF": "rs_comma_space_ltr"
-    },
-    "GG": {
-        "en-GG": "lx_dot_comma_ltr"
-    },
-    "GH": {
-        "ak": "lx_dot_comma_ltr",
-        "ee": "lx_dot_comma_ltr",
-        "en-GH": "lx_dot_comma_ltr",
-        "gaa": "ls_dot_comma_ltr"
-    },
-    "GI": {
-        "en-GI": "lx_dot_comma_ltr"
-    },
-    "GL": {
-        "kl": "lx_comma_dot_ltr"
-    },
-    "GM": {
-        "en-GM": "lx_dot_comma_ltr"
-    },
-    "GN": {
-        "fr-GN": "rs_comma_space_ltr"
-    },
-    "GP": {
-        "fr-GP": "rs_comma_space_ltr"
-    },
-    "GQ": {
-        "es-GQ": "rs_comma_dot_ltr",
-        "fr-GQ": "rs_comma_space_ltr",
-        "pt-GQ": "rs_comma_space_ltr"
-    },
-    "GR": {
-        "el": "rs_comma_dot_ltr"
-    },
-    "GS": {
-        "und": "ls_dot_comma_ltr"
-    },
-    "GT": {
-        "es-GT": "lx_dot_comma_ltr",
-        "quc": "ls_dot_comma_ltr"
-    },
-    "GU": {
-        "en-GU": "lx_dot_comma_ltr"
-    },
-    "GW": {
-        "pt-GW": "rs_comma_space_ltr"
-    },
-    "GY": {
-        "en-GY": "lx_dot_comma_ltr"
-    },
-    "HK": {
-        "en-HK": "lx_dot_comma_ltr",
-        "zh-Hant": "lx_dot_comma_ltr"
-    },
-    "HM": {
-        "und": "ls_dot_comma_ltr"
-    },
-    "HN": {
-        "es-HN": "lx_dot_comma_ltr"
-    },
-    "HR": {
-        "hr": "rs_comma_dot_ltr",
-        "it": "rs_comma_dot_ltr",
-        "vec": "ls_dot_comma_ltr"
-    },
-    "HT": {
-        "fr-HT": "rs_comma_space_ltr"
-    },
-    "HU": {
-        "hu": "rs_comma_space_ltr"
-    },
-    "IC": {
-        "es-IC": "rs_comma_dot_ltr"
-    },
-    "ID": {
-        "id": "lx_comma_dot_ltr"
-    },
-    "IE": {
-        "en-IE": "lx_dot_comma_ltr",
-        "ga": "lx_dot_comma_ltr"
-    },
-    "IL": {
-        "ar-IL": "rs_comma_dot_rtl",
-        "he": "rs_dot_comma_rtl"
-    },
-    "IM": {
-        "en-IM": "lx_dot_comma_ltr",
-        "gv": "lx_dot_comma_ltr"
-    },
-    "IN": {
-        "as": "lx_dot_comma_ltr",
-        "bn-IN": "lx_dot_comma_ltr",
-        "en-IN": "lx_dot_comma_ltr",
-        "gu": "lx_dot_comma_ltr",
-        "hi": "lx_dot_comma_ltr",
-        "kn": "lx_dot_comma_ltr",
-        "kok": "lx_dot_comma_ltr",
-        "ks": "lx_comma_dot_rtl",
-        "mai": "ls_dot_comma_ltr",
-        "ml": "lx_dot_comma_ltr",
-        "mr": "lx_dot_comma_ltr",
-        "ne-IN": "ls_dot_comma_ltr",
-        "or": "lx_dot_comma_ltr",
-        "pa": "ls_dot_comma_ltr",
-        "sa": "ls_dot_comma_ltr",
-        "sat": "ls_dot_comma_ltr",
-        "sd": "rs_comma_dot_rtl",
-        "sd-Deva": "ls_dot_comma_ltr",
-        "ta": "lx_dot_comma_ltr",
-        "te": "lx_dot_comma_ltr",
-        "ur-IN": "lx_comma_dot_rtl"
-    },
-    "IO": {
-        "en-IO": "lx_dot_comma_ltr"
-    },
-    "IQ": {
-        "ar-IQ": "rs_comma_dot_rtl",
-        "az-Arab": "ls_comma_dot_rtl",
-        "ckb": "rs_comma_dot_rtl"
-    },
-    "IR": {
-        "fa": "ls_comma_dot_rtl"
-    },
-    "IS": {
-        "is": "rs_comma_dot_ltr"
-    },
-    "IT": {
-        "fr": "rs_comma_space_ltr",
-        "it": "rs_comma_dot_ltr",
-        "vec": "ls_dot_comma_ltr"
-    },
-    "JE": {
-        "en-JE": "lx_dot_comma_ltr"
-    },
-    "JM": {
-        "en-JM": "lx_dot_comma_ltr"
-    },
-    "JO": {
-        "ar-JO": "rs_comma_dot_rtl"
-    },
-    "JP": {
-        "ja": "lx_dot_comma_ltr"
-    },
-    "KE": {
-        "en-KE": "lx_dot_comma_ltr",
-        "sw-KE": "ls_dot_comma_ltr"
-    },
-    "KG": {
-        "ky": "rs_comma_space_ltr",
-        "ru-KG": "rs_comma_space_ltr"
-    },
-    "KH": {
-        "km": "rx_comma_dot_ltr"
-    },
-    "KI": {
-        "en-KI": "lx_dot_comma_ltr"
-    },
-    "KM": {
-        "ar-KM": "rs_comma_dot_rtl",
-        "fr-KM": "rs_comma_space_ltr"
-    },
-    "KN": {
-        "en-KN": "lx_dot_comma_ltr"
-    },
-    "KP": {
-        "ko-KP": "lx_dot_comma_ltr"
-    },
-    "KR": {
-        "ko": "lx_dot_comma_ltr"
-    },
-    "KW": {
-        "ar-KW": "rs_comma_dot_rtl"
-    },
-    "KY": {
-        "en-KY": "lx_dot_comma_ltr"
-    },
-    "KZ": {
-        "kk": "rs_comma_space_ltr",
-        "ru-KZ": "rs_comma_space_ltr"
-    },
-    "LA": {
-        "lo": "lx_comma_dot_ltr"
-    },
-    "LB": {
-        "ar-LB": "rs_comma_dot_rtl"
-    },
-    "LC": {
-        "en-LC": "lx_dot_comma_ltr"
-    },
-    "LI": {
-        "de-LI": "rs_dot_apos_ltr",
-        "gsw-LI": "rs_dot_apos_ltr"
-    },
-    "LK": {
-        "si": "lx_dot_comma_ltr",
-        "ta-LK": "lx_dot_comma_ltr"
-    },
-    "LR": {
-        "en-LR": "lx_dot_comma_ltr"
-    },
-    "LS": {
-        "en-LS": "lx_dot_comma_ltr",
-        "st-LS": "lx_comma_space_ltr"
-    },
-    "LT": {
-        "lt": "rs_comma_space_ltr"
-    },
-    "LU": {
-        "de-LU": "rs_comma_dot_ltr",
-        "fr-LU": "rs_comma_dot_ltr",
-        "lb": "rs_comma_dot_ltr"
-    },
-    "LV": {
-        "lv": "rs_comma_space_ltr"
-    },
-    "LY": {
-        "ar-LY": "rx_comma_dot_rtl"
-    },
-    "MA": {
-        "ar-MA": "rx_comma_dot_rtl",
-        "fr-MA": "rs_comma_dot_ltr",
-        "tzm": "rs_comma_space_ltr"
-    },
-    "MC": {
-        "fr-MC": "rs_comma_space_ltr"
-    },
-    "MD": {
-        "ro-MD": "rs_comma_dot_ltr"
-    },
-    "ME": {
-        "sr-Latn": "rs_comma_dot_ltr"
-    },
-    "MF": {
-        "fr-MF": "rs_comma_space_ltr"
-    },
-    "MG": {
-        "en-MG": "lx_dot_comma_ltr",
-        "fr-MG": "rs_comma_space_ltr",
-        "mg": "lx_dot_comma_ltr"
-    },
-    "MH": {
-        "en-MH": "lx_dot_comma_ltr"
-    },
-    "MK": {
-        "mk": "rs_comma_dot_ltr",
-        "sq-MK": "rs_comma_space_ltr"
-    },
-    "ML": {
-        "fr-ML": "rs_comma_space_ltr"
-    },
-    "MM": {
-        "my": "ls_dot_comma_ltr"
-    },
-    "MN": {
-        "mn": "ls_dot_comma_ltr"
-    },
-    "MO": {
-        "pt-MO": "rs_comma_space_ltr",
-        "zh-Hant": "lx_dot_comma_ltr"
-    },
-    "MP": {
-        "en-MP": "lx_dot_comma_ltr"
-    },
-    "MQ": {
-        "fr-MQ": "rs_comma_space_ltr"
-    },
-    "MR": {
-        "ar-MR": "rs_comma_dot_rtl"
-    },
-    "MS": {
-        "en-MS": "lx_dot_comma_ltr"
-    },
-    "MT": {
-        "en-MT": "lx_dot_comma_ltr",
-        "mt": "lx_dot_comma_ltr"
-    },
-    "MU": {
-        "en-MU": "lx_dot_comma_ltr",
-        "fr-MU": "rs_comma_space_ltr"
-    },
-    "MV": {
-        "dv": "ls_dot_comma_rtl"
-    },
-    "MW": {
-        "en-MW": "lx_dot_comma_ltr",
-        "ny": "ls_dot_comma_ltr"
-    },
-    "MX": {
-        "es-MX": "lx_dot_comma_ltr",
-        "vec": "ls_dot_comma_ltr"
-    },
-    "MY": {
-        "ms": "lx_dot_comma_ltr"
-    },
-    "MZ": {
-        "pt-MZ": "rs_comma_space_ltr"
-    },
-    "NA": {
-        "en-NA": "lx_dot_comma_ltr"
-    },
-    "NC": {
-        "fr-NC": "rs_comma_space_ltr"
-    },
-    "NE": {
-        "fr-NE": "rs_comma_space_ltr"
-    },
-    "NF": {
-        "en-NF": "lx_dot_comma_ltr"
-    },
-    "NG": {
-        "en-NG": "lx_dot_comma_ltr",
-        "yo": "lx_dot_comma_ltr"
-    },
-    "NI": {
-        "es-NI": "lx_dot_comma_ltr"
-    },
-    "NL": {
-        "fy": "ls_comma_dot_ltr",
-        "nl": "ls_comma_dot_ltr"
-    },
-    "NO": {
-        "nb": "ls_comma_space_ltr",
-        "nn": "rs_comma_space_ltr",
-        "no": "ls_comma_space_ltr",
-        "se": "rs_comma_space_ltr"
-    },
-    "NP": {
-        "ne": "ls_dot_comma_ltr"
-    },
-    "NR": {
-        "en-NR": "lx_dot_comma_ltr"
-    },
-    "NU": {
-        "en-NU": "lx_dot_comma_ltr"
-    },
-    "NZ": {
-        "en-NZ": "lx_dot_comma_ltr",
-        "mi": "ls_dot_comma_ltr"
-    },
-    "OM": {
-        "ar-OM": "rs_comma_dot_rtl"
-    },
-    "PA": {
-        "es-PA": "lx_dot_comma_ltr"
-    },
-    "PE": {
-        "es-PE": "lx_dot_comma_ltr",
-        "qu": "ls_dot_comma_ltr"
-    },
-    "PF": {
-        "fr-PF": "rs_comma_space_ltr"
-    },
-    "PG": {
-        "en-PG": "lx_dot_comma_ltr",
-        "tpi": "rs_dot_comma_ltr"
-    },
-    "PH": {
-        "ceb": "lx_dot_comma_ltr",
-        "en-PH": "lx_dot_comma_ltr",
-        "fil": "lx_dot_comma_ltr"
-    },
-    "PK": {
-        "en-PK": "lx_dot_comma_ltr",
-        "ur": "lx_dot_comma_rtl"
-    },
-    "PL": {
-        "de": "rs_comma_dot_ltr",
-        "lt": "rs_comma_space_ltr",
-        "pl": "rs_comma_space_ltr"
-    },
-    "PM": {
-        "fr-PM": "rs_comma_space_ltr"
-    },
-    "PN": {
-        "en-PN": "lx_dot_comma_ltr"
-    },
-    "PR": {
-        "en-PR": "lx_dot_comma_ltr",
-        "es-PR": "lx_dot_comma_ltr"
-    },
-    "PS": {
-        "ar-PS": "rs_comma_dot_rtl"
-    },
-    "PT": {
-        "pt-PT": "rs_comma_space_ltr"
-    },
-    "PW": {
-        "en-PW": "lx_dot_comma_ltr"
-    },
-    "PY": {
-        "es-PY": "lx_comma_dot_ltr",
-        "gn": "ls_dot_comma_ltr"
-    },
-    "QA": {
-        "ar-QA": "rs_comma_dot_rtl"
-    },
-    "RE": {
-        "fr-RE": "rs_comma_space_ltr"
-    },
-    "RO": {
-        "ro": "rs_comma_dot_ltr"
-    },
-    "RS": {
-        "hr": "rs_comma_dot_ltr",
-        "hu": "rs_comma_space_ltr",
-        "ro": "rs_comma_dot_ltr",
-        "sk": "rs_comma_space_ltr",
-        "sr": "rs_comma_dot_ltr",
-        "sr-Latn": "rs_comma_dot_ltr",
-        "uk": "rs_comma_space_ltr"
-    },
-    "RU": {
-        "az-Cyrl": "rs_comma_dot_ltr",
-        "ba": "ls_dot_comma_ltr",
-        "ce": "rs_dot_comma_ltr",
-        "mdf": "ls_dot_comma_ltr",
-        "myv": "ls_dot_comma_ltr",
-        "ru": "rs_comma_space_ltr",
-        "sah": "rs_comma_space_ltr",
-        "tt": "rs_comma_space_ltr"
-    },
-    "RW": {
-        "en-RW": "lx_dot_comma_ltr",
-        "fr-RW": "rs_comma_space_ltr",
-        "rw": "ls_comma_dot_ltr"
-    },
-    "SA": {
-        "ar-SA": "rs_comma_dot_rtl"
-    },
-    "SB": {
-        "en-SB": "lx_dot_comma_ltr"
-    },
-    "SC": {
-        "en-SC": "lx_dot_comma_ltr",
-        "fr-SC": "rs_comma_space_ltr"
-    },
-    "SD": {
-        "ar-SD": "rs_comma_dot_rtl",
-        "en-SD": "lx_dot_comma_ltr"
-    },
-    "SE": {
-        "fi": "rs_comma_space_ltr",
-        "sv": "rs_comma_space_ltr"
-    },
-    "SG": {
-        "en-SG": "lx_dot_comma_ltr",
-        "ms-SG": "lx_dot_comma_ltr",
-        "ta-SG": "lx_dot_comma_ltr",
-        "zh": "lx_dot_comma_ltr"
-    },
-    "SH": {
-        "en-SH": "lx_dot_comma_ltr"
-    },
-    "SI": {
-        "sl": "rs_comma_dot_ltr",
-        "vec": "ls_dot_comma_ltr"
-    },
-    "SJ": {
-        "nb-SJ": "ls_comma_space_ltr"
-    },
-    "SK": {
-        "sk": "rs_comma_space_ltr"
-    },
-    "SL": {
-        "en-SL": "lx_dot_comma_ltr"
-    },
-    "SM": {
-        "it-SM": "rs_comma_dot_ltr"
-    },
-    "SN": {
-        "dyo": "rs_comma_space_ltr",
-        "ff": "rs_comma_space_ltr",
-        "fr-SN": "rs_comma_space_ltr",
-        "wo": "ls_comma_dot_ltr"
-    },
-    "SO": {
-        "ar-SO": "rs_comma_dot_rtl",
-        "so": "lx_dot_comma_ltr"
-    },
-    "SR": {
-        "nl-SR": "ls_comma_dot_ltr"
-    },
-    "SS": {
-        "en-SS": "lx_dot_comma_ltr"
-    },
-    "ST": {
-        "pt-ST": "rs_comma_space_ltr"
-    },
-    "SV": {
-        "es-SV": "lx_dot_comma_ltr"
-    },
-    "SX": {
-        "en-SX": "lx_dot_comma_ltr",
-        "nl-SX": "ls_comma_dot_ltr"
-    },
-    "SY": {
-        "ar-SY": "rs_comma_dot_rtl",
-        "fr-SY": "rs_comma_space_ltr"
-    },
-    "SZ": {
-        "en-SZ": "lx_dot_comma_ltr",
-        "ss-SZ": "lx_comma_space_ltr"
-    },
-    "TA": {
-        "en": "lx_dot_comma_ltr"
-    },
-    "TC": {
-        "en-TC": "lx_dot_comma_ltr"
-    },
-    "TD": {
-        "ar-TD": "rs_comma_dot_rtl",
-        "fr-TD": "rs_comma_space_ltr"
-    },
-    "TF": {
-        "fr": "rs_comma_space_ltr"
-    },
-    "TG": {
-        "fr-TG": "rs_comma_space_ltr"
-    },
-    "TH": {
-        "th": "lx_dot_comma_ltr"
-    },
-    "TJ": {
-        "tg": "rs_comma_space_ltr"
-    },
-    "TK": {
-        "en-TK": "lx_dot_comma_ltr"
-    },
-    "TL": {
-        "pt-TL": "rs_comma_space_ltr"
-    },
-    "TM": {
-        "tk": "rs_comma_space_ltr"
-    },
-    "TN": {
-        "ar-TN": "rx_comma_dot_rtl",
-        "fr-TN": "rs_comma_space_ltr"
-    },
-    "TO": {
-        "en-TO": "lx_dot_comma_ltr",
-        "to": "ls_dot_comma_ltr"
-    },
-    "TR": {
-        "tr": "lx_comma_dot_ltr"
-    },
-    "TT": {
-        "en-TT": "lx_dot_comma_ltr"
-    },
-    "TV": {
-        "en-TV": "lx_dot_comma_ltr"
-    },
-    "TW": {
-        "zh-Hant": "lx_dot_comma_ltr"
-    },
-    "TZ": {
-        "en-TZ": "lx_dot_comma_ltr",
-        "sw": "ls_dot_comma_ltr"
-    },
-    "UA": {
-        "ru-UA": "rs_comma_space_ltr",
-        "uk": "rs_comma_space_ltr"
-    },
-    "UG": {
-        "en-UG": "lx_dot_comma_ltr",
-        "sw-UG": "ls_dot_comma_ltr"
-    },
-    "UM": {
-        "en-UM": "lx_dot_comma_ltr"
-    },
-    "US": {
-        "en": "lx_dot_comma_ltr",
-        "es-US": "lx_dot_comma_ltr",
-        "haw": "lx_dot_comma_ltr"
-    },
-    "UY": {
-        "es-UY": "ls_comma_dot_ltr"
-    },
-    "UZ": {
-        "uz": "lx_comma_space_ltr",
-        "uz-Cyrl": "rs_comma_space_ltr"
-    },
-    "VA": {
-        "it-VA": "rs_comma_dot_ltr"
-    },
-    "VC": {
-        "en-VC": "lx_dot_comma_ltr"
-    },
-    "VE": {
-        "es-VE": "lx_comma_dot_ltr"
-    },
-    "VG": {
-        "en-VG": "lx_dot_comma_ltr"
-    },
-    "VI": {
-        "en-VI": "lx_dot_comma_ltr"
-    },
-    "VN": {
-        "vi": "rs_comma_dot_ltr"
-    },
-    "VU": {
-        "en-VU": "lx_dot_comma_ltr",
-        "fr-VU": "rs_comma_space_ltr"
-    },
-    "WF": {
-        "fr-WF": "rs_comma_space_ltr"
-    },
-    "WS": {
-        "en-WS": "lx_dot_comma_ltr"
-    },
-    "XK": {
-        "sq-XK": "rs_comma_space_ltr",
-        "sr": "rs_comma_dot_ltr",
-        "sr-Latn": "rs_comma_dot_ltr"
-    },
-    "YE": {
-        "ar-YE": "rs_comma_dot_rtl"
-    },
-    "YT": {
-        "fr-YT": "rs_comma_space_ltr"
-    },
-    "ZA": {
-        "af": "lx_comma_space_ltr",
-        "en-ZA": "lx_dot_comma_ltr",
-        "nr": "lx_comma_space_ltr",
-        "nso": "lx_dot_space_ltr",
-        "ss": "lx_comma_space_ltr",
-        "st": "lx_comma_space_ltr",
-        "tn": "lx_dot_space_ltr",
-        "ts": "ls_comma_space_ltr",
-        "ve": "lx_comma_space_ltr",
-        "xh": "lx_dot_space_ltr",
-        "zu": "lx_dot_comma_ltr"
-    },
-    "ZM": {
-        "en-ZM": "lx_dot_comma_ltr"
-    },
-    "ZW": {
-        "en-ZW": "lx_dot_comma_ltr",
-        "nd": "lx_dot_comma_ltr",
-        "sn": "lx_dot_comma_ltr"
-    },
-    "ZZ": {
-        "en-ZW": "lx_dot_comma_ltr",
-        "nd": "lx_dot_comma_ltr",
-        "sn": "lx_dot_comma_ltr"
+    "AED": {
+        "ar_AE": "$global_formats['rx_dot_comma_rtl']",
+        "default": "$global_formats['rx_dot_comma_rtl']"
+    },
+    "AFN": {
+        "fa_AF": "$global_formats['ls_comma_dot_rtl']",
+        "ps_AF": "$global_formats['lx_comma_dot_rtl']",
+        "tk_AF": "$global_formats['rs_comma_space_ltr']",
+        "uz_Arab_AF": "$global_formats['ls_comma_dot_rtl']",
+        "default": "$global_formats['ls_comma_dot_rtl']"
+    },
+    "ALL": {
+        "sq_AL": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "AMD": {
+        "hy_AM": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "ANG": {
+        "nl_CW": "$global_formats['ls_comma_dot_ltr']",
+        "pap_CW": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "en_SX": "$global_formats['lx_dot_comma_ltr']",
+        "nl_SX": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "AOA": {
+        "pt_AO": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "ARS": {
+        "es_AR": "$global_formats['ls_comma_dot_ltr']",
+        "default": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "AUD": {
+        "en_AU": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "en_CC": "$global_formats['lx_dot_comma_ltr']",
+        "en_CX": "$global_formats['lx_dot_comma_ltr']",
+        "en_KI": "$global_formats['lx_dot_comma_ltr']",
+        "en_NF": "$global_formats['lx_dot_comma_ltr']",
+        "en_NR": "$global_formats['lx_dot_comma_ltr']",
+        "en_TV": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "AWG": {
+        "nl_AW": "$global_formats['ls_comma_dot_ltr']",
+        "pap_AW": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "AZN": {
+        "az_AZ": "$global_formats['rs_comma_dot_ltr']",
+        "az_Cyrl_AZ": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "BAM": {
+        "bs_BA": "$global_formats['rs_comma_dot_ltr']",
+        "bs_Cyrl_BA": "$global_formats['rs_comma_dot_ltr']",
+        "hr_BA": "$global_formats['rs_comma_dot_ltr']",
+        "sr_BA": "$global_formats['rs_comma_dot_ltr']",
+        "sr_Latn_BA": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "BBD": {
+        "en_BB": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "BDT": {
+        "bn_BD": "$global_formats['rx_dot_comma_ltr']",
+        "default": "$global_formats['rx_dot_comma_ltr']"
+    },
+    "BGN": {
+        "bg_BG": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "BHD": {
+        "ar_BH": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "BIF": {
+        "en_BI": "$global_formats['lx_dot_comma_ltr']",
+        "fr_BI": "$global_formats['rs_comma_space_ltr']",
+        "rn_BI": "$global_formats['rx_comma_dot_ltr']",
+        "default": "$global_formats['rx_comma_dot_ltr']"
+    },
+    "BMD": {
+        "en_BM": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "BND": {
+        "ms_Arab_BN": "$global_formats['lx_dot_comma_rtl']",
+        "ms_BN": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "BOB": {
+        "es_BO": "$global_formats['lx_comma_dot_ltr']",
+        "qu_BO": "$global_formats['ls_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "BRL": {
+        "pt_BR": "$global_formats['ls_comma_dot_ltr']",
+        "vec_BR": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "BSD": {
+        "en_BS": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "BTN": {
+        "dz_BT": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "BWP": {
+        "en_BW": "$global_formats['lx_dot_comma_ltr']",
+        "tn_BW": "$global_formats['lx_dot_space_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "BYN": {
+        "be_BY": "$global_formats['rs_comma_space_ltr']",
+        "ru_BY": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "BZD": {
+        "en_BZ": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "CAD": {
+        "en_CA": "$global_formats['lx_dot_comma_ltr']",
+        "fr_CA": "$global_formats['rs_comma_space_ltr']",
+        "iu_CA": "$global_formats['ls_dot_comma_ltr']",
+        "iu_Latn_CA": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "CDF": {
+        "fr_CD": "$global_formats['rs_comma_space_ltr']",
+        "ln_CD": "$global_formats['rs_comma_dot_ltr']",
+        "sw_CD": "$global_formats['ls_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "CHF": {
+        "de_CH": "$global_formats['rs_dot_apos_ltr']",
+        "fr_CH": "$global_formats['rs_comma_space_ltr']",
+        "gsw_CH": "$global_formats['rs_dot_apos_ltr']",
+        "it_CH": "$global_formats['rs_dot_apos_ltr']",
+        "rm_CH": "$global_formats['rs_dot_apos_ltr']",
+        "default": "$global_formats['rs_dot_apos_ltr']",
+        "de_LI": "$global_formats['rs_dot_apos_ltr']",
+        "gsw_LI": "$global_formats['rs_dot_apos_ltr']"
+    },
+    "CLP": {
+        "es_CL": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "CNY": {
+        "bo_CN": "$global_formats['ls_dot_comma_ltr']",
+        "ko_CN": "$global_formats['lx_dot_comma_ltr']",
+        "mn_Mong_CN": "$global_formats['ls_dot_comma_ltr']",
+        "ug_CN": "$global_formats['lx_dot_comma_rtl']",
+        "zh_CN": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "COP": {
+        "es_CO": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "CRC": {
+        "es_CR": "$global_formats['lx_comma_space_ltr']",
+        "default": "$global_formats['lx_comma_space_ltr']"
+    },
+    "CUP": {
+        "es_CU": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "CVE": {
+        "pt_CV": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "CZK": {
+        "cs_CZ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "DJF": {
+        "ar_DJ": "$global_formats['rs_comma_dot_rtl']",
+        "fr_DJ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "DKK": {
+        "da_DK": "$global_formats['rs_comma_dot_ltr']",
+        "de_DK": "$global_formats['rs_comma_dot_ltr']",
+        "kl_DK": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']",
+        "fo_FO": "$global_formats['rs_comma_dot_ltr']",
+        "kl_GL": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "DOP": {
+        "es_DO": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "DZD": {
+        "ar_DZ": "$global_formats['rx_comma_dot_rtl']",
+        "fr_DZ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rx_comma_dot_rtl']"
+    },
+    "EGP": {
+        "ar_EG": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "ERN": {
+        "ar_ER": "$global_formats['rs_comma_dot_rtl']",
+        "en_ER": "$global_formats['lx_dot_comma_ltr']",
+        "ti_ER": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "ETB": {
+        "am_ET": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "EUR": {
+        "ca_AD": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']",
+        "de_AT": "$global_formats['rs_comma_space_ltr']",
+        "hr_AT": "$global_formats['rs_comma_dot_ltr']",
+        "hu_AT": "$global_formats['rs_comma_space_ltr']",
+        "sl_AT": "$global_formats['rs_comma_dot_ltr']",
+        "sv_AX": "$global_formats['rs_comma_space_ltr']",
+        "de_BE": "$global_formats['rs_comma_dot_ltr']",
+        "fr_BE": "$global_formats['rs_comma_space_ltr']",
+        "nl_BE": "$global_formats['ls_comma_dot_ltr']",
+        "fr_BL": "$global_formats['rs_comma_space_ltr']",
+        "el_CY": "$global_formats['rs_comma_dot_ltr']",
+        "tr_CY": "$global_formats['lx_comma_dot_ltr']",
+        "de_DE": "$global_formats['rs_comma_dot_ltr']",
+        "frr_DE": "$global_formats['ls_dot_comma_ltr']",
+        "es_EA": "$global_formats['rs_comma_dot_ltr']",
+        "et_EE": "$global_formats['rs_comma_space_ltr']",
+        "ast_ES": "$global_formats['rs_comma_dot_ltr']",
+        "ca_ES": "$global_formats['rs_comma_dot_ltr']",
+        "es_ES": "$global_formats['rs_comma_dot_ltr']",
+        "eu_ES": "$global_formats['rs_comma_dot_ltr']",
+        "gl_ES": "$global_formats['rs_comma_dot_ltr']",
+        "oc_ES": "$global_formats['ls_dot_comma_ltr']",
+        "fi_FI": "$global_formats['rs_comma_space_ltr']",
+        "sms_FI": "$global_formats['ls_dot_comma_ltr']",
+        "sv_FI": "$global_formats['rs_comma_space_ltr']",
+        "fr_FR": "$global_formats['rs_comma_space_ltr']",
+        "fr_GF": "$global_formats['rs_comma_space_ltr']",
+        "fr_GP": "$global_formats['rs_comma_space_ltr']",
+        "el_GR": "$global_formats['rs_comma_dot_ltr']",
+        "hr_HR": "$global_formats['rs_comma_dot_ltr']",
+        "it_HR": "$global_formats['rs_comma_dot_ltr']",
+        "vec_HR": "$global_formats['ls_dot_comma_ltr']",
+        "es_IC": "$global_formats['rs_comma_dot_ltr']",
+        "en_IE": "$global_formats['lx_dot_comma_ltr']",
+        "ga_IE": "$global_formats['lx_dot_comma_ltr']",
+        "fr_IT": "$global_formats['rs_comma_space_ltr']",
+        "it_IT": "$global_formats['rs_comma_dot_ltr']",
+        "vec_IT": "$global_formats['ls_dot_comma_ltr']",
+        "lt_LT": "$global_formats['rs_comma_space_ltr']",
+        "de_LU": "$global_formats['rs_comma_dot_ltr']",
+        "fr_LU": "$global_formats['rs_comma_dot_ltr']",
+        "lb_LU": "$global_formats['rs_comma_dot_ltr']",
+        "lv_LV": "$global_formats['rs_comma_space_ltr']",
+        "fr_MC": "$global_formats['rs_comma_space_ltr']",
+        "sr_Latn_ME": "$global_formats['rs_comma_dot_ltr']",
+        "fr_MF": "$global_formats['rs_comma_space_ltr']",
+        "fr_MQ": "$global_formats['rs_comma_space_ltr']",
+        "en_MT": "$global_formats['lx_dot_comma_ltr']",
+        "mt_MT": "$global_formats['lx_dot_comma_ltr']",
+        "fy_NL": "$global_formats['ls_comma_dot_ltr']",
+        "nl_NL": "$global_formats['ls_comma_dot_ltr']",
+        "fr_PM": "$global_formats['rs_comma_space_ltr']",
+        "pt_PT": "$global_formats['rs_comma_space_ltr']",
+        "fr_RE": "$global_formats['rs_comma_space_ltr']",
+        "sl_SI": "$global_formats['rs_comma_dot_ltr']",
+        "vec_SI": "$global_formats['ls_dot_comma_ltr']",
+        "sk_SK": "$global_formats['rs_comma_space_ltr']",
+        "it_SM": "$global_formats['rs_comma_dot_ltr']",
+        "fr_TF": "$global_formats['rs_comma_space_ltr']",
+        "it_VA": "$global_formats['rs_comma_dot_ltr']",
+        "sq_XK": "$global_formats['rs_comma_space_ltr']",
+        "sr_XK": "$global_formats['rs_comma_dot_ltr']",
+        "sr_Latn_XK": "$global_formats['rs_comma_dot_ltr']",
+        "fr_YT": "$global_formats['rs_comma_space_ltr']"
+    },
+    "FJD": {
+        "en_FJ": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "FKP": {
+        "en_FK": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "GBP": {
+        "cy_GB": "$global_formats['lx_dot_comma_ltr']",
+        "en_GB": "$global_formats['lx_dot_comma_ltr']",
+        "ga_GB": "$global_formats['lx_dot_comma_ltr']",
+        "gd_GB": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "en_GG": "$global_formats['lx_dot_comma_ltr']",
+        "en_IM": "$global_formats['lx_dot_comma_ltr']",
+        "gv_IM": "$global_formats['lx_dot_comma_ltr']",
+        "en_JE": "$global_formats['lx_dot_comma_ltr']",
+        "en_TA": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "GEL": {
+        "ab_GE": "$global_formats['ls_dot_comma_ltr']",
+        "ka_GE": "$global_formats['rs_comma_space_ltr']",
+        "os_GE": "$global_formats['ls_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "GHS": {
+        "ak_GH": "$global_formats['lx_dot_comma_ltr']",
+        "ee_GH": "$global_formats['lx_dot_comma_ltr']",
+        "en_GH": "$global_formats['lx_dot_comma_ltr']",
+        "gaa_GH": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "GIP": {
+        "en_GI": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "GMD": {
+        "en_GM": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "GNF": {
+        "fr_GN": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "GTQ": {
+        "es_GT": "$global_formats['lx_dot_comma_ltr']",
+        "quc_GT": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "GYD": {
+        "en_GY": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "HKD": {
+        "en_HK": "$global_formats['lx_dot_comma_ltr']",
+        "zh_Hant_HK": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "HNL": {
+        "es_HN": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "HTG": {
+        "fr_HT": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "HUF": {
+        "hu_HU": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "IDR": {
+        "id_ID": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "ILS": {
+        "ar_IL": "$global_formats['rs_comma_dot_rtl']",
+        "he_IL": "$global_formats['rs_dot_comma_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']",
+        "ar_PS": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "INR": {
+        "as_IN": "$global_formats['lx_dot_comma_ltr']",
+        "bn_IN": "$global_formats['lx_dot_comma_ltr']",
+        "en_IN": "$global_formats['lx_dot_comma_ltr']",
+        "gu_IN": "$global_formats['lx_dot_comma_ltr']",
+        "hi_IN": "$global_formats['lx_dot_comma_ltr']",
+        "kn_IN": "$global_formats['lx_dot_comma_ltr']",
+        "kok_IN": "$global_formats['lx_dot_comma_ltr']",
+        "ks_IN": "$global_formats['lx_comma_dot_rtl']",
+        "mai_IN": "$global_formats['ls_dot_comma_ltr']",
+        "ml_IN": "$global_formats['lx_dot_comma_ltr']",
+        "mr_IN": "$global_formats['lx_dot_comma_ltr']",
+        "ne_IN": "$global_formats['ls_dot_comma_ltr']",
+        "or_IN": "$global_formats['lx_dot_comma_ltr']",
+        "pa_IN": "$global_formats['ls_dot_comma_ltr']",
+        "sa_IN": "$global_formats['ls_dot_comma_ltr']",
+        "sat_IN": "$global_formats['ls_dot_comma_ltr']",
+        "sd_IN": "$global_formats['rs_comma_dot_rtl']",
+        "sd_Deva_IN": "$global_formats['ls_dot_comma_ltr']",
+        "ta_IN": "$global_formats['lx_dot_comma_ltr']",
+        "te_IN": "$global_formats['lx_dot_comma_ltr']",
+        "ur_IN": "$global_formats['lx_comma_dot_rtl']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "IQD": {
+        "ar_IQ": "$global_formats['rs_comma_dot_rtl']",
+        "az_Arab_IQ": "$global_formats['ls_comma_dot_rtl']",
+        "ckb_IQ": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "IRR": {
+        "fa_IR": "$global_formats['ls_comma_dot_rtl']",
+        "default": "$global_formats['ls_comma_dot_rtl']"
+    },
+    "ISK": {
+        "is_IS": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "JMD": {
+        "en_JM": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "JOD": {
+        "ar_JO": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "JPY": {
+        "ja_JP": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "KES": {
+        "en_KE": "$global_formats['lx_dot_comma_ltr']",
+        "sw_KE": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "KGS": {
+        "ky_KG": "$global_formats['rs_comma_space_ltr']",
+        "ru_KG": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "KHR": {
+        "km_KH": "$global_formats['rx_comma_dot_ltr']",
+        "default": "$global_formats['rx_comma_dot_ltr']"
+    },
+    "KMF": {
+        "ar_KM": "$global_formats['rs_comma_dot_rtl']",
+        "fr_KM": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "KPW": {
+        "ko_KP": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "KRW": {
+        "ko_KR": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "KWD": {
+        "ar_KW": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "KYD": {
+        "en_KY": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "KZT": {
+        "kk_KZ": "$global_formats['rs_comma_space_ltr']",
+        "ru_KZ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "LAK": {
+        "lo_LA": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "LBP": {
+        "ar_LB": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "LKR": {
+        "si_LK": "$global_formats['lx_dot_comma_ltr']",
+        "ta_LK": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "LRD": {
+        "en_LR": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "LSL": {
+        "en_LS": "$global_formats['lx_dot_comma_ltr']",
+        "st_LS": "$global_formats['lx_comma_space_ltr']",
+        "default": "$global_formats['lx_comma_space_ltr']"
+    },
+    "LYD": {
+        "ar_LY": "$global_formats['rx_comma_dot_rtl']",
+        "default": "$global_formats['rx_comma_dot_rtl']"
+    },
+    "MAD": {
+        "ar_EH": "$global_formats['rx_dot_comma_rtl']",
+        "default": "$global_formats['rx_comma_dot_rtl']",
+        "ar_MA": "$global_formats['rx_comma_dot_rtl']",
+        "fr_MA": "$global_formats['rs_comma_dot_ltr']",
+        "tzm_MA": "$global_formats['rs_comma_space_ltr']"
+    },
+    "MDL": {
+        "ro_MD": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "MGA": {
+        "en_MG": "$global_formats['lx_dot_comma_ltr']",
+        "fr_MG": "$global_formats['rs_comma_space_ltr']",
+        "mg_MG": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "MKD": {
+        "mk_MK": "$global_formats['rs_comma_dot_ltr']",
+        "sq_MK": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "MMK": {
+        "my_MM": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "MNT": {
+        "mn_MN": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "MOP": {
+        "pt_MO": "$global_formats['rs_comma_space_ltr']",
+        "zh_Hant_MO": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "MRU": {
+        "ar_MR": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "MUR": {
+        "en_MU": "$global_formats['lx_dot_comma_ltr']",
+        "fr_MU": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "MVR": {
+        "dv_MV": "$global_formats['ls_dot_comma_rtl']",
+        "default": "$global_formats['ls_dot_comma_rtl']"
+    },
+    "MWK": {
+        "en_MW": "$global_formats['lx_dot_comma_ltr']",
+        "ny_MW": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "MXN": {
+        "es_MX": "$global_formats['lx_dot_comma_ltr']",
+        "vec_MX": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "MYR": {
+        "ms_MY": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "MZN": {
+        "pt_MZ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "NAD": {
+        "en_NA": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "NGN": {
+        "en_NG": "$global_formats['lx_dot_comma_ltr']",
+        "yo_NG": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "NIO": {
+        "es_NI": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "NOK": {
+        "nb_NO": "$global_formats['ls_comma_space_ltr']",
+        "nn_NO": "$global_formats['rs_comma_space_ltr']",
+        "no_NO": "$global_formats['ls_comma_space_ltr']",
+        "se_NO": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['ls_comma_space_ltr']",
+        "nb_SJ": "$global_formats['ls_comma_space_ltr']"
+    },
+    "NPR": {
+        "ne_NP": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "NZD": {
+        "en_CK": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "en_NU": "$global_formats['lx_dot_comma_ltr']",
+        "en_NZ": "$global_formats['lx_dot_comma_ltr']",
+        "mi_NZ": "$global_formats['ls_dot_comma_ltr']",
+        "en_PN": "$global_formats['lx_dot_comma_ltr']",
+        "en_TK": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "OMR": {
+        "ar_OM": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "PAB": {
+        "es_PA": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "PEN": {
+        "es_PE": "$global_formats['lx_dot_comma_ltr']",
+        "qu_PE": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "PGK": {
+        "en_PG": "$global_formats['lx_dot_comma_ltr']",
+        "tpi_PG": "$global_formats['rs_dot_comma_ltr']",
+        "default": "$global_formats['rs_dot_comma_ltr']"
+    },
+    "PHP": {
+        "ceb_PH": "$global_formats['lx_dot_comma_ltr']",
+        "en_PH": "$global_formats['lx_dot_comma_ltr']",
+        "fil_PH": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "PKR": {
+        "en_PK": "$global_formats['lx_dot_comma_ltr']",
+        "ur_PK": "$global_formats['lx_dot_comma_rtl']",
+        "default": "$global_formats['lx_dot_comma_rtl']"
+    },
+    "PLN": {
+        "de_PL": "$global_formats['rs_comma_dot_ltr']",
+        "lt_PL": "$global_formats['rs_comma_space_ltr']",
+        "pl_PL": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "PYG": {
+        "es_PY": "$global_formats['lx_comma_dot_ltr']",
+        "gn_PY": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "QAR": {
+        "ar_QA": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "RON": {
+        "ro_RO": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "RSD": {
+        "hr_RS": "$global_formats['rs_comma_dot_ltr']",
+        "hu_RS": "$global_formats['rs_comma_space_ltr']",
+        "ro_RS": "$global_formats['rs_comma_dot_ltr']",
+        "sk_RS": "$global_formats['rs_comma_space_ltr']",
+        "sr_RS": "$global_formats['rs_comma_dot_ltr']",
+        "sr_Latn_RS": "$global_formats['rs_comma_dot_ltr']",
+        "uk_RS": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "RUB": {
+        "az_Cyrl_RU": "$global_formats['rs_comma_dot_ltr']",
+        "ba_RU": "$global_formats['ls_dot_comma_ltr']",
+        "ce_RU": "$global_formats['rs_dot_comma_ltr']",
+        "mdf_RU": "$global_formats['ls_dot_comma_ltr']",
+        "myv_RU": "$global_formats['ls_dot_comma_ltr']",
+        "ru_RU": "$global_formats['rs_comma_space_ltr']",
+        "sah_RU": "$global_formats['rs_comma_space_ltr']",
+        "tt_RU": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "RWF": {
+        "en_RW": "$global_formats['lx_dot_comma_ltr']",
+        "fr_RW": "$global_formats['rs_comma_space_ltr']",
+        "rw_RW": "$global_formats['ls_comma_dot_ltr']",
+        "default": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "SAR": {
+        "ar_SA": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "SBD": {
+        "en_SB": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "SCR": {
+        "en_SC": "$global_formats['lx_dot_comma_ltr']",
+        "fr_SC": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "SDG": {
+        "ar_SD": "$global_formats['rs_comma_dot_rtl']",
+        "en_SD": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "SEK": {
+        "fi_SE": "$global_formats['rs_comma_space_ltr']",
+        "sv_SE": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "SGD": {
+        "en_SG": "$global_formats['lx_dot_comma_ltr']",
+        "ms_SG": "$global_formats['lx_dot_comma_ltr']",
+        "ta_SG": "$global_formats['lx_dot_comma_ltr']",
+        "zh_SG": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "SHP": {
+        "en_AC": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "en_SH": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "SLE": {
+        "en_SL": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "SOS": {
+        "ar_SO": "$global_formats['rs_comma_dot_rtl']",
+        "so_SO": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "SRD": {
+        "nl_SR": "$global_formats['ls_comma_dot_ltr']",
+        "default": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "SSP": {
+        "en_SS": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "STN": {
+        "pt_ST": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "SYP": {
+        "ar_SY": "$global_formats['rs_comma_dot_rtl']",
+        "fr_SY": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "SZL": {
+        "en_SZ": "$global_formats['lx_dot_comma_ltr']",
+        "ss_SZ": "$global_formats['lx_comma_space_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "THB": {
+        "th_TH": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "TJS": {
+        "tg_TJ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "TMT": {
+        "tk_TM": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "TND": {
+        "ar_TN": "$global_formats['rx_comma_dot_rtl']",
+        "fr_TN": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rx_comma_dot_rtl']"
+    },
+    "TOP": {
+        "en_TO": "$global_formats['lx_dot_comma_ltr']",
+        "to_TO": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "TRY": {
+        "tr_TR": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "TTD": {
+        "en_TT": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "TWD": {
+        "zh_Hant_TW": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "TZS": {
+        "en_TZ": "$global_formats['lx_dot_comma_ltr']",
+        "sw_TZ": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "UAH": {
+        "ru_UA": "$global_formats['rs_comma_space_ltr']",
+        "uk_UA": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']"
+    },
+    "UGX": {
+        "en_UG": "$global_formats['lx_dot_comma_ltr']",
+        "sw_UG": "$global_formats['ls_dot_comma_ltr']",
+        "default": "$global_formats['ls_dot_comma_ltr']"
+    },
+    "USD": {
+        "en_AS": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "nl_BQ": "$global_formats['ls_comma_dot_ltr']",
+        "en_DG": "$global_formats['lx_dot_comma_ltr']",
+        "es_EC": "$global_formats['lx_comma_dot_ltr']",
+        "qu_EC": "$global_formats['ls_dot_comma_ltr']",
+        "en_FM": "$global_formats['lx_dot_comma_ltr']",
+        "en_GU": "$global_formats['lx_dot_comma_ltr']",
+        "en_IO": "$global_formats['lx_dot_comma_ltr']",
+        "en_MH": "$global_formats['lx_dot_comma_ltr']",
+        "en_MP": "$global_formats['lx_dot_comma_ltr']",
+        "en_PR": "$global_formats['lx_dot_comma_ltr']",
+        "es_PR": "$global_formats['lx_dot_comma_ltr']",
+        "en_PW": "$global_formats['lx_dot_comma_ltr']",
+        "es_SV": "$global_formats['lx_dot_comma_ltr']",
+        "en_TC": "$global_formats['lx_dot_comma_ltr']",
+        "pt_TL": "$global_formats['rs_comma_space_ltr']",
+        "en_UM": "$global_formats['lx_dot_comma_ltr']",
+        "en_US": "$global_formats['lx_dot_comma_ltr']",
+        "es_US": "$global_formats['lx_dot_comma_ltr']",
+        "haw_US": "$global_formats['lx_dot_comma_ltr']",
+        "en_VG": "$global_formats['lx_dot_comma_ltr']",
+        "en_VI": "$global_formats['lx_dot_comma_ltr']",
+        "en_ZW": "$global_formats['lx_dot_comma_ltr']",
+        "nd_ZW": "$global_formats['lx_dot_comma_ltr']",
+        "sn_ZW": "$global_formats['lx_dot_comma_ltr']",
+        "nd_ZZ": "$global_formats['lx_dot_comma_ltr']",
+        "sn_ZZ": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "UYU": {
+        "es_UY": "$global_formats['ls_comma_dot_ltr']",
+        "default": "$global_formats['ls_comma_dot_ltr']"
+    },
+    "UZS": {
+        "uz_UZ": "$global_formats['lx_comma_space_ltr']",
+        "uz_Cyrl_UZ": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['lx_comma_space_ltr']"
+    },
+    "VES": {
+        "es_VE": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['lx_comma_dot_ltr']"
+    },
+    "VND": {
+        "vi_VN": "$global_formats['rs_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_dot_ltr']"
+    },
+    "VUV": {
+        "en_VU": "$global_formats['lx_dot_comma_ltr']",
+        "fr_VU": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "WST": {
+        "en_WS": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "XAF": {
+        "fr_CF": "$global_formats['rs_comma_space_ltr']",
+        "sg_CF": "$global_formats['lx_comma_dot_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']",
+        "fr_CG": "$global_formats['rs_comma_space_ltr']",
+        "en_CM": "$global_formats['lx_dot_comma_ltr']",
+        "fr_CM": "$global_formats['rs_comma_space_ltr']",
+        "fr_GA": "$global_formats['rs_comma_space_ltr']",
+        "es_GQ": "$global_formats['rs_comma_dot_ltr']",
+        "fr_GQ": "$global_formats['rs_comma_space_ltr']",
+        "pt_GQ": "$global_formats['rs_comma_space_ltr']",
+        "ar_TD": "$global_formats['rs_comma_dot_rtl']",
+        "fr_TD": "$global_formats['rs_comma_space_ltr']"
+    },
+    "XCD": {
+        "en_AG": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']",
+        "en_AI": "$global_formats['lx_dot_comma_ltr']",
+        "en_DM": "$global_formats['lx_dot_comma_ltr']",
+        "en_GD": "$global_formats['lx_dot_comma_ltr']",
+        "en_KN": "$global_formats['lx_dot_comma_ltr']",
+        "en_LC": "$global_formats['lx_dot_comma_ltr']",
+        "en_MS": "$global_formats['lx_dot_comma_ltr']",
+        "en_VC": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "XOF": {
+        "fr_BF": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']",
+        "fr_BJ": "$global_formats['rs_comma_space_ltr']",
+        "fr_CI": "$global_formats['rs_comma_space_ltr']",
+        "pt_GW": "$global_formats['rs_comma_space_ltr']",
+        "fr_ML": "$global_formats['rs_comma_space_ltr']",
+        "fr_NE": "$global_formats['rs_comma_space_ltr']",
+        "dyo_SN": "$global_formats['rs_comma_space_ltr']",
+        "ff_SN": "$global_formats['rs_comma_space_ltr']",
+        "fr_SN": "$global_formats['rs_comma_space_ltr']",
+        "wo_SN": "$global_formats['ls_comma_dot_ltr']",
+        "fr_TG": "$global_formats['rs_comma_space_ltr']"
+    },
+    "XPF": {
+        "fr_NC": "$global_formats['rs_comma_space_ltr']",
+        "default": "$global_formats['rs_comma_space_ltr']",
+        "fr_PF": "$global_formats['rs_comma_space_ltr']",
+        "fr_WF": "$global_formats['rs_comma_space_ltr']"
+    },
+    "YER": {
+        "ar_YE": "$global_formats['rs_comma_dot_rtl']",
+        "default": "$global_formats['rs_comma_dot_rtl']"
+    },
+    "ZAR": {
+        "af_ZA": "$global_formats['lx_comma_space_ltr']",
+        "en_ZA": "$global_formats['lx_dot_comma_ltr']",
+        "nr_ZA": "$global_formats['lx_comma_space_ltr']",
+        "nso_ZA": "$global_formats['lx_dot_space_ltr']",
+        "ss_ZA": "$global_formats['lx_comma_space_ltr']",
+        "st_ZA": "$global_formats['lx_comma_space_ltr']",
+        "tn_ZA": "$global_formats['lx_dot_space_ltr']",
+        "ts_ZA": "$global_formats['ls_comma_space_ltr']",
+        "ve_ZA": "$global_formats['lx_comma_space_ltr']",
+        "xh_ZA": "$global_formats['lx_dot_space_ltr']",
+        "zu_ZA": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
+    },
+    "ZMW": {
+        "en_ZM": "$global_formats['lx_dot_comma_ltr']",
+        "default": "$global_formats['lx_dot_comma_ltr']"
     }
 }
