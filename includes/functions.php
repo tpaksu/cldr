@@ -267,8 +267,8 @@ function parse_amount_format( $format_string ) {
 }
 
 function summarize_format( $format, $currency, $currency_data ) {
-	$amount_formats                  = explode( ';', $format['accounting'] );
-	$amount_formats_without_currency = explode( ';', $format['accounting-noCurrency'] );
+	$amount_formats                  = explode( ';', $format['standard'] );
+	$amount_formats_without_currency = explode( ';', $format['standard-noCurrency'] );
 	$positive_format                 = fix_formats( $amount_formats[0] );
 	$negative_format                 = isset( $amount_formats[1] ) ? fix_formats( $amount_formats[1] ) : "-$positive_format";
 	$negative_format                 = str_replace( $positive_format, '', $negative_format );
