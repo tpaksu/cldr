@@ -1,128 +1,177 @@
 {
-    "ls_comma_dot_ltr": {
+    "ls_comma_dot_minus_after_symbol_with_space_ltr": {
         "thousand_sep": ".",
         "decimal_sep": ",",
         "direction": "ltr",
-        "currency_pos": "left_space"
+        "currency_pos": "left_space",
+        "negativity": "o -"
     },
-    "ls_comma_dot_rtl": {
+    "ls_comma_dot_minus_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left_space",
+        "negativity": "-"
+    },
+    "ls_comma_dot_minus_rtl": {
         "thousand_sep": ".",
         "decimal_sep": ",",
         "direction": "rtl",
-        "currency_pos": "left_space"
+        "currency_pos": "left_space",
+        "negativity": "-"
     },
-    "ls_comma_space_ltr": {
+    "ls_comma_space_minus_after_symbol_with_space_ltr": {
         "thousand_sep": " ",
         "decimal_sep": ",",
         "direction": "ltr",
-        "currency_pos": "left_space"
+        "currency_pos": "left_space",
+        "negativity": "o -"
     },
-    "ls_dot_apos_ltr": {
+    "ls_comma_space_minus_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left_space",
+        "negativity": "-"
+    },
+    "ls_dot_apos_minus_after_symbol_ltr": {
         "thousand_sep": "'",
         "decimal_sep": ".",
         "direction": "ltr",
-        "currency_pos": "left_space"
+        "currency_pos": "left_space",
+        "negativity": "o-"
     },
-    "ls_dot_comma_ltr": {
-        "thousand_sep": ",",
-        "decimal_sep": ".",
-        "direction": "ltr",
-        "currency_pos": "left_space"
-    },
-    "ls_dot_comma_rtl": {
-        "thousand_sep": ",",
-        "decimal_sep": ".",
-        "direction": "rtl",
-        "currency_pos": "left_space"
-    },
-    "ls_dot_space_ltr": {
-        "thousand_sep": " ",
-        "decimal_sep": ".",
-        "direction": "ltr",
-        "currency_pos": "left_space"
-    },
-    "lx_comma_dot_ltr": {
-        "thousand_sep": ".",
-        "decimal_sep": ",",
-        "direction": "ltr",
-        "currency_pos": "left"
-    },
-    "lx_comma_dot_rtl": {
-        "thousand_sep": ".",
-        "decimal_sep": ",",
-        "direction": "rtl",
-        "currency_pos": "left"
-    },
-    "lx_comma_space_ltr": {
-        "thousand_sep": " ",
-        "decimal_sep": ",",
-        "direction": "ltr",
-        "currency_pos": "left"
-    },
-    "lx_dot_comma_ltr": {
-        "thousand_sep": ",",
-        "decimal_sep": ".",
-        "direction": "ltr",
-        "currency_pos": "left"
-    },
-    "lx_dot_comma_rtl": {
-        "thousand_sep": ",",
-        "decimal_sep": ".",
-        "direction": "rtl",
-        "currency_pos": "left"
-    },
-    "lx_dot_space_ltr": {
-        "thousand_sep": " ",
-        "decimal_sep": ".",
-        "direction": "ltr",
-        "currency_pos": "left"
-    },
-    "rs_comma_dot_ltr": {
-        "thousand_sep": ".",
-        "decimal_sep": ",",
-        "direction": "ltr",
-        "currency_pos": "right_space"
-    },
-    "rs_comma_dot_rtl": {
-        "thousand_sep": ".",
-        "decimal_sep": ",",
-        "direction": "rtl",
-        "currency_pos": "right_space"
-    },
-    "rs_comma_space_ltr": {
-        "thousand_sep": " ",
-        "decimal_sep": ",",
-        "direction": "ltr",
-        "currency_pos": "right_space"
-    },
-    "rs_dot_apos_ltr": {
+    "ls_dot_apos_minus_ltr": {
         "thousand_sep": "'",
         "decimal_sep": ".",
         "direction": "ltr",
-        "currency_pos": "right_space"
+        "currency_pos": "left_space",
+        "negativity": "-"
     },
-    "rs_dot_comma_ltr": {
+    "ls_dot_comma_minus_ltr": {
         "thousand_sep": ",",
         "decimal_sep": ".",
         "direction": "ltr",
-        "currency_pos": "right_space"
+        "currency_pos": "left_space",
+        "negativity": "-"
     },
-    "rs_dot_comma_rtl": {
+    "ls_dot_comma_minus_rtl": {
         "thousand_sep": ",",
         "decimal_sep": ".",
         "direction": "rtl",
-        "currency_pos": "right_space"
+        "currency_pos": "left_space",
+        "negativity": "-"
     },
-    "rx_comma_dot_ltr": {
+    "ls_dot_space_minus_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "left_space",
+        "negativity": "-"
+    },
+    "lx_comma_dot_minus_after_symbol_ltr": {
         "thousand_sep": ".",
         "decimal_sep": ",",
         "direction": "ltr",
-        "currency_pos": "right"
+        "currency_pos": "left",
+        "negativity": "o-"
     },
-    "rx_dot_comma_ltr": {
+    "lx_comma_dot_minus_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left",
+        "negativity": "-"
+    },
+    "lx_comma_dot_minus_rtl": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "rtl",
+        "currency_pos": "left",
+        "negativity": "-"
+    },
+    "lx_comma_space_minus_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "left",
+        "negativity": "-"
+    },
+    "lx_dot_comma_minus_ltr": {
         "thousand_sep": ",",
         "decimal_sep": ".",
         "direction": "ltr",
-        "currency_pos": "right"
+        "currency_pos": "left",
+        "negativity": "-"
+    },
+    "lx_dot_comma_minus_rtl": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "rtl",
+        "currency_pos": "left",
+        "negativity": "-"
+    },
+    "lx_dot_space_minus_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "left",
+        "negativity": "-"
+    },
+    "rs_comma_dot_minus_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "right_space",
+        "negativity": "-"
+    },
+    "rs_comma_dot_minus_rtl": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "rtl",
+        "currency_pos": "right_space",
+        "negativity": "-"
+    },
+    "rs_comma_space_minus_ltr": {
+        "thousand_sep": " ",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "right_space",
+        "negativity": "-"
+    },
+    "rs_dot_apos_minus_ltr": {
+        "thousand_sep": "'",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "right_space",
+        "negativity": "-"
+    },
+    "rs_dot_comma_minus_ltr": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "right_space",
+        "negativity": "-"
+    },
+    "rs_dot_comma_minus_rtl": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "rtl",
+        "currency_pos": "right_space",
+        "negativity": "-"
+    },
+    "rx_comma_dot_minus_ltr": {
+        "thousand_sep": ".",
+        "decimal_sep": ",",
+        "direction": "ltr",
+        "currency_pos": "right",
+        "negativity": "-"
+    },
+    "rx_dot_comma_minus_ltr": {
+        "thousand_sep": ",",
+        "decimal_sep": ".",
+        "direction": "ltr",
+        "currency_pos": "right",
+        "negativity": "-"
     }
 }

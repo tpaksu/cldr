@@ -122,6 +122,7 @@ foreach ( $country_info as $country => $info ) {
 				'decimal_sep'  => $format['decimal_sep'],
 				'direction'    => $format['direction'],
 				'currency_pos' => $format['currency_pos'],
+				'negativity'   => $format['negative_format'],
 			];
 		}
 		$country_formats[ $currency ][ $_locale ] = "\$global_formats['$combined_key']";

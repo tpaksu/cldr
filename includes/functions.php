@@ -374,6 +374,28 @@ function combine_format( $data, $language ) {
 		}
 	}
 
+	if ( ! isset( $data['negative_format'] ) ) {
+		echo "Missing negative format for $language\n";
+	} else {
+		switch ( $data['negative_format'] ) {
+			case '-':
+				$key[] = 'minus';
+				break;
+			case 'o-':
+				$key[] = 'minus_after_symbol';
+				break;
+			case 'o -':
+				$key[] = 'minus_after_symbol_with_space';
+				break;
+			case "()":
+				$key[] = 'parentheses';
+				break;
+			default:
+				echo 'invalid negative format case: ' . $language . ' ' . dechex( ord( $data['negative_format'] ) ) . ' (' . $data['negative_format'] . ') ' . "\n";
+				break;
+		}
+	}
+
 	if ( ! isset( $data['direction'] ) ) {
 		echo "Missing direction for $language\n";
 	} else {
