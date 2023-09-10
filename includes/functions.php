@@ -81,7 +81,10 @@ function get_country_languages( $country, $language_data ) {
 			$country_languages[] = $language;
 		} else {
 			foreach ( $language_data['supplemental']['territoryInfo'][ $country ]['languagePopulation'] as $language => $data ) {
-
+				// Skip no_NO locale.
+				if ( 'no' === $language && 'NO' === $country ) {
+					continue;
+				}
 				if ( isset( $data['_officialStatus'] ) && in_array( $data['_officialStatus'], [ 'official', 'de_facto_official', 'official_regional' ], true ) ) {
 					$country_languages[] = $language;
 				}
@@ -282,6 +285,14 @@ function summarize_format( $format, $currency, $currency_data ) {
 	?? $currency_data['supplemental']['currencyData']['fractions']['DEFAULT']['_digits']
 	?? null;
 
+	switch ( $currency ) {
+		case 'SEK':
+		case 'NOK':
+		case 'CZK':
+			$num_decimals = 2;
+			break;
+	}
+
 	return [
 		'decimal_sep'     => fix_formats( $format['decimal'] ),
 		'thousand_sep'    => fix_formats( $format['group'] ),
@@ -387,7 +398,7 @@ function combine_format( $data, $language ) {
 			case 'o -':
 				$key[] = 'minus_after_symbol_with_space';
 				break;
-			case "()":
+			case '()':
 				$key[] = 'parentheses';
 				break;
 			default:

@@ -3228,7 +3228,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -3239,7 +3239,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             }
@@ -3251,7 +3251,7 @@
                 "has_space": true,
                 "currency_pos": "right_space",
                 "negative_format": "-",
-                "num_decimals": "0",
+                "num_decimals": 2,
                 "direction": "ltr"
             }
         }
@@ -9764,16 +9764,14 @@
         "languages": [
             "nb",
             "nn",
-            "no",
             "se"
         ],
         "locales": [
             "nb",
             "nn",
-            "no",
             "se"
         ],
-        "default_locale": "no",
+        "default_locale": "nb",
         "locale_formats": {
             "nb": {
                 "NOK": {
@@ -9782,7 +9780,7 @@
                     "has_space": true,
                     "currency_pos": "left_space",
                     "negative_format": "o -",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -9793,18 +9791,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
-                    "direction": "ltr"
-                }
-            },
-            "no": {
-                "NOK": {
-                    "decimal_sep": ",",
-                    "thousand_sep": " ",
-                    "has_space": true,
-                    "currency_pos": "left_space",
-                    "negative_format": "o -",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -9815,7 +9802,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -9826,7 +9813,7 @@
                     "has_space": true,
                     "currency_pos": "left_space",
                     "negative_format": "o -",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             }
@@ -9838,7 +9825,7 @@
                 "has_space": true,
                 "currency_pos": "left_space",
                 "negative_format": "o -",
-                "num_decimals": "0",
+                "num_decimals": 2,
                 "direction": "ltr"
             }
         }
@@ -11662,7 +11649,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -11673,7 +11660,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -11684,7 +11671,7 @@
                     "has_space": true,
                     "currency_pos": "right_space",
                     "negative_format": "-",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             }
@@ -11696,7 +11683,7 @@
                 "has_space": true,
                 "currency_pos": "right_space",
                 "negative_format": "-",
-                "num_decimals": "0",
+                "num_decimals": 2,
                 "direction": "ltr"
             }
         }
@@ -11921,7 +11908,7 @@
                     "has_space": true,
                     "currency_pos": "left_space",
                     "negative_format": "o -",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             },
@@ -11932,7 +11919,7 @@
                     "has_space": true,
                     "currency_pos": "left_space",
                     "negative_format": "o -",
-                    "num_decimals": "0",
+                    "num_decimals": 2,
                     "direction": "ltr"
                 }
             }
@@ -11944,7 +11931,7 @@
                 "has_space": true,
                 "currency_pos": "left_space",
                 "negative_format": "o -",
-                "num_decimals": "0",
+                "num_decimals": 2,
                 "direction": "ltr"
             }
         }

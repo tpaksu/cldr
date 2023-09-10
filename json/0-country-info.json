@@ -2671,16 +2671,14 @@
         "languages": [
             "nb",
             "nn",
-            "no",
             "se"
         ],
         "locales": [
             "nb",
             "nn",
-            "no",
             "se"
         ],
-        "default_locale": "no"
+        "default_locale": "nb"
     },
     "NP": {
         "currencies": [
