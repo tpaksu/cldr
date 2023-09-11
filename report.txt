@@ -1,0 +1,258 @@
+#### New Countries
+* Added `SHP` currency specifications for `AC` country.
+* Added `GBP` currency specifications for `TA` country.
+* Added `EUR` currency specifications for `TF` country.
+
+#### AS changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### BA changes:
+* Changed `name` from `Bosnia and Herzegovina convertible mark` to `Bosnia-Herzegovina Convertible Mark` for BAM
+
+#### BM changes:
+* Changed `name` from `Bermudian dollar` to `Bermudan Dollar` for BMD
+
+#### BQ changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### BW changes:
+* Changed `name` from `Botswana pula` to `Botswanan Pula` for BWP
+
+#### CD changes:
+* Changed `currency_pos` from `left_space` to `right_space` for CDF (Congolese Franc)
+* Changed `thousand_sep` from `.` to ` ` for CDF (Congolese Franc)
+* Changed `default_locale` from `sw_CD` to `fr_CD` for CDF (Congolese Franc)
+
+#### CF changes:
+* Changed `currency_pos` from `right_space` to `left` for XAF (Central African CFA Franc)
+* Changed `thousand_sep` from ` ` to `.` for XAF (Central African CFA Franc)
+* Changed `default_locale` from `fr_CF` to `sg_CF` for XAF (Central African CFA Franc)
+
+#### CU changes:
+* Changed `currency_code` from `CUC` to `CUP` for CUP (Cuban Peso)
+* Changed `name` from `Cuban convertible peso` to `Cuban Peso` for CUP
+* Changed `singular` from `Cuban convertible peso` to `Cuban peso` for CUP (Cuban Peso)
+* Changed `plural` from `Cuban convertible pesos` to `Cuban pesos` for CUP (Cuban Peso)
+
+#### CW changes:
+* Changed `thousand_sep` from `.` to `,` for ANG (Netherlands Antillean Guilder)
+* Changed `decimal_sep` from `,` to `.` for ANG (Netherlands Antillean Guilder)
+* Changed `default_locale` from `nl_CW` to `pap_CW` for ANG (Netherlands Antillean Guilder)
+
+#### CZ changes:
+* Changed `num_decimals` from `0` to `2` for CZK (Czech Koruna)
+
+#### DG changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### DZ changes:
+* Changed `currency_pos` from `left_space` to `right_space` for DZD (Algerian Dinar)
+
+#### EC changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### EH changes:
+* Changed `currency_pos` from `left_space` to `right_space` for MAD (Moroccan Dirham)
+
+#### FM changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### GB changes:
+* Changed `name` from `Pound sterling` to `British Pound` for GBP
+
+#### GG changes:
+* Changed `name` from `Pound sterling` to `British Pound` for GBP
+
+#### GH changes:
+* Changed `default_locale` from `ak_GH` to `en_GH` for GHS (Ghanaian Cedi)
+* Changed `name` from `Ghana cedi` to `Ghanaian Cedi` for GHS
+
+#### GU changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### GY changes:
+* Changed `name` from `Guyanese dollar` to `Guyanaese Dollar` for GYD
+
+#### HR changes:
+* Changed `currency_code` from `HRK` to `EUR` for EUR (Euro)
+* Changed `name` from `Croatian kuna` to `Euro` for EUR
+* Changed `singular` from `Croatian kuna` to `euro` for EUR (Euro)
+* Changed `plural` from `Croatian kunas` to `euros` for EUR (Euro)
+* Changed `short_symbol` from `kn` to `€` for EUR (Euro)
+
+#### HT changes:
+* Changed `currency_code` from `USD` to `HTG` for HTG (Haitian Gourde)
+* Changed `name` from `United States (US) dollar` to `Haitian Gourde` for HTG
+* Changed `singular` from `US dollar` to `Haitian gourde` for HTG (Haitian Gourde)
+* Changed `plural` from `US dollars` to `Haitian gourdes` for HTG (Haitian Gourde)
+* Changed `short_symbol` from `$` to `` for HTG (Haitian Gourde)
+
+#### IM changes:
+* Changed `name` from `Pound sterling` to `British Pound` for GBP
+
+#### IO changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### JE changes:
+* Changed `name` from `Pound sterling` to `British Pound` for GBP
+
+#### KG changes:
+* Changed `name` from `Kyrgyzstani som` to `Kyrgystani Som` for KGS
+
+#### LA changes:
+* Changed `name` from `Lao kip` to `Laotian Kip` for LAK
+
+#### LS changes:
+* Changed `thousand_sep` from `,` to ` ` for LSL (Lesotho Loti)
+* Changed `decimal_sep` from `.` to `,` for LSL (Lesotho Loti)
+* Changed `default_locale` from `en_LS` to `st_LS` for LSL (Lesotho Loti)
+
+#### LY changes:
+* Changed `currency_pos` from `left_space` to `right_space` for LYD (Libyan Dinar)
+
+#### MA changes:
+* Changed `currency_pos` from `left_space` to `right_space` for MAD (Moroccan Dirham)
+
+#### MH changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### MM changes:
+* Changed `name` from `Burmese kyat` to `Myanmar Kyat` for MMK
+
+#### MN changes:
+* Changed `name` from `Mongolian tögrög` to `Mongolian Tugrik` for MNT
+
+#### MP changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### MV changes:
+* Changed `thousand_sep` from `.` to `,` for MVR (Maldivian Rufiyaa)
+* Changed `decimal_sep` from `,` to `.` for MVR (Maldivian Rufiyaa)
+* Changed `default_locale` from `` to `dv_MV` for MVR (Maldivian Rufiyaa)
+
+#### MW changes:
+* Changed `currency_pos` from `left` to `left_space` for MWK (Malawian Kwacha)
+* Changed `default_locale` from `en_MW` to `ny_MW` for MWK (Malawian Kwacha)
+
+#### NO changes:
+* Changed `num_decimals` from `0` to `2` for NOK (Norwegian Krone)
+
+#### PA changes:
+* Changed `currency_code` from `USD` to `PAB` for PAB (Panamanian Balboa)
+* Changed `name` from `United States (US) dollar` to `Panamanian Balboa` for PAB
+* Changed `singular` from `US dollar` to `Panamanian balboa` for PAB (Panamanian Balboa)
+* Changed `plural` from `US dollars` to `Panamanian balboas` for PAB (Panamanian Balboa)
+* Changed `short_symbol` from `$` to `` for PAB (Panamanian Balboa)
+
+#### PE changes:
+* Changed `name` from `Sol` to `Peruvian Sol` for PEN
+
+#### PG changes:
+* Changed `currency_pos` from `left` to `right_space` for PGK (Papua New Guinean Kina)
+* Changed `default_locale` from `en_PG` to `tpi_PG` for PGK (Papua New Guinean Kina)
+
+#### PH changes:
+* Changed `singular` from `Philippine piso` to `Philippine peso` for PHP (Philippine Peso)
+* Changed `plural` from `Philippine pisos` to `Philippine pesos` for PHP (Philippine Peso)
+
+#### PK changes:
+* Changed `currency_pos` from `left_space` to `left` for PKR (Pakistani Rupee)
+
+#### PL changes:
+* Changed `name` from `Polish złoty` to `Polish Zloty` for PLN
+
+#### PR changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### PS changes:
+* Changed `currency_code` from `JOD` to `ILS` for ILS (Israeli New Shekel)
+* Changed `num_decimals` from `3` to `2` for ILS (Israeli New Shekel)
+* Changed `name` from `Jordanian dinar` to `Israeli New Shekel` for ILS
+* Changed `singular` from `Jordanian dinar` to `Israeli new shekel` for ILS (Israeli New Shekel)
+* Changed `plural` from `Jordanian dinars` to `Israeli new shekels` for ILS (Israeli New Shekel)
+
+#### PW changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### PY changes:
+* Changed `thousand_sep` from `.` to `,` for PYG (Paraguayan Guarani)
+* Changed `decimal_sep` from `,` to `.` for PYG (Paraguayan Guarani)
+* Changed `default_locale` from `es_PY` to `gn_PY` for PYG (Paraguayan Guarani)
+* Changed `name` from `Paraguayan guaraní` to `Paraguayan Guarani` for PYG
+
+#### QA changes:
+* Changed `singular` from `Qatari rial` to `Qatari riyal` for QAR (Qatari Riyal)
+* Changed `plural` from `Qatari rials` to `Qatari riyals` for QAR (Qatari Riyal)
+
+#### SA changes:
+* Changed `thousand_sep` from `,` to `.` for SAR (Saudi Riyal)
+* Changed `decimal_sep` from `.` to `,` for SAR (Saudi Riyal)
+
+#### SE changes:
+* Changed `num_decimals` from `0` to `2` for SEK (Swedish Krona)
+
+#### SH changes:
+* Changed `name` from `Saint Helena pound` to `St. Helena Pound` for SHP
+
+#### SJ changes:
+* Changed `num_decimals` from `0` to `2` for NOK (Norwegian Krone)
+
+#### SL changes:
+* Changed `currency_code` from `SLL` to `SLE` for SLE (Sierra Leonean Leone)
+* Changed `num_decimals` from `0` to `2` for SLE (Sierra Leonean Leone)
+
+#### ST changes:
+* Changed `name` from `São Tomé and Príncipe dobra` to `São Tomé & Príncipe Dobra` for STN
+
+#### SV changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### TC changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### TL changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### TM changes:
+* Changed `name` from `Turkmenistan manat` to `Turkmenistani Manat` for TMT
+
+#### TN changes:
+* Changed `currency_pos` from `left_space` to `right_space` for TND (Tunisian Dinar)
+
+#### TT changes:
+* Changed `name` from `Trinidad and Tobago dollar` to `Trinidad & Tobago Dollar` for TTD
+
+#### TW changes:
+* Changed `default_locale` from `zh_Hant` to `zh_Hant_TW` for TWD (New Taiwan Dollar)
+
+#### UM changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### US changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### UZ changes:
+* Changed `default_locale` from `uz_AF` to `uz_UZ` for UZS (Uzbekistani Som)
+
+#### VE changes:
+* Changed `name` from `Bolívar soberano` to `Venezuelan Bolívar` for VES
+
+#### VG changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### VI changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
+#### VN changes:
+* Changed `name` from `Vietnamese đồng` to `Vietnamese Dong` for VND
+
+#### WS changes:
+* Changed `name` from `Samoan tālā` to `Samoan Tala` for WST
+
+#### ZA changes:
+* Changed `thousand_sep` from ` ` to `,` for ZAR (South African Rand)
+* Changed `decimal_sep` from `,` to `.` for ZAR (South African Rand)
+
+#### ZW changes:
+* Changed `name` from `United States (US) dollar` to `US Dollar` for USD
+
